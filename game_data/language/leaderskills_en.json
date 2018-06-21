@@ -1,0 +1,380 @@
+[
+    {
+        "Id": "leader_only_one_active_warning", 
+        "Text": "Only one Synergy Trait can be active at a time.", 
+        "CharacterLimit": 0, 
+        "Category": "Desc2", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_any_accuracy_name", 
+        "Text": "ACC", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_attack_name", 
+        "Text": "ATK", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_attackspeed_name", 
+        "Text": "ATK SPD", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_critdamage_name", 
+        "Text": "CRIT DMG", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_critrate_name", 
+        "Text": "CRIT", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_defense_name", 
+        "Text": "DEF", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_health_name", 
+        "Text": "MAX HP", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_resistance_name", 
+        "Text": "RES", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_any_skillcooldownspeed_name", 
+        "Text": "Cooldowns", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" -X%\" Important: Must be negative"
+    }, 
+    {
+        "Id": "leader_arena_accuracy_name", 
+        "Text": "Arena ACC", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_attack_name", 
+        "Text": "Arena ATK", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_attackspeed_name", 
+        "Text": "Arena ATK SPD", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_critdamage_name", 
+        "Text": "Arena CRIT DMG", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_critrate_name", 
+        "Text": "Arena CRIT", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_defense_name", 
+        "Text": "Arena DEF", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_health_name", 
+        "Text": "Arena MAX HP", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_resistance_name", 
+        "Text": "Arena RES", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_arena_skillcooldownspeed_name", 
+        "Text": "Arena Cooldowns", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" -X%\" Important: Must be negative"
+    }, 
+    {
+        "Id": "leader_boss_accuracy_name", 
+        "Text": "Raid ACC", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_attack_name", 
+        "Text": "Raid ATK", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_attackspeed_name", 
+        "Text": "Raid ATK SPD", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_critdamage_name", 
+        "Text": "Raid CRIT DMG", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_critrate_name", 
+        "Text": "Raid CRIT", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_defense_name", 
+        "Text": "Raid DEF", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_health_name", 
+        "Text": "Raid MAX HP", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_resistance_name", 
+        "Text": "Raid RES", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" +X%\""
+    }, 
+    {
+        "Id": "leader_boss_skillcooldownspeed_name", 
+        "Text": "Raid Cooldowns", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Follow with \" -X%\" Important: Must be negative"
+    }, 
+    {
+        "Id": "leader_elemental_accuracy_name", 
+        "Text": "{0^element} ACC", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_attack_name", 
+        "Text": "{0^element} ATK", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_attackspeed_name", 
+        "Text": "{0^element} ATK SPD", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_critdamage_name", 
+        "Text": "{0^element} CRIT DMG", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_critrate_name", 
+        "Text": "{0^element} CRIT", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_defense_name", 
+        "Text": "{0^element} DEF", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_health_name", 
+        "Text": "{0^element} MAX HP", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_resistance_name", 
+        "Text": "{0^element} RES", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" +X%\""
+    }, 
+    {
+        "Id": "leader_elemental_skillcooldownspeed_name", 
+        "Text": "{0^element} Cooldowns", 
+        "CharacterLimit": 0, 
+        "Category": "LeaderSkillNames", 
+        "Comment": "Insert \"menu.common_element_dark\" etc. then follow the string with \" -X%\"  Important: Must be negative"
+    }, 
+    {
+        "Id": "leader_any_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_any_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_arena_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font> in ARENA.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_arena_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font> in ARENA.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_boss_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font> in BOSS RAIDS.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_boss_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font> in BOSS RAIDS.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_dark_decrease_desc", 
+        "Text": "Decreases the <font color='{menu_highlight_white}'>{statName}</font> of ally Dark Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_dark_desc", 
+        "Text": "Increases the <font color='{menu_highlight_white}'>{statName}</font> of ally Dark Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_fire_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Fire Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_fire_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Fire Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_light_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Light Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_light_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Light Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_name", 
+        "Text": "Synergy Trait", 
+        "CharacterLimit": 64, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_nature_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Nature Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_nature_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Nature Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "leader_water_decrease_desc", 
+        "Text": "Decreases <font color='{menu_highlight_white}'>{statName}</font> of ally Water Champions by <font color='{menu_highlight_white}'>{+%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": "specifically for inverted values like Skill Cooldown"
+    }, 
+    {
+        "Id": "leader_water_desc", 
+        "Text": "Increases <font color='{menu_highlight_white}'>{statName}</font> of ally Water Champions by <font color='{menu_highlight_white}'>{%statPercentageBoost}</font>.", 
+        "CharacterLimit": 265, 
+        "Category": "LeaderSkills", 
+        "Comment": ""
+    }
+]

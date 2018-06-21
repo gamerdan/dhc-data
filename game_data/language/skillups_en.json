@@ -1,0 +1,177 @@
+[
+    {
+        "Id": "durationinseconds", 
+        "Text": "Duration +{BonusValue_flat}s", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": "\"sec\" stands for \"seconds\""
+    }, 
+    {
+        "Id": "skillbuff_purgenumberofbuffstoremove", 
+        "Text": "Buffs Removed +{BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcooldown", 
+        "Text": "Skill Cooldown {%BonusValue_percent}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcooldownmodifiercooldowntimetoaddinseconds", 
+        "Text": "Cooldown Reduction {BonusValue_flat}s", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": "\"sec\" stands for \"seconds\""
+    }, 
+    {
+        "Id": "skillcustomparametersbuffduration", 
+        "Text": "Buff Duration +{BonusValue_flat}s", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": "\"sec\" stands for \"seconds\""
+    }, 
+    {
+        "Id": "skillcustomparameterscombolifeleechratio", 
+        "Text": "Lifesteal +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametersdamagereduction", 
+        "Text": "Damage Reduction +{+%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametershealthratiotreshold", 
+        "Text": "HP Threshold +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametershealththreshold", 
+        "Text": "HP Threshold +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametersincreaseddamageratio", 
+        "Text": "Additional Damage +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparameterslifeleechratio", 
+        "Text": "Lifesteal +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparameterslifestealpercentage", 
+        "Text": "Lifesteal +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparameterslifestealratio", 
+        "Text": "Lifesteal +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparameterslowhealthtreshold", 
+        "Text": "HP Threshold +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametersmaxbouncecount", 
+        "Text": "Projectile Bounce +{BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametersmaxhitcount", 
+        "Text": "Max Hits +{BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillcustomparametersreduceddamageratio", 
+        "Text": "Damage Reduction +{+%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillrandom_blkhealingprobability", 
+        "Text": "Effect Chance +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillrandom_immobilizeprobability", 
+        "Text": "Effect Chance +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillrandomprobability", 
+        "Text": "Effect Chance +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillshieldshieldduration", 
+        "Text": "Shield Duration +{BonusValue_flat}s", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": "\"sec\" stands for \"seconds\""
+    }, 
+    {
+        "Id": "skilltimerstartvalue", 
+        "Text": "Effect Delay {BonusValue_flat}s", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": "\"sec\" stands for \"seconds\""
+    }, 
+    {
+        "Id": "skillupdamagemodifier", 
+        "Text": "Damage +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skilluphealmodifier", 
+        "Text": "Healing +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "skillupshieldmodifier", 
+        "Text": "Shield HP +{%BonusValue_flat}", 
+        "CharacterLimit": 64, 
+        "Category": "skillups", 
+        "Comment": ""
+    }
+]

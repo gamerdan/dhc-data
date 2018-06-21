@@ -1,0 +1,4342 @@
+[
+    {
+        "Id": "name_bossbasilisk_dark_awk", 
+        "Text": "Scion of Darkness", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbasilisk_fire_awk", 
+        "Text": "Scion of Fire", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbasilisk_light_awk", 
+        "Text": "Scion of Light", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbasilisk_nature_awk", 
+        "Text": "Scion of Nature", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbasilisk_water_awk", 
+        "Text": "Scion of Water", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossblademaster_neutral_awk", 
+        "Text": "Guardian of Spirit", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_dark", 
+        "Text": "Dark Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_fire", 
+        "Text": "Fire Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_light", 
+        "Text": "Light Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_nature", 
+        "Text": "Nature Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_neutral", 
+        "Text": "Golden Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossbulldemon_water", 
+        "Text": "Water Bull Demon King", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragon_dark", 
+        "Text": "Elder Drake", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragon_fire", 
+        "Text": "Elder Drake", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragon_light", 
+        "Text": "Elder Drake", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragon_nature", 
+        "Text": "Elder Drake", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragon_water", 
+        "Text": "Elder Drake", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_dark", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_fire", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_light", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_nature", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_neutral", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossdragoncoop_water", 
+        "Text": "Baldragor", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossguardian_neutral", 
+        "Text": "Guardian of Spirit", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossscion_dark", 
+        "Text": "Scion of Darkness", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossscion_fire", 
+        "Text": "Scion of Fire", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossscion_light", 
+        "Text": "Scion of Light", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossscion_nature", 
+        "Text": "Scion of Nature", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossscion_water", 
+        "Text": "Scion of Water", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_dark", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_fire", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_light", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_nature", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_neutral", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bossspider_water", 
+        "Text": "Steel Widow", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_dark", 
+        "Text": "Dark Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_fire", 
+        "Text": "Fire Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_light", 
+        "Text": "Light Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_nature", 
+        "Text": "Nature Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_neutral", 
+        "Text": "Ancient Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobascorpion_water", 
+        "Text": "Water Scorpion", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_dark", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_fire", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_light", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_nature", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_neutral", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaspiritguardian_water", 
+        "Text": "Spirit Guardian", 
+        "CharacterLimit": 0, 
+        "Category": "Bosses", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobainhibtower_neutral", 
+        "Text": "Spirit Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Buildings", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobainnertower_neutral", 
+        "Text": "Spirit Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Buildings", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobaoutertower_neutral", 
+        "Text": "Spirit Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Buildings", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mobatower_neutral", 
+        "Text": "Spirit Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Buildings", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_dark", 
+        "Text": "Tiki Warrior", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_dark_awk", 
+        "Text": "Lei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_fire", 
+        "Text": "Tiki Warrior", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_fire_awk", 
+        "Text": "Momi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_light", 
+        "Text": "Tiki Warrior", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_light_awk", 
+        "Text": "Ailani", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_nature", 
+        "Text": "Tiki Warrior", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_nature_awk", 
+        "Text": "Koakani", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_water", 
+        "Text": "Tiki Warrior", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_amazon_water_awk", 
+        "Text": "Haunani", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_dark", 
+        "Text": "Archangel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_dark_awk", 
+        "Text": "Calepheneus", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_fire", 
+        "Text": "Archangel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_fire_awk", 
+        "Text": "Artynelus", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_light", 
+        "Text": "Archangel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_light_awk", 
+        "Text": "Vael'or", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_nature", 
+        "Text": "Archangel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_nature_awk", 
+        "Text": "Toreleon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_water", 
+        "Text": "Archangel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archangel_water_awk", 
+        "Text": "Xaver'on", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_dark", 
+        "Text": "Ranger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_dark_awk", 
+        "Text": "Kacey", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_fire", 
+        "Text": "Ranger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_fire_awk", 
+        "Text": "Deidra", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_light", 
+        "Text": "Ranger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_light_awk", 
+        "Text": "Lindsey", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_nature", 
+        "Text": "Ranger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_nature_awk", 
+        "Text": "Madie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_water", 
+        "Text": "Ranger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_archergirl_water_awk", 
+        "Text": "Ella", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_dark", 
+        "Text": "Basilisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_dark_awk", 
+        "Text": "Theoris", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_fire", 
+        "Text": "Basilisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_fire_awk", 
+        "Text": "Asim", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_light", 
+        "Text": "Basilisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_light_awk", 
+        "Text": "Kamil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_nature", 
+        "Text": "Basilisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_nature_awk", 
+        "Text": "Jabari", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_water", 
+        "Text": "Basilisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_basilisk_water_awk", 
+        "Text": "Garai", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bee_dark", 
+        "Text": "Bee", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bee_fire", 
+        "Text": "Bee", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bee_light", 
+        "Text": "Bee", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bee_nature", 
+        "Text": "Bee", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bee_water", 
+        "Text": "Bee", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_beetle_dark", 
+        "Text": "Fragmantis", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_beetle_fire", 
+        "Text": "Fragmantis", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_beetle_light", 
+        "Text": "Fragmantis", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_beetle_nature", 
+        "Text": "Fragmantis", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_beetle_water", 
+        "Text": "Fragmantis", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_dark", 
+        "Text": "Blademaster", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_dark_awk", 
+        "Text": "Rasha", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_fire", 
+        "Text": "Blademaster", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_fire_awk", 
+        "Text": "Alya", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_light", 
+        "Text": "Blademaster", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_light_awk", 
+        "Text": "Tianise", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_nature", 
+        "Text": "Blademaster", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_nature_awk", 
+        "Text": "Malika", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_water", 
+        "Text": "Blademaster", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_blademaster_water_awk", 
+        "Text": "Rana", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_dark", 
+        "Text": "Boon Sister", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_dark_awk", 
+        "Text": "Lucia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_fire", 
+        "Text": "Boon Sister", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_fire_awk", 
+        "Text": "Cassandra", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_light", 
+        "Text": "Boon Sister", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_light_awk", 
+        "Text": "Xenia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_nature", 
+        "Text": "Boon Sister", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_nature_awk", 
+        "Text": "Kyvelia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_water", 
+        "Text": "Boon Sister", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_boonsister_water_awk", 
+        "Text": "Celestine", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_dark", 
+        "Text": "Bounty Hunter", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_dark_awk", 
+        "Text": "Vorzhe", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_fire", 
+        "Text": "Bounty Hunter", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_fire_awk", 
+        "Text": "Rogrim", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_light", 
+        "Text": "Bounty Hunter", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_light_awk", 
+        "Text": "Jaerod", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_nature", 
+        "Text": "Bounty Hunter", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_nature_awk", 
+        "Text": "Robern", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_water", 
+        "Text": "Bounty Hunter", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_bountyhunter_water_awk", 
+        "Text": "Tharle", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_dark", 
+        "Text": "Candy Munchkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_dark_awk", 
+        "Text": "Gingersweet", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_fire", 
+        "Text": "Candy Munchkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_fire_awk", 
+        "Text": "Cinnamon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_light", 
+        "Text": "Candy Munchkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_light_awk", 
+        "Text": "Lemondrop", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_nature", 
+        "Text": "Candy Munchkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_nature_awk", 
+        "Text": "Peppermint", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_water", 
+        "Text": "Candy Munchkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_candygirl_water_awk", 
+        "Text": "Blueberry", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_dark", 
+        "Text": "Spearman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_dark_awk", 
+        "Text": "Xiaohumengjiang", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_fire", 
+        "Text": "Spearman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_fire_awk", 
+        "Text": "Lu Bu", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_light", 
+        "Text": "Spearman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_light_awk", 
+        "Text": "Lu Wenhou", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_nature", 
+        "Text": "Spearman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_nature_awk", 
+        "Text": "Fei Jiang", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_water", 
+        "Text": "Spearman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_chinesespearman_water_awk", 
+        "Text": "Feng Xian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_dark", 
+        "Text": "Crow Hag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_dark_awk", 
+        "Text": "Baba Kruk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_fire", 
+        "Text": "Crow Hag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_fire_awk", 
+        "Text": "Walpurga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_light", 
+        "Text": "Crow Hag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_light_awk", 
+        "Text": "Baba Gawron", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_nature", 
+        "Text": "Crow Hag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_nature_awk", 
+        "Text": "Vorona", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_water", 
+        "Text": "Crow Hag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crowhag_water_awk", 
+        "Text": "Wrona", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_dark", 
+        "Text": "Crystal Priest", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_dark_awk", 
+        "Text": "Amethyst", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_fire", 
+        "Text": "Crystal Priest", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_fire_awk", 
+        "Text": "Garnet", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_light", 
+        "Text": "Crystal Priest", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_light_awk", 
+        "Text": "Quartz", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_nature", 
+        "Text": "Crystal Priest", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_nature_awk", 
+        "Text": "Peridot", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_water", 
+        "Text": "Crystal Priest", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_crystalpriest_water_awk", 
+        "Text": "Zircon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_dark", 
+        "Text": "Dino Kid", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_dark_awk", 
+        "Text": "Groz & Thunk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_fire", 
+        "Text": "Dino Kid", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_fire_awk", 
+        "Text": "Viro & Kraakk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_light", 
+        "Text": "Dino Kid", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_light_awk", 
+        "Text": "Dako & Jarg", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_nature", 
+        "Text": "Dino Kid", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_nature_awk", 
+        "Text": "Zok & Rar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_water", 
+        "Text": "Dino Kid", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dinorider_water_awk", 
+        "Text": "Jubba & Snorl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_dark", 
+        "Text": "Djinn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_dark_awk", 
+        "Text": "Malik", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_fire", 
+        "Text": "Djinn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_fire_awk", 
+        "Text": "Barqan", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_light", 
+        "Text": "Djinn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_light_awk", 
+        "Text": "Hasan", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_nature", 
+        "Text": "Djinn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_nature_awk", 
+        "Text": "Maymun", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_water", 
+        "Text": "Djinn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_djinn_water_awk", 
+        "Text": "Mihriz", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_dark", 
+        "Text": "Dragon Guard", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_dark_awk", 
+        "Text": "Obelisk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_fire", 
+        "Text": "Dragon Guard", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_fire_awk", 
+        "Text": "Monument", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_light", 
+        "Text": "Dragon Guard", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_light_awk", 
+        "Text": "Cairn", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_nature", 
+        "Text": "Dragon Guard", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_nature_awk", 
+        "Text": "Monolith", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_water", 
+        "Text": "Dragon Guard", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dragonguard_water_awk", 
+        "Text": "Stele", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_dark", 
+        "Text": "Dryad", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_dark_awk", 
+        "Text": "Violet", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_fire", 
+        "Text": "Dryad", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_fire_awk", 
+        "Text": "Rose", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_light", 
+        "Text": "Dryad", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_light_awk", 
+        "Text": "Lily", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_nature", 
+        "Text": "Dryad", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_nature_awk", 
+        "Text": "Flora", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_water", 
+        "Text": "Dryad", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_dryad_water_awk", 
+        "Text": "Veronica", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_dark", 
+        "Text": "Elemental", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_dark_awk", 
+        "Text": "Shadow", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_fire", 
+        "Text": "Elemental", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_fire_awk", 
+        "Text": "Blaze", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_light", 
+        "Text": "Elemental", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_light_awk", 
+        "Text": "Gleam", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_nature", 
+        "Text": "Elemental", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_nature_awk", 
+        "Text": "Bloom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_water", 
+        "Text": "Elemental", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_elemental_water_awk", 
+        "Text": "Geyser", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_dark", 
+        "Text": "Bomber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_dark_awk", 
+        "Text": "Dynamite", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_fire", 
+        "Text": "Bomber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_fire_awk", 
+        "Text": "Nitro", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_light", 
+        "Text": "Bomber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_light_awk", 
+        "Text": "Boomer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_nature", 
+        "Text": "Bomber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_nature_awk", 
+        "Text": "Torpex", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_water", 
+        "Text": "Bomber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_engineer_water_awk", 
+        "Text": "Baratol", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_dark", 
+        "Text": "Fairy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_dark_awk", 
+        "Text": "Zip", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_fire", 
+        "Text": "Fairy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_fire_awk", 
+        "Text": "Glam", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_light", 
+        "Text": "Fairy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_light_awk", 
+        "Text": "Dazz", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_nature", 
+        "Text": "Fairy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_nature_awk", 
+        "Text": "Wink", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_water", 
+        "Text": "Fairy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_faerie_water_awk", 
+        "Text": "Vim", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_dark", 
+        "Text": "Devil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_dark_awk", 
+        "Text": "Skuu", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_fire", 
+        "Text": "Devil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_fire_awk", 
+        "Text": "Nezur", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_light", 
+        "Text": "Devil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_light_awk", 
+        "Text": "Gorlo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_nature", 
+        "Text": "Devil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_nature_awk", 
+        "Text": "Xeres", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_water", 
+        "Text": "Devil", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_flyingdemon_water_awk", 
+        "Text": "Zezo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_dark", 
+        "Text": "Squire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_dark_awk", 
+        "Text": "Stockade", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_fire", 
+        "Text": "Squire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_fire_awk", 
+        "Text": "Rampart", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_light", 
+        "Text": "Squire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_light_awk", 
+        "Text": "Parapet", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_nature", 
+        "Text": "Squire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_nature_awk", 
+        "Text": "Palisade", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_water", 
+        "Text": "Squire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_footman_water_awk", 
+        "Text": "Bulwark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_dark", 
+        "Text": "Fox Assassin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_dark_awk", 
+        "Text": "Daji", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_fire", 
+        "Text": "Fox Assassin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_fire_awk", 
+        "Text": "Hufei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_light", 
+        "Text": "Fox Assassin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_light_awk", 
+        "Text": "Huxian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_nature", 
+        "Text": "Fox Assassin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_nature_awk", 
+        "Text": "Linghu", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_water", 
+        "Text": "Fox Assassin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_foxninja_water_awk", 
+        "Text": "Yanran", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_futurepopstar_dark", 
+        "Text": "Diva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": "Note for asian language translators: We also have legal approval for the name \"idol\". Please find the closest translation to this since the character is based on Korean/Japanese pop idols."
+    }, 
+    {
+        "Id": "name_futurepopstar_dark_awk", 
+        "Text": "Wuyuan", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_futurepopstar_fire", 
+        "Text": "Diva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": "Note for asian language translators: We also have legal approval for the name \"idol\". Please find the closest translation to this since the character is based on Korean/Japanese pop idols."
+    }, 
+    {
+        "Id": "name_futurepopstar_fire_awk", 
+        "Text": "Yuxia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_futurepopstar_light", 
+        "Text": "Diva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": "Note for asian language translators: We also have legal approval for the name \"idol\". Please find the closest translation to this since the character is based on Korean/Japanese pop idols."
+    }, 
+    {
+        "Id": "name_futurepopstar_light_awk", 
+        "Text": "Linglong", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_futurepopstar_nature", 
+        "Text": "Diva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": "Note for asian language translators: We also have legal approval for the name \"idol\". Please find the closest translation to this since the character is based on Korean/Japanese pop idols."
+    }, 
+    {
+        "Id": "name_futurepopstar_nature_awk", 
+        "Text": "Chuyue", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_futurepopstar_water", 
+        "Text": "Diva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": "Note for asian language translators: We also have legal approval for the name \"idol\". Please find the closest translation to this since the character is based on Korean/Japanese pop idols."
+    }, 
+    {
+        "Id": "name_futurepopstar_water_awk", 
+        "Text": "Cai Wenji", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_dark", 
+        "Text": "Golem", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_dark_awk", 
+        "Text": "Slate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_fire", 
+        "Text": "Golem", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_fire_awk", 
+        "Text": "Jasper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_light", 
+        "Text": "Golem", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_light_awk", 
+        "Text": "Basalt", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_nature", 
+        "Text": "Golem", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_nature_awk", 
+        "Text": "Malachite", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_water", 
+        "Text": "Golem", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_golem_water_awk", 
+        "Text": "Cobalt", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_dark", 
+        "Text": "Greater Demon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_dark_awk", 
+        "Text": "Starg'oth", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_fire", 
+        "Text": "Greater Demon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_fire_awk", 
+        "Text": "Var'ghor", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_light", 
+        "Text": "Greater Demon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_light_awk", 
+        "Text": "Grel'ish", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_nature", 
+        "Text": "Greater Demon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_nature_awk", 
+        "Text": "Gor'galon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_water", 
+        "Text": "Greater Demon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_greaterdemon_water_awk", 
+        "Text": "Bala'rot", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_dark", 
+        "Text": "Grublin Shaman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_dark_awk", 
+        "Text": "Wanga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_fire", 
+        "Text": "Grublin Shaman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_fire_awk", 
+        "Text": "Juju", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_light", 
+        "Text": "Grublin Shaman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_light_awk", 
+        "Text": "Zemi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_nature", 
+        "Text": "Grublin Shaman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_nature_awk", 
+        "Text": "Mojo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_water", 
+        "Text": "Grublin Shaman", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinshaman_water_awk", 
+        "Text": "Ogan", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_dark", 
+        "Text": "Grublin Slinger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_dark_awk", 
+        "Text": "Kokoba", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_fire", 
+        "Text": "Grublin Slinger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_fire_awk", 
+        "Text": "Motota", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_light", 
+        "Text": "Grublin Slinger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_light_awk", 
+        "Text": "Jabuboo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_nature", 
+        "Text": "Grublin Slinger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_nature_awk", 
+        "Text": "Udongo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_water", 
+        "Text": "Grublin Slinger", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_grublinslinger_water_awk", 
+        "Text": "Kungga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_dark", 
+        "Text": "Harpy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_dark_awk", 
+        "Text": "Typhenia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_fire", 
+        "Text": "Harpy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_fire_awk", 
+        "Text": "Zephyria", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_light", 
+        "Text": "Harpy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_light_awk", 
+        "Text": "Sephiara", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_nature", 
+        "Text": "Harpy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_nature_awk", 
+        "Text": "Xylia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_water", 
+        "Text": "Harpy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_harpy_water_awk", 
+        "Text": "Velyte", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_dark", 
+        "Text": "Imp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_dark_awk", 
+        "Text": "Xiit", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_fire", 
+        "Text": "Imp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_fire_awk", 
+        "Text": "Vark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_light", 
+        "Text": "Imp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_light_awk", 
+        "Text": "Tygru", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_nature", 
+        "Text": "Imp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_nature_awk", 
+        "Text": "Zekk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_water", 
+        "Text": "Imp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_imp_water_awk", 
+        "Text": "Glorbu", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_dark", 
+        "Text": "Astromancer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_dark_awk", 
+        "Text": "Nebula", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_fire", 
+        "Text": "Astromancer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_fire_awk", 
+        "Text": "Astra", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_light", 
+        "Text": "Astromancer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_light_awk", 
+        "Text": "Gamma", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_nature", 
+        "Text": "Astromancer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_nature_awk", 
+        "Text": "Aurora", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_water", 
+        "Text": "Astromancer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_invoker_water_awk", 
+        "Text": "Stella", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_dark", 
+        "Text": "Magical Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_dark_awk", 
+        "Text": "Yua", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_fire", 
+        "Text": "Magical Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_fire_awk", 
+        "Text": "Katsuko", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_light", 
+        "Text": "Magical Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_light_awk", 
+        "Text": "Haruko", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_nature", 
+        "Text": "Magical Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_nature_awk", 
+        "Text": "Hoshi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_water", 
+        "Text": "Magical Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_magicalgirl_water_awk", 
+        "Text": "Youko", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_dark", 
+        "Text": "Mercenary", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_dark_awk", 
+        "Text": "Ailsa", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_fire", 
+        "Text": "Mercenary", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_fire_awk", 
+        "Text": "Syrann", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_light", 
+        "Text": "Mercenary", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_light_awk", 
+        "Text": "Iona", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_nature", 
+        "Text": "Mercenary", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_nature_awk", 
+        "Text": "Ishbel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_water", 
+        "Text": "Mercenary", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mercenary_water_awk", 
+        "Text": "Rhona", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_dark", 
+        "Text": "Monkey King", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_dark_awk", 
+        "Text": "Pohou", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_fire", 
+        "Text": "Monkey King", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_fire_awk", 
+        "Text": "Sun Wukong", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_light", 
+        "Text": "Monkey King", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_light_awk", 
+        "Text": "Dou Zhansheng Fo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_nature", 
+        "Text": "Monkey King", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_nature_awk", 
+        "Text": "Lao Sun", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_water", 
+        "Text": "Monkey King", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_monkeyking_water_awk", 
+        "Text": "Hou Ge", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mushroom_dark", 
+        "Text": "Mushroom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mushroom_fire", 
+        "Text": "Mushroom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mushroom_light", 
+        "Text": "Mushroom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mushroom_nature", 
+        "Text": "Mushroom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_mushroom_water", 
+        "Text": "Mushroom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_dark", 
+        "Text": "Naga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_dark_awk", 
+        "Text": "Gabion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_fire", 
+        "Text": "Naga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_fire_awk", 
+        "Text": "Laminar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_light", 
+        "Text": "Naga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_light_awk", 
+        "Text": "Perigeon", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_nature", 
+        "Text": "Naga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_nature_awk", 
+        "Text": "Benthos", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_water", 
+        "Text": "Naga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_naga_water_awk", 
+        "Text": "Fathom", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_dark", 
+        "Text": "Ink Ninja", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_dark_awk", 
+        "Text": "Sumi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_fire", 
+        "Text": "Ink Ninja", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_fire_awk", 
+        "Text": "Tenkoku", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_light", 
+        "Text": "Ink Ninja", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_light_awk", 
+        "Text": "Fude", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_nature", 
+        "Text": "Ink Ninja", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_nature_awk", 
+        "Text": "Suzuri", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_water", 
+        "Text": "Ink Ninja", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ninjafrog_water_awk", 
+        "Text": "Washi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_dark", 
+        "Text": "Pirate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_dark_awk", 
+        "Text": "Harlowe", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_fire", 
+        "Text": "Pirate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_fire_awk", 
+        "Text": "Hawk", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_light", 
+        "Text": "Pirate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_light_awk", 
+        "Text": "Beaumont", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_nature", 
+        "Text": "Pirate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_nature_awk", 
+        "Text": "Kendrick", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_water", 
+        "Text": "Pirate", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_pirate_water_awk", 
+        "Text": "Flintlocke", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_dark", 
+        "Text": "Psion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_dark_awk", 
+        "Text": "Dr. Soma", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_fire", 
+        "Text": "Psion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_fire_awk", 
+        "Text": "Dr. Ackson", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_light", 
+        "Text": "Psion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_light_awk", 
+        "Text": "Dr. Myelin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_nature", 
+        "Text": "Psion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_nature_awk", 
+        "Text": "Dr. Synapse", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_water", 
+        "Text": "Psion", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_psykomancer_water_awk", 
+        "Text": "Dr. Dendryte", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_dark", 
+        "Text": "Valkyrie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_dark_awk", 
+        "Text": "Skuld", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_fire", 
+        "Text": "Valkyrie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_fire_awk", 
+        "Text": "Hildr", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_light", 
+        "Text": "Valkyrie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_light_awk", 
+        "Text": "Sigrun", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_nature", 
+        "Text": "Valkyrie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_nature_awk", 
+        "Text": "Rota", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_water", 
+        "Text": "Valkyrie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_raptor_water_awk", 
+        "Text": "Kalda", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_dark", 
+        "Text": "Rascal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_dark_awk", 
+        "Text": "Grime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_fire", 
+        "Text": "Rascal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_fire_awk", 
+        "Text": "Slag", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_light", 
+        "Text": "Rascal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_light_awk", 
+        "Text": "Draff", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_nature", 
+        "Text": "Rascal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_nature_awk", 
+        "Text": "Grubber", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_water", 
+        "Text": "Rascal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_ratscamp_water_awk", 
+        "Text": "Dreg", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_dark", 
+        "Text": "Derby Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_dark_awk", 
+        "Text": "Voxia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_fire", 
+        "Text": "Derby Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_fire_awk", 
+        "Text": "Hallie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_light", 
+        "Text": "Derby Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_light_awk", 
+        "Text": "Lexi", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_nature", 
+        "Text": "Derby Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_nature_awk", 
+        "Text": "Roxxy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_water", 
+        "Text": "Derby Girl", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_rollerderby_water_awk", 
+        "Text": "Zoey", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_dark", 
+        "Text": "Siege Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_dark_awk", 
+        "Text": "Victoria", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_fire", 
+        "Text": "Siege Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_fire_awk", 
+        "Text": "Abigail", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_light", 
+        "Text": "Siege Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_light_awk", 
+        "Text": "Castellia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_nature", 
+        "Text": "Siege Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_nature_awk", 
+        "Text": "Caroline", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_water", 
+        "Text": "Siege Tower", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_royaltower_water_awk", 
+        "Text": "Eleanor", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_dark", 
+        "Text": "Sentinel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_dark_awk", 
+        "Text": "Axle", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_fire", 
+        "Text": "Sentinel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_fire_awk", 
+        "Text": "Clutch", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_light", 
+        "Text": "Sentinel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_light_awk", 
+        "Text": "Rivet", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_nature", 
+        "Text": "Sentinel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_nature_awk", 
+        "Text": "Spindle", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_water", 
+        "Text": "Sentinel", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_sentinel_water_awk", 
+        "Text": "Pivot", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_serpent_dark", 
+        "Text": "Serpent", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_serpent_fire", 
+        "Text": "Serpent", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_serpent_light", 
+        "Text": "Serpent", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_serpent_nature", 
+        "Text": "Serpent", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_serpent_water", 
+        "Text": "Serpent", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_dark", 
+        "Text": "Shark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_dark_awk", 
+        "Text": "Deathbite", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_fire", 
+        "Text": "Shark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_fire_awk", 
+        "Text": "Shankfin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_light", 
+        "Text": "Shark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_light_awk", 
+        "Text": "Sharpscale", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_nature", 
+        "Text": "Shark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_nature_awk", 
+        "Text": "Snapjaw", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_water", 
+        "Text": "Shark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_shark_water_awk", 
+        "Text": "Daggertooth", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_dark", 
+        "Text": "Skand Warlord", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_dark_awk", 
+        "Text": "Havoc", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_fire", 
+        "Text": "Skand Warlord", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_fire_awk", 
+        "Text": "Krieg", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_light", 
+        "Text": "Skand Warlord", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_light_awk", 
+        "Text": "Enmity", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_nature", 
+        "Text": "Skand Warlord", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_nature_awk", 
+        "Text": "Malice", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_water", 
+        "Text": "Skand Warlord", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandengine_water_awk", 
+        "Text": "Spite", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_dark", 
+        "Text": "Skand Berserker", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_dark_awk", 
+        "Text": "Savage", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_fire", 
+        "Text": "Skand Berserker", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_fire_awk", 
+        "Text": "Brash", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_light", 
+        "Text": "Skand Berserker", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_light_awk", 
+        "Text": "Brusque", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_nature", 
+        "Text": "Skand Berserker", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_nature_awk", 
+        "Text": "Brute", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_water", 
+        "Text": "Skand Berserker", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_skandgrunt_water_awk", 
+        "Text": "Crude", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_slime_dark", 
+        "Text": "Slime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_slime_fire", 
+        "Text": "Slime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_slime_light", 
+        "Text": "Slime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_slime_nature", 
+        "Text": "Slime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_slime_water", 
+        "Text": "Slime", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_dark", 
+        "Text": "Snake Lady", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_dark_awk", 
+        "Text": "Chanxia", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_fire", 
+        "Text": "Snake Lady", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_fire_awk", 
+        "Text": "Yunruo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_light", 
+        "Text": "Snake Lady", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_light_awk", 
+        "Text": "Zhaoxue", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_nature", 
+        "Text": "Snake Lady", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_nature_awk", 
+        "Text": "Lingshe", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_water", 
+        "Text": "Snake Lady", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_snakelady_water_awk", 
+        "Text": "Sheyao", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_dark", 
+        "Text": "Grublin Ruffian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_dark_awk", 
+        "Text": "Donga", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_fire", 
+        "Text": "Grublin Ruffian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_fire_awk", 
+        "Text": "Bongo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_light", 
+        "Text": "Grublin Ruffian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_light_awk", 
+        "Text": "Mongo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_nature", 
+        "Text": "Grublin Ruffian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_nature_awk", 
+        "Text": "Jumbo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_water", 
+        "Text": "Grublin Ruffian", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_speargrublin_water_awk", 
+        "Text": "Kongo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_dark", 
+        "Text": "Esper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_dark_awk", 
+        "Text": "Ultana", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_fire", 
+        "Text": "Esper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_fire_awk", 
+        "Text": "Ciara", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_light", 
+        "Text": "Esper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_light_awk", 
+        "Text": "Maeve", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_nature", 
+        "Text": "Esper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_nature_awk", 
+        "Text": "Granya", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_water", 
+        "Text": "Esper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_symbiot_water_awk", 
+        "Text": "Keeva", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_dark", 
+        "Text": "Technician", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_dark_awk", 
+        "Text": "Deb", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_fire", 
+        "Text": "Technician", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_fire_awk", 
+        "Text": "Jo", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_light", 
+        "Text": "Technician", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_light_awk", 
+        "Text": "Ellie", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_nature", 
+        "Text": "Technician", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_nature_awk", 
+        "Text": "Daria", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_water", 
+        "Text": "Technician", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_technician_water_awk", 
+        "Text": "Sammy", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_dark", 
+        "Text": "Templar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_dark_awk", 
+        "Text": "Philip", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_fire", 
+        "Text": "Templar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_fire_awk", 
+        "Text": "Urban", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_light", 
+        "Text": "Templar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_light_awk", 
+        "Text": "Robert", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_nature", 
+        "Text": "Templar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_nature_awk", 
+        "Text": "Baldric", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_water", 
+        "Text": "Templar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_templar_water_awk", 
+        "Text": "Raymond", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_dark", 
+        "Text": "Time Keeper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_dark_awk", 
+        "Text": "Sharma", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_fire", 
+        "Text": "Time Keeper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_fire_awk", 
+        "Text": "Vimal", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_light", 
+        "Text": "Time Keeper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_light_awk", 
+        "Text": "Navin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_nature", 
+        "Text": "Time Keeper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_nature_awk", 
+        "Text": "Anish", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_water", 
+        "Text": "Time Keeper", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_timekeeper_water_awk", 
+        "Text": "Manas", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_dark", 
+        "Text": "Dozer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_dark_awk", 
+        "Text": "Cog", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_fire", 
+        "Text": "Dozer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_fire_awk", 
+        "Text": "Gear", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_light", 
+        "Text": "Dozer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_light_awk", 
+        "Text": "Bolt", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_nature", 
+        "Text": "Dozer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_nature_awk", 
+        "Text": "Clamp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_water", 
+        "Text": "Dozer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_treadrobot_water_awk", 
+        "Text": "Washer", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_dark", 
+        "Text": "Lizardkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_dark_awk", 
+        "Text": "Grolark", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_fire", 
+        "Text": "Lizardkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_fire_awk", 
+        "Text": "Slorp", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_light", 
+        "Text": "Lizardkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_light_awk", 
+        "Text": "Slazar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_nature", 
+        "Text": "Lizardkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_nature_awk", 
+        "Text": "Gralm", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_water", 
+        "Text": "Lizardkin", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_tridentlizard_water_awk", 
+        "Text": "Zorm", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_dark", 
+        "Text": "Vampire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_dark_awk", 
+        "Text": "Eberhardt", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_fire", 
+        "Text": "Vampire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_fire_awk", 
+        "Text": "Baltasar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_light", 
+        "Text": "Vampire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_light_awk", 
+        "Text": "Luduvico", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_nature", 
+        "Text": "Vampire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_nature_awk", 
+        "Text": "Xiomar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_water", 
+        "Text": "Vampire", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_vampire_water_awk", 
+        "Text": "Ansgar", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_dark", 
+        "Text": "Yurei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_dark_awk", 
+        "Text": "Miyako", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_fire", 
+        "Text": "Yurei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_fire_awk", 
+        "Text": "Akane", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_light", 
+        "Text": "Yurei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_light_awk", 
+        "Text": "Hikari", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_nature", 
+        "Text": "Yurei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_nature_awk", 
+        "Text": "Midori", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_water", 
+        "Text": "Yurei", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_yurei_water_awk", 
+        "Text": "Nanami", 
+        "CharacterLimit": 0, 
+        "Category": "Champions", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_critterevolution_neutral", 
+        "Text": "Star Fuzzlepuff", 
+        "CharacterLimit": 0, 
+        "Category": "Powerup", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_critterskill_neutral", 
+        "Text": "Tutor Fuzzlepuff", 
+        "CharacterLimit": 0, 
+        "Category": "Powerup", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_critterxpbasic_neutral", 
+        "Text": "Training Fuzzlepuff", 
+        "CharacterLimit": 0, 
+        "Category": "Powerup", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "name_critterxpimproved_neutral", 
+        "Text": "Super Fuzzlepuff", 
+        "CharacterLimit": 0, 
+        "Category": "Powerup", 
+        "Comment": ""
+    }
+]

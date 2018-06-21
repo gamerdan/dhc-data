@@ -1,0 +1,373 @@
+[
+    {
+        "Id": "xraptor_nature_desc", 
+        "Text": "Has a unique ability that lets nearby allies use Skills more often.", 
+        "CharacterLimit": 0, 
+        "Category": "champion_desc", 
+        "Comment": "#black"
+    }, 
+    {
+        "Id": "champion_desc_label", 
+        "Text": "Info", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "quality_0", 
+        "Text": "Common", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "quality_1", 
+        "Text": "Good", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "quality_2", 
+        "Text": "Great", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "quality_3", 
+        "Text": "Epic", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "quality_4", 
+        "Text": "Legendary", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_label", 
+        "Text": "Strengths", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_syntax", 
+        "Text": "{0^qualityDescriptor} {1^strength}", 
+        "CharacterLimit": 0, 
+        "Category": "Generic", 
+        "Comment": "For instance \"Legendary Dragon Slayer\" from quality_4 and strength_dragon_tag"
+    }, 
+    {
+        "Id": "strength_adventure_desc", 
+        "Text": "This Champion is most useful in Adventure scenarios.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_anywhere_desc", 
+        "Text": "This Champion is useful in many different game modes. It is definitely worth leveling up!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_arenadefense_desc", 
+        "Text": "This Champion is most useful on a Defense team in the Arena.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_arenaoffense_desc", 
+        "Text": "This Champion is most useful when attacking in the Arena.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_blitz_desc", 
+        "Text": "This Champion is useful for certain parts of Ultimate Blitz. You should consider keeping it for later!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_bullall_desc", 
+        "Text": "This Champion is useful for battling the Bull Demon King in Boss Raids.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_coopdragon_desc", 
+        "Text": "This Champion is great for battling Baldragor in Co-op mode.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_dragon_desc", 
+        "Text": "This Champion is most useful for slaying the Elder Drake in Boss Raids.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_farmer_desc", 
+        "Text": "If equipped with the correct Gear, this Champion can complete Scenarios in Adventure even with a weak party. This is particularly useful for leveling up new Champions.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_moba_desc", 
+        "Text": "This Champion can compete in 5v5 Vale of Eternity battles.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_spider_desc", 
+        "Text": "This Champion is most useful for slaying the Steel Widow in Boss Raids.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_always_desc", 
+        "Text": "This Champion is useful throughout your journey, from the beginning of the game until the very end.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_early_desc", 
+        "Text": "This Champion is useful at the start of your journey, but may be less useful later on. Keep your eye out for similar Champions that are more useful for later challenges.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_late_desc", 
+        "Text": "This Champion is very useful for difficult challenges at the end of the game. You should keep it!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_mid_desc", 
+        "Text": "This Champion is most useful during the middle of your journey. Consider focusing your effort on leveling up other Champions first.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_bestingame_desc", 
+        "Text": "This is one of the best Champions in the game! It is well worth your efforts leveling it up!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_food_desc", 
+        "Text": "This Champion is best used to Train or Promote other Champions. It may not be worth your effort to level it up unless you have a specific strategy in mind.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_great_desc", 
+        "Text": "This Champion is generally useful!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialpromotion_desc", 
+        "Text": "This Champion is perfect to use as a material to Promote other Champions to a higher number of Stars. Be sure to promote this Champion before you do!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialskillup_desc", 
+        "Text": "Use this Champion as a Training Material to level up a Skill! It is best to do this on a <font color='{star_gold}'>4{icon.star}</font> or <font color='{star_gold}'>5{icon.star}</font> Champion.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialtraining_desc", 
+        "Text": "Use this Champion as a Training Material. It provides much more <font color='{menu_highlight_white}'>{icon.XP}XP</font> than other Champions do, based on its level. Unlike other Champions, it is best to level this one up before using it as a Training Material.", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_musthave_desc", 
+        "Text": "This Champion has a combination of skill effects and an Element that makes it particularly useful for certain difficult challenges. Don't throw it away!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthDescType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_adventure_tag", 
+        "Text": "Adventurer", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_anywhere_tag", 
+        "Text": "Useful Anywhere", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_arenadefense_tag", 
+        "Text": "Arena Defense", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_arenaoffense_tag", 
+        "Text": "Arena Offense", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_blitz_tag", 
+        "Text": "Blitz Brawler", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_bullall_tag", 
+        "Text": "Bull-Demon Slayer", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_coopdragon_tag", 
+        "Text": "Co-op Raider", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_dragon_tag", 
+        "Text": "Dragon Slayer", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_farmer_tag", 
+        "Text": "Farmer", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_moba_tag", 
+        "Text": "5v5 Competitor", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_spider_tag", 
+        "Text": "Spider Demolisher", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagMode", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_always_tag", 
+        "Text": "Useful Anytime", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_early_tag", 
+        "Text": "Useful Early-Game", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_late_tag", 
+        "Text": "Useful Late-Game", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_mid_tag", 
+        "Text": "Useful Mid-Game", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagTime", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_bestingame_tag", 
+        "Text": "Best in Game!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_food_tag", 
+        "Text": "Food", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_great_tag", 
+        "Text": "Keep It!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialpromotion_tag", 
+        "Text": "Promotion Material", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialskillup_tag", 
+        "Text": "Skill-Up Material", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_materialtraining_tag", 
+        "Text": "Training Material", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "strength_musthave_tag", 
+        "Text": "Must Have!", 
+        "CharacterLimit": 0, 
+        "Category": "StrengthTagType", 
+        "Comment": ""
+    }
+]

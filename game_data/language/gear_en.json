@@ -1,0 +1,310 @@
+[
+    {
+        "Id": "gear_name_format", 
+        "Text": "{0^gearset} {1^gearslot}", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Name", 
+        "Comment": "Example: \"Vital Shoulder\" is a combination of gear_set_Energy_with_slot and gear_slot2"
+    }, 
+    {
+        "Id": "gear_set_Blade", 
+        "Text": "Keen", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Blade_with_slot", 
+        "Text": "Keen", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Count", 
+        "Text": "Show All", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": "Used in gear filter to display ALL gear, regardless of set"
+    }, 
+    {
+        "Id": "gear_set_Count_with_slot", 
+        "Text": "Show All", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": "Unused"
+    }, 
+    {
+        "Id": "gear_set_Despair", 
+        "Text": "Dazzling", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Despair_with_slot", 
+        "Text": "Dazzling", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Endure", 
+        "Text": "Warding", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Endure_with_slot", 
+        "Text": "Warding", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Energy", 
+        "Text": "Vital", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Energy_with_slot", 
+        "Text": "Vital", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Fatal", 
+        "Text": "Brutal", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Fatal_with_slot", 
+        "Text": "Brutal", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Focus", 
+        "Text": "Precise", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Focus_with_slot", 
+        "Text": "Precise", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Guard", 
+        "Text": "Sturdy", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Guard_with_slot", 
+        "Text": "Sturdy", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Rage", 
+        "Text": "Mortal", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Rage_with_slot", 
+        "Text": "Mortal", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Swift", 
+        "Text": "Rapid", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Swift_with_slot", 
+        "Text": "Rapid", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Vampire", 
+        "Text": "Vampiric", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Vampire_with_slot", 
+        "Text": "Vampiric", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Violent", 
+        "Text": "Adept", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_set_Violent_with_slot", 
+        "Text": "Adept", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Set", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot1", 
+        "Text": "Helm", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot2", 
+        "Text": "Shoulder", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot3", 
+        "Text": "Pendant", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot4", 
+        "Text": "Glove", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot5", 
+        "Text": "Armor", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "gear_slot6", 
+        "Text": "Bracer", 
+        "CharacterLimit": 0, 
+        "Category": "Gear Slot", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "accuracy_percent", 
+        "Text": "Accuracy", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "attack_flat", 
+        "Text": "Attack", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "attack_percent", 
+        "Text": "Attack", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "attackspeed_percent", 
+        "Text": "Attack Speed", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "critdamage_percent", 
+        "Text": "Crit Damage", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "critrate_percent", 
+        "Text": "Crit Rate", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "defense_flat", 
+        "Text": "Defense", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "defense_percent", 
+        "Text": "Defense", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "health_flat", 
+        "Text": "Max HP", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "health_percent", 
+        "Text": "Max HP", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "movespeed_percent", 
+        "Text": "Move Speed", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "new_stat", 
+        "Text": "New Stat", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "resistance_percent", 
+        "Text": "Resistance", 
+        "CharacterLimit": 0, 
+        "Category": "Properties", 
+        "Comment": ""
+    }
+]

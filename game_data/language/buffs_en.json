@@ -1,0 +1,380 @@
+[
+    {
+        "Id": "buff_atk_spd_up", 
+        "Text": "ATK SPD UP", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_atk_up", 
+        "Text": "ATK UP", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_crit_up", 
+        "Text": "CRIT UP", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_damage_reflection", 
+        "Text": "Damage Reflection", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_def_up", 
+        "Text": "DEF UP", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_haste", 
+        "Text": "Haste", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_immunity", 
+        "Text": "Immunity", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_invulnerability", 
+        "Text": "Invulnerability", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_regeneration", 
+        "Text": "Regeneration", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_shield", 
+        "Text": "Shield", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "buff_undying", 
+        "Text": "Undying", 
+        "CharacterLimit": 0, 
+        "Category": "buff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_atk_down", 
+        "Text": "ATK DOWN", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_atk_spd_down", 
+        "Text": "ATK SPD DOWN", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_blind", 
+        "Text": "Blind", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_buffs_blocked", 
+        "Text": "Buff Block", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_def_down", 
+        "Text": "DEF DOWN", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_disoriented", 
+        "Text": "Disorient", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_fear", 
+        "Text": "Fear", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_immobilized", 
+        "Text": "Immobilize", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_marked", 
+        "Text": "Mark", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_mortal_wounds", 
+        "Text": "Mortal Wounds", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_ongoing_damage", 
+        "Text": "Ongoing Damage", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_provoked", 
+        "Text": "Provoke", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_silenced", 
+        "Text": "Silence", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_sleep", 
+        "Text": "Sleep", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_slow", 
+        "Text": "Slow", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "debuff_stun", 
+        "Text": "Stun", 
+        "CharacterLimit": 0, 
+        "Category": "debuff", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_atk_spd_up", 
+        "Text": "Raises <font color='{spd_skyblue}'>Attack Speed (ATK SPD)</font> by 50%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_atk_up", 
+        "Text": "Raises <font color='{atk_orange}'>Attack (ATK)</font> by 50%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_crit_up", 
+        "Text": "Raises <font color='{menu_highlight_white}'>Crit Rate (CRIT)</font> by 30%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_damage_reflection", 
+        "Text": "Returns 10% of the damage taken to the attacker.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_def_up", 
+        "Text": "Raises <font color='{def_yellow}'>Defense (DEF)</font> by 70%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_haste", 
+        "Text": "Raises Movement Speed by 33%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_immunity", 
+        "Text": "Prevents new debuffs from being applied. (Existing debuffs remain.)", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_invulnerability", 
+        "Text": "Prevents all damage.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_regeneration", 
+        "Text": "Restores 2.5% of <font color='{maxhp_green}'>MAX HP</font> per second.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_shield", 
+        "Text": "Temporary HP that is lost first before losing real HP.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_buff_undying", 
+        "Text": "Prevents HP from falling below 1.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_atk_down", 
+        "Text": "Lowers <font color='{atk_orange}'>Attack (ATK)</font> by 50%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_atk_spd_down", 
+        "Text": "Lowers <font color='{spd_skyblue}'>Attack Speed (ATK SPD)</font> by 50%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_blind", 
+        "Text": "Basic Skill will always miss.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_buffs_blocked", 
+        "Text": "Cannot be Buffed.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_def_down", 
+        "Text": "Lowers <font color='{def_yellow}'>Defense (DEF)</font> by 70%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_disoriented", 
+        "Text": "50% chance on hit to deal 30% less damage and be unable to score a Critical Hit (Crit). 50% chance to fail to apply Debuffs.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_fear", 
+        "Text": "Run away from the enemy who inflicted Fear. Cannot attack or use skills.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_immobilized", 
+        "Text": "Cannot move, but can still attack or use skills.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_marked", 
+        "Text": "Increases damage taken by 25%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_mortal_wounds", 
+        "Text": "Cannot be healed.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_ongoing_damage", 
+        "Text": "Deals 2.5% of <font color='{maxhp_green}'>MAX HP</font> as damage per second that is not reduced by <font color='{def_yellow}'>DEF</font>. (Less on Bosses.)", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_provoked", 
+        "Text": "Forced to attack the provoking enemy using only their Basic Skill.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_silenced", 
+        "Text": "Cannot use skills other than the Basic Skill.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_sleep", 
+        "Text": "Cannot move, attack, or use skills. This effect ends immediately if damage is taken.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_slow", 
+        "Text": "Lowers Movement Speed by 33%.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }, 
+    {
+        "Id": "description_debuff_stun", 
+        "Text": "Cannot move, attack, or use skills.", 
+        "CharacterLimit": 0, 
+        "Category": "description", 
+        "Comment": ""
+    }
+]
