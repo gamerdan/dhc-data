@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "skandgrunt_warriorsChallenge",
+      "name": {
+        "en": "Fatal Assault",
+        "fr": "Assaut mortel",
+        "de": "Tödlicher Angriff",
+        "es": "Asalto Fatal"
+      },
+      "description": {
+        "en": "Leaps at target enemy. Deals damage and <font color='{debuff_red}'>{icon.mark}&nbsp;MARKS</font> the target.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time.</font> ",
+        "fr": "Bondit sur la cible ennemie. Lui inflige des dégâts et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font>.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai.</font> ",
+        "de": "Springt auf ein feindliches Ziel zu, fügt Schaden zu und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> das Ziel.<br><font color='{menu_highlight_white}'>Kann innerhalb einer kurzen Zeit erneut angewendet werden.</font>",
+        "es": "Se abalanza sobre el enemigo, le daña y le <font color='{debuff_red}'>{icon.mark}&nbsp;MARCA</font>.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "skandgrunt_bloodthirstyRampage",
+      "name": {
+        "en": "Bloodthirsty Rampage",
+        "fr": "Saccage sanguinaire",
+        "de": "Blutdurstiger Amoklauf",
+        "es": "Devastación Sanguinaria"
+      },
+      "description": {
+        "en": "Spins his axes around, periodically damaging nearby enemies while channeling for several seconds. If <font color='{menu_highlight_white}'>enraged</font>, has {%SkillCustomParameters.lifestealPercentage} Lifestealing.<br><font color='{menu_highlight_white}'>Can move while channeling.</font>",
+        "fr": "Se concentre pendant plusieurs secondes, puis fait tournoyer ses haches pour infliger des dégâts périodiques aux ennemis à proximité. S'il est <font color='{menu_highlight_white}'>enragé</font>, il bénéficie de {%SkillCustomParameters.lifestealPercentage} de Saignée.<br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie.</font>",
+        "de": "Kreist mit seiner Axt um sich herum und fügt regelmäßig Feinden in der Nähe Schaden zu, während er mehrere Sekunden kanalisiert. Wenn er <font color='{menu_highlight_white}'>wutenbrannt</font> ist, hat er {%SkillCustomParameters.lifestealPercentage} Lebensdiebstahl.<br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen.</font>",
+        "es": "Gira sus hachas y daña de manera periódica a los enemigos cercanos mientras canaliza durante varios segundos. Si está <font color='{menu_highlight_white}'>enfurecido</font>, tiene un {%SkillCustomParameters.lifestealPercentage} de Robo de Vida.<br><font color='{menu_highlight_white}'>Se puede mover mientras canaliza.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "skandgrunt_juggernaut",
+      "name": {
+        "en": "Juggernaut",
+        "fr": "Force fatale",
+        "de": "Moloch",
+        "es": "Fuerza de la Naturaleza"
+      },
+      "description": {
+        "en": "Becomes <font color='{menu_highlight_white}'>enraged</font>, damaging nearby enemies. Becoming enraged causes him to temporarily gain <font color='{buff_blue}'>{icon.reflect}&nbsp;DAMAGE REFLECTION</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITY</font> and <font color='{buff_blue}'>{icon.endure}&nbsp;UNDYING</font>.<br><font color='{menu_highlight_white}'>Triggers automatically when taking lethal damage.</font>",
+        "fr": "<font color='{menu_highlight_white}'>Enrage</font> et inflige des dégâts aux ennemis alentour. La rage lui confère temporairement <font color='{buff_blue}'>{icon.reflect}&nbsp;MIROIR</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÉ</font> et <font color='{buff_blue}'>{icon.endure}&nbsp;IMMORTALITÉ</font>. <br><font color='{menu_highlight_white}'>Se déclenche automatiquement lorsque des dégâts mortels sont reçus.</font>",
+        "de": "Wird <font color='{menu_highlight_white}'>wutentbrannt</font> und fügt Feinden in der Nähe Schaden zu. Durch Wutentbrannt erhält er kurzzeitig <font color='{buff_blue}'>{icon.reflect}&nbsp;SCHADENSRÜCKWURF</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÄT</font> und <font color='{buff_blue}'>{icon.endure}&nbsp;UNVERWÜSTLICH</font>.<br><font color='{menu_highlight_white}'>Wird automatisch beim Erleiden von tödlichem Schaden aktiviert.</font>",
+        "es": "Se <font color='{menu_highlight_white}'>enfurece</font> y daña a los enemigos cercanos. Al enfurecerse, obtiene de manera temporal <font color='{buff_blue}'>{icon.reflect}&nbsp;REFLEJO DE DAÑO</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;INMUNIDAD</font> e <font color='{buff_blue}'>{icon.endure}&nbsp;INMORTALIDAD</font>.<br><font color='{menu_highlight_white}'>Se activa automáticamete al recibir daño mortal.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "skandgrunt_relentlessStrike",
+      "name": {
+        "en": "Berserker's Blow",
+        "fr": "Frappe du berserker",
+        "de": "Schlag des Berserkers",
+        "es": "Golpe de Rabia"
+      },
+      "description": {
+        "en": "Attacks nearby enemies. If current HP is below {%SkillCustomParameters.lowHealthTreshold}, deals an additional {%SkillCustomParameters.DamageModifier} bonus damage.",
+        "fr": "Attaque les ennemis à proximité. Si les HP sont actuellement inférieurs à {%SkillCustomParameters.lowHealthTreshold}, inflige {%SkillCustomParameters.DamageModifier} de dégâts supplémentaires.",
+        "de": "Greift Feinde in der Nähe an. Wenn die derzeitigen GP unter {%SkillCustomParameters.lowHealthTreshold} sind, fügt er {%SkillCustomParameters.DamageModifier} Bonus-Schaden zu.",
+        "es": "Ataca a los enemigos cercanos. Si el porcentaje actual de PV está por debajo del {%SkillCustomParameters.lowHealthTreshold}, inflige un {%SkillCustomParameters.DamageModifier} de daño adicional."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

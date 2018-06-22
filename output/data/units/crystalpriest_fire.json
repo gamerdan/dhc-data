@@ -217,6 +217,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "SecondSkill": {
+      "id": "crystalpriest_purify",
+      "name": {
+        "en": "Purify",
+        "fr": "Purification",
+        "de": "Reinigung",
+        "es": "Purificación"
+      },
+      "description": {
+        "en": "Creates a field of prismatic light that heals nearby allies and <font color='{menu_highlight_white}'>removes {SkillBuff_cleanse.NumberOfBuffsToRemove} debuff</font> from each of them.",
+        "fr": "Crée un champ de lumière prismatique qui soigne les alliés à proximité et <font color='{menu_highlight_white}'>supprime {SkillBuff_cleanse.NumberOfBuffsToRemove} debuff(s)</font> pour chacun d'entre eux.",
+        "de": "Lässt ein Feld prismatischen Lichts entstehen, das Verbündete in der Nähe heilt und <font color='{menu_highlight_white}'>{SkillBuff_cleanse.NumberOfBuffsToRemove} Schwächungszauber</font> von ihnen entfernt.",
+        "es": "Crea un campo de luz prismática que cura a los aliados cercanos y <font color='{menu_highlight_white}'>elimina {SkillBuff_cleanse.NumberOfBuffsToRemove} efecto negativo</font> a cada uno de ellos."
+      }
+    },
+    "FirstSkill": {
+      "id": "crystalpriest_waveOfHarmony",
+      "name": {
+        "en": "Wave of Harmony",
+        "fr": "Vague d'harmonie",
+        "de": "Harmoniewelle",
+        "es": "Ola de Armonía"
+      },
+      "description": {
+        "en": "Projects a beam of light that bounces between allies, healing them. Hits self then hits target ally and up to {SkillCustomParameters.MaxBounceCount} additional allies.",
+        "fr": "Projette un rayon de lumière qui ricoche entre les alliés et les soigne. Affecte le lanceur, puis la cible et jusqu'à {SkillCustomParameters.MaxBounceCount} alliés supplémentaires.",
+        "de": "Projiziert einen Lichtstrahl, der zwischen den Verbündeten hin und herspringt und sie heilt. Trifft sich selbst, dann den angezielten Verbündeten und bis zu {SkillCustomParameters.MaxBounceCount} zusätzliche Verbündete.",
+        "es": "Proyecta un rayo de luz que rebota entre los aliados y los cura. La luz lo cura a él, al aliado objetivo y a un máximo de {SkillCustomParameters.MaxBounceCount} aliados más."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "crystalpriest_crystalShard",
+      "name": {
+        "en": "Crystal Shard",
+        "fr": "Éclat de cristal",
+        "de": "Kristallscherbe",
+        "es": "Fragmento de Cristal"
+      },
+      "description": {
+        "en": "Throws a crystal shard, damaging an enemy from a distance. Has a chance to shatter on impact, dealing a portion of that damage to enemies near the target.",
+        "fr": "Lance un éclat de cristal qui inflige des dégâts à un ennemi. Peut éclater à l'impact et infliger une partie des dégâts aux ennemis à proximité de la cible.",
+        "de": "Wirft eine Kristallscherbe und fügt einem Feind aus der Entfernung Schaden zu. Hat die Chance beim Aufprall zu zersplittern, wodurch Feinde in der Nähe des Ziels einen Teil des Schadens erhalten.",
+        "es": "Lanza un fragmento de cristal que inflige daño a distancia a un enemigo con probabilidad de que el cristal explote al impactar, infligiendo una parte de ese daño a los enemigos cercanos al objetivo."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

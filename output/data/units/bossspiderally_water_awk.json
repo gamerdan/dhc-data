@@ -184,6 +184,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "bossspiderally_aoe",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "SecondSkill": {
+      "id": "bossspiderally_ray",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "ThirdSkill": {
+      "id": "bossspiderally_passive",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "generic_melee",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

@@ -210,6 +210,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "vampire_crimsonThrustBatAffinity",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "SecondSkill": {
+      "id": "vampire_swipesCrimsonStorm",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "ThirdSkill": {
+      "id": "vampire_trueForm",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "vampire_bloodlust",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

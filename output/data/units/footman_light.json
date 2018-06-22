@@ -217,6 +217,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "footman_holdTheLine",
+      "name": {
+        "en": "Hold the Line!",
+        "fr": "Tenez vos positions&nbsp;!",
+        "de": "Haltet die Linie!",
+        "es": "¡Ni un paso atrás!"
+      },
+      "description": {
+        "en": "Takes a defensive stance. <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> himself and nearby allies.",
+        "fr": "Adopte une position défensive et octroie <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> pour protéger ses alliés à proximité et lui-même.",
+        "de": "Nimmt eine Abwehrhaltung ein. <font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> ihn selbst und Verbündete in der Nähe ab.",
+        "es": "Adopta una actitud defensiva. Se protege a sí mismo y a los aliados cercanos con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "footman_protectiveAura",
+      "name": {
+        "en": "Protective Aura",
+        "fr": "Aura protectrice",
+        "de": "Schutzaura",
+        "es": "Aura Protectora"
+      },
+      "description": {
+        "en": "Passively protects nearby allies, causing them to receive {+%SkillBuff_protect.Buff.ValueFlat0} less damage. Multiple instances of this aura do not stack.",
+        "fr": "Protège passivement tous les alliés à proximité, annulant {+%SkillBuff_protect.Buff.ValueFlat0} des dégâts reçus. Les effets de cette aura ne s'accumulent pas.",
+        "de": "Beschützt passiv Verbündete in der Nähe, wodurch diese {+%SkillBuff_protect.Buff.ValueFlat0} weniger Schaden erhalten. Mehrere Teile dieser Aura lassen sich nicht gleichzeitig anwenden.",
+        "es": "Protege pasivamente a los aliados cercanos para que reciban un {+%SkillBuff_protect.Buff.ValueFlat0} menos de daño. Esta aura no se puede acumular."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "footman_bellowingStrike",
+      "name": {
+        "en": "Bellowing Strike",
+        "fr": "Attaque mugissante",
+        "de": "Grölender Stoß",
+        "es": "Golpe Bramante"
+      },
+      "description": {
+        "en": "Swings his sword at an enemy. Every fifth attack <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> the primary target.",
+        "fr": "Brandit son épée en direction d'un ennemi. Toutes les cinq attaques, le dernier coup inflige <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> à la cible principale.",
+        "de": "Schwingt sein Schwert gegen einen Feind. Jeder fünfte Angriff <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> das Hauptziel.",
+        "es": "Ataca a un enemigo con su espada. Cada quinto ataque, <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> al objetivo principal."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

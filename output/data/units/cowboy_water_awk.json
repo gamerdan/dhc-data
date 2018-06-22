@@ -184,6 +184,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "cowboy_reloadFire",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "SecondSkill": {
+      "id": "cowboy_reloadPoison",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "ThirdSkill": {
+      "id": "cowboy_reloadIce",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "cowboy_revolver",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

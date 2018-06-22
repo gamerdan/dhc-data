@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "blademaster_sharpRun",
+      "name": {
+        "en": "Blade Rush",
+        "fr": "Lame folle",
+        "de": "Klingensturm",
+        "es": "Esprint de Filos"
+      },
+      "description": {
+        "en": "Dashes in a line, damaging all enemies struck.",
+        "fr": "Fonce droit devant pour infliger des dégâts aux ennemis situés sur la ligne d'effet.",
+        "de": "Sprintet auf einer Linie entlang und schädigt alle getroffenen Gegner.",
+        "es": "Esprinta en línea recta y daña a todos los enemigos golpeados."
+      }
+    },
+    "SecondSkill": {
+      "id": "blademaster_dervishSpin",
+      "name": {
+        "en": "Dervish Spin",
+        "fr": "Tournoiement derviche",
+        "de": "Derwischdrall",
+        "es": "Giro Derviche"
+      },
+      "description": {
+        "en": "Spins quickly with her blades, damaging nearby enemies. The cooldown of this skill is lowered for each enemy struck.",
+        "fr": "Fait tournoyer rapidement ses lames pour infliger des dégâts aux ennemis à proximité. Cette compétence se recharge plus vite à chaque ennemi frappé.",
+        "de": "Wirbelt schnell mit ihren Klingen umher und fügt Feinden in der Nähe Schaden zu. Die Abklingzeit dieser Fertigkeit wird für jeden getroffenen Feind verkürzt.",
+        "es": "Gira rápidamente con sus espadas, dañando a los enemigos cercanos. El tiempo de recuperación de esta habilidad se reduce por cada enemigo golpeado."
+      }
+    },
+    "ThirdSkill": {
+      "id": "blademaster_danceOfDeath",
+      "name": {
+        "en": "Dance of Death",
+        "fr": "Danse de la mort",
+        "de": "Tanz des Todes",
+        "es": "Danza de la Muerte"
+      },
+      "description": {
+        "en": "The Blademaster becomes invulnerable, dashing rapidly around the battlefield. Attacks nearby enemies at random {SkillCustomParameters.maxHitCount} times. Deals {SkillCustomParameters.firstHitMultiplier} times damage the first time it strikes each target.",
+        "fr": "La Fine lame devient invulnérable et fonce tête baissée sur le champ de bataille. Attaque {SkillCustomParameters.maxHitCount} fois des ennemis au hasard à proximité. Inflige des dégâts x{SkillCustomParameters.firstHitMultiplier} la première fois qu'elle touche chaque cible.",
+        "de": "Die Klingenmeisterin wird unverwundbar und sprintet zügig über das Schlachtfeld. Greift zufällig {SkillCustomParameters.maxHitCount}-Mal Feinde in der Nähe an. Fügt beim ersten Treffer auf jedes Ziel {SkillCustomParameters.firstHitMultiplier}-Mal Schaden zu.",
+        "es": "La maestra de la espada se vuelve invulnerable, esprintando por el campo de batalla. Ataca al azar a los enemigos cercanos {SkillCustomParameters.maxHitCount} veces. La primera vez que ataca a un objetivo, le inflige daño x{SkillCustomParameters.firstHitMultiplier}."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "blademaster_flurry",
+      "name": {
+        "en": "Flurry",
+        "fr": "Bourrasque",
+        "de": "Gestöber",
+        "es": "Aluvión"
+      },
+      "description": {
+        "en": "Slashes with her blades, damaging enemies. Every fourth attack, she strikes swiftly with both blades, dealing triple damage.",
+        "fr": "Fait tournoyer rapidement ses lames pour infliger des dégâts aux ennemis. Triple les dégâts infligés en frappant rapidement avec ses deux lames toutes les quatre attaques.",
+        "de": "Schlitzt mit ihren Klingen und fügt Feinden Schaden zu. Sie schlägt bei jedem vierten Angriff schnell mit beiden Klingen zu und verursacht dreifachen Schaden.",
+        "es": "Raja a los enemigos con sus espadas. Cada cuarto ataque golpea rápidamente con ambas espadas infligiendo el triple de daño."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -184,6 +184,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mobascorpion_clawSwipeLeft",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "SecondSkill": {
+      "id": "mobascorpion_clawSwipeRight",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "ThirdSkill": {
+      "id": "mobascorpion_doubleSwipe",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mobascorpion_ancientStrike",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

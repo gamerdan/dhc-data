@@ -217,6 +217,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "ratscamp_embolden",
+      "name": {
+        "en": "Inciting Pounce",
+        "fr": "Bond incitatif",
+        "de": "Aufstachelungs-Sprung",
+        "es": "Salto hostil"
+      },
+      "description": {
+        "en": "Leaps at a target enemy, slashing at it with his claws. Deals damage and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> of nearby allies. If ascended, this skill also <font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISES CRIT</font>.",
+        "fr": "Bondit sur une cible et la lacère avec ses griffes. Inflige des dégâts et octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> aux alliés à proximité. Si le champion est exalté, cette compétence octroie aussi <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font>.",
+        "de": "Springt auf ein feindliches Ziel zu und schlägt es mit seinen Klauen. Fügt Schaden zu und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> von Verbündeten in Reichweite. Diese Fertigkeit <font color='{buff_blue}'>{icon.raise_crit}&nbsp;ERHÖHT KRIT.</font> in aufgestiegener Form. ",
+        "es": "Se abalanza sobre el enemigo, cortándole con sus garras. Inflige daño y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> de los aliados cercanos. Si ha ascendido, esta habilidad también <font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTA CRÍT</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "ratscamp_dirtyTrick",
+      "name": {
+        "en": "Dirty Trick",
+        "fr": "Ruse sournoise",
+        "de": "Schmutziger Trick",
+        "es": "Juego Sucio"
+      },
+      "description": {
+        "en": "Kicks sand into the eyes of his foes. Deals damage and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font>.",
+        "fr": "Projette du sable dans les yeux de ses ennemis. Inflige des dégâts et <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font>.",
+        "de": "Schleudert seinen Feinden Sand in die Augen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> sie.",
+        "es": "Lanza arena a los ojos de sus enemigos. Inflige daño y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "ratscamp_doubleTrouble",
+      "name": {
+        "en": "Double Trouble",
+        "fr": "Double attaque",
+        "de": "Doppelter Ärger",
+        "es": "Dos en Uno"
+      },
+      "description": {
+        "en": "Rapidly slashes enemies with his claws, damaging them two times with a single attack.",
+        "fr": "Lacère rapidement les ennemis avec ses griffes, leur infligeant des dégâts deux fois en une seule attaque.",
+        "de": "Schlitzt Feinde blitzschnell mit seinen Klauen auf, wobei er ihnen mit einem einzelnen Angriff zwei Mal Schaden zufügt.",
+        "es": "Raja a los enemigos rápidamente con sus garras, dañándolos dos veces con un solo ataque."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

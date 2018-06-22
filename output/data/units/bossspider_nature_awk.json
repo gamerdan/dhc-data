@@ -184,6 +184,83 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "bossspider_gaze",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "SecondSkill": {
+      "id": "bossspider_lazer",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "ThirdSkill": {
+      "id": "bossspider_shield",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "FourthSkill": {
+      "id": "bossspider_web",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "generic_melee",
+      "name": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "description": {
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

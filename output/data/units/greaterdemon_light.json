@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "greaterdemon_devourMagic",
+      "name": {
+        "en": "Devour Magic",
+        "fr": "Magie dévorante",
+        "de": "Verschlingende Magie",
+        "es": "Devorar Magia"
+      },
+      "description": {
+        "en": "Opens the maw in his stomach, devouring his enemies' buffs and transforming their energy into a demonic <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font>. The more enemies hit, the stronger the shield.",
+        "fr": "Ouvre la gueule de son ventre pour dévorer les buffs de ses ennemis et transformer leur énergie en un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> démoniaque. Plus le nombre d'ennemis touchés est important, plus le bouclier est puissant.",
+        "de": "Öffnet den Schlund in seinem Bauch, verschlingt die Boni seiner Feinde und wandelt ihre Energie in eine dämonische <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNG</font> um. Je mehr Feinde getroffen werden, desto stärker der Schild.",
+        "es": "Abre las fauces de su estómago, devorando los efectos positivos de sus enemigos y transformando su energía en un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> demoniaco. Cuantos más enemigos golpee, más poderoso será el escudo."
+      }
+    },
+    "SecondSkill": {
+      "id": "greaterdemon_hellTrench",
+      "name": {
+        "en": "Demonic Pull",
+        "fr": "Attraction démoniaque",
+        "de": "Dämonischer Sog",
+        "es": "Arrastre Demoniaco"
+      },
+      "description": {
+        "en": "Pulls enemies towards him by dragging his hooked chain along the ground, dealing damage to them. <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> any enemy that is pulled into a wall.<br><font color='{menu_highlight_white}'>Distance pulled is reduced by the number of enemies caught.</font>",
+        "fr": "Attire les ennemis à lui en traînant sa chaîne sur le sol et leur inflige des dégâts. Inflige ÉTOURDIT<font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis qui percutent un mur.<br><font color='{menu_highlight_white}'>Le nombre d'ennemis pris dans la chaîne réduit la distance sur laquelle ils sont traînés.</font>",
+        "de": "Zieht Feinde an sich, indem er seine Hakenkette auf dem Boden entlang zieht und den getroffenen Feinden Schaden zufügt. <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> jeden Feind, der in eine Wand gezogen wird.<br><font color='{menu_highlight_white}'>Die gezogene Entfernung wird mit der Anzahl der gefangenen Feinde geringer.</font>",
+        "es": "Arrastra a los enemigos hacia sí mismo con su cadena y les causa daño. <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos empujados contra las paredes.<br><font color='{menu_highlight_white}'>Cuantos más enemigos resultan atrapados, menor es la distancia que son arrastrados.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "greaterdemon_crush",
+      "name": {
+        "en": "Crush",
+        "fr": "Écrasement",
+        "de": "Andrang",
+        "es": "Machacar"
+      },
+      "description": {
+        "en": "Smashes the ground with his hooked ball. Damages enemies in a huge area and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>. <font color='{menu_highlight_white}'>Guaranteed crit.</font>",
+        "fr": "Frappe le sol avec sa balle à crochet, inflige des dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>aux ennemis dans une vaste zone. <font color='{menu_highlight_white}'>Critique garanti</font>.",
+        "de": "Schlägt auf den Boden mit seiner Hakenkugel. Fügt Feinden in einem riesigen Gebiet Schaden zu und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>. <font color='{menu_highlight_white}'>Garantiert Krit. Chance</font>.",
+        "es": "Golpea la tierra con la bola. Daña a los enemigos en una gran zona y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>. <font color='{menu_highlight_white}'>Daño crítico garantizado.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "greaterdemon_ballAndChain",
+      "name": {
+        "en": "Ball and Chain",
+        "fr": "Boulet et chaîne",
+        "de": "Kugel und Kette",
+        "es": "Bola y Cadena"
+      },
+      "description": {
+        "en": "Swings his ball and chain, attacking nearby enemies within a medium range. Periodically, this attack deals bonus damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Fait tournoyer son boulet et sa chaîne pour attaquer les ennemis à moyenne portée. Périodiquement, cette attaque inflige des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Schwingt seine Kugel und Kette und greift Feinde in mittlerer Reichweite an. Dieser Angriff fügt regelmäßig Bonus-Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>.",
+        "es": "Ataca con su bola y cadena, golpeando a los enemigos cercanos situados a medio alcance. Este ataque inflige daño adicional de manera periódica y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

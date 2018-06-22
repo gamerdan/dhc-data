@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "crowhag_badOmen",
+      "name": {
+        "en": "Bad Omen",
+        "fr": "Mauvais présage",
+        "de": "Böses Omen",
+        "es": "Mal Augurio"
+      },
+      "description": {
+        "en": "Sends a crow swooping around the battlefield, damaging up to {SkillCustomParameters.MaxHitCount} enemies. If <font color='{menu_highlight_white}'>Enhanced</font>, gains Lifestealing and hits {SkillCustomParameters.MaxHitCountEmpowered} enemies.<br><font color='{menu_highlight_white}'>Has multiple charges if Ascended.</font>",
+        "fr": "Ordonne à un corbeau de blesser jusqu'à {SkillCustomParameters.MaxHitCount} ennemis. Si elle est <font color='{menu_highlight_white}'>sublimée</font>, elle gagne Saignée et frappe {SkillCustomParameters.MaxHitCountEmpowered} ennemis.<br><font color='{menu_highlight_white}'>Possède plusieurs charges une fois exaltée.</font>",
+        "de": "Sendet eine Krähe, die auf dem Schlachtfeld herabschießt und bis zu {SkillCustomParameters.MaxHitCount} Feinden Schaden zufügt. Wenn <font color='{menu_highlight_white}'>Verstärkung</font> aktiv ist, erhält sie Lebensdiebstahl und trifft {SkillCustomParameters.MaxHitCountEmpowered} Feinde.<br><font color='{menu_highlight_white}'>Hat mehrere Ladungen, wenn in aufgestiegener Form.</font>",
+        "es": "Llama a un cuervo que daña a un máximo de {SkillCustomParameters.MaxHitCount} enemigos. Si está <font color='{menu_highlight_white}'>fortalecido</font>, obtiene Robo de Vida y golpea a {SkillCustomParameters.MaxHitCountEmpowered} enemigos.<br><font color='{menu_highlight_white}'>Si ha ascendido, tiene varias cargas.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "crowhag_noxiousPotion",
+      "name": {
+        "en": "Noxious Potion",
+        "fr": "Potion toxique",
+        "de": "Gifttrank",
+        "es": "Poción Nociva"
+      },
+      "description": {
+        "en": "Lobs a potion at target point. Damages enemies and inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font>. If <font color='{menu_highlight_white}'>Enhanced</font>, the splash is larger.",
+        "fr": "Lance une potion qui inflige des dégâts et <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font> aux ennemis. Si elle est <font color='{menu_highlight_white}'>sublimée</font>, l'éclaboussure est plus grande.",
+        "de": "Wirft einen Trank auf einen Zielpunkt. Fügt Feinden Schaden und <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu. Wenn <font color='{menu_highlight_white}'>verstärkt</font>, ist der Spritzer größer.",
+        "es": "Lanza una poción que daña a los enemigos e inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font>. Si está <font color='{menu_highlight_white}'>fortalecida</font>, la salpicadura es más amplia."
+      }
+    },
+    "ThirdSkill": {
+      "id": "crowhag_sinisterRitual",
+      "name": {
+        "en": "Sinister Ritual",
+        "fr": "Rituel sinistre",
+        "de": "Finsteres Ritual",
+        "es": "Ritual Siniestro"
+      },
+      "description": {
+        "en": "Sacrifices {%SkillCustomParameters.SacrificeHealthRatio} of her current HP to reset all her skill cooldowns and <font color='{menu_highlight_white}'>Enhances</font> her skills for several seconds. This <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> and grants her skills bonus effects.",
+        "fr": "Sacrifie {%SkillCustomParameters.SacrificeHealthRatio} de ses HP actuels pour recharger toutes ses compétences et les <font color='{menu_highlight_white}'>sublimer</font> pendant plusieurs secondes. Elle gagne <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> et des effets bonus à ses compétences.",
+        "de": "Sie opfert {%SkillCustomParameters.SacrificeHealthRatio} ihrer aktuellen GP, um alle Abklingzeiten ihrer Fertigkeiten zurückzusetzen und sie für mehrere Sekunden zu <font color='{menu_highlight_white}'>verstärken</font>. Dies <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> und liefert ihr Fertigkeits-Bonuseffekte.",
+        "es": "Sacrifica el {%SkillCustomParameters.SacrificeHealthRatio} de sus PV actuales para reiniciar todos los tiempos de recuperación de sus habilidades y las <font color='{menu_highlight_white}'>fortalece</font> durante varios segundos. Esto <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> y proporciona efectos adicionales a sus habilidades."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "crowhag_hex",
+      "name": {
+        "en": "Hex",
+        "fr": "Sortilège",
+        "de": "Hex",
+        "es": "Maleficio"
+      },
+      "description": {
+        "en": "Fires a bolt of chaotic magic at an enemy from a distance.",
+        "fr": "Lance un éclair de magie chaotique contre un ennemi à distance.",
+        "de": "Feuert aus der Ferne einen Blitz chaotischer Magie auf einen Feind.",
+        "es": "Lanza una descarga de magia caótica a distancia."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

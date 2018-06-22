@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "blademaster_razorDash",
+      "name": {
+        "en": "Razor Dash",
+        "fr": "Ruée tranchante",
+        "de": "Messersprint",
+        "es": "Esprint de Cuchillas"
+      },
+      "description": {
+        "en": "Dashes in a line. Damages and <font color='{debuff_red}'>{icon.mark}&nbsp;MARKS</font> enemies.",
+        "fr": "Fonce droit devant pour infliger des dégâts et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Sprintet auf einer Linie entlang. Verletzt und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> Feinde.",
+        "es": "Esprinta en línea recta. Daña y <font color='{debuff_red}'>{icon.mark}&nbsp;MARCA</font> a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "blademaster_whirlingSlice",
+      "name": {
+        "en": "Whirling Slice",
+        "fr": "Taillade tourbillonnante",
+        "de": "Wirbelnde Scheibe",
+        "es": "Corte Giratorio"
+      },
+      "description": {
+        "en": "Spins quickly with her blades, damaging nearby enemies. <font color='{menu_highlight_white}'>Ignores {~%blademaster_whirlingSlice.C:C_IgnoreDefRatio} of enemy <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Fait tournoyer rapidement ses lames pour infliger des dégâts aux ennemis à proximité. <font color='{menu_highlight_white}'>Ignore {~%blademaster_whirlingSlice.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> ennemie.</font>",
+        "de": "Wirbelt schnell mit ihren Klingen umher und fügt Feinden in der Nähe Schaden zu. <font color='{menu_highlight_white}'>Ignoriert {~%blademaster_whirlingSlice.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.</font>",
+        "es": "Gira rápidamente con sus espadas, dañando a los enemigos cercanos. <font color='{menu_highlight_white}'>Ignora el {~%blademaster_whirlingSlice.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> del enemigo.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "blademaster_danceOfDeath",
+      "name": {
+        "en": "Dance of Death",
+        "fr": "Danse de la mort",
+        "de": "Tanz des Todes",
+        "es": "Danza de la Muerte"
+      },
+      "description": {
+        "en": "The Blademaster becomes invulnerable, dashing rapidly around the battlefield. Attacks nearby enemies at random {SkillCustomParameters.maxHitCount} times. Deals {SkillCustomParameters.firstHitMultiplier} times damage the first time it strikes each target.",
+        "fr": "La Fine lame devient invulnérable et fonce tête baissée sur le champ de bataille. Attaque {SkillCustomParameters.maxHitCount} fois des ennemis au hasard à proximité. Inflige des dégâts x{SkillCustomParameters.firstHitMultiplier} la première fois qu'elle touche chaque cible.",
+        "de": "Die Klingenmeisterin wird unverwundbar und sprintet zügig über das Schlachtfeld. Greift zufällig {SkillCustomParameters.maxHitCount}-Mal Feinde in der Nähe an. Fügt beim ersten Treffer auf jedes Ziel {SkillCustomParameters.firstHitMultiplier}-Mal Schaden zu.",
+        "es": "La maestra de la espada se vuelve invulnerable, esprintando por el campo de batalla. Ataca al azar a los enemigos cercanos {SkillCustomParameters.maxHitCount} veces. La primera vez que ataca a un objetivo, le inflige daño x{SkillCustomParameters.firstHitMultiplier}."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "blademaster_flurry",
+      "name": {
+        "en": "Flurry",
+        "fr": "Bourrasque",
+        "de": "Gestöber",
+        "es": "Aluvión"
+      },
+      "description": {
+        "en": "Slashes with her blades, damaging enemies. Every fourth attack, she strikes swiftly with both blades, dealing triple damage.",
+        "fr": "Fait tournoyer rapidement ses lames pour infliger des dégâts aux ennemis. Triple les dégâts infligés en frappant rapidement avec ses deux lames toutes les quatre attaques.",
+        "de": "Schlitzt mit ihren Klingen und fügt Feinden Schaden zu. Sie schlägt bei jedem vierten Angriff schnell mit beiden Klingen zu und verursacht dreifachen Schaden.",
+        "es": "Raja a los enemigos con sus espadas. Cada cuarto ataque golpea rápidamente con ambas espadas infligiendo el triple de daño."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

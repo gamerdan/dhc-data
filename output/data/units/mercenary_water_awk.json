@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mercenary_hamstring",
+      "name": {
+        "en": "Boomerang Shield",
+        "fr": "Bouclier boomerang",
+        "de": "Bumerangschild",
+        "es": "Escudo Bumerán"
+      },
+      "description": {
+        "en": "Throws shield in an arc. Damages and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font> on enemies. If her HP% is low when she uses this skill, its cooldown is lowered.",
+        "fr": "Lance son bouclier en arc de cercle pour infliger des dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> aux ennemis. La compétence voit son rechargement diminuer si elle est utilisée alors que les HP sont bas.",
+        "de": "Wirft einen Schild in einem Bogen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT IHRE BONI</font>. Wenn ihre GP% niedrig sind, wenn sie diese Fertigkeit benutzt, wird die Abklingzeit reduziert.",
+        "es": "Lanza el escudo en un arco. Daña y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA LOS EFECTOS POSITIVOS</font> de los enemigos. Si su porcentaje de PV es bajo cuando use esta habilidad, su tiempo de recuperación se verá reducido."
+      }
+    },
+    "SecondSkill": {
+      "id": "mercenary_uppercutRush",
+      "name": {
+        "en": "Uppercut Rush",
+        "fr": "Uppercut vif",
+        "de": "Kinnhakensturm",
+        "es": "Esprint Gancho"
+      },
+      "description": {
+        "en": "Dashes in a direction until hitting an enemy and then uppercuts. Damages enemies, knocks them into the air, and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Se précipite violemment dans une direction jusqu'à percuter un ennemi, puis exécute un uppercut. Cause des dégâts aux ennemis, les projette dans les airs et leur inflige <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Sprintet in eine Richtung, bis sie einen Feind trifft und teilt dann einen Kinnhaken aus. Fügt Feinden Schaden zu, schlägt sie in die Luft und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Esprinta en una dirección hasta golpear a un enemigo y propinarle un gancho. Daña a los enemigos, los lanza por los aires y los <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "mercenary_finalBlow",
+      "name": {
+        "en": "Final Blow",
+        "fr": "Coup final",
+        "de": "Endschlag",
+        "es": "Golpe Final"
+      },
+      "description": {
+        "en": "Delivers an inescapable blow to target enemy that is so powerful that it also damages nearby enemies.<br><font color='{menu_highlight_white}'>Bonus damage dealt to the primary target based on its missing HP. This bonus ignores <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Assène un coup imparable à l'ennemi si puissant qu'il affecte tous ceux à proximité.<br><font color='{menu_highlight_white}'>Inflige des dégâts supplémentaires à la cible principale basés sur ses HP manquants et ignorant sa <font color='{def_yellow}'>DÉFENSE</font>.</font>",
+        "de": "Gibt dem feindlichen Ziel einen unausweichlichen Schlag, der so mächtig ist, dass er auch Feinden in der Nähe Schaden zufügt. <br><font color='{menu_highlight_white}'>Bonus-Schaden am Hauptziel, basierend auf seinen fehlenden GP. Dieser Bonus ignoriert <font color='{def_yellow}'>VTG</font>.</font>",
+        "es": "Inflige un golpe inevitable al objetivo. El golpe es tan poderoso que también daña a los enemigos cercanos.<br><font color='{menu_highlight_white}'>Inflige daño adicional al objetivo principal en función sus PV restantes e ignorando <font color='{def_yellow}'>DEF</font>.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mercenary_bounty",
+      "name": {
+        "en": "Bounty",
+        "fr": "Prime",
+        "de": "Kopfgeld",
+        "es": "Incentivo"
+      },
+      "description": {
+        "en": "Deals damage to an enemy target in melee range and to all nearby enemies within a wide arc. Each attack increases damage dealt by the next non-basic skill by {%SkillCustomParameters.damageIncreaseRatioPerAttack}, up to {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "fr": "Inflige des dégâts à un ennemi au corps-à-corps et à tous les ennemis à proximité sur un large arc de cercle. Chaque attaque augmente les dégâts de la prochaine compétence, hors compétences de base, de {%SkillCustomParameters.damageIncreaseRatioPerAttack} jusqu'à {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "de": "Fügt einem feindlichen Nahkampf-Ziel und Feinden in der Nähe in einem weiten Bogen Schaden zu. Jeder Angriff erhöht den Schaden, den die nächste Nicht-Basis-Fertigkeit zufügt, um {%SkillCustomParameters.damageIncreaseRatioPerAttack}, bis zu {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "es": "Inflige daño a un enemigo cuerpo a cuerpo y a todos los enemigos en un amplio arco. Cada ataque aumenta el daño causado por la próxima habilidad no básica en {%SkillCustomParameters.damageIncreaseRatioPerAttack}, hasta un máximo de {%SkillCustomParameters.maxDamageIncreaseRatio}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

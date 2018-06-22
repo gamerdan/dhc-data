@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "SecondSkill": {
+      "id": "snakelady_blowKiss",
+      "name": {
+        "en": "Draining Kiss",
+        "fr": "Baiser absorbant",
+        "de": "Zehrender Kuss",
+        "es": "Beso Absorbente"
+      },
+      "description": {
+        "en": "Blows a kiss that deals damage to the first enemy struck and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>. If the enemy is marked, this heals for an amount of HP equal to the damage dealt.",
+        "fr": "Envoie un baiser qui inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> au premier ennemi touché. Si celui-ci est affecté par Marquage, une quantité de HP égale aux dégâts infligés sera restaurée.",
+        "de": "Wirft einen Kuss zu, fügt dem ersten getroffenen Feind Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> ihn. Wenn der Feind markiert ist, heilt dies eine Anzahl an GP, die mit dem zugefügten Schaden übereinstimmen.",
+        "es": "Lanza un beso que daña al primer enemigo al que golpea y le <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>. Si el enemigo está marcado, cura tantos PV como daño infligido."
+      }
+    },
+    "ThirdSkill": {
+      "id": "snakelady_enfeeblingToxin",
+      "name": {
+        "en": "Enfeebling Toxin",
+        "fr": "Toxine affaiblissante",
+        "de": "Schwächendes Gift",
+        "es": "Toxina Debilitante"
+      },
+      "description": {
+        "en": "Hurls an orb of venom in a direction, dealing damage to enemies. When it reaches maximum range, it explodes into smaller globs of venom. Each glob deals damage to enemies and <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;LOWERS ATK SPD</font>. Each enemy can be damaged by up to three globs.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time to cause the orb to detonate early.</font>",
+        "fr": "Jette violemment un orbe de venin dans une direction, infligeant des dégâts aux ennemis. Lorsqu'il atteint sa portée maximale, il explose en gouttelettes qui infligent des dégâts et <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;VIT ATT-</font> aux ennemis. Chaque ennemi peut être blessé par un maximum de trois gouttelettes.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai pour faire exploser l'orbe plus tôt.</font>",
+        "de": "Wirft eine Giftkugel in eine Richtung und fügt Feinden Schaden zu. Wenn die Kugel ihre max. Reichweite erreicht, explodiert sie in kleinere Giftklumpen, die Schaden zufügen und das<font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;ANG.-TMP. VERRINGERN</font>. Jeder Feind kann von bis zu drei Klumpen getroffen werden.<br><font color='{menu_highlight_white}'>Kann nach kurzer Zeit wieder angewandt werden, damit die Kugel früher explodiert.</font>",
+        "es": "Lanza un orbe de veneno en una dirección, dañando a los enemigos. Cuando el orbe llega a su alcance máximo, explota en bolsas de veneno más pequeñas. Cada bolsa daña a los enemigos y <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;REDUCE VEL ATQ</font>. Cada enemigo puede recibir daño de hasta tres bolsas.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo para hacer que el orbe explote antes de tiempo.</font>"
+      }
+    },
+    "FirstSkill": {
+      "id": "snakelady_viperNest",
+      "name": {
+        "en": "Viper Nest",
+        "fr": "Nid de vipères",
+        "de": "Vipernnest",
+        "es": "Nido de Víboras"
+      },
+      "description": {
+        "en": "Summons a swarm of spirit vipers from the ground. The vipers damage and <font color='{debuff_red}'>{icon.mark}&nbsp;MARK</font> enemy Champions.",
+        "fr": "Invoque une horde de vipères spirituelles qui sortent du sol. Elles infligent des dégâts et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> aux ennemis.",
+        "de": "Ruft einen Schwarm Seelenvipern aus dem Boden herbei. Die Vipern fügen feindlichen Champions schaden zu und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIEREN</font> sie.",
+        "es": "Invoca a un enjambre de espíritus de víboras que brotan de la tierra. Las víboras dañan y <font color='{debuff_red}'>{icon.mark}&nbsp;MARCAN</font> a los campeones enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "snakelady_serpentKiss",
+      "name": {
+        "en": "Serpent's Bite",
+        "fr": "Morsure du serpent",
+        "de": "Schlangenbiss",
+        "es": "Mordisco de Serpiente"
+      },
+      "description": {
+        "en": "Attacks target enemy from a distance. Whenever another skill is cast, the Serpent spits venom at a nearby enemy, inflicting <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font>. The Serpent prefers to attack enemies with the <font color='{debuff_red}'>{icon.mark}&nbsp;MARK</font> debuff, but will attack the nearest enemy if none are marked.",
+        "fr": "Attaque l'ennemi à distance. Lorsqu'une autre compétence est lancée, le serpent crache du venin sur un ennemi à proximité pour lui infliger <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>. Le serpent préfère attaquer les ennemis affectés par <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font>, mais il attaquera l'ennemi le plus proche si aucun n'a cet effet.",
+        "de": "Greift ein feindliches Ziel aus der Entfernung an. Wenn eine andere Fertigkeit angewandt wird, spuckt die Schlange Gift auf einen Feind in ihrer Nähe und fügt <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font> zu. Die Schlange greift lieber Feinde mit dem <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font>-Schwächungszauber an, greift jedoch den Gegner an, der am nächsten bei ihr steht, wenn niemand markiert ist.",
+        "es": "Ataca a un enemigo a distancia. Cuando se activa otra habilidad, la serpiente escupe veneno a un enemigo cercano y le inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>. La serpiente prefiere atacar a enemigos <font color='{debuff_red}'>{icon.mark}&nbsp;MARCADOS</font>, pero atacará al más cercano si ninguno está marcado."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

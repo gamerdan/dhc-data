@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "invoker_shootingStar",
+      "name": {
+        "en": "Shooting Star",
+        "fr": "Étoile filante",
+        "de": "Sternschnuppe",
+        "es": "Estrella Fugaz"
+      },
+      "description": {
+        "en": "Summons a falling star to strike target area after a moment. Damages and <font color='{menu_highlight_white}'>removes {SkillBuff_purge.NumberOfBuffsToRemove} buffs</font> from enemies in the area of effect.",
+        "fr": "Invoque une étoile filante pour frapper une cible après un court délai, qui inflige des dégâts et <font color='{menu_highlight_white}'>supprime {SkillBuff_purge.NumberOfBuffsToRemove} buffs</font> aux ennemis dans la zone.",
+        "de": "Ruft einen fallenden Stern herbei, der nach kurzer Zeit auf das Zielgebiet aufprallen wird. Fügt Schaden zu und <font color='{menu_highlight_white}'>entfernt {SkillBuff_purge.NumberOfBuffsToRemove} die Extras</font> der Feinde, die sich in der Wirkungszone befinden.",
+        "es": "Invoca una estrella fugaz que ataca la zona objetivo tras un breve periodo de tiempo. Daña y <font color='{menu_highlight_white}'>elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos</font> de los enemigos en la zona."
+      }
+    },
+    "SecondSkill": {
+      "id": "invoker_singularity",
+      "name": {
+        "en": "Singularity",
+        "fr": "Singularité",
+        "de": "Einseitigkeit",
+        "es": "Singularidad"
+      },
+      "description": {
+        "en": "Hurls a swirling galaxy in a line, dealing constant damage to enemies it touches. At the end of its path, the galaxy collapses, pulling enemies towards its center. This deals greater damage and inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font>.",
+        "fr": "Projette une galaxie tourbillonnante qui inflige des dégâts continus aux ennemis situés sur la ligne d'effet. La galaxie finit par s'effondrer et attirer les ennemis vers son centre, leur causant de lourds dégâts et <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font>.",
+        "de": "Schleudert eine wirbelnde Galaxie in einer Linie, die den Feinden, die sie berührt, einen konstanten Schaden zufügt. Am Ende ihres Weges kollabiert die Galaxie und zieht die Feinde in ihr Zentrum. Dies fügt größeren Schaden und <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu.",
+        "es": "Lanza una galaxia en línea recta que inflige daño constante a los enemigos que toca. Al terminar su recorrido, la galaxia se colapsa, arrastrando a los enemigos hacia su núcleo. Esto inflige mucho daño y <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "invoker_stellarBeam",
+      "name": {
+        "en": "Stellar Beam",
+        "fr": "Rayon stellaire",
+        "de": "Brillanter Strahl",
+        "es": "Rayo Estelar"
+      },
+      "description": {
+        "en": "Fires a massive beam of energy, damaging enemies in a huge line. If an enemy is Slowed, Immobilized, or Stunned, this skill <font color='{menu_highlight_white}'>ignores {~%invoker_stellarBeam_ignoreArmor.C:C_IgnoreDefRatio} of that enemy's <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Tire un énorme rayon d'énergie qui inflige des dégâts aux ennemis situés sur une longue ligne d'effet. Si un ennemi est affecté par Lenteur, Entrave ou Paralysie, cette compétence <font color='{menu_highlight_white}'>ignore {~%invoker_stellarBeam_ignoreArmor.C:C_IgnoreDefRatio} de sa <font color='{def_yellow}'>DÉFENSE</font>.</font>",
+        "de": "Feuert einen riesigen Energiestrahl ab und fügt Feinden in einer Reihe Schaden zu. Wenn ein Feind verlangsamt, bewegungsunfähig oder betäubt ist, <font color='{menu_highlight_white}'>ignoriert diese Fertigkeit {~%invoker_stellarBeam_ignoreArmor.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> dieses Feindes.</font>",
+        "es": "Lanza un enorme rayo de energía que daña a los enemigos en una gran línea recta <font color='{menu_highlight_white}'>ignorando el {~%invoker_stellarBeam_ignoreArmor.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> de los enemigos ralentizados, paralizados o aturdidos.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "invoker_astralBolt",
+      "name": {
+        "en": "Astral Bolt",
+        "fr": "Éclair astral",
+        "de": "Sternenpfeil",
+        "es": "Descarga Astral"
+      },
+      "description": {
+        "en": "Fires a bolt of magical energy at an enemy, dealing damage from a distance. Each time she uses another skill, the next bolt is <font color='{menu_highlight_white}'>Empowered</font>. When Empowered, the bolt <font color='{menu_highlight_white}'>ignores {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} of the target's </font><font color='{def_yellow}'>DEF</font> and shatters, dealing a portion of the damage to {SkillCustomParameters.maxShatterCount} additional enemies near the first.",
+        "fr": "Tire un éclair d'énergie magique sur l'ennemi pour lui infliger des dégâts à distance. Pour chaque autre compétence utilisée, l'éclair suivant est <font color='{menu_highlight_white}'>renforcé</font> et <font color='{menu_highlight_white}'>ignore {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> de la cible</font> avant d'éclater pour blesser {SkillCustomParameters.maxShatterCount} ennemis à proximité.",
+        "de": "Feuert einen Pfeil magischer Energie auf einen Feind und fügt Schaden auf Distanz zu. Jedes Mal, wenn sie eine andere Fertigkeit benutzt, ist der nächste Pfeil <font color='{menu_highlight_white}'>verstärkt</font>. Wenn er verstärkt ist, <font color='{menu_highlight_white}'>ignoriert der Pfeil {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} der </font><font color='{def_yellow}'>VTG.</font> des Feindes </font> und zerbricht, wobei er {SkillCustomParameters.maxShatterCount} zusätzlichen Feinden in der Nähe des Ersten eine Teil des Schadens zufügt.",
+        "es": "Lanza una descarga de energía mágica a un enemigo que inflige daño a distancia. Cada vez que use otra habilidad, la siguiente descarga se <font color='{menu_highlight_white}'>potenciará</font> <font color='{menu_highlight_white}'>ignorando el {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} de la </font><font color='{def_yellow}'>DEF</font> del objetivo y dañando a {SkillCustomParameters.maxShatterCount} enemigos cercanos más."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

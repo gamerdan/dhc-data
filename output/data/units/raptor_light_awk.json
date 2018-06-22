@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "raptor_lightning",
+      "name": {
+        "en": "Rending Bolt",
+        "fr": "Éclair déchirant",
+        "de": "Zerfleischender Pfeil",
+        "es": "Rayo Desgarrador"
+      },
+      "description": {
+        "en": "Conjures a bolt of lightning to strike a target location. Damages enemies and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Invoque la foudre en un point précis de façon à infliger des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> aux ennemis.",
+        "de": "Beschwört einen Blitzpfeil, um einen anvisierten Ort zu treffen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGER VTG.</font>",
+        "es": "Invoca un rayo que impacta sobre la ubicación elegida. Inflige daño a los enemigos y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "raptor_tornado",
+      "name": {
+        "en": "Tornado",
+        "fr": "Tornade",
+        "de": "Tornado",
+        "es": "Tornado"
+      },
+      "description": {
+        "en": "Summons a tornado and sends it forward. Damages and pushes back all enemies along its path.",
+        "fr": "Invoque une tornade et la fait avancer pour infliger des dégâts et repousser tous les ennemis sur sa trajectoire.",
+        "de": "Ruft einen Tornado herbei und sendet ihn los. Fügt Schaden zu und drängt alle Feinde auf seinem Weg zurück.",
+        "es": "Invoca un tornado y lo envía hacia delante. Causa daño y empuja a todos los enemigos a su paso."
+      }
+    },
+    "ThirdSkill": {
+      "id": "raptor_thunderstorm",
+      "name": {
+        "en": "Thunderstorm",
+        "fr": "Tempête",
+        "de": "Donnerwetter",
+        "es": "Tormenta de Truenos"
+      },
+      "description": {
+        "en": "Imbues herself with the power of the storm. Periodically shocks nearby enemies. Each shock deals damage and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "S'imprègne du pouvoir de la tempête. Envoie périodiquement des chocs qui infligent des dégâts et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis à proximité.",
+        "de": "Erfüllt sich selbst mit der Macht des Sturms. Verpasst Feinden in Reichweite regelmäßig Stöße. Jeder Stoß fügt Schaden zu und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Se imbuye con el poder de la tormenta. Cada cierto tiempo, electrocuta a los enemigos cercanos. Cada electrocución causa daño y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "raptor_zap",
+      "name": {
+        "en": "Zap",
+        "fr": "Électrocution",
+        "de": "Schwung",
+        "es": "Electrocutar"
+      },
+      "description": {
+        "en": "Shoots lightning at an enemy from a distance. Every third attack bounces, hitting a maximum of {SkillCustomParameters.MaxBounceCount} enemies.",
+        "fr": "Lance un éclair sur un ennemi. Celui-ci ricoche sur un maximum de {SkillCustomParameters.MaxBounceCount} ennemis, toutes les trois attaques.",
+        "de": "Feuert einen Blitz auf einen Feind aus der Entfernung. Jeder dritte Angriff hüpft weiter und trifft maximal {SkillCustomParameters.MaxBounceCount} Feinde.",
+        "es": "Dispara rayos a un enemigo a distancia. Cada tercer ataque rebota y golpea a un máximo de {SkillCustomParameters.MaxBounceCount} enemigos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

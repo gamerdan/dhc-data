@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "timekeeper_timeInversion",
+      "name": {
+        "en": "Time Inversion",
+        "fr": "Inversion temporelle",
+        "de": "Zeitumkehrung",
+        "es": "Regresión Temporal"
+      },
+      "description": {
+        "en": "Cuts time itself, creating mirror images of the slash. Deals damage to each enemy struck and then rewinds, healing each ally on the way back.",
+        "fr": "Découpe le temps lui-même pour créer des itérations de cette entaille. Inflige des dégâts à chaque ennemi touché, puis fait marche arrière pour soigner chaque allié sur le chemin du retour.",
+        "de": "Schneidet Zeit ab und erstellt Spiegelbilder der Hiebe. Fügt getroffenen Feinden Schaden zu und Kehrt dann zurück, um alle Verbündeten auf dem Rückweg zu heilen.",
+        "es": "Corta el propio tiempo creando imágenes gemelas. Daña a cada enemigo golpeado y entonces retrocede en el tiempo para curar a cada aliado."
+      }
+    },
+    "SecondSkill": {
+      "id": "timekeeper_reverberatingStrike",
+      "name": {
+        "en": "Reverberating Strike",
+        "fr": "Attaque retentissante",
+        "de": "Zurückstrahlender Stoß",
+        "es": "Golpe Resonante"
+      },
+      "description": {
+        "en": "Summons a sword that slams down on a target enemy after a delay. Deals damage and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> on enemies near the target.",
+        "fr": "Invoque une épée qui s'abat sur l'ennemi après un laps de temps. Inflige des dégâts et <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> aux ennemis à proximité de la cible.",
+        "de": "Ruft ein Schwert herbei, das nach einer Verzögerung auf ein feindliches Ziel einschlägt. Fügt Feinden in der Nähe des Ziels Schaden und <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font> zu.",
+        "es": "Invoca una espada que derriba a un enemigo tras un breve periodo de tiempo. Daña e inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> a los enemigos cercanos al objetivo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "timekeeper_temporalDisruption",
+      "name": {
+        "en": "Temporal Disruption",
+        "fr": "Perturbation temporelle",
+        "de": "Temporärer Zusammenbruch",
+        "es": "Perturbación Temporal"
+      },
+      "description": {
+        "en": "Hurls a magical hourglass at target location. When it shatters, it deals damage, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>, and inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font>.",
+        "fr": "Lance un sablier magique qui se brise à l'impact et inflige des dégâts, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> et <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font>.",
+        "de": "Schleudert eine magische Sanduhr auf ein Zielgebiet. Wenn sie zerspringt, fügt sie Schaden zu, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font> und fügt <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu.",
+        "es": "Lanza un reloj de arena a una zona. Al romperse, inflige daño, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font> y causa <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "timekeeper_temporalFlux",
+      "name": {
+        "en": "Temporal Flux",
+        "fr": "Flux temporel",
+        "de": "Temporäre Strömung",
+        "es": "Flujo Temporal"
+      },
+      "description": {
+        "en": "Attacks an enemy from a distance. Every {SkillTimer.StartValue} seconds, this skill becomes <font color='{menu_highlight_white}'>Empowered</font>. When Empowered, <font color='{menu_highlight_white}'>lowers skill cooldowns</font> of nearby allies by {SkillCooldownModifier.CooldownTimeToAddInSeconds} second(s).",
+        "fr": "Attaque un ennemi à distance. Toutes les {SkillTimer.StartValue} secondes, cette compétence est <font color='{menu_highlight_white}'>renforcée</font>, ce qui <font color='{menu_highlight_white}'>réduit le rechargement des compétences</font> de {SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s) pour les alliés à proximité.",
+        "de": "Greift einen Feind aus der Entfernung an. Alle {SkillTimer.StartValue} Sekunden wird diese Fertigkeit <font color='{menu_highlight_white}'>verstärkt</font>. Während sie verstärkt ist, werden die <font color='{menu_highlight_white}'>Fertigkeiten-Abklingzeiten</font> von Verbündeten in der Nähe um {SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunde(n) verringert.",
+        "es": "Ataca a un enemigo a distancia. La habilidad se <font color='{menu_highlight_white}'>potencia</font> cada {SkillTimer.StartValue}&nbsp;s. Cuando está potenciada, <font color='{menu_highlight_white}'>reduce los tiempos de recuperación de habilidades</font> de los aliados cercanos {SkillCooldownModifier.CooldownTimeToAddInSeconds}&nbsp;s."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

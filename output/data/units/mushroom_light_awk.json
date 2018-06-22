@@ -193,6 +193,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mushroom_sporeCloud",
+      "name": {
+        "en": "Spore Cloud",
+        "fr": "Nuage de spores",
+        "de": "Sporenwolke",
+        "es": "Nube de Esporas"
+      },
+      "description": {
+        "en": "Emits a cloud of spores. Damages nearby enemies with a chance to <font color='{debuff_red}'>{icon.blind}&nbsp;BLIND</font>.",
+        "fr": "Libère un nuage de spores qui inflige des dégâts pouvant causer <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> aux ennemis à proximité.",
+        "de": "Stößt eine Sporenwolke aus. Fügt Feinden Schaden zu mit einer Chance auf <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDEN</font>.",
+        "es": "Despide una nube de esporas. Daña a los enemigos cercanos y tiene probabilidad de <font color='{debuff_red}'>{icon.blind}&nbsp;CEGAR</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mushroom_headbutt",
+      "name": {
+        "en": "Headbutt",
+        "fr": "Coup de tête",
+        "de": "Kopfstoß",
+        "es": "Cabezazo"
+      },
+      "description": {
+        "en": "Headbutts an enemy, damaging it.",
+        "fr": "Donne un coup de tête à un ennemi et lui inflige des dégâts.",
+        "de": "Gibt einem Feind einen Kopfstoß und fügt ihm Schaden zu.",
+        "es": "Propina un cabezazo a un enemigo y le inflige daño."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

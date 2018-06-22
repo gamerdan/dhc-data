@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "engineer_clusterBomb",
+      "name": {
+        "en": "TNT Barrel",
+        "fr": "Tonneau de dynamite",
+        "de": "Fass TNT",
+        "es": "Barril de TNT"
+      },
+      "description": {
+        "en": "Throws a barrel of TNT at target point. Damages enemies in the area and flings smaller explosive charges outward from the impact point, dealing damage to enemies caught in the secondary explosions.",
+        "fr": "Lance un tonneau de dynamite. Inflige des dégâts aux ennemis dans la zone et lance des petites charges explosives vers l'extérieur depuis le point d'impact, infligeant des dégâts aux ennemis pris dans les explosions secondaires.",
+        "de": "Wirft ein Fass TNT auf den Zielpunkt. Fügt Feinden in dem Gebiet Schaden zu und schleudert kleinere Sprengladungen nach außen und fügt den Feinden, die von den Sekundärexplosionen getroffen werden, Schaden zu.",
+        "es": "Lanza un barril de TNT a un punto. Daña a los enemigos que haya en esa zona y expulsa pequeñas cargas explosivas secundarias que dañan a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "engineer_chainReaction",
+      "name": {
+        "en": "Chain Reaction",
+        "fr": "Réaction en chaîne",
+        "de": "Kettenreaktion",
+        "es": "Reacción en cadena"
+      },
+      "description": {
+        "en": "Fires a bouncing bomb at target enemy. The bomb will explode, damaging enemies in a small area before bouncing to another enemy in range. Can bounce up to {SkillCustomParameters.maxBounce} times, each explosion affecting a wider area than the last.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance une bombe sauteuse sur un ennemi. La bombe explose, infligeant des dégâts aux ennemis dans une petite zone avant de sauter vers un autre ennemi à portée. Peut sauter jusqu'à {SkillCustomParameters.maxBounce} fois, chaque explosion affectant une zone plus large que la précédente.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Feuert eine springende Bombe auf das feindliche Ziel ab. Die Bombe explodiert und fügt Feinden in einem kleinen Gebiet Schaden zu, bevor sie zu einem anderen Feind in Reichweite springt. Kann bis zu {SkillCustomParameters.maxBounce}-mal springen, wobei jede Explosion ein größeres Gebiet, als das letzte, betrifft.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Dispara una bomba saltarina a un enemigo. Cuando explote, dañará a los enemigos cercanos y saltará hacia otro enemigo a su alcance. Puede saltar hasta {SkillCustomParameters.maxBounce} veces y cada explosión afectará una zona mayor que la anterior.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "engineer_bomblingWalk",
+      "name": {
+        "en": "Boomling Brigade",
+        "fr": "Brigade de Bombines",
+        "de": "Bummling-Brigade",
+        "es": "Brigada de centinelas"
+      },
+      "description": {
+        "en": "Unleash 5 Boomlings in an arc. Each will walk forward, exploding on contact with any enemy. This explosion damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies.<br>This skill has an increased chance to crit based on the number of debuffs on each affected target.",
+        "fr": "Libère 5 Bombines en arc. Chacune marche tout droit et explose au contact de l'ennemi. Cette explosion inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font>.<br>Cette compétence augmente les chances d'infliger des dégâts critiques basés sur le nombre de debuffs sur chaque cible.",
+        "de": "Entfesselt 5 Bummlinge in einem Bogen. Jeder wird vorwärts streben und beim Kontakt mit einem Feind explodieren. Diese Explosion fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> die Feinde in der Nähe.<br>Diese Fertigkeit hat erhöhte Chancen, einen kritischen Treffer zu landen, basierend auf der Anzahl der Schwächungszauber auf dem Ziel.",
+        "es": "Libera 5 centinelas que avanzarán y explotarán al entrar en contacto con cualquier enemigo. La explosión daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos.<br>Esta habilidad tiene una probabilidad mayor de causar daño crítico en función del número de efectos negativos de cada objetivo"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "engineer_boomshot",
+      "name": {
+        "en": "Bomb Shot",
+        "fr": "Tir de bombe",
+        "de": "Bombenabschuss",
+        "es": "¡Bomba!"
+      },
+      "description": {
+        "en": "Launches a bomb at target enemy from a distance. The bomb explodes on contact, damaging enemies near the primary target.",
+        "fr": "Lance une bombe sur l'ennemi. La bombe explose à son contact, infligeant des dégâts aux ennemis proches de la cible.",
+        "de": "Feuert eine Bombe auf das feindliche Ziel aus der Entfernung ab. Die Bombe explodiert bei Kontakt und fügt Feinden in der Nähe des primären Ziels Schaden zu.",
+        "es": "Lanza un bomba a un enemigo desde lejos. La bomba explotará al contacto dañando a los enemigos cercanos al objetivo primario."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

@@ -192,6 +192,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "beetle_corrosiveBarrage",
+      "name": {
+        "en": "Corrosive Barrage",
+        "fr": "Barrage corrosif",
+        "de": "Ätzende Barriere",
+        "es": "Torrente Corrosivo"
+      },
+      "description": {
+        "en": "Spits three globs of corrosive bile in a line. Each deals damage to the first enemy struck and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Crache trois perles de bile corrosive. Chacune inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> au premier ennemi touché sur la ligne d'effet.",
+        "de": "Speit drei Klumpen ätzenden Speichels in einer Reihe. Jeder fügt dem ersten getroffenen Feind Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Escupe tres pegotes de bilis corrosiva en línea recta. Cada uno daña al primer enemigo que golpee y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "beetle_acidSpit",
+      "name": {
+        "en": "Acid Spit",
+        "fr": "Crachat acide",
+        "de": "Säurespucker",
+        "es": "Flema Ácida"
+      },
+      "description": {
+        "en": "Squirts digestive acid at an enemy to damage it from a distance.",
+        "fr": "Projette de l'acide digestif sur un ennemi pour lui infliger des dégâts à distance.",
+        "de": "Spritzt zersetzende Säure auf einen Feind, um ihm aus der Ferne Schaden zuzufügen.",
+        "es": "Escupe ácido digestivo a un enemigo y le inflige daño a distancia."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

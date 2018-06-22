@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "imp_hoppingBlaze",
+      "name": {
+        "en": "Bouncing Blaze",
+        "fr": "Flambée bondissante",
+        "de": "Hüpfendes Feuer",
+        "es": "Fuego Saltarín"
+      },
+      "description": {
+        "en": "Throws a bouncing ball of fire. Each bounce damages enemies in a small area, with a chance to <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWER ATK</font>.",
+        "fr": "Lance une boule de feu rebondissante dont chaque rebond inflige des dégâts pouvant causer <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis dans une petite zone.",
+        "de": "Wirft einen hüpfenden Feuerball. Jeder Aufprall fügt den Feinden in einem kleinen Bereich Schaden zu, mit einer Chance, dass er <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ANG. VERRINGERT</font>.",
+        "es": "Lanza una bola de fuego que cada vez que rebota daña a los enemigos en una pequeña zona. Tiene probabilidad de <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCIR ATQ</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "imp_fieryForce",
+      "name": {
+        "en": "Burning Plow",
+        "fr": "Charrue brûlante",
+        "de": "Brennender Pflug",
+        "es": "Paso Ardiente"
+      },
+      "description": {
+        "en": "Conjures a fiery ram that flies in a direction, damaging and knocking back enemies. If affected by <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ATK SPD UP</font> when this skill is used, the cooldown of this skill is lowered instantly.",
+        "fr": "Fait apparaître un bélier ailé ardent qui repousse les ennemis et leur inflige des dégâts. Si <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font> est actif lorsque cette compétence est utilisée, alors son rechargement est réduit instantanément.",
+        "de": "Beschwört einen feurigen Rammstoß in eine Richtung, fügt Schaden zu und wirft die Feinde zurück. Wenn er durch <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ANG.-TMP. ERHÖHT</font> beeinflusst wird, verringert sich die Abklingzeit dieser Fertigkeit sofort.",
+        "es": "Invoca un ariete ardiente que derriba y daña a los enemigos. Si cuando la habilidad se activa, la <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VEL ATQ ESTÁ AUMENTADA</font>, el tiempo de recuperación de esta habilidad se reduce de forma instantánea."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "imp_mischievousFlame",
+      "name": {
+        "en": "Ember Hurl",
+        "fr": "Jet de braises",
+        "de": "Glutschleuder",
+        "es": "Brasas"
+      },
+      "description": {
+        "en": "Attacks an enemy from a medium distance. Every fourth attack <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font>.",
+        "fr": "Attaque un ennemi à moyenne distance. Toutes les quatre attaques, gagne <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font>.",
+        "de": "Greift einen Feind aus einer mittleren Distanz an. Jeder vierte Angriff <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font>",
+        "es": "Ataca a un enemigo a distancia. Cada cuarto ataque <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "timekeeper_echoBlade",
+      "name": {
+        "en": "Echo Blade",
+        "fr": "Lame résonnante",
+        "de": "Echoklingen",
+        "es": "Espada de Ecos"
+      },
+      "description": {
+        "en": "Deals damage and <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;LOWERS ATK SPD</font> of enemies. Heals and <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font> of allies.",
+        "fr": "Inflige des dégâts et <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;VIT ATT-</font> aux ennemis. Soigne les alliés et leur octroie <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font>.",
+        "de": "Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;VERRINGERT ANG.-TMP.</font> Heilt und <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> von Verbündeten.",
+        "es": "Daña y <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;REDUCE VEL ATQ</font> a los enemigos. Cura y <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font> a los aliados."
+      }
+    },
+    "SecondSkill": {
+      "id": "timekeeper_rippleBomb",
+      "name": {
+        "en": "Ripple Bomb",
+        "fr": "Bombe ondulatoire",
+        "de": "Wellenbombe",
+        "es": "Bomba expansiva"
+      },
+      "description": {
+        "en": "Summons a sword that slams down on a target enemy after a delay. Deals damage and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies near the target.",
+        "fr": "Invoque une épée qui s'abat sur l'ennemi après un laps de temps. Inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis à proximité de la cible.",
+        "de": "Ruft ein Schwert herbei, das nach einer Verzögerung auf ein feindliches Ziel einschlägt. Fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> Feinde in der Nähe des Ziels.",
+        "es": "Invoca una espada que derriba a un enemigo tras un breve periodo de tiempo. Daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos cercanos al objetivo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "timekeeper_temporalVoid",
+      "name": {
+        "en": "Temporal Void",
+        "fr": "Vide temporel",
+        "de": "Temporäre Leere",
+        "es": "Vacío Temporal"
+      },
+      "description": {
+        "en": "Hurls a magical hourglass at target location. When it shatters, it damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> enemies.",
+        "fr": "Lance un sablier magique qui se brise à l'impact et inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis.",
+        "de": "Schleudert eine magische Sanduhr auf ein Zielgebiet. Wenn sie zerbricht, fügt sie Feinden Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Lanza un reloj de arena a una zona. Al romperse, daña y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "timekeeper_temporalFlux",
+      "name": {
+        "en": "Temporal Flux",
+        "fr": "Flux temporel",
+        "de": "Temporäre Strömung",
+        "es": "Flujo Temporal"
+      },
+      "description": {
+        "en": "Attacks an enemy from a distance. Every {SkillTimer.StartValue} seconds, this skill becomes <font color='{menu_highlight_white}'>Empowered</font>. When Empowered, <font color='{menu_highlight_white}'>lowers skill cooldowns</font> of nearby allies by {SkillCooldownModifier.CooldownTimeToAddInSeconds} second(s).",
+        "fr": "Attaque un ennemi à distance. Toutes les {SkillTimer.StartValue} secondes, cette compétence est <font color='{menu_highlight_white}'>renforcée</font>, ce qui <font color='{menu_highlight_white}'>réduit le rechargement des compétences</font> de {SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s) pour les alliés à proximité.",
+        "de": "Greift einen Feind aus der Entfernung an. Alle {SkillTimer.StartValue} Sekunden wird diese Fertigkeit <font color='{menu_highlight_white}'>verstärkt</font>. Während sie verstärkt ist, werden die <font color='{menu_highlight_white}'>Fertigkeiten-Abklingzeiten</font> von Verbündeten in der Nähe um {SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunde(n) verringert.",
+        "es": "Ataca a un enemigo a distancia. La habilidad se <font color='{menu_highlight_white}'>potencia</font> cada {SkillTimer.StartValue}&nbsp;s. Cuando está potenciada, <font color='{menu_highlight_white}'>reduce los tiempos de recuperación de habilidades</font> de los aliados cercanos {SkillCooldownModifier.CooldownTimeToAddInSeconds}&nbsp;s."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

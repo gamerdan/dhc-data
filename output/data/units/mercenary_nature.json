@@ -218,6 +218,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mercenary_hamstring",
+      "name": {
+        "en": "Boomerang Shield",
+        "fr": "Bouclier boomerang",
+        "de": "Bumerangschild",
+        "es": "Escudo Bumerán"
+      },
+      "description": {
+        "en": "Throws shield in an arc. Damages and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font> on enemies. If her HP% is low when she uses this skill, its cooldown is lowered.",
+        "fr": "Lance son bouclier en arc de cercle pour infliger des dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> aux ennemis. La compétence voit son rechargement diminuer si elle est utilisée alors que les HP sont bas.",
+        "de": "Wirft einen Schild in einem Bogen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT IHRE BONI</font>. Wenn ihre GP% niedrig sind, wenn sie diese Fertigkeit benutzt, wird die Abklingzeit reduziert.",
+        "es": "Lanza el escudo en un arco. Daña y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA LOS EFECTOS POSITIVOS</font> de los enemigos. Si su porcentaje de PV es bajo cuando use esta habilidad, su tiempo de recuperación se verá reducido."
+      }
+    },
+    "SecondSkill": {
+      "id": "mercenary_shockwaveFist",
+      "name": {
+        "en": "Shockwave Fist",
+        "fr": "Poing de choc",
+        "de": "Schockwellenfaust",
+        "es": "Puño Sísmico"
+      },
+      "description": {
+        "en": "Creates a shockwave that deals damage and pushes back enemies in a cone.",
+        "fr": "Génère une onde de choc qui inflige des dégâts et repousse les ennemis dans le cône d'effet.",
+        "de": "Verursacht eine Schockwelle, die Schaden verursacht und Feinde in einem Kegel zurückdrängt.",
+        "es": "Crea una onda sísmica que causa daño y hace retroceder a los enemigos en un cono."
+      }
+    },
+    "ThirdSkill": {
+      "id": "mercenary_assault",
+      "name": {
+        "en": "Brash Assault",
+        "fr": "Assaut barbare",
+        "de": "Dreister Angriff",
+        "es": "Asalto Audaz"
+      },
+      "description": {
+        "en": "Jumps to a location, gaining the <font color='{buff_blue}'>{icon.reflect}&nbsp;DAMAGE REFLECTION</font> buff and dealing damage to enemies near the point of impact.",
+        "fr": "Bondit dans une direction choisie pour infliger des dégâts aux ennemis à proximité du point d'impact et gagne <font color='{buff_blue}'>{icon.reflect}&nbsp;MIROIR</font>.",
+        "de": "Springt an einen Ort, erhält den  <font color='{buff_blue}'>{icon.reflect}&nbsp;SCHADENSRÜCKWURF</font>-Bonus und fügt Feinden in der Nähe des Aufschlagpunktes Schaden zu.",
+        "es": "Salta a una ubicación, consigue <font color='{buff_blue}'>{icon.reflect}&nbsp;REFLEJO DE DAÑO</font> y causa daño a los enemigos que están cerca del punto de impacto."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mercenary_slash",
+      "name": {
+        "en": "Slash",
+        "fr": "Taillade",
+        "de": "Schlitz",
+        "es": "Rajar"
+      },
+      "description": {
+        "en": "Attacks enemies with her sword. Each attack reduces the amount of damage received from the next damaging effect by {%SkillCustomParameters.damageReductionRatioPerAttack}, up to {%SkillCustomParameters.maxDamageReductionRatio}.",
+        "fr": "Attaque les ennemis avec son épée. Chaque attaque réduit les dégâts reçus du prochain effet infligeant des dégâts de {%SkillCustomParameters.damageReductionRatioPerAttack} jusqu'à {%SkillCustomParameters.maxDamageReductionRatio}.\t",
+        "de": "Greift Feinde mit ihrem Schwert an. Jeder Angriff verringert den Schaden, der durch den nächsten Schadenseffekt erlitten wird, um {%SkillCustomParameters.damageReductionRatioPerAttack}, bis zu {%SkillCustomParameters.maxDamageReductionRatio}.",
+        "es": "Ataca a los enemigos con su espada. Cada ataque reduce la cantidad de daño recibido del siguiente efecto un {%SkillCustomParameters.damageReductionRatioPerAttack} hasta un máximo de {%SkillCustomParameters.maxDamageReductionRatio}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

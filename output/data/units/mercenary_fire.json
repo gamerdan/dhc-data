@@ -218,6 +218,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mercenary_mockingSlash",
+      "name": {
+        "en": "Shield Throw",
+        "fr": "Lancer de bouclier",
+        "de": "Schildwurf",
+        "es": "Lanzamiento de Escudo"
+      },
+      "description": {
+        "en": "Throws shield in an arc. Damages and <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> enemies. If her HP% is low when she uses this skill, its cooldown is lowered.",
+        "fr": "Lance son bouclier en arc de cercle. Inflige des dégâts et <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> aux ennemis. La compétence voit son temps de rechargement diminuer si elle est utilisée alors que les HP sont bas.",
+        "de": "Wirft einen Schild in einem Bogen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> sie. Wenn ihre GP% während der Nutzung dieser Fähigkeit niedrig sind, wird seine Abklingzeit reduziert.",
+        "es": "Lanza el escudo en un arco. Daña y <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> a los enemigos. Si su porcentaje de PV es bajo cuando use esta habilidad, su tiempo de recuperación se verá reducido."
+      }
+    },
+    "SecondSkill": {
+      "id": "mercenary_uppercutRush",
+      "name": {
+        "en": "Uppercut Rush",
+        "fr": "Uppercut vif",
+        "de": "Kinnhakensturm",
+        "es": "Esprint Gancho"
+      },
+      "description": {
+        "en": "Dashes in a direction until hitting an enemy and then uppercuts. Damages enemies, knocks them into the air, and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Se précipite violemment dans une direction jusqu'à percuter un ennemi, puis exécute un uppercut. Cause des dégâts aux ennemis, les projette dans les airs et leur inflige <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Sprintet in eine Richtung, bis sie einen Feind trifft und teilt dann einen Kinnhaken aus. Fügt Feinden Schaden zu, schlägt sie in die Luft und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Esprinta en una dirección hasta golpear a un enemigo y propinarle un gancho. Daña a los enemigos, los lanza por los aires y los <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "mercenary_cullingBlow",
+      "name": {
+        "en": "Culling Blow",
+        "fr": "Abattage",
+        "de": "Gesammelter Schlag",
+        "es": "Golpe de Sacrificio"
+      },
+      "description": {
+        "en": "Delivers an inescapable blow to target enemy and all enemies near it. Killing an enemy with any skill lowers the cooldown of this skill.<br><font color='{menu_highlight_white}'>Bonus damage based on each enemy's missing HP.</font>",
+        "fr": "Assène un coup imparable à l'ennemi et à tous ceux à proximité. Tuer un ennemi avec n'importe quelle compétence diminue son rechargement.<br><font color='{menu_highlight_white}'>Inflige des dégâts supplémentaires basés sur les HP manquants de l'ennemi.</font>",
+        "de": "Gibt dem feindlichen Ziel und allen Feinden in der Nähe einen unausweichlichen Schlag. Wenn ein Feind mit einer beliebigen Fertigkeit getötet wird, wird die Abklingzeit dieser Fertigkeit reduziert. <br><font color='{menu_highlight_white}'>Bonus-Schaden, basierend auf den fehlenden GP jedes Feindes.</font>",
+        "es": "Inflige un golpe inevitable al objetivo y a los enemigos cercanos a él. Matar a una enemigo con cualquier habilidad reduce el tiempo de recuperación de esta habilidad.<br><font color='{menu_highlight_white}'>El daño adicional depende de los PV restantes del enemigo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mercenary_slash",
+      "name": {
+        "en": "Slash",
+        "fr": "Taillade",
+        "de": "Schlitz",
+        "es": "Rajar"
+      },
+      "description": {
+        "en": "Attacks enemies with her sword. Each attack reduces the amount of damage received from the next damaging effect by {%SkillCustomParameters.damageReductionRatioPerAttack}, up to {%SkillCustomParameters.maxDamageReductionRatio}.",
+        "fr": "Attaque les ennemis avec son épée. Chaque attaque réduit les dégâts reçus du prochain effet infligeant des dégâts de {%SkillCustomParameters.damageReductionRatioPerAttack} jusqu'à {%SkillCustomParameters.maxDamageReductionRatio}.\t",
+        "de": "Greift Feinde mit ihrem Schwert an. Jeder Angriff verringert den Schaden, der durch den nächsten Schadenseffekt erlitten wird, um {%SkillCustomParameters.damageReductionRatioPerAttack}, bis zu {%SkillCustomParameters.maxDamageReductionRatio}.",
+        "es": "Ataca a los enemigos con su espada. Cada ataque reduce la cantidad de daño recibido del siguiente efecto un {%SkillCustomParameters.damageReductionRatioPerAttack} hasta un máximo de {%SkillCustomParameters.maxDamageReductionRatio}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

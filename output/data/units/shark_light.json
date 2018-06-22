@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "shark_cuttingEdge",
+      "name": {
+        "en": "Mortal Edge",
+        "fr": "Tranchant mortel",
+        "de": "Tödliche Klinge",
+        "es": "Filo Mortal"
+      },
+      "description": {
+        "en": "<font color='{menu_highlight_white}'>Enhances</font> {AutoAttackSkill.name} for the next {SkillCustomParameters.maxBuffCombo} attacks. While Enhanced, it ignores a portion of the target's <font color='{def_yellow}'>DEF</font>. The last of these attacks inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font> on the primary target.",
+        "fr": "<font color='{menu_highlight_white}'>Sublime</font> {AutoAttackSkill.name} pour les {SkillCustomParameters.maxBuffCombo} prochaines attaques. Une fois sublimée, l'attaque ignore une partie de la <font color='{def_yellow}'>DÉFENSE</font> de la cible et le dernier coup lui inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font>.",
+        "de": "<font color='{menu_highlight_white}'>Verstärkt</font> {AutoAttackSkill.name} für die nächsten {SkillCustomParameters.maxBuffCombo} Angriffe. Während die Verstärkung aktiv ist, wird ein Teil der <font color='{def_yellow}'>VTG.</font> des Ziels übersehen. Der letzte dieser Angriffe fügt dem Hauptziel <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu.",
+        "es": "<font color='{menu_highlight_white}'>Fortalece</font> {AutoAttackSkill.name} los próximos {SkillCustomParameters.maxBuffCombo} ataques. Mientras esté fortalecida, ignorará parte de la <font color='{def_yellow}'>DEF</font> del objetivo. El último de estos ataques inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font> al objetivo principal."
+      }
+    },
+    "SecondSkill": {
+      "id": "shark_seekBlood",
+      "name": {
+        "en": "Bloodseeker Slash",
+        "fr": "Soif d'hémoglobine",
+        "de": "Blutsucher-Schlag",
+        "es": "Tajo Buscasangre"
+      },
+      "description": {
+        "en": "Slashes in a circle, dealing damage to nearby enemies. If any enemies struck are below {%SkillCustomParameters.healthRatioThreshold} HP, it <font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISES CRIT</font> and applies the <font color='{buff_blue}'>{icon.haste}&nbsp;HASTE</font> buff on self.",
+        "fr": "Frappe en cercle et inflige des dégâts aux ennemis à proximité. Si un ennemi touché possède moins de {%SkillCustomParameters.healthRatioThreshold} de ses HP, gagne <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font> et <font color='{buff_blue}'>{icon.haste}&nbsp;HÂTE</font>.",
+        "de": "Schwingt im Kreis herum und fügt Feinden in der Nähe Schaden zu. Wenn getroffene Feinde unter {%SkillCustomParameters.healthRatioThreshold} GP fallen, wird <font color='{buff_blue}'>{icon.raise_crit}&nbsp;KRIT. ERHÖHT</font> und der <font color='{buff_blue}'>{icon.haste}&nbsp;EILE</font>-Bonus wird angewandt.",
+        "es": "Raja a los enemigos cercanos en un círculo y les daña. Si alguno de los enemigos golpeados tiene menos de un {%SkillCustomParameters.healthRatioThreshold} de sus PV, <font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTA CRÍT</font> y aplica el efecto positivo <font color='{buff_blue}'>{icon.haste}&nbsp;RAPIDEZ</font> a sí mismo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "shark_dive",
+      "name": {
+        "en": "Dive Attack",
+        "fr": "Attaque plongeante",
+        "de": "Sturzangriff",
+        "es": "Ataque Subterráneo"
+      },
+      "description": {
+        "en": "Dives underground and emerges underneath target enemy. Deals massive damage to the target, knocks it into the air, and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Plonge dans le sol et émerge sous l'ennemi avant de le projeter dans les airs. Inflige de lourds dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Taucht unter die Erde ab und erscheint unter dem feindlichen Ziel. Fügt dem Ziel massiven Schaden zu, schlägt es in die Luft und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Se introduce bajo tierra y emerge junto al enemigo. Inflige un enorme daño al objetivo, lo lanza por los aires y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "shark_brutalStrike",
+      "name": {
+        "en": "Hungering Strike",
+        "fr": "Frappe affamée",
+        "de": "Hungerstreik",
+        "es": "Golpe Voraz"
+      },
+      "description": {
+        "en": "Slashes with bladed fins, dealing damage to enemies. If the primary target has less than {%SkillCustomParameters.healthRatioThreshold} HP, this <font color='{menu_highlight_white}'>lowers the cooldown of {FirstSkill.name}</font> by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Écorche les ennemis avec ses ailerons aiguisés comme des lames de rasoir. Si la cible principale a moins de {%SkillCustomParameters.healthRatioThreshold} de ses HP, le rechargement de {FirstSkill.name} <font color='{menu_highlight_white}'>diminue</font> de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Greift mit Klingen-Flossen an und fügt Feinden Schaden zu. Wenn das feindliche Ziel weniger als {%SkillCustomParameters.healthRatioThreshold} GP besitzt, wird die <font color='{menu_highlight_white}'>Abklingzeit von {FirstSkill.name}</font> um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden reduziert.",
+        "es": "Ataca con sus afiladas aletas y daña a los enemigos. Si el objetivo principal tiene menos de {%SkillCustomParameters.healthRatioThreshold} PV, <font color='{menu_highlight_white}'>reduce el tiempo de recuperación de {FirstSkill.name}</font> {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

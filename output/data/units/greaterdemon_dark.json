@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "greaterdemon_drainEssence",
+      "name": {
+        "en": "Drain Essence",
+        "fr": "Ponction d'essence",
+        "de": "Entziehende Essenz",
+        "es": "Esencia de Drenaje"
+      },
+      "description": {
+        "en": "Opens the maw in his stomach, consuming the souls of his enemies to restore his own vitality. Damages enemies, <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>, and heals self for a portion of the damage dealt.",
+        "fr": "Ouvre la gueule de son ventre et dévore les âmes de ses ennemis pour restaurer sa propre vitalité. Inflige des dégâts et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis et se soigne en absorbant une partie des dégâts infligés.",
+        "de": "Öffnet den Schlund in seinem Bauch und konsumiert die Seelen seiner Feinde, um seine eigene Vitalität wiederherzustellen. Fügt Feinden Schaden zu, <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font> und heilt sich selbst um einen Teil des zugefügten Schadens.",
+        "es": "Abre las fauces de su estómago, consumiendo las almas de sus enemigos para restaurar su propia vida. Daña a los enemigos, <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font> y se cura una parte del daño infligido."
+      }
+    },
+    "SecondSkill": {
+      "id": "greaterdemon_dredge",
+      "name": {
+        "en": "Dredge",
+        "fr": "Hameçonnage",
+        "de": "Bagger",
+        "es": "Arrastrar"
+      },
+      "description": {
+        "en": "Pulls enemies towards him by dragging his hooked chain along the ground. The fewer the number of enemies caught, the farther they are pulled. Damages and <font color='{debuff_red}'>{icon.immobilize}&nbsp;IMMOBILIZES</font> affected enemies. <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> if an enemy is dragged into a wall.",
+        "fr": "Attire les ennemis à lui en traînant sa chaîne sur le sol. Moins il piège d'ennemis, plus ils sont traînés sur une grande distance. Inflige des dégâts et <font color='{debuff_red}'>{icon.immobilize}&nbsp;ENTRAVE</font> aux ennemis pris dans la chaîne. Inflige <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> à un ennemi s'il est traîné dans un mur.",
+        "de": "Zieht Feinde an sich, indem er seine Hakenkette auf dem Boden entlang zieht. Je weniger Feinde er fängt, desto weiter werden sie gezogen. Fügt getroffenen Feinden Schaden zu und macht sie <font color='{debuff_red}'>{icon.immobilize}&nbsp;BEWEGUNGSUNFÄHIG</font>. <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>, wenn ein Feind in eine Wand gezogen wird.",
+        "es": "Arrastra a los enemigos hacia sí mismo con su cadena. Cuantos menos enemigos atrape, más lejos los arrastrará. Daña y <font color='{debuff_red}'>{icon.immobilize}&nbsp;PARALIZA</font> a los enemigos afectados. <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> al enemigo si lo arrastra contra una pared."
+      }
+    },
+    "ThirdSkill": {
+      "id": "greaterdemon_novaSmash",
+      "name": {
+        "en": "Nova Smash",
+        "fr": "Choc de nova",
+        "de": "Novaschläger",
+        "es": "Golpe Nova"
+      },
+      "description": {
+        "en": "Smashes the ground. Damages and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font> enemies in a huge area.",
+        "fr": "Frappe le sol. Inflige des dégâts et <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> aux ennemis à proximité dans une vaste zone.",
+        "de": "Schlägt auf den Boden. Fügt Feinden in einem riesigen Gebiet Schaden zu und <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> sie.",
+        "es": "Golpea la tierra. Daña y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font> a los enemigos en una gran zona."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "greaterdemon_ballAndChain",
+      "name": {
+        "en": "Ball and Chain",
+        "fr": "Boulet et chaîne",
+        "de": "Kugel und Kette",
+        "es": "Bola y Cadena"
+      },
+      "description": {
+        "en": "Swings his ball and chain, attacking nearby enemies within a medium range. Periodically, this attack deals bonus damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Fait tournoyer son boulet et sa chaîne pour attaquer les ennemis à moyenne portée. Périodiquement, cette attaque inflige des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Schwingt seine Kugel und Kette und greift Feinde in mittlerer Reichweite an. Dieser Angriff fügt regelmäßig Bonus-Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>.",
+        "es": "Ataca con su bola y cadena, golpeando a los enemigos cercanos situados a medio alcance. Este ataque inflige daño adicional de manera periódica y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

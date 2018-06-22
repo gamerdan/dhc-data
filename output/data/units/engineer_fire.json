@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "engineer_concussionGrenade",
+      "name": {
+        "en": "Dynamite",
+        "fr": "Dynamite",
+        "de": "Dynamit",
+        "es": "Dinamita"
+      },
+      "description": {
+        "en": "Throws a dynamite stick at target point. Damages enemies and pushes them back from the center of the explosion. If the Engineer is caught in the explosion, it pushes him back without dealing damage.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance un bâton de dynamite. Inflige des dégâts aux ennemis et les repousse du centre de l'explosion. Si l'Ingénieur est pris dans l'explosion, il est repoussé sans subir de dégâts.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Wirft eine Dynamitstange auf den Zielpunkt. Fügt Feinden Schaden zu und schiebt sie vom Zentrum der Explosion zurück. Wenn der Ingenieur von der Explosion getroffen wird, stößt es ihn zurück, ohne dass Schaden verursacht wird.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Lanza un cartucho de dinamita a un punto. Daña a los enemigos y los empuja hacia atrás. Si el ingeniero se encuentra en la zona afectada por la explosión, será empujado hacia atrás sin recibir daño.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "engineer_bombling",
+      "name": {
+        "en": "Explosive Sentry",
+        "fr": "Sentinelle explosive",
+        "de": "Explosive Wache",
+        "es": "Centinela explosivo"
+      },
+      "description": {
+        "en": "Deploys a Boomling sentry at target point to watch out for enemies. If an enemy is detected, the Boomling will run towards it, exploding on contact. This explosion damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> nearby enemies.<br>This skill has increased chances to land a critical hit based on the number of debuffs on each target.",
+        "fr": "Déploie une Bombine pour surveiller l'ennemi. Si un ennemi est détecté, la Bombine court vers lui et explose à son contact. L'explosion inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis à proximité.<br>Cette compétence augmente les chances d'infliger un coup critique basé sur le nombre de debuffs de chaque cible.",
+        "de": "Stellt eine Bummling-Wache am Zielpunkt ab, um nach Feinden zu suchen. Wenn ein Feind entdeckt wird, rennt der Bummling auf ihn zu und explodiert bei Kontakt. Diese Explosion fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> die Feinde in der Nähe.<br>Diese Fertigkeit hat erhöhte Chancen, einen kritischen Treffer zu landen, basierend auf der Anzahl der Schwächungszauber auf dem Ziel.",
+        "es": "Despliega un centinela explosivo en un punto. Si detecta a un enemigo, el centinela correrá hacia él y explotará al entrar en contacto. La explosión daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos cercanos.<br>Esta habilidad tiene una probabilidad mayor de causar daño crítico en función del número de efectos negativos de cada objetivo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "engineer_transphasicBomb",
+      "name": {
+        "en": "Transphasic Bomb",
+        "fr": "Bombe transphasique",
+        "de": "Transphasische Bombe",
+        "es": "Bomba transfásica"
+      },
+      "description": {
+        "en": "Hurls a massive experimental explosive at target point. On impact, it explodes with unstable energy, damaging enemies in the blast area.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance un explosif expérimental massif. À l'impact, il explose avec une énergie instable, infligeant des dégâts aux ennemis dans la zone du souffle.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Schleudert einen massiven experimentellen Sprengstoff auf den Zielpunkt. Beim Aufprall explodiert instabile Energie und fügt Feinden im Explosionsbereich Schaden zu.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Arroja un enorme explosivo experimental a un punto. Tras el impacto, explota con energía inestable que daña a los enemigos en la zona de explosión.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "engineer_boomshot",
+      "name": {
+        "en": "Bomb Shot",
+        "fr": "Tir de bombe",
+        "de": "Bombenabschuss",
+        "es": "¡Bomba!"
+      },
+      "description": {
+        "en": "Launches a bomb at target enemy from a distance. The bomb explodes on contact, damaging enemies near the primary target.",
+        "fr": "Lance une bombe sur l'ennemi. La bombe explose à son contact, infligeant des dégâts aux ennemis proches de la cible.",
+        "de": "Feuert eine Bombe auf das feindliche Ziel aus der Entfernung ab. Die Bombe explodiert bei Kontakt und fügt Feinden in der Nähe des primären Ziels Schaden zu.",
+        "es": "Lanza un bomba a un enemigo desde lejos. La bomba explotará al contacto dañando a los enemigos cercanos al objetivo primario."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

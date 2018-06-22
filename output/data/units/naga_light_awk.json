@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "naga_inkCloud",
+      "name": {
+        "en": "Ink Cloud",
+        "fr": "Nuage d'encre",
+        "de": "Tintenwolke",
+        "es": "Nube de Tinta"
+      },
+      "description": {
+        "en": "Squirts ink at his enemies. Damages and <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font>.",
+        "fr": "Projette de l'encre sur ses ennemis et leur inflige des dégâts et <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font>.",
+        "de": "Spritzt Tinte auf seine Feinde. Fügt ihnen Schaden zu und <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRRT</font> sie.",
+        "es": "Lanza tinta a sus enemigos. Daña y <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "naga_rejuvenatingStream",
+      "name": {
+        "en": "Rejuvenating Stream",
+        "fr": "Flot rajeunissant",
+        "de": "Verjüngungsstrom",
+        "es": "Torrente Rejuvenecedor"
+      },
+      "description": {
+        "en": "Applies the <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font> buff to himself and nearby allies.",
+        "fr": "Octroie <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNÉRATION</font> aux alliés à proximité et à lui-même.",
+        "de": "Wirkt den <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERIERUNGS</font>-Bonus auf ihn selbst und Verbündete in Reichweite.",
+        "es": "Aplica <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font> a sí mismo y a sus aliados."
+      }
+    },
+    "ThirdSkill": {
+      "id": "naga_flood",
+      "name": {
+        "en": "Flood",
+        "fr": "Inondation",
+        "de": "Flut",
+        "es": "Inundación"
+      },
+      "description": {
+        "en": "Summons a mighty tidal wave in a direction. Damages enemies struck by the wave, <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font>, and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Invoque un puissant raz-de-marée dans une direction. Inflige des dégâts, <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis frappés par la vague.",
+        "de": "Ruft eine riesige Welle in eine Richtung herbei. Fügt getroffenen Feinden Schaden zu, <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Invoca un gran maremoto en una dirección. Daña, <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font> a los enemigos golpeados por el maremoto."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "naga_ebbAndFlow",
+      "name": {
+        "en": "Ebb and Flow",
+        "fr": "Flux et reflux",
+        "de": "Ebbe und Flut",
+        "es": "Marea y Corriente"
+      },
+      "description": {
+        "en": "Shoots a stream of water from his staff, attacking an enemy at a distance. Every fourth attack, if the Naga has any debuffs, <font color='{menu_highlight_white}'>transfers one debuff</font> at random to the target enemy.",
+        "fr": "Tire un jet d'eau avec son bâton et attaque les ennemis à distance. Si le Naga est affecté par des debuffs, il en <font color='{menu_highlight_white}'>transfère un</font> au hasard à l'ennemi toutes les quatre attaques.",
+        "de": "Schießt einen Wasserstrom aus seinem Stab und greift Feinde in der Ferne an. Wenn der Naga Schwächungszauber hat, wird bei jedem vierten Angriff auf das feindliche Ziel ein zufälliger <font color='{menu_highlight_white}'>Schwächungszauber übertragen</font>.",
+        "es": "Lanza un chorro de agua desde su bastón, atacando a distancia a un enemigo. Cada cuarto ataque, si el naga tiene algún efecto negativo, <font color='{menu_highlight_white}'>transfiere al enemigo un efecto negativo</font> al azar."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

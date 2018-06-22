@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "archangel_gloriousLeap",
+      "name": {
+        "en": "Glorious Leap",
+        "fr": "Saut glorieux",
+        "de": "Glorreicher Sprung",
+        "es": "Salto Glorioso"
+      },
+      "description": {
+        "en": "Jumps to a location, slamming the ground. Damages enemies and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Bondit dans une direction choisie et percute le sol violemment pour infliger des dégâts et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis.",
+        "de": "Springt an eine Stelle und schlägt auf den Boden. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Salta a una ubicación y golpea el suelo. Daña a los enemigos y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "archangel_aegis",
+      "name": {
+        "en": "Aegis",
+        "fr": "Égide",
+        "de": "Aegis",
+        "es": "Protección"
+      },
+      "description": {
+        "en": "Protects himself and nearby allies with a holy <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font>.",
+        "fr": "Un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> sacré le protège, lui et ses alliés à proximité.",
+        "de": "Schützt ihn selbst und Verbündete in der Nähe mit einer heiligen <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNG</font>.",
+        "es": "Se protege a sí mismo y a los aliados cercanos con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> sagrado."
+      }
+    },
+    "ThirdSkill": {
+      "id": "archangel_divineJudgement",
+      "name": {
+        "en": "Divine Judgment",
+        "fr": "Jugement divin",
+        "de": "Göttlicher Richtspruch",
+        "es": "Juicio Divino"
+      },
+      "description": {
+        "en": "Ascends to a higher state of being, gaining <font color='{buff_blue}'>{icon.haste}&nbsp;HASTE</font> and periodically emitting a pulse of light that deals damage and <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> enemies. For the duration, {AutoAttackSkill.name} heals nearby allies with every attack in addition to its other effects.",
+        "fr": "Se transcende, obtient <font color='{buff_blue}'>{icon.haste}&nbsp;HÂTE</font> et émet des pulsations de lumière qui infligent des dégâts et <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> aux ennemis. En parallèle, {AutoAttackSkill.name} soigne les alliés à proximité à chaque attaque, en plus d'octroyer ses autres effets.",
+        "de": "Steigt zu einer höheren Daseinsform auf, erhält <font color='{buff_blue}'>{icon.haste}&nbsp;EILE</font> und sendet regelmäßig einen Lichtimpuls aus, der Schaden zufügt und Feinde <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMEN</font> lässt. {AutoAttackSkill.name} heilt zusätzlich zu den anderen Effekten während der Wirkungsdauer mit jedem Angriff Verbündete in der Nähe.",
+        "es": "Asciende a un estado existencial superior, obteniendo <font color='{buff_blue}'>{icon.haste}&nbsp;RAPIDEZ</font> y emitiendo periódicamente un pulso de luz que daña y <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> a los enemigos. Mientras esté activa, además de sus otros efectos, {AutoAttackSkill.name} curará a los aliados cercanos con cada ataque."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "archangel_sacredSpear",
+      "name": {
+        "en": "Sacred Spear",
+        "fr": "Lance sacrée",
+        "de": "Heiliger Speer",
+        "es": "Lanza Sagrada"
+      },
+      "description": {
+        "en": "Attacks nearby enemies. Every eighth attack is <font color='{menu_highlight_white}'>Empowered</font>, causing it to <font color='{menu_highlight_white}'>remove all debuffs</font> from a single nearby ally.",
+        "fr": "Attaque les ennemis à proximité. Toutes les huit attaques, le dernier coup porté est <font color='{menu_highlight_white}'>renforcé</font>, <font color='{menu_highlight_white}'>supprimant tous les debuffs</font> d'un allié à proximité.",
+        "de": "Greift Feinde in der Nähe an. Jeder achte Angriff ist <font color='{menu_highlight_white}'>verstärkt</font>, wodurch <font color='{menu_highlight_white}'>alle Schwächungszauber</font> von einem einzelnen Verbündeten in der Nähe entfernt werden.",
+        "es": "Ataca a los enemigos cercanos. Cada octavo ataque se <font color='{menu_highlight_white}'>potencia</font>, haciendo que <font color='{menu_highlight_white}'>elimine todos los efectos negativos</font> de un aliado cercano."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

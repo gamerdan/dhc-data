@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "golem_inhale",
+      "name": {
+        "en": "Inhale",
+        "fr": "Inhalation",
+        "de": "Einatmen",
+        "es": "Inspirar"
+      },
+      "description": {
+        "en": "Inhales deeply, pulling in foes. Damages and <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> enemies. For a few seconds after inhaling, {SecondSkill.name} will be <font color='{menu_highlight_white}'>Empowered.</font>",
+        "fr": "Inspire une quantité d'air si phénoménale que les ennemis sont attirés vers lui. Inflige des dégâts aux ennemis et <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font>. Pendant quelques secondes après l'inhalation, {SecondSkill.name} sera <font color='{menu_highlight_white}'>renforcée</font>.",
+        "de": "Atmet tief ein und saugt dabei Feinde auf. Verletzt und <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> Feinde. {SecondSkill.name} ist für ein paar Sekunden nach dem Einatmen <font color='{menu_highlight_white}'>verstärkt</font>.",
+        "es": "Inspira profundamente, atrayendo a los enemigos. Daña y <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> a los enemigos. Después de inspirar, y durante unos segundos, {SecondSkill.name} se <font color='{menu_highlight_white}'>potenciará</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "golem_earthenBellow",
+      "name": {
+        "en": "Earthen Bellow",
+        "fr": "Mugissement tellurique",
+        "de": "Irdenes Gebrüll",
+        "es": "Bramido de Tierra"
+      },
+      "description": {
+        "en": "Exhales rocks violently. Damages enemies with a chance to <font color='{debuff_red}'>{icon.blind}&nbsp;BLIND</font>. This chance increases if <font color='{menu_highlight_white}'>Empowered</font> by {FirstSkill.name}.",
+        "fr": "Souffle des pierres avec violence pour infliger des dégâts pouvant causer <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> aux ennemis. Les chances augmentent si elle est <font color='{menu_highlight_white}'>renforcée</font> par {FirstSkill.name}.",
+        "de": "Atmet gewaltsam Felsen aus. Fügt Feinden Schaden zu mit einer Chance auf <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDEN</font>. Diese Chance erhöht sich, wenn <font color='{menu_highlight_white}'>verstärkt</font> durch {FirstSkill.name}.",
+        "es": "Expulsa rocas de manera violenta. Inflige daño con probabilidad de <font color='{debuff_red}'>{icon.blind}&nbsp;CEGAR</font> a los enemigos. Esta probabilidad aumenta si se <font color='{menu_highlight_white}'>potencia</font> con {FirstSkill.name}."
+      }
+    },
+    "ThirdSkill": {
+      "id": "golem_groundPound",
+      "name": {
+        "en": "Ground Pound",
+        "fr": "Martèlement du sol",
+        "de": "Bodenklopfer",
+        "es": "Sacudir la Tierra"
+      },
+      "description": {
+        "en": "Smashes the ground repeatedly while channeling, creating a massive earthquake. Periodically damages nearby enemies in a huge area. Deals increasing damage to enemies hit multiple times.",
+        "fr": "Martèle le sol en concentrant son énergie pour générer un énorme séisme, qui cause périodiquement des dégâts aux ennemis à proximité dans une vaste zone. Inflige des dégâts croissants aux ennemis touchés plusieurs fois.",
+        "de": "Schlägt mehrfach auf den Boden, während er kanalisiert und ein massives Erdbeben verursacht. Fügt Feinden in einem riesigen Gebiet in der Nähe regelmäßig Schaden zu. Fügt getroffenen Feinden mehrfach steigenden Schaden zu.",
+        "es": "Golpea la tierra repetidas veces mientras canaliza, creando un enorme terremoto. Inflige daño de manera periódica a los enemigos en una gran zona. Inflige daño adicional a los enemigos golpeados varias veces."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "golem_rockFist",
+      "name": {
+        "en": "Rock Fist",
+        "fr": "Poing de pierre",
+        "de": "Felsenfaust",
+        "es": "Puño Roca"
+      },
+      "description": {
+        "en": "Slams enemies with its fists, dealing damage. Deals bonus damage to targets that are Slowed, Immobilized, or Provoked.",
+        "fr": "Inflige des dégâts aux ennemis en les cognant avec ses poings. Cause des dégâts supplémentaires aux cibles affectées par Lenteur, Entrave ou Provocation.",
+        "de": "Schlägt Feinde mit seinen Fäusten und fügt Schaden zu. Fügt Feinden, die verlangsamt, bewegungsunfähig oder provoziert sind Bonus-Schaden zu.",
+        "es": "Golpea a los enemigos con sus puños y les daña. Inflige daño adicional a objetivos que estén ralentizados, paralizados o provocados."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

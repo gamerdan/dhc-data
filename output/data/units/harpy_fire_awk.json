@@ -200,6 +200,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "harpy_bitingFeather",
+      "name": {
+        "en": "Biting Feather",
+        "fr": "Plume mordante",
+        "de": "Beißende Feder",
+        "es": "Pluma Cortante"
+      },
+      "description": {
+        "en": "Hurls a homing feather at target enemy. On impact, deals damage and bounces to a new target. Hits up to {SkillCustomParameters.maxHitCount} total enemies and can hit the same target multiple times. <font color='{menu_highlight_white}'>Ignores {~%harpy_bitingFeather.C:C_IgnoreDefRatio} of enemy <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Lance une plume autoguidée en direction d'un ennemi. À l'impact, elle inflige des dégâts et rebondit vers une nouvelle cible. Touche jusqu'à {SkillCustomParameters.maxHitCount} ennemis au total et peut toucher la même cible plusieurs fois. <font color='{menu_highlight_white}'>Ignore {~%harpy_bitingFeather.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> ennemie.</font>",
+        "de": "Schleudert eine zielgerichtete Feder auf ein feindliches Ziel. Fügt beim Aufprall Schaden zu und springt auf ein neues Ziel. Trifft insgesamt bis zu {SkillCustomParameters.maxHitCount} Feinde und kann das gleiche Ziel mehrfach treffen. <font color='{menu_highlight_white}'>Ignoriert {~%harpy_bitingFeather.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.</font>",
+        "es": "Lanza una pluma teledirigida a un enemigo. Al impactar, inflige daño y rebota hacia otro objetivo. Golpea a un máximo de {SkillCustomParameters.maxHitCount} enemigos en total y puede golpear al mismo objetivo varias veces. <font color='{menu_highlight_white}'>Ignora el {~%harpy_bitingFeather.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> del enemigo.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "harpy_mend",
+      "name": {
+        "en": "Vivify",
+        "fr": "Vivification",
+        "de": "Beleben",
+        "es": "Vivificar"
+      },
+      "description": {
+        "en": "Fills herself and nearby allies with living magic. Heals each affected Champion and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font>.",
+        "fr": "Insuffle une magie vivante aux alliés à proximité et à elle-même. Soigne chaque champion blessé et octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font>.",
+        "de": "Erfüllt sich selbst und Verbündete in Reichweite mit Lebensmagie. Heilt alle betroffenen Champions und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font>",
+        "es": "Se infunde a sí misma y a sus aliados de magia de vida. Cura a todos los campeones afectados y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "harpy_razorQuill",
+      "name": {
+        "en": "Razor Quill",
+        "fr": "Rémige tranchante",
+        "de": "Messerkiel",
+        "es": "Pluma Afilada"
+      },
+      "description": {
+        "en": "Flings a feather at an enemy, damaging it from a distance. This has a chance to inflict <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font>.",
+        "fr": "Lance une plume sur un ennemi pour le blesser. Peut infliger <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font>.",
+        "de": "Feuert eine Feder auf einen Feind und fügt aus der Ferne Schaden zu. Hat eine Chance, <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu wirken.",
+        "es": "Lanza una pluma a un enemigo y le daña a distancia. Además tiene probabilidad de causar <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

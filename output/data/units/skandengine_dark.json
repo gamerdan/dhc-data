@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "SecondSkill": {
+      "id": "skandengine_terribleOnslaught",
+      "name": {
+        "en": "Terrible Onslaught",
+        "fr": "Charge terrible",
+        "de": "Furchtbarer Ansturm",
+        "es": "Arremetida Espantosa"
+      },
+      "description": {
+        "en": "Charges in a direction, damaging all enemies struck and pinning the first. When the charge ends, damages the pinned enemy and inflicts <font color='{debuff_red}'>{icon.fear}&nbsp;FEAR</font> on all nearby enemies. If a pinned enemy is slammed into a wall, it <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> the enemy.",
+        "fr": "Fonce droit devant pour infliger des dégâts à tous les ennemis, et cloue le premier sur place. À la fin de la charge, l'ennemi figé subit des dégâts et les autres reçoivent <font color='{debuff_red}'>{icon.fear}&nbsp;PEUR</font>. Si un ennemi figé est écrasé contre un mur, il subit <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Greift in einer Richtung an, fügt allen getroffenen Feinden Schaden zu und spießt den ersten auf. Wenn der Angriff endet, fügt er dem aufgespießten Feind Schaden zu und <font color='{debuff_red}'>{icon.fear}&nbsp;ERSCHRECKT</font> alle Feinde in der Nähe. Wenn ein aufgespießter Feind in eine Wand geschleudert wird, wird er <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>.",
+        "es": "Carga en una dirección dañando a los enemigos golpeados y fijando al primero. Tras la carga, daña al enemigo fijado e infunde <font color='{debuff_red}'>{icon.fear}&nbsp;MIEDO</font> a los enemigos cercanos. Si el enemigo fijado es golpeado contra una pared, lo <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "skandengine_infiniteGluttony",
+      "name": {
+        "en": "Infinite Gluttony",
+        "fr": "Fringale infinie",
+        "de": "Unendliche Völlerei",
+        "es": "Glotonería Infinita"
+      },
+      "description": {
+        "en": "Drains the essence of nearby enemies, damaging them and gaining one stack of <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font> for each affected enemy up to a maximum of {SkillCustomParameters.maxRegenBuff}.",
+        "fr": "Aspire l'essence des ennemis à proximité et leur inflige des dégâts. Gagne une application de <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNÉRATION</font> pour chaque ennemi affecté, pouvant être cumulée jusqu'à {SkillCustomParameters.maxRegenBuff}.",
+        "de": "Entzieht Feinden in der Nähe die Essenz und fügt ihnen Schaden zu. Jeder betroffene Feind bringt eine <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERIERUNG</font>-Anwendung bis zu max. {SkillCustomParameters.maxRegenBuff}.",
+        "es": "Drena la esencia de los enemigos cercanos y les daña, ganando una acumulación de <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font> por cada enemigo afectado hasta un máximo de {SkillCustomParameters.maxRegenBuff}."
+      }
+    },
+    "FirstSkill": {
+      "id": "skandengine_meatGrinder",
+      "name": {
+        "en": "Meat Grinder",
+        "fr": "Hachoir à viande",
+        "de": "Fleischwolf",
+        "es": "Picadora de Carne"
+      },
+      "description": {
+        "en": "Spins his saw around him. Damages nearby enemies and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font>. If an affected enemy already has the <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> debuff, it <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> in addition to its other effects.",
+        "fr": "Fait tournoyer sa scie autour de lui. Inflige des dégâts aux ennemis à proximité ainsi qu'<font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>. Si un ennemi touché est déjà affecté par <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>, il subit <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> en plus de ses autres effets.",
+        "de": "Kreist mit seiner Säge um sich herum. Fügt Feinden in der Nähe Schaden zu und wirkt <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font>. Wenn ein betroffener Feind bereits den Schwächungszauber <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font> hat, <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> er zusätzlich zu den anderen Effekten.",
+        "es": "Gira con su sierra, dañando a los enemigos cercanos e infligiendo <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>. Si un enemigo afectado ya tiene el efecto negativo <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>, también lo <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "skandengine_bloodlust",
+      "name": {
+        "en": "Bloodlust",
+        "fr": "Soif de sang",
+        "de": "Blutrausch",
+        "es": "Ansia de Sangre"
+      },
+      "description": {
+        "en": "Swings his saw arm, attacking nearby enemies. If the primary target has the <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> debuff, Skand Warlord gains the <font color='{buff_blue}'>{icon.haste}&nbsp;HASTE</font> buff and lowers the cooldown of {SecondSkill.name}.",
+        "fr": "Balance son bras-scie et attaque les ennemis à proximité. Si la cible principale est affectée par <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>, le Tyran skand gagne <font color='{buff_blue}'>{icon.haste}&nbsp;HÂTE</font> et le rechargement de {SecondSkill.name} diminue.",
+        "de": "Schwingt seinen Sägenarm und greift Feinde in der Nähe an. Wenn das feindliche Ziel den Schwächungszauber <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font> hat, erhält der Skand-Kriegsherr den <font color='{buff_blue}'>{icon.haste}&nbsp;EILE</font>-Bonus und die Abklingzeit von {SecondSkill.name} wird verringert.",
+        "es": "Ataca a los enemigos cercanos con su brazo sierra. Si el objetivo principal tiene el efecto negativo <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>, el señor de la guerra obtiene <font color='{buff_blue}'>{icon.haste}&nbsp;RAPIDEZ</font> y reduce el tiempo de recuperación de {SecondSkill.name}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

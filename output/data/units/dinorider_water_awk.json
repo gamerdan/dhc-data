@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "SecondSkill": {
+      "id": "dinorider_tranquilizingDart",
+      "name": {
+        "en": "Tranquilizing Dart",
+        "fr": "Fléchette tranquilisante",
+        "de": "Beruhigungspfeil",
+        "es": "Dardo Tranquilizante"
+      },
+      "description": {
+        "en": "Shoots a poisoned dart at a target enemy. Deals damage, <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font>, and <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;LOWERS ATK SPD</font>.",
+        "fr": "Tire une fléchette empoisonnée qui inflige des dégâts, <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> et <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;VIT ATT-</font> à l'ennemi.",
+        "de": "Feuert einen vergifteten Pfeil auf ein feindliches Ziel ab. Fügt Schaden zu, <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> und <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;VERRINGERT ANG.-TMP.</font>",
+        "es": "Dispara un dardo envenenado a un enemigo. Daña, <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> y <font color='{debuff_red}'>{icon.lower_atk_spd}&nbsp;REDUCE VEL ATQ</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "dinorider_fearfulRoar",
+      "name": {
+        "en": "Ferocious Roar",
+        "fr": "Rugissement féroce",
+        "de": "Wildes Brüllen",
+        "es": "Rugido Feroz"
+      },
+      "description": {
+        "en": "Unleashes a mighty roar in a wide cone. Damages and inflicts <font color='{debuff_red}'>{icon.fear}&nbsp;FEAR</font> on enemies.",
+        "fr": "Pousse un rugissement puissant qui inflige des dégâts ainsi que <font color='{debuff_red}'>{icon.fear}&nbsp;PEUR</font> aux ennemis situés dans le cône d'effet.",
+        "de": "Löst ein mächtiges Brüllen innerhalb eines breiten Kegels aus. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.fear}&nbsp;ERSCHRECKT</font> sie.",
+        "es": "Emite un poderoso rugido en un amplio cono. Daña e infunde <font color='{debuff_red}'>{icon.fear}&nbsp;MIEDO</font> a los enemigos."
+      }
+    },
+    "FirstSkill": {
+      "id": "dinorider_headbutt",
+      "name": {
+        "en": "Headbutt",
+        "fr": "Coup de tête",
+        "de": "Kopfstoß",
+        "es": "Cabezazo"
+      },
+      "description": {
+        "en": "A close-range headbutt from the dinosaur that damages target enemy and knocks it away, instantly resetting the cooldown of {SecondSkill.name}. Deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> when the enemy lands.",
+        "fr": "Le dinosaure donne un coup de tête qui inflige des dégâts à l'ennemi visé et le repousse. Recharge {SecondSkill.name} instantanément. Inflige des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> lorsque l'ennemi retombe.",
+        "de": "Ein Kopfstoß vom Dinosaurier aus der Nähe, der dem feindlichen Ziel Schaden zufügt, ihn wegschleudert und die Abklingzeit von {SecondSkill.name} sofort zurücksetzt. Fügt dem Feind bei der Landung zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> ihn.",
+        "es": "Un cabezazo a corta distancia del dinosaurio que daña al enemigo y lo empuja, reiniciando el tiempo de recuperación de {SecondSkill.name}. Inflige daño adicional y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> cuando el enemigo cae al suelo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "dinorider_blowgun",
+      "name": {
+        "en": "Blowgun/Chomp",
+        "fr": "Sarbacane/morsure",
+        "de": "Blasrohr/Mampfer",
+        "es": "Cerbatana y Mordisco"
+      },
+      "description": {
+        "en": "Shoots an enemy with his blowgun from a distance. If the enemy is close, the dinosaur bites it instead, <font color='{menu_highlight_white}'>ignoring {~%dinorider_blowgun_melee.C:C_IgnoreDefRatio} of the enemy's <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Tire sur un ennemi avec sa sarbacane. Si l'ennemi est proche, le dinosaure le mord à la place, <font color='{menu_highlight_white}'>en ignorant {~%dinorider_blowgun_melee.C:C_IgnoreDefRatio} de sa <font color='{def_yellow}'>DÉFENSE</font>.</font>",
+        "de": "Schießt mit seinem Blasrohr aus der Entfernung auf einen Feind. Wenn der Feind in der Nähe ist, beißt ihn der Dinosaurier stattdessen und <font color='{menu_highlight_white}'>ignoriert {~%dinorider_blowgun_melee.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.",
+        "es": "Dispara a distancia con su cerbatana a un enemigo. Si el enemigo está cerca, entonces morderá, <font color='{menu_highlight_white}'>ignorando el {~%dinorider_blowgun_melee.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> del enemigo."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

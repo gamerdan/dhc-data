@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "invoker_fallingStar",
+      "name": {
+        "en": "Falling Star",
+        "fr": "Étoile filante",
+        "de": "Sternschnuppe",
+        "es": "Lluvia de Estrellas"
+      },
+      "description": {
+        "en": "Summons a falling star to strike target area after a brief delay. Damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> enemies.",
+        "fr": "Invoque une étoile filante qui vient s'écraser sur une zone ciblée. Inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis.",
+        "de": "Ruft eine Sternschnuppe herbei, um das Zielgebiet nach kurzer Verzögerung zu treffen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Invoca una lluvia de estrellas que ataca la zona objetivo tras un breve periodo de tiempo. Daña y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "invoker_cosmicProtection",
+      "name": {
+        "en": "Cosmic Protection",
+        "fr": "Protection cosmique",
+        "de": "Kosmischer Schutz",
+        "es": "Protección Cósmica"
+      },
+      "description": {
+        "en": "Surrounds herself with cosmic energy, damaging nearby enemies as long as they are in the area of effect. This skill also <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font> of the caster and reduces all the damage taken from basic attacks by {~%SkillCustomParameters.reducedDamageRatio}.",
+        "fr": "S'entoure d'énergie cosmique qui inflige des dégâts aux ennemis à proximité tant qu'ils se trouvent dans la zone d'effet. Cette compétence octroie aussi <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font> au lanceur et réduit tous les dégâts reçus des attaques de base de {~%SkillCustomParameters.reducedDamageRatio}.",
+        "de": "Sie umgibt sich mit kosmischer Energie, fügt Feinden in ihrer Umgebung Schaden zu, solange sie sich im Wirkungsbereich befinden. Diese Fertigkeit <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> des Zauberwirkers und reduziert den Schaden, der durch gewöhnliche Angriffe erlitten wird, um {~%SkillCustomParameters.reducedDamageRatio}.",
+        "es": "Se rodea de energía cósmica y causa daño a los enemigos cercanos mientras estén en el área de efecto. Esta habilidad también <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font> de quien la usa y reduce el daño recibido de ataques básicos un {~%SkillCustomParameters.reducedDamageRatio}."
+      }
+    },
+    "ThirdSkill": {
+      "id": "invoker_meteorShower",
+      "name": {
+        "en": "Meteor Rain",
+        "fr": "Pluie de météorite",
+        "de": "Meteorregen",
+        "es": "Lluvia de Meteoritos"
+      },
+      "description": {
+        "en": "Summons a rain of meteors at target location, damaging enemies as long as they remain in the area. <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font> of enemies that remain in the area too long.",
+        "fr": "Invoque une pluie de météorites qui inflige des dégâts aux ennemis tant qu'ils sont dans la zone d'effet. Inflige <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> à ceux qui y restent trop longtemps.",
+        "de": "Ruft einen Meteorregen über dem Ziel herbei und fügt Feinden, die sich in der Zone befinden, Schaden zu. <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font> der Feinde, die zu lange in der Zone bleiben.",
+        "es": "Invoca una lluvia de meteoritos en una ubicación objetivo que causa daño a los enemigos mientras permanezcan en la zona. <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font> de los enemigos que permanezcan demasiado tiempo en la zona."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "invoker_astralBolt",
+      "name": {
+        "en": "Astral Bolt",
+        "fr": "Éclair astral",
+        "de": "Sternenpfeil",
+        "es": "Descarga Astral"
+      },
+      "description": {
+        "en": "Fires a bolt of magical energy at an enemy, dealing damage from a distance. Each time she uses another skill, the next bolt is <font color='{menu_highlight_white}'>Empowered</font>. When Empowered, the bolt <font color='{menu_highlight_white}'>ignores {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} of the target's </font><font color='{def_yellow}'>DEF</font> and shatters, dealing a portion of the damage to {SkillCustomParameters.maxShatterCount} additional enemies near the first.",
+        "fr": "Tire un éclair d'énergie magique sur l'ennemi pour lui infliger des dégâts à distance. Pour chaque autre compétence utilisée, l'éclair suivant est <font color='{menu_highlight_white}'>renforcé</font> et <font color='{menu_highlight_white}'>ignore {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> de la cible</font> avant d'éclater pour blesser {SkillCustomParameters.maxShatterCount} ennemis à proximité.",
+        "de": "Feuert einen Pfeil magischer Energie auf einen Feind und fügt Schaden auf Distanz zu. Jedes Mal, wenn sie eine andere Fertigkeit benutzt, ist der nächste Pfeil <font color='{menu_highlight_white}'>verstärkt</font>. Wenn er verstärkt ist, <font color='{menu_highlight_white}'>ignoriert der Pfeil {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} der </font><font color='{def_yellow}'>VTG.</font> des Feindes </font> und zerbricht, wobei er {SkillCustomParameters.maxShatterCount} zusätzlichen Feinden in der Nähe des Ersten eine Teil des Schadens zufügt.",
+        "es": "Lanza una descarga de energía mágica a un enemigo que inflige daño a distancia. Cada vez que use otra habilidad, la siguiente descarga se <font color='{menu_highlight_white}'>potenciará</font> <font color='{menu_highlight_white}'>ignorando el {~%invoker_astralBolt_main_ignoreArmor.C:C_IgnoreDefRatio} de la </font><font color='{def_yellow}'>DEF</font> del objetivo y dañando a {SkillCustomParameters.maxShatterCount} enemigos cercanos más."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

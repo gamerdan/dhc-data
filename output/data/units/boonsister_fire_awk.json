@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "boonsister_scourge",
+      "name": {
+        "en": "Scourge",
+        "fr": "Fléau",
+        "de": "Geißel",
+        "es": "Flagelo"
+      },
+      "description": {
+        "en": "Cracks a whip of water. Damages enemies and <font color='{menu_highlight_white}'>removes {SkillBuff_purge.NumberOfBuffsToRemove} buffs</font> from each of them.",
+        "fr": "Claque un fouet d'eau qui inflige des dégâts aux ennemis et <font color='{menu_highlight_white}'>supprime {SkillBuff_purge.NumberOfBuffsToRemove} buff(s)</font> pour chacun d'eux.",
+        "de": "Schlägt eine Wasserpeitsche. Fügt Feinden Schaden zu und <font color='{menu_highlight_white}'>entfernt {SkillBuff_purge.NumberOfBuffsToRemove} Boni</font> von ihnen.",
+        "es": "Ataca con un látigo de agua. Daña a los enemigos y <font color='{menu_highlight_white}'>elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos</font> de cada uno de ellos."
+      }
+    },
+    "SecondSkill": {
+      "id": "boonsister_empoweringRing",
+      "name": {
+        "en": "Empowering Ring",
+        "fr": "Anneau de pouvoir",
+        "de": "Stärkender Ring",
+        "es": "Anillo de Potenciación"
+      },
+      "description": {
+        "en": "Sends out an expanding ring of water that <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> and heals each ally it touches. When the ring reaches maximum range, it returns, healing each ally a second time.",
+        "fr": "Libère un anneau d'eau en expansion qui octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> et soigne chaque allié qu'il touche. Lorsque l'anneau atteint sa taille maximale, il revient, soignant chaque allié une seconde fois.",
+        "de": "Sendet einen sich ausdehnenden Wasserring, der <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ANG. ERHÖHT</font> und jeden Verbündeten heilt, den er berührt. Sobald der Ring seine maximale Ausdehnung erreicht, kehrt er zurück und heilt dabei jeden Verbündeten ein zweites Mal.",
+        "es": "Lanza un anillo de agua en expansión que <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> y cura a los aliados que toque. Cuando llega a su máximo alcance, regresa y cura a los aliados de nuevo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "boonsister_waterfall",
+      "name": {
+        "en": "Geyser",
+        "fr": "Geyser",
+        "de": "Geysir",
+        "es": "Géiser"
+      },
+      "description": {
+        "en": "Summons a huge geyser of water at target location, damaging enemies and knocking them into the air. When they land, deals additional damage and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Invoque un imposant geyser pour infliger des dégâts aux ennemis situés dans la zone avant de les projeter dans les airs. Lorsqu'ils retombent, ils subissent des dégâts supplémentaires et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>.",
+        "de": "Wirft einen riesigen Wasser-Geysir auf einen Zielort, fügt Feinden Schaden zu und schleudert sie in die Luft. Wenn sie landen, fügt er ihnen zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Hace aparecer un enorme géiser que causa daño a los enemigos y los lanza al aire. Cuando aterrizan, causa daño adicional y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "boonsister_dampen",
+      "name": {
+        "en": "Dampening Splash",
+        "fr": "Éclaboussure sapante",
+        "de": "Feuchter Platsch",
+        "es": "Salpicadura Húmeda"
+      },
+      "description": {
+        "en": "Throws a splash of water, dealing damage to an enemy from a distance. Each time she uses another skill, the next bolt deals additional damage.",
+        "fr": "Éclabousse un ennemi à distance pour lui infliger des dégâts. Chaque fois qu'elle utilise une autre compétence, le prochain jet inflige des dégâts supplémentaires.",
+        "de": "Wirft einen Spritzer Wasser und fügt einem Feind Schaden aus der Ferne zu. Jedes Mal, wenn sie eine andere Fertigkeit benutzt, fügt der nächste Pfeil zusätzlichen Schaden zu.",
+        "es": "Salpica a un enemigo y le inflige daño a distancia. Cada vez que usa otra habilidad, la siguiente descarga inflige daño adicional."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "sentinel_electricField",
+      "name": {
+        "en": "Electric Field",
+        "fr": "Champ électrique",
+        "de": "Elektrofeld",
+        "es": "Campo Eléctrico"
+      },
+      "description": {
+        "en": "Charges the air around it with electricity. While active, periodically damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> nearby enemies.",
+        "fr": "Charge l'air ambiant en électricité. Tant que le champ est actif, les ennemis à proximité subissent des dégâts périodiques et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font>.",
+        "de": "Lädt die Luft in der Umgebung mit Elektrizität auf. Während es aktiv ist, fügt es regelmäßig Feinden in der Nähe Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> sie.",
+        "es": "Carga el aire de electricidad. Mientras está activa, inflige daño de manera periódica y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "sentinel_hookshot",
+      "name": {
+        "en": "Hookshot",
+        "fr": "Crochetage",
+        "de": "Hakenwurf",
+        "es": "Anzuelo"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> self and shoots grappling claw in a direction. If the claw hits an enemy, it deals damage and pulls self to the enemy.",
+        "fr": "Un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> le protège tandis qu'il lance un grappin dans une direction. Si le grappin touche un ennemi, il inflige des dégâts et attire le champion vers lui.",
+        "de": "<font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> sich selbst und schießt eine herumschlagende Klaue in eine Richtung. Wenn die Klaue einen Feind trifft, fügt sie Schaden zu und zieht sich selbst zum Feind hin.",
+        "es": "Se protege con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> y lanza un garfio en una dirección. Si golpea a un enemigo, le inflige daño y se lanza hacia él."
+      }
+    },
+    "ThirdSkill": {
+      "id": "sentinel_dissection",
+      "name": {
+        "en": "Dissection",
+        "fr": "Dissection",
+        "de": "Zerteilung",
+        "es": "Disección"
+      },
+      "description": {
+        "en": "Tears into a target enemy with its chainsaw. Damages an enemy and holds them in place for the duration.",
+        "fr": "Taille la cible en pièces avec sa tronçonneuse. Inflige des dégâts à un ennemi et le maintient en place pendant la durée de l'attaque.",
+        "de": "Fügt einem feindlichen Ziel mit seiner Kettensäge Schnitte zu. Fügt einem Feind Schaden zu und hält sie während der Wirkdauer fest.",
+        "es": "Raja al objetivo con su motosierra. Daña a un enemigo y le impide moverse durante un breve periodo de tiempo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "sentinel_buzzsaw",
+      "name": {
+        "en": "Chainsaw",
+        "fr": "Tronçonneuse",
+        "de": "Kettensäge",
+        "es": "Motosierra"
+      },
+      "description": {
+        "en": "Attacks enemies with its chainsaw. On a crit, inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> on the primary target. Cannot trigger more than once every {SkillCustomParameters.DoTcooldown} seconds.",
+        "fr": "Attaque les ennemis avec sa tronçonneuse. En cas de coup critique, inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> à la cible principale. Impossible à déclencher plus d'une fois toutes les {SkillCustomParameters.DoTcooldown} secondes.",
+        "de": "Greift Feinde mit seiner Kettensäge an. Bei krit. Treffer wird <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font> gewirkt. Kann nicht öfter als ein Mal alle {SkillCustomParameters.DoTcooldown} Sekunden ausgelöst werden.",
+        "es": "Ataca a los enemigos con su motosierra. Si inflige daño crítico, causará <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> al objetivo principal. No se puede aplicar más de una vez cada {SkillCustomParameters.DoTcooldown} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "dryad_healingBloom",
+      "name": {
+        "en": "Healing Bloom",
+        "fr": "Efflorescence guérisseuse",
+        "de": "Heilende Blüte",
+        "es": "Flores Curativas"
+      },
+      "description": {
+        "en": "Launches a seed at target ally. The seed creates a patch of magical flowers around the ally that grows over time. Allies in the area gain <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font>. The main target receives an extra stack of <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font>.",
+        "fr": "Lance une graine vers un allié pour créer un parterre de fleurs enchantées qui pousse avec le temps. Les alliés dans cette zone reçoivent <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNÉRATION</font>. La cible principale reçoit une application de <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNERATION</font> supplémentaire.",
+        "de": "Schießt ein Samenkorn auf einen angezielten Verbündeten. Das Samenkorn lässt ein Beet magischer Blumen entstehen, das über Zeit wächst. Verbündete im Gebiet erhalten <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERIERUNG</font>. Das Hauptziel erhält zusätzliche  <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERIERUNG</font>-Anwendungen.",
+        "es": "Lanza una semilla a un aliado que crea un jardín a su alrededor que crece con el tiempo. Los aliados en esa zona consiguen <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font>. El objetivo principal recibe una acumulación adicional de <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "dryad_wallOfThorns",
+      "name": {
+        "en": "Wall of Thorns",
+        "fr": "Mur d'épines",
+        "de": "Dornenwand",
+        "es": "Muro de Espinas"
+      },
+      "description": {
+        "en": "Summons a wall of thorns, which damages enemies periodically and also <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies that enter the wall.",
+        "fr": "Invoque un mur d'épines, qui cause périodiquement des dégâts aux ennemis et inflige aussi <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> à ceux qui pénètrent le mur.",
+        "de": "Ruft eine Dornenwand herbei, die regelmäßig Feinden Schaden zufügt und außerdem alle Feinde <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font>, die die Wand betreten.",
+        "es": "Invoca un muro de espinas que daña a los enemigos de manera periódica y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos que toquen el muro."
+      }
+    },
+    "ThirdSkill": {
+      "id": "dryad_ensnaringRoots",
+      "name": {
+        "en": "Ensnaring Roots",
+        "fr": "Piège racinaire",
+        "de": "Umgarnende Wurzeln",
+        "es": "Raíces Enredadoras"
+      },
+      "description": {
+        "en": "Summons a massive tangle of roots, which burrows along the ground in a line. Damages, <font color='{debuff_red}'>{icon.immobilize}&nbsp;IMMOBILIZES</font>, and <font color='{debuff_red}'>{icon.mark}&nbsp;MARKS</font> enemies.",
+        "fr": "Invoque un énorme entrelacs de racines qui sillonnent le sol et infligent des dégâts ainsi que <font color='{debuff_red}'>{icon.immobilize}&nbsp;ENTRAVE</font> et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Ruft ein riesiges Wurzelgewirr herbei, welches sich in einer Reihe durch den Boden wühlt. Fügt Feinden Schaden zu, macht sie <font color='{debuff_red}'>{icon.immobilize}&nbsp;BEWEGUNGSUNFÄHIG</font> und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> sie.",
+        "es": "Invoca una gran cantidad de raíces enredadoras que escarban la tierra en línea recta. Daña, <font color='{debuff_red}'>{icon.immobilize}&nbsp;PARALIZA</font> y <font color='{debuff_red}'>{icon.mark}&nbsp;MARCA</font> a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "dryad_willOWisp",
+      "name": {
+        "en": "Will-o'-the-Wisp",
+        "fr": "Feu follet",
+        "de": "Irrlicht",
+        "es": "Fuego Fatuo"
+      },
+      "description": {
+        "en": "Conjures a minor spirit to damage an enemy from a distance.",
+        "fr": "Invoque un esprit mineur pour infliger des dégâts à un ennemi à distance.",
+        "de": "Beschwört einen kleinen Geist herauf, um einem Feind aus der Entfernung Schaden zuzufügen.",
+        "es": "Conjura un espíritu menor que inflige daño a distancia a un enemigo."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -193,6 +193,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "slime_mudPuddle",
+      "name": {
+        "en": "Corrosive Pool",
+        "fr": "Mare corrosive",
+        "de": "Ätzende Lache",
+        "es": "Charco Corrosivo"
+      },
+      "description": {
+        "en": "Exudes a pool of acidic goop that periodically damages enemies inside it.",
+        "fr": "Suinte une mare de substance visqueuse qui inflige périodiquement des dégâts aux ennemis pris au piège.",
+        "de": "Scheidet eine Lache klebriger Säure aus, die Feinden in regelmäßigen Abständen Schaden zufügt.",
+        "es": "Crea un charco de ácido que daña de manera periódica a los enemigos que se encuentren en él."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "slime_mudSlap",
+      "name": {
+        "en": "Goo Smack",
+        "fr": "Gifle visqueuse",
+        "de": "Klebriger Schlag",
+        "es": "Guantazo"
+      },
+      "description": {
+        "en": "Slaps an enemy, damaging it.",
+        "fr": "Gifle un ennemi et lui inflige des dégâts.",
+        "de": "Schlägt einen Feind und fügt ihm Schaden zu.",
+        "es": "Abofetea a un enemigo y le inflige daño."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

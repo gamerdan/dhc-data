@@ -184,6 +184,23 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "AutoAttackSkill": {
+      "id": "bee_stingerJab",
+      "name": {
+        "en": "Stinger Jab",
+        "fr": "Coup de dard",
+        "de": "Stachelstoß",
+        "es": "Aguijón"
+      },
+      "description": {
+        "en": "Stings an enemy, damaging it.",
+        "fr": "Pique un ennemi pour lui infliger des dégâts.",
+        "de": "Sticht einen Feind und fügt ihm Schaden zu.",
+        "es": "Pincha a un enemigo y le hace daño."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

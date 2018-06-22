@@ -192,6 +192,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "bee_needleRush",
+      "name": {
+        "en": "Needle Rush",
+        "fr": "Course piquante",
+        "de": "Nadelsturm",
+        "es": "Pinchazo"
+      },
+      "description": {
+        "en": "Flies swiftly at target enemy, stinging it. Damages the enemy with a chance to <font color='{debuff_red}'>{icon.stun}&nbsp;STUN</font>.",
+        "fr": "Plonge sur l'ennemi et le pique pour lui infliger des dégâts pouvant causer <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Fliegt zügig auf anvisierten Feind zu und sticht ihn. Fügt Feinden Schaden zu mit einer Chance auf <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBEN</font>.",
+        "es": "Vuela hacia el objetivo y lo golpea. Daña al enemigo y tiene probabilidad de <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDIR</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "bee_stingerJab",
+      "name": {
+        "en": "Stinger Jab",
+        "fr": "Coup de dard",
+        "de": "Stachelstoß",
+        "es": "Aguijón"
+      },
+      "description": {
+        "en": "Stings an enemy, damaging it.",
+        "fr": "Pique un ennemi pour lui infliger des dégâts.",
+        "de": "Sticht einen Feind und fügt ihm Schaden zu.",
+        "es": "Pincha a un enemigo y le hace daño."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

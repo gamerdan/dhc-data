@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "archergirl_burningVolley",
+      "name": {
+        "en": "Burning Volley",
+        "fr": "Volée embrasée",
+        "de": "Brennende Salve",
+        "es": "Salva de Fuego"
+      },
+      "description": {
+        "en": "Fires a volley of arrows in a cone. Damages enemies and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font>. Each enemy can only be affected once.",
+        "fr": "Décoche une volée de flèches pour infliger des dégâts et <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> aux ennemis situés dans le cône d'effet. Chaque ennemi ne peut être affecté qu'une fois.",
+        "de": "Schießt eine Salve von Pfeilen in Kegelform ab. Beschädigt Feinde und fügt ihnen <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font> zu. Kann bei jedem Feind nur ein Mal angewendet werden.",
+        "es": "Lanza una descarga de flechas en forma de cono. Daña a los enemigos e inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>. Cada enemigo solo puede verse afectado una vez."
+      }
+    },
+    "SecondSkill": {
+      "id": "archergirl_combatRoll",
+      "name": {
+        "en": "Combat Roll",
+        "fr": "Roulade de combat",
+        "de": "Kampfrolle",
+        "es": "Pirueta de Combate"
+      },
+      "description": {
+        "en": "Rolls in a direction and <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font> of herself and all nearby allies. ",
+        "fr": "Roule dans une direction et octroie <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font> à tous les alliés à proximité et à elle-même. ",
+        "de": "Rollt in eine Richtung und <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> von sich selbst und Feinden in der Nähe.",
+        "es": "Rueda en una dirección y <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font> para sí misma y todos los aliados cercanos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "archergirl_lethalShot",
+      "name": {
+        "en": "Lethal Shot",
+        "fr": "Tir létal",
+        "de": "Tödlicher Schuß",
+        "es": "Disparo Letal"
+      },
+      "description": {
+        "en": "Fires a massive arrow in a direction, dealing damage to all enemies in a line.<br><font color='{menu_highlight_white}'>Bonus damage based on each enemy's missing HP%.</font>",
+        "fr": "Décoche une énorme flèche pour infliger des dégâts aux ennemis situés sur la ligne d'effet. <br><font color='{menu_highlight_white}'>Dégâts supplémentaires basés sur le % de HP manquants de chaque ennemi.</font>",
+        "de": "Schießt einen riesigen Pfeil in eine Richtung und fügt allen Feinden in einer Reihe Schaden zu.<br><font color='{menu_highlight_white}'>Bonus-Schaden basiert auf den jeweiligen fehlenden GP-% des Feindes.</font>",
+        "es": "Lanza una enorme flecha que inflige daño a todos los enemigos en una línea recta.<br><font color='{menu_highlight_white}'>El daño adicional depende del porcentaje de PV restantes de cada enemigo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "archergirl_bullseye",
+      "name": {
+        "en": "Bullseye",
+        "fr": "Dans le mille",
+        "de": "Volltreffer",
+        "es": "Tiro al Blanco"
+      },
+      "description": {
+        "en": "Attacks an enemy from a distance. Every fourth attack is an automatic crit.",
+        "fr": "Attaque un ennemi à distance et inflige des dégâts critiques tous les quatre tirs.",
+        "de": "Greift einen Feind aus der Entfernung an. Jeder vierte Angriff ist automatisch kritisch.",
+        "es": "Inflige daño a distancia a un enemigo. Cada cuarto ataque será crítico."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

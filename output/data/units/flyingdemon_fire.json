@@ -217,6 +217,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "flyingdemon_storming",
+      "name": {
+        "en": "Harrying Flight",
+        "fr": "Persécution du ciel",
+        "de": "Plünder-Flug",
+        "es": "Vuelo hostigador"
+      },
+      "description": {
+        "en": "Flies towards an enemy with his spear. Deals damage and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font> before flying to another target in range. If ascended, this skill also <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font>. Can hit up to {SkillCustomParameters.maxHitCount} enemies.",
+        "fr": "Se précipite sur un ennemi avec sa lance pour lui infliger des dégâts et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> avant de passer à une autre cible à portée. Si exalté, cette compétence lui octroie <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> en plus. Peut toucher jusqu'à {SkillCustomParameters.maxHitCount} ennemis.",
+        "de": "Fliegt mit seinem Speer zu einem Feind. Fügt Schaden zu und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>, bevor er auf ein anderes Ziel in Reichweite zufliegt. In aufgestiegener Form wird diese Fertigkeit auch die <font color='{buff_blue}'>{icon.raise_def}&nbsp;VTG. ERHÖHEN</font>. Kann bis zu {SkillCustomParameters.maxHitCount} Feinde angreifen.",
+        "es": "Vuela con su lanza hacia un enemigo. Inflige daño y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font> antes de lanzarse hacia otro objetivo a su alcance. Si ha ascendido, esta habiliad también <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font>. Puede golpear a un máximo de {SkillCustomParameters.maxHitCount} enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "flyingdemon_powerThrust",
+      "name": {
+        "en": "Power Thrust",
+        "fr": "Lancer puissant",
+        "de": "Stärkeschub",
+        "es": "Estocada de Poder"
+      },
+      "description": {
+        "en": "A powerful thrust of his spear that knocks enemies back. Damages and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Un puissant coup de lance qui repousse les ennemis. Inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>.",
+        "de": "Ein kräftiger Stoß seines Speers, der Feinde zurückschlägt. Fügt Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Una poderosa estocada con su lanza que empuja a los enemigos. Daña y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "flyingdemon_leechStrike",
+      "name": {
+        "en": "Leech Strike",
+        "fr": "Attaque de sangsue",
+        "de": "Blutsaugerstoß",
+        "es": "Golpe Drenaje"
+      },
+      "description": {
+        "en": "Attacks enemies with his spear, healing himself for {%SkillCustomParameters.lifeLeechRatio} of the damage dealt. Every fifth attack is stronger, healing for {%SkillCustomParameters.comboLifeLeechRatio} of the damage dealt.",
+        "fr": "Attaque les ennemis avec sa lance et se soigne à hauteur de {%SkillCustomParameters.lifeLeechRatio} des dégâts infligés. Toutes les 5 attaques, le dernier coup porté est plus puissant et le soigne à hauteur de {%SkillCustomParameters.comboLifeLeechRatio} des dégâts infligés.",
+        "de": "Greift Feinde mit seinem Speer an und heilt sich selbst um {%SkillCustomParameters.lifeLeechRatio} des zugefügten Schadens. Jeder 5. Angriff ist stärker und heilt {%SkillCustomParameters.comboLifeLeechRatio} des zugefügten Schadens.",
+        "es": "Ataca a los enemigos con su lanza y se cura un {%SkillCustomParameters.lifeLeechRatio} del daño infligido. Los quintos ataques son más poderosos, curándose un {%SkillCustomParameters.comboLifeLeechRatio} del daño infligido."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

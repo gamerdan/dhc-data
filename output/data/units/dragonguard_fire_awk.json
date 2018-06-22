@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "dragonguard_bruisingSwing",
+      "name": {
+        "en": "Demoralizing Blow",
+        "fr": "Coup démoralisant",
+        "de": "Entmutigender Schlag",
+        "es": "Golpe Desmoralizador"
+      },
+      "description": {
+        "en": "A mighty blow that deals damage to enemies in a huge arc and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Un coup puissant qui inflige des dégâts et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis dans un arc immense.",
+        "de": "Ein mächtiger Schlag, der Feinden in einem riesigen Bogen Schaden zufügt und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ANG. VERRINGERT</font>.",
+        "es": "Un poderoso golpe que daña a los enemigos en un amplio arco y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "dragonguard_jolt",
+      "name": {
+        "en": "Guardian's Impact",
+        "fr": "Impact du gardien",
+        "de": "Schutzaufprall",
+        "es": "Impacto del Guardián"
+      },
+      "description": {
+        "en": "Jumps to a location, slamming the ground. Deals damage to enemies in the area.",
+        "fr": "Bondit dans une direction choisie et percute le sol violemment pour infliger des dégâts aux ennemis.",
+        "de": "Springt an eine Stelle und schlägt auf den Boden. Fügt Feinden in der Nähe Schaden zu.",
+        "es": "Salta a una ubicación y golpea el suelo. Daña a los enemigos cercanos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "dragonguard_megatonStomp",
+      "name": {
+        "en": "Megaton Stomp",
+        "fr": "Piétinement mégatonne",
+        "de": "Mega-Stampfen",
+        "es": "Pisotón Megatón"
+      },
+      "description": {
+        "en": "Stomps the ground. Damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> nearby enemies. Stun duration increases for each debuff on the affected enemy.",
+        "fr": "Martèle le sol du pied pour infliger des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis à proximité. La durée de Paralysie augmente à chaque debuff accumulé par l'ennemi.",
+        "de": "Stampft auf den Boden. Fügt Feinden in der Nähe Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie. Die Betäubungs-Dauer erhöht sich mit jedem Schwächungszauber auf dem betroffenen Feind.",
+        "es": "Pisa el suelo con fuerza. Daña y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos cercanos. La duración del aturdimiento aumenta por cada efecto negativo que tenga el enemigo afectado."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "dragonguard_bludgeon",
+      "name": {
+        "en": "Bludgeon",
+        "fr": "Massue",
+        "de": "Knüppel",
+        "es": "Golpetón"
+      },
+      "description": {
+        "en": "Swings mace, damaging enemies. In addition, whenever HP drops below 30%, has a chance to <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISE DEF</font>. This effect can only trigger once every 3 seconds.",
+        "fr": "Balance sa massue pour infliger des dégâts aux ennemis. De plus, chaque fois que les HP sont inférieurs à 30%, il a une chance d'activer <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font>. Cet effet ne peut être déclenché qu'une fois toutes les 3 secondes.",
+        "de": "Schwingt Keule und fügt Feinden Schaden zu. Wenn die GP unter 30% fallen, gibt es eine Chance auf  <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHTE VTG.</font>. Dieser Effekt kann nur einmal alle 3 Sekunden aktiviert werden.",
+        "es": "Ataca con la maza y daña a los enemigos. Además, cuando los PV bajan del 30%, tiene probabilidad de <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTAR DEF</font>. Este efecto solo puede activarse cada 3 segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

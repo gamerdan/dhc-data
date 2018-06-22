@@ -222,6 +222,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "pirate_flintlockCanon",
+      "name": {
+        "en": "Well-Placed Shot",
+        "fr": "Tir bien placé",
+        "de": "Gut platzierter Schuss",
+        "es": "Buen disparo"
+      },
+      "description": {
+        "en": "Fires his flintlock pistol, dealing damage to the first enemy hit and knocking it back.",
+        "fr": "Tire avec son pistolet à silex. Inflige des dégâts au premier ennemi touché et le repousse.",
+        "de": "Feuert seine Steinschlosspistole ab, fügt dem ersten getroffenen Gegner Schaden zu und stößt ihn zurück.",
+        "es": "Dispara su fusil y causa daño y derriba al primer enemigo que alcanza."
+      }
+    },
+    "SecondSkill": {
+      "id": "pirate_demoralizingShout",
+      "name": {
+        "en": "Mark of the Pirate",
+        "fr": "Marque du pirate",
+        "de": "Zeichen des Piraten",
+        "es": "Marca del Pirata"
+      },
+      "description": {
+        "en": "Fires a flare over the battlefield that explodes into a skull and crossbones, striking fear into the hearts of his foes and inspiring confidence in his crew. <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font> of all enemies under the flag and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> of all allies.",
+        "fr": "Tire une fusée au-dessus du champ de bataille, qui explose pour faire apparaître un crâne et des os afin de terroriser ses ennemis et motiver son équipage. Inflige <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> à tous les ennemis sous le drapeau et octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> à tous les alliés.",
+        "de": "Feuert eine Leuchtkugel über dem Schlachtfeld ab, die in einen Totenkopf mit gekreuzten Knochen explodiert, was Furcht in die Herzen seiner Feinde sät und das Vertrauen seiner Crew fördert. <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font> von allen Feinden unter der Flagge und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> von allen Verbündeten.",
+        "es": "Dispara una baliza sobre el campo de batalla que explota formando una calavera que infunde miedo en los corazones de los enemigos y otorga confianza a los aliados. <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font> de todos los enemigos bajo la bandera y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> de todos los aliados."
+      }
+    },
+    "ThirdSkill": {
+      "id": "pirate_devotedCrew",
+      "name": {
+        "en": "Bombardment",
+        "fr": "Bombardement",
+        "de": "Bombardierung",
+        "es": "Bombardeo"
+      },
+      "description": {
+        "en": "Signals his loyal crew to fire a barrage of cannonballs at a location. Each volley damages enemies in the area.",
+        "fr": "Ordonne à son fidèle équipage de tirer un barrage de boulets de canon sur un endroit précis. Chaque volée inflige des dégâts aux ennemis dans la zone.",
+        "de": "Signalisiert seiner treuen Crew, eine Flut von Kanonenkugeln auf einen Ort abzufeuern. Jede Salve fügt Feinden in dem Gebiet Schaden zu.",
+        "es": "Ordena a su leal tripulación lanzar una descarga de balas de cañón que causa daño a los enemigos que haya en la zona."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "pirate_leadShot",
+      "name": {
+        "en": "Pistol Shot",
+        "fr": "Tir de pistolet",
+        "de": "Pistolenschuss",
+        "es": "Disparo de Pistola"
+      },
+      "description": {
+        "en": "Fires a bullet, dealing damage to target enemy from a distance.",
+        "fr": "Tir une balle qui inflige des dégâts à un ennemi visé.",
+        "de": "Feuert eine Kugel ab und fügt einem feindlichen Ziel Schaden aus der Ferne zu.",
+        "es": "Dispara una bala, causando daño al objetivo a distancia."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

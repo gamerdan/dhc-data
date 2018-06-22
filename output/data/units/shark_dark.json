@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "shark_swimThrough",
+      "name": {
+        "en": "Corkscrew Rush",
+        "fr": "Vrille furieuse",
+        "de": "Korkenziehersturm",
+        "es": "Esprint en Espiral"
+      },
+      "description": {
+        "en": "Dashes forward in a line, dealing damage to enemies struck.",
+        "fr": "Déferle sur les ennemis situés sur la ligne d'effet pour leur infliger des dégâts.",
+        "de": "Schießt in einer Linie voran und fügt getroffenen Feinden Schaden zu.",
+        "es": "Esprinta en línea recta y daña a los enemigos golpeados."
+      }
+    },
+    "SecondSkill": {
+      "id": "shark_slice",
+      "name": {
+        "en": "Killer Slice",
+        "fr": "Coupe tueuse",
+        "de": "Mörder-Schnitt",
+        "es": "Corte Asesino"
+      },
+      "description": {
+        "en": "Slashes in a circle, dealing damage to nearby enemies. <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> each enemy below {%SkillCustomParameters.healthRatioThreshold} HP.",
+        "fr": "Frappe en cercle et inflige des dégâts aux ennemis à proximité. Inflige <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> à tout ennemi avec moins de {%SkillCustomParameters.healthRatioThreshold} de ses HP.",
+        "de": "Schwingt im Kreis herum und fügt Feinden in der Nähe Schaden zu. Lässt alle Feinde unter {%SkillCustomParameters.healthRatioThreshold} GP <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMEN</font>.",
+        "es": "Raja a los enemigos cercanos en un círculo y les daña. <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> a cada enemigo por debajo del {%SkillCustomParameters.healthRatioThreshold} de sus PV."
+      }
+    },
+    "ThirdSkill": {
+      "id": "shark_finalBite",
+      "name": {
+        "en": "Final Bite",
+        "fr": "Morsure finale",
+        "de": "Endbiss",
+        "es": "Gran Mordedura"
+      },
+      "description": {
+        "en": "Delivers a massive bite to finish off a targeted enemy, dealing massive <font color='{menu_highlight_white}'>damage based on the enemy's missing HP%</font> and healing for {%SkillCustomParameters.lifeStealRatio} of the damage dealt. If this attack kills the target, gain {SkillBuff_hot.NumberOfBuffsApplied} stacks of <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font>.",
+        "fr": "Assène une morsure monumentale pour tenter d'achever l'ennemi. Inflige de <font color='{menu_highlight_white}'>lourds dégâts en fonction du % de HP manquants de l'ennemi</font> et restaure {%SkillCustomParameters.lifeStealRatio} des dégâts infligés. Si cette attaque tue la cible, gagne {SkillBuff_hot.NumberOfBuffsApplied} applications de <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNÉRATION</font>.",
+        "de": "Ein massiver Biss, um das feindliche Ziel zu erledigen. Fügt massiven <font color='{menu_highlight_white}'>Schaden zu, der auf den fehlenden GP% des Feindes basiert</font> und für {%SkillCustomParameters.lifeStealRatio} des ausgeübten Schadens heilt. Erhalte {SkillBuff_hot.NumberOfBuffsApplied} <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font>-Anwendungen, wenn dieser Angriff das Ziel tötet.",
+        "es": "Muerde ferozmente al enemigo para acabar con él. Inflige un enorme <font color='{menu_highlight_white}'>daño según el porcentaje de PV restantes del enemigo</font> y cura un {%SkillCustomParameters.lifeStealRatio} del daño infligido. Si este ataque mata al objetivo, se obtienen {SkillBuff_hot.NumberOfBuffsApplied} acumulaciones de <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "shark_brutalStrike",
+      "name": {
+        "en": "Hungering Strike",
+        "fr": "Frappe affamée",
+        "de": "Hungerstreik",
+        "es": "Golpe Voraz"
+      },
+      "description": {
+        "en": "Slashes with bladed fins, dealing damage to enemies. If the primary target has less than {%SkillCustomParameters.healthRatioThreshold} HP, this <font color='{menu_highlight_white}'>lowers the cooldown of {FirstSkill.name}</font> by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Écorche les ennemis avec ses ailerons aiguisés comme des lames de rasoir. Si la cible principale a moins de {%SkillCustomParameters.healthRatioThreshold} de ses HP, le rechargement de {FirstSkill.name} <font color='{menu_highlight_white}'>diminue</font> de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Greift mit Klingen-Flossen an und fügt Feinden Schaden zu. Wenn das feindliche Ziel weniger als {%SkillCustomParameters.healthRatioThreshold} GP besitzt, wird die <font color='{menu_highlight_white}'>Abklingzeit von {FirstSkill.name}</font> um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden reduziert.",
+        "es": "Ataca con sus afiladas aletas y daña a los enemigos. Si el objetivo principal tiene menos de {%SkillCustomParameters.healthRatioThreshold} PV, <font color='{menu_highlight_white}'>reduce el tiempo de recuperación de {FirstSkill.name}</font> {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

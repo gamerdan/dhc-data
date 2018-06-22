@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "candygirl_getHyper",
+      "name": {
+        "en": "Get Hyper!",
+        "fr": "Surexcitation&nbsp;!",
+        "de": "Dreh' auf!",
+        "es": "¡Desmadre!"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISES CRIT</font> and temporarily <font color='{menu_highlight_white}'>enhances</font> {AutoAttackSkill.name}, causing it to have increased range, deal bonus damage, and explode on impact, dealing damage to enemies behind the target.",
+        "fr": "Gagne <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font> et <font color='{menu_highlight_white}'>sublime</font> temporairement {AutoAttackSkill.name}, ce qui augmente sa puissance et sa portée, mais génère également des explosions à l'impact, qui infligent des dégâts aux ennemis derrière la cible.",
+        "de": "<font color='{buff_blue}'>{icon.raise_crit}&nbsp;ERHÖHT KRIT. CHANCE</font> und <font color='{menu_highlight_white}'>verstärkt kurzzeitig</font> {AutoAttackSkill.name}, wodurch diese eine erhöhte Reichweite hat, Bonus-Schaden zufügt, beim Aufprall explodiert und dabei Feinden hinter dem Ziel Schaden zufügt.",
+        "es": "<font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTA CRÍT</font> y <font color='{menu_highlight_white}'>fortalece</font> temporalmente el {AutoAttackSkill.name}, aumentando el alcance, infligiendo daño adicional y explotando al impactar, dañando a los enemigos que se encuentren detrás del objetivo."
+      }
+    },
+    "SecondSkill": {
+      "id": "candygirl_bubblegumBlast",
+      "name": {
+        "en": "Bubblegum Blast",
+        "fr": "Salve de chewing-gum",
+        "de": "Kaugummiwelle",
+        "es": "Ráfaga de Chicle"
+      },
+      "description": {
+        "en": "Fires a blast of chewed bubblegum, propelling herself backwards. Damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies.",
+        "fr": "Crache une salve de chewing-gum tellement fort qu'elle est projetée en arrière. Inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis.",
+        "de": "Feuert eine Welle gekauten Kaugummis ab, wovon sie selbst rückwärts treibt. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> sie.",
+        "es": "Dispara una ráfaga de chicle que la impulsa hacia atrás. Daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "candygirl_bonbonBarrage",
+      "name": {
+        "en": "Bonbon Barrage",
+        "fr": "Barrage de bonbons",
+        "de": "Bonbonbarriere",
+        "es": "Torrente de Golosinas"
+      },
+      "description": {
+        "en": "Bombards an area with candy, damaging enemies.",
+        "fr": "Bombarde une zone avec des sucreries pour infliger des dégâts aux ennemis.",
+        "de": "Bombardiert eine Gegend mit Bonbons und fügt Feinden Schaden zu.",
+        "es": "Bombardea una zona con caramelos, dañando a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "candygirl_candyCannon",
+      "name": {
+        "en": "Candy Cannon",
+        "fr": "Canon à sucreries",
+        "de": "Bonbonkanone",
+        "es": "Cañón de Golosinas"
+      },
+      "description": {
+        "en": "Fires jawbreakers at a target enemy from a distance, dealing damage.<br><font color='{menu_highlight_white}'>When enhanced, deals bonus damage to the primary target based on the enemy's </font><font color='{maxhp_green}'>MAX HP</font>.",
+        "fr": "Tire des bonbons durs sur un ennemi pour lui infliger des dégâts.<br><font color='{menu_highlight_white}'>Si elle est sublimée, elle inflige des dégâts supplémentaires basés sur les </font><font color='{maxhp_green}'>HP MAX</font> de l'ennemi.",
+        "de": "Feuert aus einer Entfernung Wunderkugeln auf ein Ziel ab und fügt Schaden zu.<br><font color='{menu_highlight_white}'>Wenn die Verstärkung aktiv ist, wird dem Hauptziel, basierend auf den </font><font color='{maxhp_green}'>MAX. GP</font> des Feindes, Bonus-Schaden zugefügt.",
+        "es": "Lanza caramelos a distancia a un enemigo y le daña.<br><font color='{menu_highlight_white}'>Cuando se fortalece, inflige daño adicional al objetivo principal según los </font><font color='{maxhp_green}'>PV MÁX</font> <font color='{menu_highlight_white}'>del enemigo</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

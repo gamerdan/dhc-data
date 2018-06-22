@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "rollerderby_attack",
+      "name": {
+        "en": "Let's Rock This!",
+        "fr": "Allez les gars&nbsp;!",
+        "de": "Wir schaffen das!",
+        "es": "¡Adelante, Chicos!"
+      },
+      "description": {
+        "en": "Shouts encouragement to the rest of the party! <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> of nearby allies.",
+        "fr": "Crie des encouragements à son équipe&nbsp;! Octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> aux alliés à proximité.",
+        "de": "Ruft dem Rest der Gruppe Aufmunterungen zu! <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> aller Verbündeten in der Nähe.",
+        "es": "Anima a los aliados cercanos y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> a los aliados cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "rollerderby_skate",
+      "name": {
+        "en": "Sprint",
+        "fr": "Sprint",
+        "de": "Sprint",
+        "es": "Esprint"
+      },
+      "description": {
+        "en": "Dashes in a direction and <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font>. Damages all enemies in a line and <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font> them.",
+        "fr": "Fonce dans une direction et gagne <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font>. Elle inflige des dégâts et <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font> à tous les ennemis sur une ligne.",
+        "de": "Sprintet in eine Richtung und <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font>. Fügt allen Feinden in einer Reihe Schaden zu und <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRRT</font> sie.",
+        "es": "Esprinta hacia una dirección y <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font>. Causa daño a todos los enemigos en una línea y los <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "rollerderby_grandSlam",
+      "name": {
+        "en": "Grand Slam",
+        "fr": "Grand chelem",
+        "de": "Grand Slam",
+        "es": "Gran Golpe"
+      },
+      "description": {
+        "en": "Swings her baseball bat, damaging enemies and knocking them away. When each enemy lands, deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Agite sa batte de baseball pour frapper les ennemis à proximité, ce qui leur inflige des dégâts et les repousse. La chute leur cause des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Sie schwingt ihren Baseballschläger, fügt Feinden Schaden zu und schlägt sie weg. Fügt ihnen bei der Landung zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Ataca a los enemigos con su bate de béisbol y los lanza por los aires. Cuando caen, inflige daño adicional y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "rollerderby_bonk",
+      "name": {
+        "en": "BONK!",
+        "fr": "VLAN&nbsp;!",
+        "de": "Donk!",
+        "es": "¡PUM!"
+      },
+      "description": {
+        "en": "Swings her baseball bat, attacking nearby enemies. Each attack lowers the cooldown of {FirstSkill.name}.",
+        "fr": "Agite sa batte de baseball pour frapper les ennemis à proximité. Chaque attaque réduit le rechargement de {FirstSkill.name}.",
+        "de": "Schwingt ihren Baseballschläger und greift Feinde in der Nähe an. Jeder Angriff verringert die Abklingzeit von {FirstSkill.name}.",
+        "es": "Ataca a los enemigos cercanos con su bate de béisbol. Cada ataque reduce el tiempo de recuperación de {FirstSkill.name}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

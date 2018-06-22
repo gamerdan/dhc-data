@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "bountyhunter_discharge",
+      "name": {
+        "en": "Discharge",
+        "fr": "Décharge",
+        "de": "Energieentladung",
+        "es": "Descarga"
+      },
+      "description": {
+        "en": "Unleashes a burst of energy in a cone-shaped area. Damages enemies and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Libère une explosion d'énergie qui inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> aux ennemis dans le cône d'effet.",
+        "de": "Entfesselt eine kegelförmige Energie-Salve auf ein Gebiet. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Desata una descarga de energía en una zona con forma de cono. Causa daño a los enemigos y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "bountyhunter_vortex",
+      "name": {
+        "en": "Vortex",
+        "fr": "Vortex",
+        "de": "Vortex",
+        "es": "Vórtex"
+      },
+      "description": {
+        "en": "Lifts his sword and generates a magical gust that damages and pulls nearby enemies toward him.",
+        "fr": "Lève son épée et provoque une bourrasque magique qui inflige des dégâts aux ennemis et les attire vers lui.",
+        "de": "Erhebt sein Schwert und generiert einen magischen Windstoß, der Feinden in der Nähe Schaden zufügt und sie an sich zieht.",
+        "es": "Levanta su espada y genera una ráfaga mágica que causa daño y acerca a los enemigos hacia él."
+      }
+    },
+    "ThirdSkill": {
+      "id": "bountyhunter_lootPinata",
+      "name": {
+        "en": "Powerful Swing",
+        "fr": "Moulinet puissant",
+        "de": "Kräftiger Schwung",
+        "es": "Giro Poderoso"
+      },
+      "description": {
+        "en": "Swings his sword in a circle around him, damaging nearby enemies and knocking them back.",
+        "fr": "Fait tournoyer son épée autour de lui pour infliger des dégâts aux ennemis à proximité et les repousser.",
+        "de": "Schwingt sein Schwert im Kreis um sich herum, fügt Feinden in der Nähe Schaden zu und schlägt sie zurück.",
+        "es": "Gira con su espada, dañando a los enemigos cercanos y empujándolos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "bountyhunter_hackSlash",
+      "name": {
+        "en": "Hack 'n' Slash",
+        "fr": "Découpage et lacération",
+        "de": "Hack 'n' Slash",
+        "es": "Tajos y Cuchillazos"
+      },
+      "description": {
+        "en": "Attacks enemies with his sword. Every fifth attack, he becomes <font color='{menu_highlight_white}'>Empowered</font>, causing him to leap to his target and healing him for a portion of the damage dealt. He also becomes <font color='{menu_highlight_white}'>Empowered</font> whenever he uses a skill.",
+        "fr": "Attaque les ennemis avec son épée. Il se <font color='{menu_highlight_white}'>renforce</font> toutes les cinq attaques pour bondir sur sa cible et se soigner en absorbant une partie des dégâts infligés. Il se <font color='{menu_highlight_white}'>renforce</font> également lorsqu'il utilise une compétence.",
+        "de": "Greift Feinde mit seinem Schwert an. Bei jedem fünften Angriff wird er <font color='{menu_highlight_white}'>verstärkt</font>, wodurch er auf sein Ziel zuspringt und sich von einem Teil des zugefügten Schadens heilt. Außerdem wird er immer <font color='{menu_highlight_white}'>verstärkt</font>, wenn er eine Fertigkeit benutzt.",
+        "es": "Ataca a los enemigos con su espada. Cada quinto ataque le <font color='{menu_highlight_white}'>potencia</font>, haciéndole saltar hacia su objetivo y curándole una parte del daño infligido. También se <font color='{menu_highlight_white}'>potencia</font> cuando usa una habilidad."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

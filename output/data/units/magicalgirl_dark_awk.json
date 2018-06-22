@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "magicalgirl_lash",
+      "name": {
+        "en": "Ribbon Lash",
+        "fr": "Déferlement de rubans",
+        "de": "Band-Peitsche",
+        "es": "Cinta Fustigadora"
+      },
+      "description": {
+        "en": "Whips a ribbon of energy forward three times. Each ribbon damages enemies in a line, ignoring shields. If an enemy is struck by all three ribbons, the last one is a <font color='{menu_highlight_white}'>guaranteed crit.</font><br><font color='{menu_highlight_white}'>Can move while channeling. Each ribbon will travel in the same direction.</font>",
+        "fr": "Fait claquer un ruban d'énergie tel un fouet trois fois. Chaque ruban inflige des dégâts aux ennemis sur une ligne d'effet en ignorant leurs boucliers. Si les trois rubans frappent un ennemi, la dernière attaque est un <font color='{menu_highlight_white}'>coup critique garanti.</font><br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie. Chaque ruban se dirigera dans la même direction.</font>",
+        "de": "Peitscht drei Mal ein Energieband nach vorn. Jedes Band fügt Feinden in einer Reihe Schaden zu und ignoriert Schilde. Wenn ein Gegner von allen drei Bändern getroffen wird, ist der letzte ein <font color='{menu_highlight_white}'>garantierter krit.</font><br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen. Jedes Band wird sich in die gleiche Richtung bewegen.</font>",
+        "es": "Golpea tres veces con una cinta de energía. Cada cinta causa daño a los enemigos colocados en fila e ignora los escudos. Si un enemigo es golpeado por las tres cintas, la última causa <font color='{menu_highlight_white}'>daño crítico garantizado</font>.<br><font color='{menu_highlight_white}'>Se puede mover durante la canalización. Cada cinta se traslada en la misma dirección.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "magicalgirl_healingCircle",
+      "name": {
+        "en": "Healing Circle",
+        "fr": "Cercle guérisseur",
+        "de": "Heilungskreis",
+        "es": "Círculo Curativo"
+      },
+      "description": {
+        "en": "Summons a magic circle that heals and <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font> of all allies within its bounds.",
+        "fr": "Invoque un cercle magique qui soigne et octroie <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> à tous les ennemis situés dans son périmètre.",
+        "de": "Ruft einen magischen Kreis herbei, der heilt und für alle Verbündeten darin <font color='{buff_blue}'>{icon.raise_def}&nbsp;VTG. ERHÖHT</font>.",
+        "es": "Invoca un círculo mágico que cura y <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font> de todos los aliados que se encuentren en su interior."
+      }
+    },
+    "ThirdSkill": {
+      "id": "magicalgirl_queenOfHearts",
+      "name": {
+        "en": "Queen of Hearts",
+        "fr": "Reine de coeur",
+        "de": "Herzdame",
+        "es": "Reina de Corazones"
+      },
+      "description": {
+        "en": "Bless all allies with protective magic, absorbing incoming attacks. Reduces all damage dealt to affected allies. At the end of its duration, the spell unleashes this energy, dealing damage proportional to the damage absorbed to all enemies near affected allies.",
+        "fr": "Bénit tous les alliés d'une magie protectrice qui absorbe toutes les attaques. Réduit tous les dégâts infligés aux ennemis affectés. Le sort prend fin en libérant son énergie et en infligeant des dégâts proportionnels aux dégâts absorbés à tous les ennemis à proximité des alliés affectés.",
+        "de": "Segnet alle Verbündeten mit schützender Magie und absorbiert eingehende Angriffe. Verringert den gesamten zugefügten Schaden für betroffene Verbündete. Am Ende seiner Dauer entfesselt der Zauber diese Energie und fügt allen Feinden in der Nähe Schaden zu, der proportional zum Schaden ist, der von den betroffenen Verbündeten absorbiert wurde.",
+        "es": "Bendice a todos los aliados con magia protectora, absorbiendo los ataques recibidos. Reduce todo el daño causado a los aliados afectados. Cuando termina, el hechizo libera esa energía y causa un daño proporcional al daño absorbido a todos los enemigos cercanos a los aliados afectados."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "magicalgirl_wish",
+      "name": {
+        "en": "Wish",
+        "fr": "Voeu",
+        "de": "Wunsch",
+        "es": "Deseo"
+      },
+      "description": {
+        "en": "Damages target enemy from a distance. Becomes empowered every {SkillTimer_empower.StartValue} seconds, causing the next attack to deal damage to enemies in a line.<br><font color='{menu_highlight_white}'>PASSIVE:</font> If an ally takes lethal damage, prevents death and sets their HP to a portion of their <font color='{maxhp_green}'>MAX HP</font>. This effect can occur once every {SkillTimer_passive.StartValue} seconds.",
+        "fr": "Inflige des dégâts à l'ennemi visé. Se renforce toutes les {SkillTimer_empower.StartValue} secondes et inflige des dégâts aux ennemis situés sur la ligne d'effet lors de la prochaine attaque.<br><font color='{menu_highlight_white}'>PASSIVE&nbsp;:</font> Si un allié subit des dégâts mortels, elle l'empêche de mourir et restaure une partie de ses <font color='{maxhp_green}'>HP MAX</font>. Cet effet peut se produire une fois toutes les {SkillTimer_passive.StartValue} secondes.",
+        "de": "Fügt dem feindlichen Ziel aus der Ferne Schaden zu. Alle {SkillTimer_empower.StartValue} Sekunden wird er verstärkt, wodurch der nächste Angriff den Feinden in einer Reihe Schaden zufügt.<br><font color='{menu_highlight_white}'>PASSIV:</font>Wenn ein Verbündeter tödlichen Schaden erleidet, verhindert er seinen Tod und setzt die GP auf einen Teil seiner <font color='{maxhp_green}'>MAX. GP</font>. Dieser Effekt kann alle {SkillTimer_passive.StartValue} Sekunden auftreten.",
+        "es": "Causa daño al objetivo a distancia. Se potencia cada {SkillTimer_empower.StartValue} segundos y el siguiente ataque causa daño a los enemigos colocados en fila.<br><font color='{menu_highlight_white}'>PASIVA:</font> Si un aliado recibe daño mortal, evita la muerte y se queda con una cantidad de PV equivalentes a una fracción de sus <font color='{maxhp_green}'>PV MÁX</font>. Este efecto se puede producir una vez cada {SkillTimer_passive.StartValue} segundos."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

@@ -200,6 +200,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "shark_nourishment",
+      "name": {
+        "en": "Feeding Frenzy",
+        "fr": "Frénésie alimentaire",
+        "de": "Fresswahn",
+        "es": "Frenesí Voraz"
+      },
+      "description": {
+        "en": "<font color='{menu_highlight_white}'>Enhances</font> {AutoAttackSkill.name} for the next {SkillCustomParameters.maxBuffCombo} attacks. While Enhanced, it has <font color='{menu_highlight_white}'>{%SkillCustomParameters.lifeStealRatio} Lifestealing</font>. The last of these attacks inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font> on the primary target.",
+        "fr": "<font color='{menu_highlight_white}'>Sublime</font> {AutoAttackSkill.name} pour les {SkillCustomParameters.maxBuffCombo} prochaines attaques. Une fois sublimée, l'attaque octroie <font color='{menu_highlight_white}'>{%SkillCustomParameters.lifeStealRatio} de Saignée</font>. Le dernier coup inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font> à la cible principale.",
+        "de": "<font color='{menu_highlight_white}'>Verstärkt</font> {AutoAttackSkill.name} für die nächsten {SkillCustomParameters.maxBuffCombo} Angriffe. Während die Verstärkung aktiv ist, wirkt <font color='{menu_highlight_white}'>{%SkillCustomParameters.lifeStealRatio} Lebensdiebstahl</font>. Der letzte dieser Angriffe fügt dem Hauptziel <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu.",
+        "es": "<font color='{menu_highlight_white}'>Fortalece</font> {AutoAttackSkill.name} durante los próximos {SkillCustomParameters.maxBuffCombo} ataques. Mientras esté fortalecida, tiene un <font color='{menu_highlight_white}'>{%SkillCustomParameters.lifeStealRatio} de Robo de Vida</font>. El último de estos ataques inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font> al objetivo principal."
+      }
+    },
+    "SecondSkill": {
+      "id": "shark_maelstrom",
+      "name": {
+        "en": "Maelstrom Slash",
+        "fr": "Frappe maelström",
+        "de": "Malstrom-Schwung",
+        "es": "Tajo Vertiginoso"
+      },
+      "description": {
+        "en": "Slashes in a circle, dealing damage to nearby enemies.",
+        "fr": "Frappe en cercle, infligeant des dégâts aux ennemis à proximité.",
+        "de": "Schwingt im Kreis herum und fügt Feinden in der Nähe Schaden zu.",
+        "es": "Raja a los enemigos cercanos en un círculo y les daña."
+      }
+    },
+    "ThirdSkill": {
+      "id": "shark_dive",
+      "name": {
+        "en": "Dive Attack",
+        "fr": "Attaque plongeante",
+        "de": "Sturzangriff",
+        "es": "Ataque Subterráneo"
+      },
+      "description": {
+        "en": "Dives underground and emerges underneath target enemy. Deals massive damage to the target, knocks it into the air, and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Plonge dans le sol et émerge sous l'ennemi avant de le projeter dans les airs. Inflige de lourds dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Taucht unter die Erde ab und erscheint unter dem feindlichen Ziel. Fügt dem Ziel massiven Schaden zu, schlägt es in die Luft und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Se introduce bajo tierra y emerge junto al enemigo. Inflige un enorme daño al objetivo, lo lanza por los aires y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "shark_brutalStrike",
+      "name": {
+        "en": "Hungering Strike",
+        "fr": "Frappe affamée",
+        "de": "Hungerstreik",
+        "es": "Golpe Voraz"
+      },
+      "description": {
+        "en": "Slashes with bladed fins, dealing damage to enemies. If the primary target has less than {%SkillCustomParameters.healthRatioThreshold} HP, this <font color='{menu_highlight_white}'>lowers the cooldown of {FirstSkill.name}</font> by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Écorche les ennemis avec ses ailerons aiguisés comme des lames de rasoir. Si la cible principale a moins de {%SkillCustomParameters.healthRatioThreshold} de ses HP, le rechargement de {FirstSkill.name} <font color='{menu_highlight_white}'>diminue</font> de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Greift mit Klingen-Flossen an und fügt Feinden Schaden zu. Wenn das feindliche Ziel weniger als {%SkillCustomParameters.healthRatioThreshold} GP besitzt, wird die <font color='{menu_highlight_white}'>Abklingzeit von {FirstSkill.name}</font> um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden reduziert.",
+        "es": "Ataca con sus afiladas aletas y daña a los enemigos. Si el objetivo principal tiene menos de {%SkillCustomParameters.healthRatioThreshold} PV, <font color='{menu_highlight_white}'>reduce el tiempo de recuperación de {FirstSkill.name}</font> {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "symbiot_rocketFist",
+      "name": {
+        "en": "Rocket Fist",
+        "fr": "Poing fusée",
+        "de": "Raketenfaust",
+        "es": "Puño Cohete"
+      },
+      "description": {
+        "en": "Fires her fist in a direction, which causes an explosion on the first enemy it strikes. <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> the enemy and damages all nearby enemies. If the enemy already had the <font color='{debuff_red}'>{icon.stun}&nbsp;STUN</font> debuff, it deals bonus damage instead.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time.</font>",
+        "fr": "Lance son poing qui explose sur le premier ennemi qu'il percute. Inflige <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> à l'ennemi frappé et blesse tous les ennemis à proximité. Si l'ennemi était déjà affecté par <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>, inflige des dégâts supplémentaires à la place.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai.</font>",
+        "de": "Feuert ihre Faust in eine Richtung ab, wodurch der erste getroffene Feind explodiert. <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> den Feind und fügt allen Feinden in der Nähe Schaden zu. Wenn der Feind bereits den Schwächungszauber <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> hat, fügt es ihm stattdessen Schaden zu.<br><font color='{menu_highlight_white}'>Kann innerhalb einer kurzen Zeit erneut gezaubert werden.</font>",
+        "es": "Lanza su puño, que explotará contra el primer enemigo al que golpee. <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> al enemigo y daña a los enemigos cercanos. Si el enemigo estaba <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDIDO</font>, infligirá daño adicional.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "symbiot_psychicShield",
+      "name": {
+        "en": "Psychic Shield",
+        "fr": "Bouclier psychique",
+        "de": "Psychisches Schild",
+        "es": "Escudo Psíquico"
+      },
+      "description": {
+        "en": "Generates a field of psychokinetic energy, gaining a <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font>. The field zaps nearby enemies randomly. Each zap damages and <font color='{menu_highlight_white}'>removes 1 buff</font> from the enemy.",
+        "fr": "Génère un champ d'énergie psychokinésique et gagne <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>. Le champ inflige des décharges aléatoirement aux ennemis à proximité. Chaque décharge inflige des dégâts et <font color='{menu_highlight_white}'>supprime 1 buff</font> à l'ennemi.",
+        "de": "Generiert ein Feld psycho-kinetischer Energie, das eine <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNG</font> liefert. Das Feld versetzt zufälligen Feinden in der Nähe einen Stromschlag. Jeder Stromschlag fügt Schaden zu und entfernt vom Feind <font color='{menu_highlight_white}'>1 Bonus</font>.",
+        "es": "Genera un campo de energía que proporciona un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>. El campo electrocuta a enemigos cercanos al azar. Cada rayo inflige daño y elimina <font color='{menu_highlight_white}'>1 efecto positivo</font> del enemigo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "symbiot_mentalAnguish",
+      "name": {
+        "en": "Mental Anguish",
+        "fr": "Affliction mentale",
+        "de": "Mentale Qual",
+        "es": "Angustia Mental"
+      },
+      "description": {
+        "en": "Releases a burst of negative psychic energy. Damages and inflicts <font color='{debuff_red}'>{icon.fear}&nbsp;FEAR</font> on nearby enemies.",
+        "fr": "Libère une décharge d'énergie psychique négative. Inflige des dégâts et <font color='{debuff_red}'>{icon.fear}&nbsp;PEUR</font> aux ennemis à proximité.",
+        "de": "Gibt eine Salve negativer psychischer Energie ab. Fügt Feinden in der Nähe Schaden zu und <font color='{debuff_red}'>{icon.fear}&nbsp;ERSCHRECKT</font> sie.",
+        "es": "Libera una ráfaga de energía psíquica negativa. Daña e infunde <font color='{debuff_red}'>{icon.fear}&nbsp;MIEDO</font> a los enemigos cercanos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "symbiot_pummel",
+      "name": {
+        "en": "Pummel",
+        "fr": "Passage à tabac",
+        "de": "Pummel",
+        "es": "Zurra"
+      },
+      "description": {
+        "en": "Punches enemies, damaging them. Each attack lowers the cooldown of {SecondSkill.name}. Every sixth attack <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Frappe les ennemis du poing, leur infligeant des dégâts. Chaque attaque réduit le rechargement de {SecondSkill.name}. Toutes les 6 attaques, inflige <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font>.",
+        "de": "Boxt Feinde und fügt Schaden zu. Jeder Angriff verringert die Abklingzeit von {SecondSkill.name}. Jeder 6. Angriff <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Propina puñetazos a los enemigos, dañándoles. Cada ataque reduce el tiempo de recuperación de {SecondSkill.name}. Cada sexto ataque <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

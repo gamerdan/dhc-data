@@ -213,6 +213,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "elemental_primalEnergy",
+      "name": {
+        "en": "Plasma Blast",
+        "fr": "Explosion de plasma",
+        "de": "Plasmawelle",
+        "es": "Ráfaga de Plasma"
+      },
+      "description": {
+        "en": "Charges a massive ball of energy. Damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies.",
+        "fr": "Charge une énorme boule d'énergie qui inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis.",
+        "de": "Lädt einen riesigen Energieball. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> sie.",
+        "es": "Carga una enorme bola de energía. Daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "elemental_essenceRush",
+      "name": {
+        "en": "Essence Rush",
+        "fr": "Ruée essentielle",
+        "de": "Wesenssturm",
+        "es": "Ataque de Esencia"
+      },
+      "description": {
+        "en": "Pumps up, temporarily <font color='{menu_highlight_white}'>Enhancing</font> Essence Bolt. While Enhanced, it gains Lifestealing and explodes in a larger area.",
+        "fr": "Booste et <font color='{menu_highlight_white}'>sublime</font> temporairement Éclair essentiel. Une fois sublimé, il gagne Saignée et explose sur une zone plus étendue.",
+        "de": "Pumpt sich auf und <font color='{menu_highlight_white}'>verstärkt</font> kurzzeitig den Wesenspfeil. Während die Verstärkung aktiv ist, erhält es Lebensdiebstahl und explodiert in einem größeren Gebiet.",
+        "es": "Se infla, <font color='{menu_highlight_white}'>fortaleciendo</font> temporalmente Descarga de Esencia. Mientras está fortalecida, obtiene Robo de Vida y explota afectando a una zona mayor."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "elemental_elementalBolt",
+      "name": {
+        "en": "Essence Bolt",
+        "fr": "Éclair essentiel",
+        "de": "Wesenspfeil",
+        "es": "Descarga de Esencia"
+      },
+      "description": {
+        "en": "Hurls a bolt of elemental energy at target enemy. When it hits, it deals damage to that enemy and explodes, dealing damage to enemies in a cone behind the primary target.",
+        "fr": "Lance un éclair d'énergie élémentaire sur un ennemi visé. À l'impact, il inflige des dégâts à cet ennemi et aux ennemis situés dans un cône derrière lui.",
+        "de": "Schleudert einen Pfeil mit elementarer Energie auf das feindliche Ziel. Wenn er trifft, fügt er diesem Feind Schaden zu und explodiert, wobei Feinden hinter dem Hauptziel innerhalb eines Kegels Schaden zugefügt wird.",
+        "es": "Lanza una descarga de energía elemental que inflige daño al objetivo, explota y causa daño a los enemigos situados en un cono tras el objetivo principal."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

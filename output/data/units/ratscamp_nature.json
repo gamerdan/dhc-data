@@ -192,6 +192,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "ratscamp_suckerpunch",
+      "name": {
+        "en": "Suckerpunch",
+        "fr": "Coup en traître",
+        "de": "Trottelhieb",
+        "es": "Golpe Bajo"
+      },
+      "description": {
+        "en": "Leaps at a target enemy, dealing damage with his claws.<br><font color='{menu_highlight_white}'>Bonus damage based on the number of buffs on the enemy.</font>",
+        "fr": "Bondit sur l'ennemi pour lui infliger des dégâts avec ses griffes.<br><font color='{menu_highlight_white}'>Inflige des dégâts supplémentaires en fonction du nombre de buffs de l'ennemi.</font>",
+        "de": "Springt auf ein feindliches Ziel zu und fügt mit seinen Klauen Schaden zu.<br><font color='{menu_highlight_white}'>Bonus-Schaden, basierend auf der Anzahl an Boni auf dem Feind.</font>",
+        "es": "Se abalanza sobre el enemigo infligiendo daño con sus garras.<br><font color='{menu_highlight_white}'>El daño adicional depende del número de efectos positivos del enemigo.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "ratscamp_dirtyTrick",
+      "name": {
+        "en": "Dirty Trick",
+        "fr": "Ruse sournoise",
+        "de": "Schmutziger Trick",
+        "es": "Juego Sucio"
+      },
+      "description": {
+        "en": "Kicks sand into the eyes of his foes. Deals damage and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font>.",
+        "fr": "Projette du sable dans les yeux de ses ennemis. Inflige des dégâts et <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font>.",
+        "de": "Schleudert seinen Feinden Sand in die Augen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> sie.",
+        "es": "Lanza arena a los ojos de sus enemigos. Inflige daño y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "ratscamp_doubleTrouble",
+      "name": {
+        "en": "Double Trouble",
+        "fr": "Double attaque",
+        "de": "Doppelter Ärger",
+        "es": "Dos en Uno"
+      },
+      "description": {
+        "en": "Rapidly slashes enemies with his claws, damaging them two times with a single attack.",
+        "fr": "Lacère rapidement les ennemis avec ses griffes, leur infligeant des dégâts deux fois en une seule attaque.",
+        "de": "Schlitzt Feinde blitzschnell mit seinen Klauen auf, wobei er ihnen mit einem einzelnen Angriff zwei Mal Schaden zufügt.",
+        "es": "Raja a los enemigos rápidamente con sus garras, dañándolos dos veces con un solo ataque."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

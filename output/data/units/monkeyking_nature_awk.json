@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "monkeyking_toss",
+      "name": {
+        "en": "Overhead Toss",
+        "fr": "Sans queue ni tête",
+        "de": "Überkopf-Schmiss",
+        "es": "Lanzamiento elevado"
+      },
+      "description": {
+        "en": "Flips target enemy over his head with his staff. Deals damage and <font color='{menu_highlight_white}'>removes 1 buff</font> from the target.",
+        "fr": "Renverse l'ennemi sur la tête avec son bâton. Inflige des dégâts et lui <font color='{menu_highlight_white}'>supprime 1 buff</font>.",
+        "de": "Wirft das feindliche Ziel über seinen Kopf mit seinem Stab. Fügt Schaden zu und <font color='{menu_highlight_white}'>entfernt 1 Bonus</font> des Ziels.",
+        "es": "Da una voltereta sobre su enemigo usando su bastón. Inflige daño y <font color='{menu_highlight_white}'>elimina 1 efecto positivo</font> del objetivo."
+      }
+    },
+    "SecondSkill": {
+      "id": "monkeyking_monkeyTricks",
+      "name": {
+        "en": "Monkey Tricks",
+        "fr": "Singeries",
+        "de": "Affentricks",
+        "es": "Trucos de mono"
+      },
+      "description": {
+        "en": "Leaps to a location and balances on his staff, becoming invulnerable and untargetable for a few seconds before hopping off. When he falls, <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> and damages nearby enemies with his staff.<br><font color='{menu_highlight_white}'>Can be recast while balancing to leap in a new direction, dealing damage in a line instead.</font>",
+        "fr": "Bondit vers un emplacement et se tient en équilibre sur son bâton, devenant invulnérable et impossible à viser pendant quelques secondes avant d'en sauter. Lorsqu'il atterrit, gagne <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> et inflige des dégâts aux ennemis proches avec son bâton.<br><font color='{menu_highlight_white}'>Cette compétence peut être réutilisée lorsqu'il se tient en équilibre pour bondir dans une autre direction, infligeant alors des dégâts sur une ligne.</font>",
+        "de": "Springt an einen Ort und balanciert am Ende seines Stabs, wodurch er ein paar Sekunden lang unverwundbar wird und nicht angezielt werden kann, bevor er herunterspringt. Sein Fall <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> und fügt Gegnern in Reichweite mit seinem Stab Schaden zu.<br><font color='{menu_highlight_white}'>Kann neu gewirkt werden, während er auf  seinem Stab balanciert, um in eine andere Richtung zu springen. Dies fügt stattdessen Schaden in einer Reihe zu.</font>",
+        "es": "Salta a una ubicación y se mantiene en equilibrio sobre el bastón, haciéndose invulnerable y sin poder convertirse en objetivo durante unos segundos antes de bajar. Cuando cae, <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> y daña a los enemigos cercanos con su bastón.<br><font color='{menu_highlight_white}'>Se puede usar de nuevo mientras mantiene el equilibrio para saltar en una nueva dirección, infligiendo daño en línea recta.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "monkeyking_teamPlay",
+      "name": {
+        "en": "Tag Team",
+        "fr": "Travail d'équipe",
+        "de": "Teamarbeit",
+        "es": "Trabajo en equipo"
+      },
+      "description": {
+        "en": "Blows strands of his magical hair in a direction, summoning five clones of himself to damage enemies and knock them into the air. Damage dealt by clones ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> and <font color='{menu_highlight_white}'>ignores a portion of the enemy's </font><font color='{def_yellow}'>DEF</font>.",
+        "fr": "Jette des mèches de sa fourrure magique pour faire apparaître cinq clones qui infligent des dégâts aux ennemis et les projettent dans les airs. Cette attaque ignore les <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIERS</font> et <font color='{menu_highlight_white}'>une partie de la </font><font color='{def_yellow}'>DÉFENSE</font> ennemie. ",
+        "de": "Bläst Strähnen seines magischen Haars in eine Richtung, um fünf Klone zu beschwören, die Feinden Schaden zufügen und sie in die Luft werfen. Von Klonen zugefügter Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNGEN</font> und <font color='{menu_highlight_white}'>ignoriert einen Teil der Feindlichen </font><font color='{def_yellow}'>VTG.</font>",
+        "es": "Lanza hebras de su cabello mágico en una dirección, invocando a cinco clones que dañan a los enemigos y los lanza por los aires. El daño infligido por los clones ignora los <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDOS</font> e <font color='{menu_highlight_white}'>ignora una parte de la </font><font color='{def_yellow}'>DEF</font> del enemigo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "monkeyking_nimbusSomersault",
+      "name": {
+        "en": "Nimbus Strike",
+        "fr": "Attaque nébuleuse",
+        "de": "Nimbus-Stoß",
+        "es": "Golpe de Halo"
+      },
+      "description": {
+        "en": "Strikes enemies with his staff. Whenever he uses another skill, he becomes <font color='{menu_highlight_white}'>Empowered</font>, causing him to deal additional damage and leap to his target on his next attack.",
+        "fr": "Frappe les ennemis avec son bâton. Chaque utilisation d'une autre compétence le <font color='{menu_highlight_white}'>renforce</font>. Il inflige alors des dégâts supplémentaires et bondit sur sa cible lors de l'attaque suivante.",
+        "de": "Greift Feine mit seinem Stab an. Wenn er eine andere Fertigkeit benutzt, wird er <font color='{menu_highlight_white}'>verstärkt</font>, wodurch er zusätzlichen Schaden ausübt und mit seinem nächsten Angriff zu seinem Ziel springt.",
+        "es": "Golpea a los enemigos con su bastón. Cuando usa otra habilidad, se <font color='{menu_highlight_white}'>potencia</font>, haciendo que inflija daño adicional y salta hacia su objetivo en su próximo ataque."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

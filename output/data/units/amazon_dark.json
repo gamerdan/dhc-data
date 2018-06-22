@@ -218,6 +218,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "amazon_earthSmash",
+      "name": {
+        "en": "Earth Slam",
+        "fr": "Fracas terrestre",
+        "de": "Erdschlag",
+        "es": "Golpe Terrestre"
+      },
+      "description": {
+        "en": "Smashes the ground with her tiki, creating a fissure that deals damage and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies in a line.",
+        "fr": "Frappe le sol avec son tiki pour créer une fissure qui inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Schmettert ihren Tiki auf den Boden und formt einen Riss, der Schaden zufügt und Feinde in einer Reihe <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font>.",
+        "es": "Golpea el suelo con su tiki, creando una fisura que daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos en una línea recta."
+      }
+    },
+    "SecondSkill": {
+      "id": "amazon_manaExposure",
+      "name": {
+        "en": "Mana Kia'i",
+        "fr": "Mana Kia'i",
+        "de": "Mana Kia'i",
+        "es": "Mana Kia'i"
+      },
+      "description": {
+        "en": "Calls upon the power of her ancestors, reducing all damage taken and creating an aura that <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font> and applies the <font color='{buff_blue}'>{icon.haste}&nbsp;HASTE</font> buff to herself and nearby allies. While active, every third Tiki Smash deals additional damage to nearby enemies.",
+        "fr": "Invoque le pouvoir de ses ancêtres, réduit tous les dégâts reçus et crée une aura qui octroie <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> et <font color='{buff_blue}'>{icon.haste}&nbsp;HÂTE</font> à elle-même et aux alliés proches. Tant qu'il est actif, des dégâts supplémentaires sont infligés aux ennemis toutes les trois frappes de tiki.",
+        "de": "Ruft die Macht ihrer Vorfahren herbei, reduziert ihren erlittenen Schaden und erschafft eine Aura, die <font color='{buff_blue}'>{icon.raise_def}&nbsp;VTG. ERHÖHT</font> und den <font color='{buff_blue}'>{icon.haste}&nbsp;EILE</font>-Bonus auf sie und auf Verbündete in der Nähe wirkt. Während er aktiv ist, verursacht jeder dritte Tiki-Schlag zusätzlichen Schaden bei Feinden in der Nähe.",
+        "es": "Llama al poder de los ancestros, reduciendo todo el daño recibido y creando un aura que <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font> y otorga el efecto positivo <font color='{buff_blue}'>{icon.haste}&nbsp;RAPIDEZ</font> a sí misma y a sus aliados. Mientras esté activo, cada tercer golpe inflige daño adicional a los enemigos cercanos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "amazon_tikiSpin",
+      "name": {
+        "en": "Tiki Spin",
+        "fr": "Toupie tiki",
+        "de": "Tiki-Drehung",
+        "es": "Giro Tiki"
+      },
+      "description": {
+        "en": "Spins slowly in a circle while channeling, dealing damage and knocking back enemies. While spinning, she quickly accelerates and gains the <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITY</font> buff.<br><font color='{menu_highlight_white}'>Can move while channeling.</font>",
+        "fr": "Concentre son énergie dans un mouvement circulaire qui inflige des dégâts aux ennemis et les repousse. À mesure qu'elle tourne, elle accélère et reçoit <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÉ</font>.<br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie.</font>",
+        "de": "Dreht sich beim Kanalisieren langsam im Kreis, fügt Schaden zu und schlägt Feinde zurück. Während sie sich dreht, beschleunigt sie sich im Nu und erhält den <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÄTS</font>-Bonus.<br><font color='{menu_highlight_white}'>Kann sich während der Kanalisierung bewegen.</font>",
+        "es": "Gira lentamente en círculo dañando y haciendo retroceder a los enemigos. Mientras gira, acelera rápidamente y gana el efecto positivo <font color='{buff_blue}'>{icon.immunity}&nbsp;INMUNIDAD</font>.<br><font color='{menu_highlight_white}'>Se puede mover mientras canaliza la habilidad.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "amazon_tikiSmash",
+      "name": {
+        "en": "Tiki Smash",
+        "fr": "Frappe tiki",
+        "de": "Tiki-Schlag",
+        "es": "Golpe Tiki"
+      },
+      "description": {
+        "en": "Attacks enemies with her tiki. Can be <font color='{menu_highlight_white}'>Empowered</font> by {SecondSkill.name} to deal damage in a wide circle and have bonus effects on every third attack.<br><font color='{menu_highlight_white}'>PASSIVE:</font>Whenever a critical hit is received, <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font>.",
+        "fr": "Attaque les ennemis avec son tiki. Peut être <font color='{menu_highlight_white}'>renforcé</font> par {SecondSkill.name} pour infliger des dégâts dans un large cercle et obtenir des effets bonus toutes les trois attaques.<br><font color='{menu_highlight_white}'>PASSIVE&nbsp;: </font>octroie <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font> à chaque coup critique reçu</font>.",
+        "de": "Greift Feinde mit ihrem Tiki an. Kann um {SecondSkill.name} <font color='{menu_highlight_white}'>verstärkt</font> werden, um in einem weiten Kreis Schaden auszuüben und mit jedem dritten Angriff Schwächungszauber auf Feinde zu wirken.<br><font color='{menu_highlight_white}'>PASSIV:</font><font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> bei jedem erhaltenen kritischen Treffer.",
+        "es": "Ataca a los enemigos con su tiki. Se puede <font color='{menu_highlight_white}'>potenciar</font> con {SecondSkill.name} para causar daño adicional en un amplio círculo y aplicar efectos adicionales cada tercer ataque.<br><font color='{menu_highlight_white}'>PASIVA:</font>Al recibir un golpe crítico, <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

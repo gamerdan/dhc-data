@@ -222,6 +222,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "royaltower_unstableProtection",
+      "name": {
+        "en": "Royal Shield",
+        "fr": "Bouclier royal",
+        "de": "Königliches Schild",
+        "es": "Escudo real"
+      },
+      "description": {
+        "en": "Gains <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> and <font color='{buff_blue}'>{icon.reflect}&nbsp;DAMAGE REFLECTION</font>. If the <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> is still intact when it expires, it explodes. This explosion <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font>, <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font>, and deals damage proportional to the remaining HP of the shield.",
+        "fr": "Gagne <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> et <font color='{buff_blue}'>{icon.reflect}&nbsp;MIROIR</font>. Le <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> finit par exploser s'il n'est pas totalement utilisé. Inflige alors <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font>, <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> et des dégâts proportionnels aux HP restants du bouclier.",
+        "de": "Gewährt <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNG</font> und <font color='{buff_blue}'>{icon.reflect}&nbsp;SCHADENSRÜCKWURF</font>. Wenn die <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNG</font> am Ende der Wirkung noch intakt ist, explodiert es. Diese Explosion <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font>, <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> und fügt proportional zu den verbleibenden GP der Abschirmung Schaden zu.",
+        "es": "Otorga <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> y <font color='{buff_blue}'>{icon.reflect}&nbsp;REFLEJO DE DAÑO</font>. Si el <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> está intacto cuando expire, explotará. Esta explosión <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font>, <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font> e inflige daño proporcional a los PV restantes del escudo."
+      }
+    },
+    "SecondSkill": {
+      "id": "royaltower_lancing",
+      "name": {
+        "en": "Lance-a-Lot",
+        "fr": "Lances en lot",
+        "de": "Lanzenspiel",
+        "es": "Lanzas por doquier"
+      },
+      "description": {
+        "en": "Charges in a direction, dealing damage to enemies and knocking them aside. At the end of the charge, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font> and damages nearby enemies.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time to stop immediately and trigger the second effect.</font>",
+        "fr": "Charge dans une direction et inflige des dégâts aux ennemis, tout en les repoussant sur les côtés. Inflige <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> et des dégâts aux ennemis à proximité, une fois à bout de course.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai pour cesser la charge et déclencher le deuxième effet.</font>",
+        "de": "Greift in eine Richtung an, fügt Feinden Schaden zu und wirft sie zur Seite. Am Ende der Kanalisierung werden <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BONI BLOCKIERT</font> und Feinden in Reichweite Schaden zugefügt.<br><font color='{menu_highlight_white}'>Kann in Kürze neu gewirkt werden, um sofort anzuhalten und den zweiten Effekt zu aktivieren.</font>",
+        "es": "Carga en una dirección dañando a los enemigos y echándolos a un lado. Cuando la carga finaliza, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font> y daña a los enemigos cercanos.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo para detenerse inmeditamente y activar el segundo efecto.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "royaltower_rookStance",
+      "name": {
+        "en": "Head Cannon",
+        "fr": "Canon entêté",
+        "de": "Kanonenkopf",
+        "es": "Cañón principal"
+      },
+      "description": {
+        "en": "Fires 5 cannon balls at target enemy while channeling. Each damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies in a line and then explodes when it hits a wall or reaches max range. This explosion damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> enemies.<br><font color='{menu_highlight_white}'>Can move at 70% speed while channeling.</font>",
+        "fr": "Se concentre pour tirer 5 boulets de canon qui infligent chacun des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis situés sur la ligne d'effet. Ils explosent lorsqu'ils touchent un mur ou atteignent leur portée maximale, blessant les ennemis et causant <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.<br><font color='{menu_highlight_white}'>Déplacement possible à hauteur de 70&nbsp;% de sa vitesse pendant la concentration.</font>",
+        "de": "Feuert während der Kanalisierung 5 Kanonen auf ein feindliches Ziel. Jede fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> Feinde in einer Reihe und explodiert, wenn sie eine Wand berührt, oder ihre max. Reichweite erreicht. Diese Explosion fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.<br><font color='{menu_highlight_white}'>Kann sich während der Kanalisierung mit 70% Geschwindigkeit bewegen.</font>",
+        "es": "Dispara 5 balas de cañón al objetivo mientras se canaliza. Cada una daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos en línea recta y explota cuando golpea un muro o alcanza su distancia máxima. Esta explosión daña y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos.<br><font color='{menu_highlight_white}'>Puede moverse al 70% de su velocidad mientras se canaliza.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "royaltower_lanceHeal",
+      "name": {
+        "en": "Windup Thrust",
+        "fr": "Bourrasque",
+        "de": "Aufzieh-Stoß",
+        "es": "Impulso final"
+      },
+      "description": {
+        "en": "Attacks enemies with her lance. If she has the <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buff, this engages an auto-repair mechanism that instantly heals for a portion of the damage dealt.",
+        "fr": "Attaque les ennemis avec sa lance. Si <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> est actif, il déclenche un système d'auto-régénération qui soigne instantanément une portion des dégâts subis.",
+        "de": "Greift Feinde mit ihrer Lanze an. Wenn der <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNGS</font>-Bonus aktiv ist, startet dies einen autom. Mechanismus, der sofort für einen Teil des ausgeübten Schadens heilt.",
+        "es": "Ataca a los enemigos con su lanza. Si tiene aplicado el efecto positivo <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> desencadena un mecanismo de autorreparación que cura instantáneamente una porción del daño infligido."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

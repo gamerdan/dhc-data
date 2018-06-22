@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "raptor_boltOfSilence",
+      "name": {
+        "en": "Silencing Bolt",
+        "fr": "Éclair de mutisme",
+        "de": "Verstummender Pfeil",
+        "es": "Descarga de Silencio"
+      },
+      "description": {
+        "en": "Conjures a bolt of lightning to strike a target location. Damages and <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> enemies.",
+        "fr": "Invoque la foudre en un point précis de façon à infliger des dégâts et <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> aux ennemis.",
+        "de": "Beschwört einen Blitzpfeil, um einen anvisierten Ort zu treffen. Fügt Feinden Schaden zu und lässt sie <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMEN</font>.",
+        "es": "Crea una descarga de rayos en una zona que daña y <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "raptor_rejuvenatingBreeze",
+      "name": {
+        "en": "Rejuvenating Breeze",
+        "fr": "Brise revigorante",
+        "de": "Verjüngungsbrise",
+        "es": "Brisa de Rejuvenecimiento"
+      },
+      "description": {
+        "en": "Creates a breeze that applies the <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERATION</font> buff to herself and then bounces to target ally and two more allies within range.",
+        "fr": "Crée une brise de guérison qui octroie <font color='{buff_blue}'>{icon.regen}&nbsp;RÉGÉNÉRATION</font>, avant de glisser vers l'allié choisi et deux autres à proximité.",
+        "de": "Erschafft eine Brise, die den <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERIERUNGS</font>-Bonus auf sie selbst wirkt und dann auf einen anvisierten Verbündeten und zwei weitere Verbündete in Reichweite springt.",
+        "es": "Crea una brisa que le aplica el efecto positivo <font color='{buff_blue}'>{icon.regen}&nbsp;REGENERACIÓN</font> y, a continuación, rebota en el objetivo aliado y en dos aliados más a su alcance."
+      }
+    },
+    "ThirdSkill": {
+      "id": "raptor_quickness",
+      "name": {
+        "en": "Tempest",
+        "fr": "Tempête",
+        "de": "Unwetter",
+        "es": "Tempestad"
+      },
+      "description": {
+        "en": "Summons a massive gale to aid her allies. <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font> and lowers skill cooldowns of herself and all nearby allies.",
+        "fr": "Invoque une gigantesque tempête qui octroie <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT&nbsp;ATT+</font> et réduit le rechargement des compétences pour elle et ses alliés à proximité.",
+        "de": "Ruft einen massiven Sturm herbei, um ihren Verbündeten zu helfen. <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> und verringert die Abklingzeit für sie selbst und alle Verbündeten in der Nähe.",
+        "es": "Invoca un enorme huracán para ayudar a sus aliados. <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font> y reduce los tiempos de recuperación de sus habilidades y las de sus aliados cercanos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "raptor_zap",
+      "name": {
+        "en": "Zap",
+        "fr": "Électrocution",
+        "de": "Schwung",
+        "es": "Electrocutar"
+      },
+      "description": {
+        "en": "Shoots lightning at an enemy from a distance. Every third attack bounces, hitting a maximum of {SkillCustomParameters.MaxBounceCount} enemies.",
+        "fr": "Lance un éclair sur un ennemi. Celui-ci ricoche sur un maximum de {SkillCustomParameters.MaxBounceCount} ennemis, toutes les trois attaques.",
+        "de": "Feuert einen Blitz auf einen Feind aus der Entfernung. Jeder dritte Angriff hüpft weiter und trifft maximal {SkillCustomParameters.MaxBounceCount} Feinde.",
+        "es": "Dispara rayos a un enemigo a distancia. Cada tercer ataque rebota y golpea a un máximo de {SkillCustomParameters.MaxBounceCount} enemigos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

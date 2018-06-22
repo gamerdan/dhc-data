@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "engineer_clusterBomb",
+      "name": {
+        "en": "TNT Barrel",
+        "fr": "Tonneau de dynamite",
+        "de": "Fass TNT",
+        "es": "Barril de TNT"
+      },
+      "description": {
+        "en": "Throws a barrel of TNT at target point. Damages enemies in the area and flings smaller explosive charges outward from the impact point, dealing damage to enemies caught in the secondary explosions.",
+        "fr": "Lance un tonneau de dynamite. Inflige des dégâts aux ennemis dans la zone et lance des petites charges explosives vers l'extérieur depuis le point d'impact, infligeant des dégâts aux ennemis pris dans les explosions secondaires.",
+        "de": "Wirft ein Fass TNT auf den Zielpunkt. Fügt Feinden in dem Gebiet Schaden zu und schleudert kleinere Sprengladungen nach außen und fügt den Feinden, die von den Sekundärexplosionen getroffen werden, Schaden zu.",
+        "es": "Lanza un barril de TNT a un punto. Daña a los enemigos que haya en esa zona y expulsa pequeñas cargas explosivas secundarias que dañan a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "engineer_bombling",
+      "name": {
+        "en": "Explosive Sentry",
+        "fr": "Sentinelle explosive",
+        "de": "Explosive Wache",
+        "es": "Centinela explosivo"
+      },
+      "description": {
+        "en": "Deploys a Boomling sentry at target point to watch out for enemies. If an enemy is detected, the Boomling will run towards it, exploding on contact. This explosion damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> nearby enemies.<br>This skill has increased chances to land a critical hit based on the number of debuffs on each target.",
+        "fr": "Déploie une Bombine pour surveiller l'ennemi. Si un ennemi est détecté, la Bombine court vers lui et explose à son contact. L'explosion inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis à proximité.<br>Cette compétence augmente les chances d'infliger un coup critique basé sur le nombre de debuffs de chaque cible.",
+        "de": "Stellt eine Bummling-Wache am Zielpunkt ab, um nach Feinden zu suchen. Wenn ein Feind entdeckt wird, rennt der Bummling auf ihn zu und explodiert bei Kontakt. Diese Explosion fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> die Feinde in der Nähe.<br>Diese Fertigkeit hat erhöhte Chancen, einen kritischen Treffer zu landen, basierend auf der Anzahl der Schwächungszauber auf dem Ziel.",
+        "es": "Despliega un centinela explosivo en un punto. Si detecta a un enemigo, el centinela correrá hacia él y explotará al entrar en contacto. La explosión daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos cercanos.<br>Esta habilidad tiene una probabilidad mayor de causar daño crítico en función del número de efectos negativos de cada objetivo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "engineer_bomblingSwarm",
+      "name": {
+        "en": "Boomling Swarm",
+        "fr": "Essaim de Bombines",
+        "de": "Bummling-Schwarm",
+        "es": "Nube de centinelas"
+      },
+      "description": {
+        "en": "Unleashes one Boomling for each enemy in range. Each Boomling will walk toward its target, but will explode upon contact with ANY enemy. This explosion damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> nearby enemies.<br>This skill has an increased chance to crit based on the number of debuffs on each affected target.",
+        "fr": "Libère une Bombine sur chaque ennemi à portée. Chaque Bombine marche vers sa cible, mais explose au contact de N'IMPORTE QUEL ennemi. Cette explosion inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis à proximité.<br>Cette compétence augmente les chances d'infliger des dégâts critiques basés sur le nombre de debuffs de chaque cible.",
+        "de": "Entfesselt einen Bummling für jeden Gegner in Reichweite. Jeder Bummling wird auf sein Ziel zugehen, wird aber bei Kontakt mit JEDEM Feind explodieren. Diese Explosion fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> die Feinde in der Nähe.<br>Diese Fertigkeit hat erhöhte Chancen, einen kritischen Treffer zu landen, basierend auf der Anzahl der Schwächungszauber auf dem Ziel.",
+        "es": "Libera un centinela por cada enemigo a su alcance. Cada centinela se moverá hacia su objetivo, pero explotará al entrar en contacto con CUALQUIER enemigo. La explosión daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos cercanos.<br>Esta habilidad tiene una probabilidad mayor de causar daño crítico en función del número de efectos negativos de cada objetivo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "engineer_boomshot",
+      "name": {
+        "en": "Bomb Shot",
+        "fr": "Tir de bombe",
+        "de": "Bombenabschuss",
+        "es": "¡Bomba!"
+      },
+      "description": {
+        "en": "Launches a bomb at target enemy from a distance. The bomb explodes on contact, damaging enemies near the primary target.",
+        "fr": "Lance une bombe sur l'ennemi. La bombe explose à son contact, infligeant des dégâts aux ennemis proches de la cible.",
+        "de": "Feuert eine Bombe auf das feindliche Ziel aus der Entfernung ab. Die Bombe explodiert bei Kontakt und fügt Feinden in der Nähe des primären Ziels Schaden zu.",
+        "es": "Lanza un bomba a un enemigo desde lejos. La bomba explotará al contacto dañando a los enemigos cercanos al objetivo primario."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "dryad_invigoratingBloom",
+      "name": {
+        "en": "Invigorating Bloom",
+        "fr": "Efflorescence revigorante",
+        "de": "Belebende Blüte",
+        "es": "Flores Reconstituyentes"
+      },
+      "description": {
+        "en": "Launches a seed at target ally, creating a patch of magical flowers around the ally, which grows over time. This zone periodically heals all allies inside it, and heals the main target for twice as much.",
+        "fr": "Lance une graine vers un allié pour créer un parterre de fleurs enchantées qui pousse avec le temps. La zone soigne à intervalles réguliers tous les alliés qui s'y trouvent et la cible principale reçoit deux fois plus de soins.",
+        "de": "Schießt ein Samenkorn auf einen angezielten Verbündeten. Das Samenkorn lässt ein Beet magischer Blumen um den Verbündeten herum entstehen, das über Zeit wächst. Das Gebiet heilt regelmäßig alle Verbündeten, die sich darin befinden, und heilt das Hauptziel doppelt.",
+        "es": "Lanza una semilla a un aliado que crea un jardín a su alrededor que crece con el tiempo. Esta zona cura periódicamente a los aliados dentro de ella y cura el doble al objetivo principal."
+      }
+    },
+    "SecondSkill": {
+      "id": "dryad_stingingBrambles",
+      "name": {
+        "en": "Stinging Brambles",
+        "fr": "Ronces",
+        "de": "Stechender Dornenbusch",
+        "es": "Zarzas Punzantes"
+      },
+      "description": {
+        "en": "Summons a wall of thorns, which damages enemies periodically and also inflicts <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font> on enemies that enter the wall.",
+        "fr": "Invoque un mur d'épines, qui cause périodiquement des dégâts aux ennemis et inflige aussi <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font> à ceux qui pénètrent le mur.",
+        "de": "Ruft eine Dornenwand herbei, die regelmäßig Feinden Schaden zufügt und außerdem bei allen Feinden, die die Wand betreten, <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> wirkt.",
+        "es": "Invoca un muro de espinas que daña a los enemigos de manera periódica e inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font> a los enemigos que atraviesen el muro."
+      }
+    },
+    "ThirdSkill": {
+      "id": "dryad_hinderingRoots",
+      "name": {
+        "en": "Hindering Roots",
+        "fr": "Entrave racinaire",
+        "de": "Hinderliche Wurzeln",
+        "es": "Raíces Entorpecedoras"
+      },
+      "description": {
+        "en": "Summons a massive tangle of roots, which burrows along the ground in a line. Damages, <font color='{debuff_red}'>{icon.immobilize}&nbsp;IMMOBILIZES</font>, and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font> of enemies.",
+        "fr": "Invoque un énorme entrelacs de racines qui sillonnent le sol et infligent des dégâts ainsi que <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> et <font color='{debuff_red}'>{icon.immobilize}&nbsp;ENTRAVE</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Ruft ein riesiges Wurzelgewirr herbei, welches sich in einer Reihe durch den Boden wühlt. Fügt Feinden Schaden zu, macht sie <font color='{debuff_red}'>{icon.immobilize}&nbsp;BEWEGUNGSUNFÄHIG</font> und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Invoca una gran cantidad de raíces enredadoras que escarban la tierra en línea recta. Daña, <font color='{debuff_red}'>{icon.immobilize}&nbsp;PARALIZA</font> y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font> de los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "dryad_willOWisp",
+      "name": {
+        "en": "Will-o'-the-Wisp",
+        "fr": "Feu follet",
+        "de": "Irrlicht",
+        "es": "Fuego Fatuo"
+      },
+      "description": {
+        "en": "Conjures a minor spirit to damage an enemy from a distance.",
+        "fr": "Invoque un esprit mineur pour infliger des dégâts à un ennemi à distance.",
+        "de": "Beschwört einen kleinen Geist herauf, um einem Feind aus der Entfernung Schaden zuzufügen.",
+        "es": "Conjura un espíritu menor que inflige daño a distancia a un enemigo."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

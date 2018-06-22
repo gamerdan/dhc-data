@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "engineer_concussionGrenade",
+      "name": {
+        "en": "Dynamite",
+        "fr": "Dynamite",
+        "de": "Dynamit",
+        "es": "Dinamita"
+      },
+      "description": {
+        "en": "Throws a dynamite stick at target point. Damages enemies and pushes them back from the center of the explosion. If the Engineer is caught in the explosion, it pushes him back without dealing damage.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance un bâton de dynamite. Inflige des dégâts aux ennemis et les repousse du centre de l'explosion. Si l'Ingénieur est pris dans l'explosion, il est repoussé sans subir de dégâts.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Wirft eine Dynamitstange auf den Zielpunkt. Fügt Feinden Schaden zu und schiebt sie vom Zentrum der Explosion zurück. Wenn der Ingenieur von der Explosion getroffen wird, stößt es ihn zurück, ohne dass Schaden verursacht wird.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Lanza un cartucho de dinamita a un punto. Daña a los enemigos y los empuja hacia atrás. Si el ingeniero se encuentra en la zona afectada por la explosión, será empujado hacia atrás sin recibir daño.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "engineer_chainReaction",
+      "name": {
+        "en": "Chain Reaction",
+        "fr": "Réaction en chaîne",
+        "de": "Kettenreaktion",
+        "es": "Reacción en cadena"
+      },
+      "description": {
+        "en": "Fires a bouncing bomb at target enemy. The bomb will explode, damaging enemies in a small area before bouncing to another enemy in range. Can bounce up to {SkillCustomParameters.maxBounce} times, each explosion affecting a wider area than the last.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance une bombe sauteuse sur un ennemi. La bombe explose, infligeant des dégâts aux ennemis dans une petite zone avant de sauter vers un autre ennemi à portée. Peut sauter jusqu'à {SkillCustomParameters.maxBounce} fois, chaque explosion affectant une zone plus large que la précédente.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Feuert eine springende Bombe auf das feindliche Ziel ab. Die Bombe explodiert und fügt Feinden in einem kleinen Gebiet Schaden zu, bevor sie zu einem anderen Feind in Reichweite springt. Kann bis zu {SkillCustomParameters.maxBounce}-mal springen, wobei jede Explosion ein größeres Gebiet, als das letzte, betrifft.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Dispara una bomba saltarina a un enemigo. Cuando explote, dañará a los enemigos cercanos y saltará hacia otro enemigo a su alcance. Puede saltar hasta {SkillCustomParameters.maxBounce} veces y cada explosión afectará una zona mayor que la anterior.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "engineer_transphasicBomb",
+      "name": {
+        "en": "Transphasic Bomb",
+        "fr": "Bombe transphasique",
+        "de": "Transphasische Bombe",
+        "es": "Bomba transfásica"
+      },
+      "description": {
+        "en": "Hurls a massive experimental explosive at target point. On impact, it explodes with unstable energy, damaging enemies in the blast area.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance un explosif expérimental massif. À l'impact, il explose avec une énergie instable, infligeant des dégâts aux ennemis dans la zone du souffle.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font>.",
+        "de": "Schleudert einen massiven experimentellen Sprengstoff auf den Zielpunkt. Beim Aufprall explodiert instabile Energie und fügt Feinden im Explosionsbereich Schaden zu.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Arroja un enorme explosivo experimental a un punto. Tras el impacto, explota con energía inestable que daña a los enemigos en la zona de explosión.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "engineer_explosives",
+      "name": {
+        "en": "Bomb Launcher",
+        "fr": "Lanceur de bombe",
+        "de": "Bombenwerfer",
+        "es": "Lanzabombas"
+      },
+      "description": {
+        "en": "Launches a bomb at target enemy from a distance. The bomb explodes on contact, damaging enemies near the primary target.<br>Damage dealt by this skill ignores <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs.",
+        "fr": "Lance une bombe sur l'ennemi. La bombe explose à son contact, infligeant des dégâts aux ennemis proches de la cible.<br>Les dégâts infligés par cette compétence ignorent les buffs <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIERS</font>.",
+        "de": "Feuert eine Bombe auf das feindliche Ziel aus der Entfernung ab. Die Bombe explodiert bei Kontakt und fügt Feinden in der Nähe des primären Ziels Schaden zu.<br>Der von dieser Fertigkeit verursachte Schaden ignoriert <font color='{buff_blue}'>{icon.shield}&nbsp;SCHILD</font>-Boni.",
+        "es": "Lanza una bomba a un enemigo desde lejos. La bomba explota al contacto dañando a los enemigos cercanos al objetivo primario.<br>El daño causado por esta habilidad ignora los efectos positivos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

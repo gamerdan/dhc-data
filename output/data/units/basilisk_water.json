@@ -222,6 +222,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "basilisk_bulwark",
+      "name": {
+        "en": "Cryptic Barrier",
+        "fr": "Barrière cryptique",
+        "de": "Kryptische Barriere",
+        "es": "Barrera Críptica"
+      },
+      "description": {
+        "en": "Raises his shield, applying the <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITY</font> buff to himself and nearby allies.",
+        "fr": "Lève son bouclier qui octroie <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÉ</font> aux alliés à proximité et à lui-même.",
+        "de": "Erhebt seinen Schild an und wirkt den Bonus <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÄT</font> für sich selbst und Verbündete in der Nähe.",
+        "es": "Alza su escudo y aplica el efecto positivo <font color='{buff_blue}'>{icon.immunity}&nbsp;INMUNIDAD</font> a sí mismo y a los aliados cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "basilisk_searingBreath",
+      "name": {
+        "en": "Searing Breath",
+        "fr": "Souffle calcinant",
+        "de": "Sengender Atem",
+        "es": "Aliento Abrasador"
+      },
+      "description": {
+        "en": "Breathes fire in a cone. Damages enemies and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Souffle du feu pour infliger des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> aux ennemis situés dans le cône d'effet.",
+        "de": "Speit Feuer in Keilform. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Escupe fuego en forma de cono. Daña a los enemigos y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "basilisk_frightingGaze",
+      "name": {
+        "en": "Frightening Gaze",
+        "fr": "Regard effrayant",
+        "de": "Furchterregender Blick",
+        "es": "Mirada Intimidadora"
+      },
+      "description": {
+        "en": "Opens the mysterious eye on his shield, exposing enemies to its power. Deals damage and <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font> enemies.",
+        "fr": "Ouvre l'oeil mystérieux sur son bouclier pour exposer les ennemis à son pouvoir, et leur infliger des dégâts ainsi qu'<font color='{debuff_red}'>{icon.disorient}&nbsp;ENTRAVE</font>.",
+        "de": "Öffnet das mysteriöse Auge an seinem Schild und setzt Feinde seiner Macht aus. Fügt Schaden zu und <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRRT</font> sie.",
+        "es": "Abre el misterioso ojo de su escudo, exponiendo a los enemigos a su poder. Daña y <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font> a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "basilisk_rend",
+      "name": {
+        "en": "Rend",
+        "fr": "Déchirure",
+        "de": "Zerfleischen",
+        "es": "Desgarrar"
+      },
+      "description": {
+        "en": "Attacks nearby enemies. Every fourth attack deals bonus damage based on <font color='{def_yellow}'>DEF</font>.",
+        "fr": "Attaque les ennemis à proximité et inflige des dégâts supplémentaires basés sur la <font color='{def_yellow}'>DÉFENSE</font> toutes les quatre attaques.",
+        "de": "Greift Feinde in der Nähe an. Jeder vierte Angriff fügt Bonusschaden basierend auf <font color='{def_yellow}'>VTG.</font> zu.",
+        "es": "Ataca a los enemigos cercanos. Cada cuarto ataque inflige daño adicional según <font color='{def_yellow}'>DEF</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

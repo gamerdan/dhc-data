@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "crowhag_wingsOfTerror",
+      "name": {
+        "en": "Wings of Terror",
+        "fr": "Ailes de terreur",
+        "de": "Flügel des Terrors",
+        "es": "Alas del Terror"
+      },
+      "description": {
+        "en": "Sends a crow swooping around the battlefield, damaging up to {SkillCustomParameters.MaxHitCount} enemies. If <font color='{menu_highlight_white}'>Enhanced</font>, gains Lifestealing, hits {SkillCustomParameters.MaxHitCountEmpowered} enemies, and inflicts <font color='{debuff_red}'>{icon.fear}&nbsp;FEAR</font> on the first enemy struck.<br><font color='{menu_highlight_white}'>Has multiple charges if Ascended.</font>",
+        "fr": "Ordonne à un corbeau de blesser jusqu'à {SkillCustomParameters.MaxHitCount} ennemis. Si elle est <font color='{menu_highlight_white}'>sublimée</font>, elle gagne Saignée, frappe {SkillCustomParameters.MaxHitCountEmpowered} ennemis et inflige <font color='{debuff_red}'>{icon.fear}&nbsp;PEUR</font> au premier ennemi touché.<br><font color='{menu_highlight_white}'>Possède plusieurs charges une fois exaltée.</font>",
+        "de": "Sendet eine Krähe, die auf dem Schlachtfeld herabschießt und bis zu {SkillCustomParameters.MaxHitCount} Feinden Schaden zufügt. Wenn <font color='{menu_highlight_white}'>verstärkt</font> wird, erhält sie Lebensdiebstahl, trifft {SkillCustomParameters.MaxHitCountEmpowered} Feinde und <font color='{debuff_red}'>{icon.fear}&nbsp;ERSCHRECKT</font> den ersten getroffenen Feind.<br><font color='{menu_highlight_white}'>Hat mehrere Ladungen, wenn in aufgestiegener Form.</font>",
+        "es": "Llama a un cuervo que daña a un máximo de {SkillCustomParameters.MaxHitCount} enemigos. Si está <font color='{menu_highlight_white}'>fortalecida</font>, obtiene Robo de Vida, golpea a {SkillCustomParameters.MaxHitCountEmpowered} enemigos e infunde <font color='{debuff_red}'>{icon.fear}&nbsp;MIEDO</font> al primer enemigo que golpee.<br><font color='{menu_highlight_white}'>Si ha ascendido, tiene varias cargas.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "crowhag_vileBrew",
+      "name": {
+        "en": "Vile Brew",
+        "fr": "Vile décoction",
+        "de": "Grausames Gebräu",
+        "es": "Infusión Vil"
+      },
+      "description": {
+        "en": "Lobs a potion at target point. Deals damage to enemies and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>. If <font color='{menu_highlight_white}'>Enhanced</font>, the splash is larger and also inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font>.",
+        "fr": "Lance une potion qui inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> aux ennemis. Si <font color='{menu_highlight_white}'>sublimée</font> par Pacte des ténèbres, l'éclaboussure est plus grande et inflige également <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>.",
+        "de": "Wirft einen Trank auf einen Zielpunkt. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font> Wenn <font color='{menu_highlight_white}'>Verstärkung aktiv</font> ist, ist der Spritzer größer und fügt <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font> zu.",
+        "es": "Lanza una poción que daña a los enemigos y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>. Si está <font color='{menu_highlight_white}'>fortalecida</font>, la salpicadura es más amplia y, además, inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "crowhag_obscurePractices",
+      "name": {
+        "en": "Evil Bargain",
+        "fr": "Marché maléfique",
+        "de": "Schlechter Handel",
+        "es": "Tratos Oscuros"
+      },
+      "description": {
+        "en": "Sacrifices {%SkillCustomParameters.SacrificeHealthRatio} of her current HP to reset all her skill cooldowns and <font color='{menu_highlight_white}'>Enhances</font> her skills for several seconds, giving them bonus effects.",
+        "fr": "Sacrifie {%SkillCustomParameters.SacrificeHealthRatio} de ses HP actuels pour recharger toutes ses compétences et les <font color='{menu_highlight_white}'>sublimer</font> pendant plusieurs secondes, leur conférant des effets bonus.",
+        "de": "Sie opfert {%SkillCustomParameters.SacrificeHealthRatio} ihrer aktuellen GP, um alle Abklingzeiten ihrer Fertigkeiten zurückzusetzen, sie für mehrere Sekunden zu <font color='{menu_highlight_white}'>verstärken</font> und ihnen Bonuseffekte zu geben.",
+        "es": "Sacrifica el {%SkillCustomParameters.SacrificeHealthRatio} de sus PV actuales para reiniciar todos los tiempos de recuperación de sus habilidades y las <font color='{menu_highlight_white}'>fortalece</font> durante varios segundos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "crowhag_hex",
+      "name": {
+        "en": "Hex",
+        "fr": "Sortilège",
+        "de": "Hex",
+        "es": "Maleficio"
+      },
+      "description": {
+        "en": "Fires a bolt of chaotic magic at an enemy from a distance.",
+        "fr": "Lance un éclair de magie chaotique contre un ennemi à distance.",
+        "de": "Feuert aus der Ferne einen Blitz chaotischer Magie auf einen Feind.",
+        "es": "Lanza una descarga de magia caótica a distancia."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

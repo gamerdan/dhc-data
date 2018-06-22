@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "boonsister_stream",
+      "name": {
+        "en": "Swirling Orb",
+        "fr": "Orbe tourbillonnant",
+        "de": "Wirbelkugel",
+        "es": "Orbe Rotatorio"
+      },
+      "description": {
+        "en": "Sends a slow-moving orb of water forward. Deals damage and <font color='{debuff_red}'>{icon.mark}&nbsp;MARKS</font> enemies along its way.",
+        "fr": "Envoie un orbe d'eau qui se déplace lentement vers l'avant et qui inflige des dégâts et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> aux ennemis sur sa trajectoire.",
+        "de": "Sendet eine langsame Wasserkugel los. Fügt Schaden zu und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> Feinde auf seinem Weg.",
+        "es": "Envía hacia delante un orbe de agua lento. Causa daño y <font color='{debuff_red}'>{icon.mark}&nbsp;MARCA</font> a los enemigos a su paso."
+      }
+    },
+    "SecondSkill": {
+      "id": "boonsister_shards",
+      "name": {
+        "en": "Seeking Shards",
+        "fr": "Éclats chercheurs",
+        "de": "Such-Scherben",
+        "es": "Fragmentos Localizadores"
+      },
+      "description": {
+        "en": "Sends a seeking water-projectile at each nearby enemy, dealing damage. This is a <font color='{menu_highlight_white}'>GUARANTEED CRIT</font> on each target that is afflicted by a debuff.",
+        "fr": "Envoie un projectile d'eau à tête chercheuse sur chaque ennemi à proximité, leur infligeant des dégâts. Un <font color='{menu_highlight_white}'>COUP CRITIQUE est garanti</font> sur chaque cible affectée par un debuff.",
+        "de": "Sendet ein suchendes Wassergeschoss auf jeden Feind, der sich in der Nähe befindet, und fügt ihm Schaden zu.  Dies ist eine <font color='{menu_highlight_white}'>GARANTIERTE KRIT. TREFFERCHANCE</font> auf jedes Ziel, das von einem Schwächezauber betroffen ist.",
+        "es": "Envía un proyectil de agua localizador a cada enemigo cercano y causa daño. Causa <font color='{menu_highlight_white}'>DAÑO CRÍTICO GARANTIZADO</font> a cada objetivo afectado por un efecto negativo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "boonsister_waterfall",
+      "name": {
+        "en": "Geyser",
+        "fr": "Geyser",
+        "de": "Geysir",
+        "es": "Géiser"
+      },
+      "description": {
+        "en": "Summons a huge geyser of water at target location, damaging enemies and knocking them into the air. When they land, deals additional damage and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Invoque un imposant geyser pour infliger des dégâts aux ennemis situés dans la zone avant de les projeter dans les airs. Lorsqu'ils retombent, ils subissent des dégâts supplémentaires et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>.",
+        "de": "Wirft einen riesigen Wasser-Geysir auf einen Zielort, fügt Feinden Schaden zu und schleudert sie in die Luft. Wenn sie landen, fügt er ihnen zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Hace aparecer un enorme géiser que causa daño a los enemigos y los lanza al aire. Cuando aterrizan, causa daño adicional y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "boonsister_dampen",
+      "name": {
+        "en": "Dampening Splash",
+        "fr": "Éclaboussure sapante",
+        "de": "Feuchter Platsch",
+        "es": "Salpicadura Húmeda"
+      },
+      "description": {
+        "en": "Throws a splash of water, dealing damage to an enemy from a distance. Each time she uses another skill, the next bolt deals additional damage.",
+        "fr": "Éclabousse un ennemi à distance pour lui infliger des dégâts. Chaque fois qu'elle utilise une autre compétence, le prochain jet inflige des dégâts supplémentaires.",
+        "de": "Wirft einen Spritzer Wasser und fügt einem Feind Schaden aus der Ferne zu. Jedes Mal, wenn sie eine andere Fertigkeit benutzt, fügt der nächste Pfeil zusätzlichen Schaden zu.",
+        "es": "Salpica a un enemigo y le inflige daño a distancia. Cada vez que usa otra habilidad, la siguiente descarga inflige daño adicional."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

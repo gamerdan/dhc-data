@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "skandgrunt_warCry",
+      "name": {
+        "en": "War Cry",
+        "fr": "Cri de guerre",
+        "de": "Kriegsruf",
+        "es": "Grito de Guerra"
+      },
+      "description": {
+        "en": "Unleash a savage shout. <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font> of all nearby enemies.",
+        "fr": "Lance un cri sauvage. Inflige <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> et <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> à tous les ennemis à proximité.",
+        "de": "Stößt einen wilden Schrei aus. <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> und <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font> von allen Feinden in der Nähe.",
+        "es": "Lanza un grito salvaje. <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font> de todos los enemigos cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "skandgrunt_whirlingAxe",
+      "name": {
+        "en": "Whirling Axe",
+        "fr": "Hache tourbillonnante",
+        "de": "Wirbelnde Axt",
+        "es": "Hacha Giratoria"
+      },
+      "description": {
+        "en": "Spins his axes around, periodically damaging nearby enemies while channeling for several seconds. If <font color='{menu_highlight_white}'>enraged</font>, each hit has a chance to <font color='{debuff_red}'>{icon.slow}&nbsp;SLOW</font>.<br><font color='{menu_highlight_white}'>Can move while channeling.</font>",
+        "fr": "Se concentre pendant plusieurs secondes, puis fait tournoyer ses haches pour infliger des dégâts périodiques aux ennemis à proximité. S'il est <font color='{menu_highlight_white}'>enragé</font>, chaque coup peut infliger <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font>.<br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie.</font>",
+        "de": "Kreist mit seiner Axt um sich herum und fügt Feinden in der Nähe regelmäßig Schaden zu, während er mehrere Sekunden kanalisiert. Wenn <font color='{menu_highlight_white}'>wutentbrannt</font>, hat jeder Treffer eine Chance auf <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMEN</font>.<br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen.</font>",
+        "es": "Gira sus hachas y daña de manera periódica a los enemigos cercanos mientras canaliza durante varios segundos. Si está <font color='{menu_highlight_white}'>enfurecido</font>, cada golpe tiene probabilidad de <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZAR</font>.<br><font color='{menu_highlight_white}'>Se puede mover mientras canaliza.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "skandgrunt_juggernaut",
+      "name": {
+        "en": "Juggernaut",
+        "fr": "Force fatale",
+        "de": "Moloch",
+        "es": "Fuerza de la Naturaleza"
+      },
+      "description": {
+        "en": "Becomes <font color='{menu_highlight_white}'>enraged</font>, damaging nearby enemies. Becoming enraged causes him to temporarily gain <font color='{buff_blue}'>{icon.reflect}&nbsp;DAMAGE REFLECTION</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITY</font> and <font color='{buff_blue}'>{icon.endure}&nbsp;UNDYING</font>.<br><font color='{menu_highlight_white}'>Triggers automatically when taking lethal damage.</font>",
+        "fr": "<font color='{menu_highlight_white}'>Enrage</font> et inflige des dégâts aux ennemis alentour. La rage lui confère temporairement <font color='{buff_blue}'>{icon.reflect}&nbsp;MIROIR</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÉ</font> et <font color='{buff_blue}'>{icon.endure}&nbsp;IMMORTALITÉ</font>. <br><font color='{menu_highlight_white}'>Se déclenche automatiquement lorsque des dégâts mortels sont reçus.</font>",
+        "de": "Wird <font color='{menu_highlight_white}'>wutentbrannt</font> und fügt Feinden in der Nähe Schaden zu. Durch Wutentbrannt erhält er kurzzeitig <font color='{buff_blue}'>{icon.reflect}&nbsp;SCHADENSRÜCKWURF</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;IMMUNITÄT</font> und <font color='{buff_blue}'>{icon.endure}&nbsp;UNVERWÜSTLICH</font>.<br><font color='{menu_highlight_white}'>Wird automatisch beim Erleiden von tödlichem Schaden aktiviert.</font>",
+        "es": "Se <font color='{menu_highlight_white}'>enfurece</font> y daña a los enemigos cercanos. Al enfurecerse, obtiene de manera temporal <font color='{buff_blue}'>{icon.reflect}&nbsp;REFLEJO DE DAÑO</font>, <font color='{buff_blue}'>{icon.immunity}&nbsp;INMUNIDAD</font> e <font color='{buff_blue}'>{icon.endure}&nbsp;INMORTALIDAD</font>.<br><font color='{menu_highlight_white}'>Se activa automáticamete al recibir daño mortal.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "skandgrunt_relentlessStrike",
+      "name": {
+        "en": "Berserker's Blow",
+        "fr": "Frappe du berserker",
+        "de": "Schlag des Berserkers",
+        "es": "Golpe de Rabia"
+      },
+      "description": {
+        "en": "Attacks nearby enemies. If current HP is below {%SkillCustomParameters.lowHealthTreshold}, deals an additional {%SkillCustomParameters.DamageModifier} bonus damage.",
+        "fr": "Attaque les ennemis à proximité. Si les HP sont actuellement inférieurs à {%SkillCustomParameters.lowHealthTreshold}, inflige {%SkillCustomParameters.DamageModifier} de dégâts supplémentaires.",
+        "de": "Greift Feinde in der Nähe an. Wenn die derzeitigen GP unter {%SkillCustomParameters.lowHealthTreshold} sind, fügt er {%SkillCustomParameters.DamageModifier} Bonus-Schaden zu.",
+        "es": "Ataca a los enemigos cercanos. Si el porcentaje actual de PV está por debajo del {%SkillCustomParameters.lowHealthTreshold}, inflige un {%SkillCustomParameters.DamageModifier} de daño adicional."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

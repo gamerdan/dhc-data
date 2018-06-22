@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "foxninja_fanToss",
+      "name": {
+        "en": "Fan Toss",
+        "fr": "Jet d'éventail",
+        "de": "Fächerwind",
+        "es": "Lanzamiento de Abanico"
+      },
+      "description": {
+        "en": "Throws her fan in a direction, striking enemies along its path and then spinning in place for several seconds. Deals damage and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> each enemy struck. The fan can be picked up by touching it, which <font color='{menu_highlight_white}'>resets the cooldown of this skill</font> and ends the spinning effect.",
+        "fr": "Lance son éventail, frappant les ennemis sur son chemin puis tournoyant sur place pendant plusieurs secondes. Inflige des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> à chaque ennemi touché. Ramasse l'éventail en le touchant pour <font color='{menu_highlight_white}'>recharger cette compétence</font> et abrèger l'effet de tournoiement.",
+        "de": "Wirft ihren Fächer in eine Richtung, trifft damit Feinde auf ihrem Weg und dreht sich dann mehrere Sekunden lang auf der Stelle. Fügt Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> jeden getroffenen Feind. Der Fächer kann aufgenommen werden, indem man ihn berührt, was <font color='{menu_highlight_white}'>die Abklingzeit dieser Fertigkeit zurücksetzt </font> und den Dreheffekt beendet.",
+        "es": "Lanza su abanico en una dirección golpeando a los enemigos en su trayectoria y después gira en su posición durante varios segundos. Daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a cada enemigo golpeado. El abanico puede recogerse al tocarlo, lo que <font color='{menu_highlight_white}'>reinicia el tiempo de recuperación de la habilidad</font> y finaliza el efecto giratorio."
+      }
+    },
+    "SecondSkill": {
+      "id": "foxninja_cutthroat",
+      "name": {
+        "en": "Cutthroat",
+        "fr": "Égorgeur",
+        "de": "Halsabschneider",
+        "es": "Degüello"
+      },
+      "description": {
+        "en": "Vanishes in a puff of smoke, reappearing behind target enemy and striking it. <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font>, deals damage, and <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> the target.",
+        "fr": "Disparaît dans un nuage de fumée pour réapparaître derrière l'ennemi avant de le frapper. Gagne <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font>, inflige des dégâts ainsi que <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> à la cible.",
+        "de": "Verschwindet in einer Rauchwolke, taucht hinter einem feindlichen Ziel wieder auf und schlägt zu. <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT VTG.</font>, fügt Schaden zu und <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMT</font> das Ziel.",
+        "es": "Desaparece en una nube de humo para reaparecer tras su objetivo y atacarle. <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font>, daña y <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> al objetivo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "foxninja_heartRipper",
+      "name": {
+        "en": "Heart Ripper",
+        "fr": "Arrache-coeur",
+        "de": "Herzschlitzer",
+        "es": "Arrancacorazones"
+      },
+      "description": {
+        "en": "Dashes to target enemy, dealing massive damage and inflicting {SkillBuff_dot.NumberOfBuffsApplied} stacks of <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> before backflipping away. The closer the target is, the longer the distance of the backflip.",
+        "fr": "Fonce vers l'ennemi visé, infligeant des dégâts massifs et {SkillBuff_dot.NumberOfBuffsApplied} applications d'<font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> avant de terminer par un salto arrière. Plus la cible est proche, plus le salto arrière sera long.",
+        "de": "Sprintet auf einen Feind zu, fügt massiven Schaden zu und wirkt {SkillBuff_dot.NumberOfBuffsApplied} <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font>-Anwendungen, bevor sie einen Rückwärtssprung macht. Je näher das Ziel ist, desto weiter ist der Rückwärtssprung.",
+        "es": "Esprinta hacia el objetivo, infligiendo un enorme daño y causando {SkillBuff_dot.NumberOfBuffsApplied} acumulaciones de <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> antes de retroceder. Cuanto más cerca esté el objetivo, más distancia retrocederá."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "foxninja_tortureBlades",
+      "name": {
+        "en": "Foxfire Dance",
+        "fr": "Flammèche",
+        "de": "Fuchsfeuertanz",
+        "es": "Baile Llameante"
+      },
+      "description": {
+        "en": "Attacks enemies with her bladed fans. Each time she strikes an enemy with any attack or skill, she summons foxfire to orbit the affected enemy. When there are three flames, the next attack or skill will cause the foxfire to detonate, dealing <font color='{menu_highlight_white}'>bonus damage based on that enemy's missing HP%</font>.",
+        "fr": "Attaque les ennemis avec ses éventails tranchants. À chaque coup réussi, une flammèche apparaît et tourne autour de l'ennemi. À la troisième flammèche, l'attaque ou la compétence suivante les fait exploser, infligeant <font color='{menu_highlight_white}'>des dégâts supplémentaires basés sur le % de HP manquants de l'ennemi</font>.",
+        "de": "Greift Feinde mit ihren Klingen-Fächern an. Jedes Mal, wenn sie einen Feind mit einem Angriff oder einer Fertigkeit triff, ruft sie Fuchsfeuer herbei, um den getroffenen Feind zu umkreisen. Wenn drei Flammen auflodern, wird der nächste Angriff oder die nächste Fertigkeit das Fuchsfeuer zum Explodieren bringen und <font color='{menu_highlight_white}'>Bonus-Schaden zufügen, basierend auf den fehlenden GP-% des Feindes</font>.",
+        "es": "Ataca a los enemigos con sus abanicos. Cada vez que golpea a un enemigo con cualquier ataque o habilidad, invoca llamas alrededor del enemigo. Cuando haya tres llamas, el próximo ataque o habilidad hará que las llamas estallen, infligiendo <font color='{menu_highlight_white}'>daño adicional según los PV restantes del enemigo</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

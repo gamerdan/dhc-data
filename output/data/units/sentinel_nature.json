@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "sentinel_erraticDischarge",
+      "name": {
+        "en": "Erratic Discharge",
+        "fr": "Décharge volatile",
+        "de": "Unstete Entladung",
+        "es": "Emisión Errática"
+      },
+      "description": {
+        "en": "Charges the air around it with electricity. While active, periodically damages nearby enemies. <font color='{menu_highlight_white}'>Guaranteed crit</font> if own HP% is low.",
+        "fr": "Charge l'air ambiant en électricité. Tant que le champ est actif, les ennemis à proximité subissent des dégâts périodiques. Déclenche des <font color='{menu_highlight_white}'>coups critiques</font> si ses HP sont bas.",
+        "de": "Lädt die Luft in der Umgebung mit Elektrizität auf. Während es aktiv ist fügt es regelmäßig Feinden in der Nähe Schaden zu. <font color='{menu_highlight_white}'>Garantierte krit. Trefferchance</font>, wenn eigene GP-% niedrig sind.",
+        "es": "Carga el aire de electricidad. Mientras está activa, inflige daño de manera periódica a los enemigos cercanos. <font color='{menu_highlight_white}'>Daño crítico garantizado</font> si el lanzador tiene un porcentaje bajo de PV."
+      }
+    },
+    "SecondSkill": {
+      "id": "sentinel_grapplingChain",
+      "name": {
+        "en": "Grappling Chain",
+        "fr": "Grappin déchaîné",
+        "de": "Wurfkette",
+        "es": "Cadena de Agarre"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font> and shoots grappling claw in a direction. If the claw hits an enemy, it deals damage and pulls self to the enemy.",
+        "fr": "Gagne <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> et lance un grappin dans une direction. Si le grappin touche un ennemi, il inflige des dégâts et attire le champion vers lui.",
+        "de": "<font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT VTG.</font> und schießt eine herumschlagende Klaue in eine Richtung. Wenn die Klaue einen Feind trifft, fügt sie Schaden zu und zieht sich selbst zum Feind hin.",
+        "es": "<font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font> y lanza un garfio en una dirección. Si golpea a un enemigo, le inflige daño y se lanza hacia él."
+      }
+    },
+    "ThirdSkill": {
+      "id": "sentinel_slaughter",
+      "name": {
+        "en": "Slaughter",
+        "fr": "Massacre",
+        "de": "Gemetzel",
+        "es": "Masacre"
+      },
+      "description": {
+        "en": "Tears into a target enemy with its chainsaw. Damages an enemy and holds them in place for the duration. Deals bonus damage if own HP% is greater than the target's HP%.",
+        "fr": "Taille la cible en pièces avec sa tronçonneuse. Inflige des dégâts à un ennemi et le maintient en place pendant la durée. Inflige des dégâts supplémentaires si ses HP sont supérieurs à ceux de la cible.",
+        "de": "Fügt einem feindlichen Ziel mit seiner Kettensäge Schnitte zu. Fügt einem Feind Schaden zu und hält sie während der Wirkdauer fest. Fügt Bonus-Schaden zu, wenn die eigenen GP-% höher sind, als die GP-% des Feindes.",
+        "es": "Raja al objetivo con su motosierra. Daña a un enemigo y le impide moverse durante un breve periodo de tiempo. Inflige daño adicional si el porcentaje de PV del lanzador es mayor que el porcentaje de PV del objetivo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "sentinel_buzzsaw",
+      "name": {
+        "en": "Chainsaw",
+        "fr": "Tronçonneuse",
+        "de": "Kettensäge",
+        "es": "Motosierra"
+      },
+      "description": {
+        "en": "Attacks enemies with its chainsaw. On a crit, inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> on the primary target. Cannot trigger more than once every {SkillCustomParameters.DoTcooldown} seconds.",
+        "fr": "Attaque les ennemis avec sa tronçonneuse. En cas de coup critique, inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> à la cible principale. Impossible à déclencher plus d'une fois toutes les {SkillCustomParameters.DoTcooldown} secondes.",
+        "de": "Greift Feinde mit seiner Kettensäge an. Bei krit. Treffer wird <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDER SCHADEN</font> gewirkt. Kann nicht öfter als ein Mal alle {SkillCustomParameters.DoTcooldown} Sekunden ausgelöst werden.",
+        "es": "Ataca a los enemigos con su motosierra. Si inflige daño crítico, causará <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> al objetivo principal. No se puede aplicar más de una vez cada {SkillCustomParameters.DoTcooldown} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

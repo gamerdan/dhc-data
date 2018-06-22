@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "naga_inkJet",
+      "name": {
+        "en": "Ink Jet",
+        "fr": "Jet d'encre",
+        "de": "Tintenstrahl",
+        "es": "Chorro de Tinta"
+      },
+      "description": {
+        "en": "Squirts ink at his enemies. Damages and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font>.",
+        "fr": "Projette de l'encre sur ses ennemis et leur inflige des dégâts et <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font>.",
+        "de": "Spritzt Tinte auf seine Feinde. Fügt ihnen Schaden zu und <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> sie.",
+        "es": "Lanza tinta a sus enemigos. Daña y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "naga_bubbleShield",
+      "name": {
+        "en": "Bubble Shield",
+        "fr": "Bouclier-bulle",
+        "de": "Blasenschild",
+        "es": "Escudo Burbuja"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> himself and nearby allies.",
+        "fr": "Un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> le protège, lui et ses alliés à proximité.",
+        "de": "<font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> ihn selbst und Verbündete in der Nähe ab.",
+        "es": "Se protege a sí mismo y a los aliados cercanos con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "naga_tidalScourge",
+      "name": {
+        "en": "Tidal Scourge",
+        "fr": "Marée ravageuse",
+        "de": "Gezeitengeißel",
+        "es": "Flagelo de la Marea"
+      },
+      "description": {
+        "en": "Summons a mighty tidal wave in a direction. Damages, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>, and <font color='{menu_highlight_white}'>removes all buffs</font> from enemies struck by the wave.",
+        "fr": "Invoque un puissant raz-de-marée dans une direction. Inflige des dégâts, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> et <font color='{menu_highlight_white}'>supprime tous les buffs</font> des ennemis frappés par la vague.",
+        "de": "Ruft eine riesige Welle in eine Richtung herbei. Fügt Schaden zu, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font> und <font color='{menu_highlight_white}'>entfernt alle Boni</font> von Feinden, die von der Welle getroffen wurden.",
+        "es": "Invoca un gran maremoto en una dirección. Daña, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font> y <font color='{menu_highlight_white}'>elimina todos los efectos positivos</font> de los enemigos golpeados por el maremoto."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "naga_ebbAndFlow",
+      "name": {
+        "en": "Ebb and Flow",
+        "fr": "Flux et reflux",
+        "de": "Ebbe und Flut",
+        "es": "Marea y Corriente"
+      },
+      "description": {
+        "en": "Shoots a stream of water from his staff, attacking an enemy at a distance. Every fourth attack, if the Naga has any debuffs, <font color='{menu_highlight_white}'>transfers one debuff</font> at random to the target enemy.",
+        "fr": "Tire un jet d'eau avec son bâton et attaque les ennemis à distance. Si le Naga est affecté par des debuffs, il en <font color='{menu_highlight_white}'>transfère un</font> au hasard à l'ennemi toutes les quatre attaques.",
+        "de": "Schießt einen Wasserstrom aus seinem Stab und greift Feinde in der Ferne an. Wenn der Naga Schwächungszauber hat, wird bei jedem vierten Angriff auf das feindliche Ziel ein zufälliger <font color='{menu_highlight_white}'>Schwächungszauber übertragen</font>.",
+        "es": "Lanza un chorro de agua desde su bastón, atacando a distancia a un enemigo. Cada cuarto ataque, si el naga tiene algún efecto negativo, <font color='{menu_highlight_white}'>transfiere al enemigo un efecto negativo</font> al azar."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

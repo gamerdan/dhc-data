@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "pirate_flintlockPistol",
+      "name": {
+        "en": "Concussive Shot",
+        "fr": "Tir contondant",
+        "de": "Erschütternder Schuss",
+        "es": "Disparo Aturdidor"
+      },
+      "description": {
+        "en": "Fires his flintlock pistol. Damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> the first enemy hit.",
+        "fr": "Tire avec son pistolet à silex. Inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> au premier ennemi touché.",
+        "de": "Feuert seine Steinschlosspistole ab, fügt dem ersten getroffenen Gegner Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> ihn.",
+        "es": "Dispara su fusil y causa daño y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> al primer enemigo que alcanza."
+      }
+    },
+    "SecondSkill": {
+      "id": "pirate_allAboard",
+      "name": {
+        "en": "All Aboard!",
+        "fr": "Tous à bord !",
+        "de": "Alle an Bord!",
+        "es": "Todos a Bordo"
+      },
+      "description": {
+        "en": "Shouts encouragement to his crew while swinging forward on a rope, slashing at his enemies. <font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISES&nbsp;CRIT</font> of all nearby allies and deals damage to enemies in his path. After landing, his next attack will be an uppercut.",
+        "fr": "Encourage son équipage tout en se balançant sur une corde et frappe ses ennemis. Octroie <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font> à tous les alliés à proximité et inflige des dégâts aux ennemis sur son passage. Après avoir atterri, son attaque suivante sera un uppercut.",
+        "de": "Ruft seiner Mannschaft Aufmunterungen zu, während er sich an einem Seil vorwärts schwingt und auf seine Feinde einschlägt.<font color='{buff_blue}'>{icon.raise_crit}&nbsp; ERHÖHT KRIT. CHANCE</font> von allen Verbündeten in der Nähe und fügt auf seinem Weg Schaden zu. Nachdem er wieder auf dem Boden aufgekommen ist, wird sein nächster Angriff ein Kinnhaken sein.",
+        "es": "Anima a sus aliados mientras se balancea hacia adelante en una cuerda y ataca a sus enemigos. <font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTA CRÍT</font> de todos los aliados cercanos y causa daño a los enemigos que haya en su camino. Tras aterrizar, su siguiente ataque será un gancho."
+      }
+    },
+    "ThirdSkill": {
+      "id": "pirate_devotedCrew",
+      "name": {
+        "en": "Bombardment",
+        "fr": "Bombardement",
+        "de": "Bombardierung",
+        "es": "Bombardeo"
+      },
+      "description": {
+        "en": "Signals his loyal crew to fire a barrage of cannonballs at a location. Each volley damages enemies in the area.",
+        "fr": "Ordonne à son fidèle équipage de tirer un barrage de boulets de canon sur un endroit précis. Chaque volée inflige des dégâts aux ennemis dans la zone.",
+        "de": "Signalisiert seiner treuen Crew, eine Flut von Kanonenkugeln auf einen Ort abzufeuern. Jede Salve fügt Feinden in dem Gebiet Schaden zu.",
+        "es": "Ordena a su leal tripulación lanzar una descarga de balas de cañón que causa daño a los enemigos que haya en la zona."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "pirate_plunder",
+      "name": {
+        "en": "Plunder",
+        "fr": "Pillage",
+        "de": "Plündern",
+        "es": "Saqueo"
+      },
+      "description": {
+        "en": "Slashes enemies with his cutlass. Every fourth attack <font color='{menu_highlight_white}'>STEALS</font> one buff from the primary target. When empowered by <font color='{menu_highlight_white}'>\"{SecondSkill.name}\"</font>, the next attack is a swift uppercut, knocking the primary target away and damaging nearby enemies.",
+        "fr": "Taillade les ennemis avec son coutelas. Toutes les quatre attaques, <font color='{menu_highlight_white}'>VOLE</font> un buff à la cible initiale. Si la compétence est renforcée par <font color='{menu_highlight_white}'>\"{SecondSkill.name}\"</font>, l'attaque suivante est un uppercut cinglant qui repousse la cible principale et inflige des dégâts aux ennemis à proximité.",
+        "de": "Attackiert Feinde mit seinem Entermesser. Jeder vierte Angriff <font color='{menu_highlight_white}'>STIEHLT</font> einen Boni vom Hauptziel. Wird er von <font color='{menu_highlight_white}'>\"{SecondSkill.name}\"</font> verstärkt, ist der nächste Angriff ein schneller Kinnhaken, der das Hauptziel zurückwirft, aber auch anderen Feinden in der Nähe Schaden zufügt.",
+        "es": "Corta a los enemigos con su sable. Cada cuatro ataques, <font color='{menu_highlight_white}'>ROBA</font> un efecto positivo del objetivo principal. Si la habilidad <font color='{menu_highlight_white}'>\"{SecondSkill.name}\"</font> estaba activa, el siguiente ataque será un rápido gancho que empujará al objetivo principal y dañará a los enemigos cercanos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

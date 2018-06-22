@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "magicalgirl_lash",
+      "name": {
+        "en": "Ribbon Lash",
+        "fr": "Déferlement de rubans",
+        "de": "Band-Peitsche",
+        "es": "Cinta Fustigadora"
+      },
+      "description": {
+        "en": "Whips a ribbon of energy forward three times. Each ribbon damages enemies in a line, ignoring shields. If an enemy is struck by all three ribbons, the last one is a <font color='{menu_highlight_white}'>guaranteed crit.</font><br><font color='{menu_highlight_white}'>Can move while channeling. Each ribbon will travel in the same direction.</font>",
+        "fr": "Fait claquer un ruban d'énergie tel un fouet trois fois. Chaque ruban inflige des dégâts aux ennemis sur une ligne d'effet en ignorant leurs boucliers. Si les trois rubans frappent un ennemi, la dernière attaque est un <font color='{menu_highlight_white}'>coup critique garanti.</font><br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie. Chaque ruban se dirigera dans la même direction.</font>",
+        "de": "Peitscht drei Mal ein Energieband nach vorn. Jedes Band fügt Feinden in einer Reihe Schaden zu und ignoriert Schilde. Wenn ein Gegner von allen drei Bändern getroffen wird, ist der letzte ein <font color='{menu_highlight_white}'>garantierter krit.</font><br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen. Jedes Band wird sich in die gleiche Richtung bewegen.</font>",
+        "es": "Golpea tres veces con una cinta de energía. Cada cinta causa daño a los enemigos colocados en fila e ignora los escudos. Si un enemigo es golpeado por las tres cintas, la última causa <font color='{menu_highlight_white}'>daño crítico garantizado</font>.<br><font color='{menu_highlight_white}'>Se puede mover durante la canalización. Cada cinta se traslada en la misma dirección.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "magicalgirl_rayOfJustice",
+      "name": {
+        "en": "Ray of Justice",
+        "fr": "Rayon de justice",
+        "de": "Strahl der Gerechtigkeit",
+        "es": "Rayo de Justicia"
+      },
+      "description": {
+        "en": "Fires a beam of pure light from her wand. The beam damages enemies while it travels and then explodes, damaging enemies caught in the blast. The explosion removes {SkillBuff_purge.NumberOfBuffsToRemove} buffs and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Lance un rayon de lumière pure avec sa baguette, qui inflige des dégâts aux ennemis sur son passage puis explose et inflige des dégâts aux ennemis pris dans l'explosion. L'explosion retire {SkillBuff_purge.NumberOfBuffsToRemove} buffs et inflige <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Feuert einen Lichtstrahl aus ihrem Zauberstab ab. Der Strahl fügt Feinden bei seiner Reise Schaden zu und explodiert dann, wobei er Feinden, die in der Explosion gefangen sind, Schaden zufügt. Die Explosion entfernt {SkillBuff_purge.NumberOfBuffsToRemove} Boni und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Lanza un rayo de luz pura con la varita. El rayo causa daño a los enemigos a su paso y después explota, causando daño a los enemigos afectados por la explosión. La explosión elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "magicalgirl_inspire",
+      "name": {
+        "en": "Inspire",
+        "fr": "Inspiration",
+        "de": "Inspirieren",
+        "es": "Inspiración"
+      },
+      "description": {
+        "en": "Blesses all allies with inspiring magic. Instantly refreshes all of her skill cooldowns and lowers the skill cooldowns of affected allies. This blessing also <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font>.",
+        "fr": "Bénit tous les alliés d'une magie inspirante. Recharge instantanément toutes les compétences et réduit les rechargements des alliés affectés. Cette bénédiction octroie également <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font>.",
+        "de": "Segnet alle Verbündeten mit inspirierender Magie. Aktualisiert sofort alle Abklingzeiten für ihre Fertigkeiten und verringert die Fertigkeits-Abklingzeiten betroffener Verbündeter. Dieser Segen <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font>.",
+        "es": "Bendice a todos los aliados con magia inspiradora. Elimina sus propios tiempos de recuperación de habilidades y reduce los tiempos de recuperación de los aliados afectados. Esta bendición también <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "magicalgirl_passion",
+      "name": {
+        "en": "Passion",
+        "fr": "Passion",
+        "de": "Leidenschaft",
+        "es": "Pasión"
+      },
+      "description": {
+        "en": "Flings a ball of magic, damaging the target enemy from a distance. Every {SkillCombo.MaxCombo} attacks fire a beam of magic, which deals damage that <font color='{menu_highlight_white}'>ignores target's DEF.",
+        "fr": "Lance une boule magique, infligeant des dégâts à l'ennemi. Toutes les {SkillCombo.MaxCombo} attaques, tire un rayon magique, qui inflige des dégâts <font color='{menu_highlight_white}'>ignorant la défense de la cible.",
+        "de": "Schleudert einen Ball voller Magie, der dem feindlichen Ziel aus der Entfernung Schaden zufügt. Jeder {SkillCombo.MaxCombo}-Angriff feuert einen Zauberstrahl ab, der Schaden verursacht und <font color='{menu_highlight_white}'> die VTG. des Ziels ignoriert.",
+        "es": "Lanza una bola de magia que daña al objetivo desde la distancia. Cada {SkillCombo.MaxCombo} ataques, se desata un rayo de magia que causa daño que <font color='{menu_highlight_white}'>ignora la DEF del objetivo."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

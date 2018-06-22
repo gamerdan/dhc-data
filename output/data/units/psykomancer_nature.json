@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "psykomancer_psychicBlow",
+      "name": {
+        "en": "Psyko Wave",
+        "fr": "Vague psyko",
+        "de": "Psyko-Welle",
+        "es": "Ola Psíquica"
+      },
+      "description": {
+        "en": "Unleashes a wave of psyko energy, dealing damage and pushing back enemies in a cone. <font color='{menu_highlight_white}'>Removes {SkillBuff_purge.NumberOfBuffsToRemove} buff</font> from each affected enemy and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> if a buff was removed.",
+        "fr": "Déchaîne une vague d'énergie psyko qui inflige des dégâts et repousse les ennemis situés dans le cône d'effet. <font color='{menu_highlight_white}'>Supprime {SkillBuff_purge.NumberOfBuffsToRemove} buff(s)</font> de chaque ennemi et inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> en contrepartie.",
+        "de": "Entfesselt eine Welle von Psyko-Energie, die Schaden zufügt und die Feinde innerhalb eines Kegels zurücktreibt. <font color='{menu_highlight_white}'>Entfernt {SkillBuff_purge.NumberOfBuffsToRemove} Bonus</font> von jedem betroffenen Feind und bewirkt <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font>, falls ein Bonus entfernt wurde.",
+        "es": "Desata una ola de energía psíquica que daña y empuja a los enemigos en un cono. <font color='{menu_highlight_white}'>Elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos</font> de cada enemigo afectado e inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> si se elimina un efecto."
+      }
+    },
+    "SecondSkill": {
+      "id": "psykomancer_forceWall",
+      "name": {
+        "en": "Repulsion Field",
+        "fr": "Champ de répulsion",
+        "de": "Abstoßungsfeld",
+        "es": "Campo de Repulsión"
+      },
+      "description": {
+        "en": "Sends out two psykodrones to project a wall of pure psyko energy. The wall shocks nearby enemies, dealing damage and knocking them away. Each enemy can only be shocked once.",
+        "fr": "Envoie deux psykodrones projeter un mur de pure énergie psyko dont la décharge inflige des dégâts et repousse les ennemis. Chaque ennemi ne peut recevoir qu'une seule décharge.",
+        "de": "Versendet zwei Psykodronen, um eine Wand aus reiner Psyko-Energie zu projizieren. Die Wand schockt nahestehende Feinde, fügt ihnen Schaden zu und stößt sie weg. Jeder Feind kann nur einmal geschockt werden.",
+        "es": "Envía dos psicodrones a levantar un muro de energía psíquica. El muro electrocuta a los enemigos cercanos, les causa daño y los empuja. Cada enemigo solo puede ser electrocutado una vez."
+      }
+    },
+    "ThirdSkill": {
+      "id": "psykomancer_barrage",
+      "name": {
+        "en": "Barrage",
+        "fr": "Barrage",
+        "de": "Barriere",
+        "es": "Tromba"
+      },
+      "description": {
+        "en": "Sends out a swarm of psykodrones that randomly shoot nearby enemies for several seconds. Each shot deals damage and <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font>. This debuff can only affect each enemy once.",
+        "fr": "Libère un essaim de psykodrones qui tirent aléatoirement sur les ennemis pendant plusieurs secondes. Chaque tir inflige des dégâts et <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font>. Ce debuff ne peut affecter un ennemi qu'une seule fois.",
+        "de": "Versendet einen Schwarm von Psykodronen, die zufällig mehrere Sekunden auf in der Nähe befindliche Gegner schießen. Jeder Schuss fügt Schaden zu und <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRRT</font> sie. Dieser Schwächungszauber hat nur einmal bei jedem Gegner Auswirkungen.",
+        "es": "Envía un enjambre de psicodrones que disparan aleatoriamente a los enemigos cercanos durante varios segundos. Cada disparo inflige daño y <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font>. Este efecto negativo solo puede afectar una vez a cada enemigo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "psykomancer_strafe",
+      "name": {
+        "en": "Palm Blast",
+        "fr": "Rafale palmaire",
+        "de": "Handflächenwelle",
+        "es": "Descarga Manual"
+      },
+      "description": {
+        "en": "Damages target enemy with a chance to <font color='{debuff_red}'>{icon.mark}&nbsp;MARK</font>. Each time he uses another skill, he becomes <font color='{menu_highlight_white}'>Empowered</font>. When Empowered, the psykodrones will assist him the next time he attacks, shooting nearby enemies at random.",
+        "fr": "Inflige des dégâts à distance pouvant causer <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> à un ennemi. Chaque utilisation d'une autre compétence le <font color='{menu_highlight_white}'>renforce</font>, incitant les psykodrones à l'assister lors de la prochaine attaque en tirant aléatoirement sur les ennemis à proximité.",
+        "de": "Fügt dem Ziel Schaden zu, mit einer Chance, es zu <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIEREN</font>. Jedes Mal, wenn er eine andere Fertigkeit benutzt, wird er <font color='{menu_highlight_white}'>verstärkt</font>. Wenn er verstärkt ist, helfen ihm die Psykodronen, wenn er das nächste Mal angreift, indem sie zufällig auf Gegner in der Nähe schießen.",
+        "es": "Daña al enemigo y tiene probabilidad de <font color='{debuff_red}'>{icon.mark}&nbsp;MARCAR</font>. Cada vez que use otra habilidad, se <font color='{menu_highlight_white}'>potenciará</font>. Si está potenciada, los psicodrones ayudarán en el próximo ataque, disparando a enemigos cercanos al azar."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "magicalgirl_whip",
+      "name": {
+        "en": "Ribbon Whip",
+        "fr": "Ruban-fouet",
+        "de": "Band-Schlag",
+        "es": "Látigo de Cintas"
+      },
+      "description": {
+        "en": "Whips a ribbon of energy forward three times. Each ribbon damages enemies in a line and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>. If an enemy is struck by all three ribbons, the last one <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.<br><font color='{menu_highlight_white}'>Can move while channeling. Each ribbon will travel in the same direction.</font>",
+        "fr": "Fait claquer un ruban d'énergie tel un fouet trois fois. Chaque ruban inflige des dégâts aux ennemis et inflige <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>. Si les trois rubans frappent un ennemi, la dernière attaque inflige <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.<br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie. Chaque ruban se dirigera dans la même direction.</font>",
+        "de": "Peitscht drei Mal ein Energieband nach vorn. Jedes Band fügt Feinden in einer Reihe Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font> Wenn ein Gegner von allen drei Bändern getroffen wird, wird das letzte <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BONI BLOCKIEREN</font>.<br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen. Jedes Band bewegt sich in die gleiche Richtung.</font>",
+        "es": "Golpea tres veces con una cinta de energía. Cada cinta causa daño a los enemigos colocados en fila y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>. Si un enemigo es golpeado por las tres cintas, la última <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>.<br><font color='{menu_highlight_white}'>Se puede mover durante la canalización. Cada cinta se traslada en la misma dirección.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "magicalgirl_rayOfJustice",
+      "name": {
+        "en": "Ray of Justice",
+        "fr": "Rayon de justice",
+        "de": "Strahl der Gerechtigkeit",
+        "es": "Rayo de Justicia"
+      },
+      "description": {
+        "en": "Fires a beam of pure light from her wand. The beam damages enemies while it travels and then explodes, damaging enemies caught in the blast. The explosion removes {SkillBuff_purge.NumberOfBuffsToRemove} buffs and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Lance un rayon de lumière pure avec sa baguette, qui inflige des dégâts aux ennemis sur son passage puis explose et inflige des dégâts aux ennemis pris dans l'explosion. L'explosion retire {SkillBuff_purge.NumberOfBuffsToRemove} buffs et inflige <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Feuert einen Lichtstrahl aus ihrem Zauberstab ab. Der Strahl fügt Feinden bei seiner Reise Schaden zu und explodiert dann, wobei er Feinden, die in der Explosion gefangen sind, Schaden zufügt. Die Explosion entfernt {SkillBuff_purge.NumberOfBuffsToRemove} Boni und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Lanza un rayo de luz pura con la varita. El rayo causa daño a los enemigos a su paso y después explota, causando daño a los enemigos afectados por la explosión. La explosión elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "magicalgirl_inspire",
+      "name": {
+        "en": "Inspire",
+        "fr": "Inspiration",
+        "de": "Inspirieren",
+        "es": "Inspiración"
+      },
+      "description": {
+        "en": "Blesses all allies with inspiring magic. Instantly refreshes all of her skill cooldowns and lowers the skill cooldowns of affected allies. This blessing also <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font>.",
+        "fr": "Bénit tous les alliés d'une magie inspirante. Recharge instantanément toutes les compétences et réduit les rechargements des alliés affectés. Cette bénédiction octroie également <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font>.",
+        "de": "Segnet alle Verbündeten mit inspirierender Magie. Aktualisiert sofort alle Abklingzeiten für ihre Fertigkeiten und verringert die Fertigkeits-Abklingzeiten betroffener Verbündeter. Dieser Segen <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font>.",
+        "es": "Bendice a todos los aliados con magia inspiradora. Elimina sus propios tiempos de recuperación de habilidades y reduce los tiempos de recuperación de los aliados afectados. Esta bendición también <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "magicalgirl_forceOfWill",
+      "name": {
+        "en": "Magic Wand",
+        "fr": "Baguette magique",
+        "de": "Zauberstab",
+        "es": "Varita Mágica"
+      },
+      "description": {
+        "en": "Flings a ball of magic, damaging the target enemy from a distance. Every {SkillTimer.StartValue} seconds, the next attack is empowered, firing a beam of magic which damages and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING&nbsp;DAMAGE</font> on enemies in a line.",
+        "fr": "Lance un balle magique qui inflige des dégâts à l'ennemi visé. Toutes les {SkillTimer.StartValue} secondes, l'attaque suivante est renforcée et un rayon de magie inflige des dégâts et <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Feuert einen glühenden Zauberball und fügt einem Feind aus der Entfernung Schaden zu. Alle {SkillTimer.StartValue} Sekunden wird der nächste Angriff verstärkt und feuert einen Zauberstrahl ab, der <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN&nbsp;SCHADEN</font> bei Feinden in einer Reihe verursacht.",
+        "es": "Lanza una bola de magia que daña al objetivo a distancia. Cada {SkillTimer.StartValue} segundos se potencia el siguiente ataque, lanzando un rayo de magia que causa daño y <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO&nbsp;CONTINUADO</font> a los enemigos en línea recta."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

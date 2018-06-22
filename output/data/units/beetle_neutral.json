@@ -192,6 +192,7 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {},
   "DebugHero": false,
   "CanBeAcquired": false
 }

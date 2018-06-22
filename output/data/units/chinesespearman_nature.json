@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "chinesespearman_ramblingStrike",
+      "name": {
+        "en": "Unending Strikes",
+        "fr": "Coups sans fin",
+        "de": "Endloser Stoß",
+        "es": "Golpes Interminables"
+      },
+      "description": {
+        "en": "Thrusts his spear rapidly, dealing damage to enemies in a cone several times. Every {SkillCustomParameters.CritTreshold} times this Champion crits, the cooldown of this skill is reduced by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Attaque plusieurs fois avec sa lance rapidement pour infliger des dégâts aux ennemis situés dans le cône d'effet. Tous les {SkillCustomParameters.CritTreshold} coups critiques infligés, le rechargement de la compétence diminue de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Stößt rasch seinen Speer und fügt Feinden innerhalb eines Kegels mehrmals Schaden zu. Jedes {SkillCustomParameters.CritTreshold}. Mal, wenn dieser Champion einen kritischen Treffer landet, verringert sich die Abklingzeit dieser Fertigkeit um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden.",
+        "es": "Ataca con su lanza velozmente y daña varias veces a los enemigos en un cono. Cada {SkillCustomParameters.CritTreshold} veces que el campeón consigue un crítico, el tiempo de recuperación de la habilidad se reduce {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    },
+    "SecondSkill": {
+      "id": "chinesespearman_risingSmash",
+      "name": {
+        "en": "Rising Smash",
+        "fr": "Coup montant",
+        "de": "Schmetteraufstieg",
+        "es": "Golpe Ascendente"
+      },
+      "description": {
+        "en": "Throws target enemy into the air with his spear and then slams them into the ground, dealing damage with both hits.",
+        "fr": "Propulse l'ennemi visé dans les airs avec sa lance, puis l'écrase au sol, lui infligeant des dégâts avec ces deux coups.",
+        "de": "Wirft einen Gegner mit seinem Speer in die Luft und wirft ihn dann auf den Boden. Fügt mit beiden Treffern Schaden zu.",
+        "es": "Usando su lanza, lanza a su objetivo al aire y después le empuja contra el suelo, dañándole en ambas ocasiones."
+      }
+    },
+    "ThirdSkill": {
+      "id": "chinesespearman_airSlash",
+      "name": {
+        "en": "Air Slash",
+        "fr": "Entaille aérienne",
+        "de": "Luftschnitt",
+        "es": "Tajo Aéreo"
+      },
+      "description": {
+        "en": "Swings his spear so fast that it creates a shockwave that flies through the air towards his enemies. The shockwave deals damage and <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> enemies it hits. This skill also <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES&nbsp;DEF</font>.",
+        "fr": "Fait tournoyer sa lance si vite qu'elle crée une onde de choc qui se propage dans les airs vers les ennemis. L'onde de choc inflige des dégâts et <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> aux ennemis touchés. Cette compétence octroie également <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font>.",
+        "de": "Schwingt seinen Speer so schnell, dass er eine Schockwelle erzeugt, die durch die Luft zu seinen Feinden fliegt. Die Schockwelle fügt Schaden zu und <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> Feinde, die sie trifft. Diese Fertigkeit <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT&nbsp;VTG.</font>",
+        "es": "Mueve su lanza a toda velocidad y crea una onda sónica que se desplaza en el aire hacia sus enemigos. La onda daña y <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> a los enemigos impactados. Esta habilidad también <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA&nbsp;DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "chinesespearman_lethalThrust",
+      "name": {
+        "en": "Indomitable Thrust",
+        "fr": "Coup indomptable",
+        "de": "Unbezwingbarer Schub",
+        "es": "Estocada Indomable"
+      },
+      "description": {
+        "en": "Strikes enemies with his spear, dealing damage. Every fourth attack heals based on the damage dealt.",
+        "fr": "Frappe les ennemis avec sa lance pour infliger des dégâts. Toutes les quatre attaques, il se soigne en fonction des dégâts infligés.",
+        "de": "Schlägt Feinde mit seinem Speer und verursacht Schaden. Jeder vierte Angriff heilt, basierend auf dem verursachten Schaden.",
+        "es": "Ataca a los enemigos con su lanza y les daña. Cada cuarto ataque cura dependiendo del daño causado."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

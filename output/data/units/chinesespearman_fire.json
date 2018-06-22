@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "chinesespearman_ramblingStrike",
+      "name": {
+        "en": "Unending Strikes",
+        "fr": "Coups sans fin",
+        "de": "Endloser Stoß",
+        "es": "Golpes Interminables"
+      },
+      "description": {
+        "en": "Thrusts his spear rapidly, dealing damage to enemies in a cone several times. Every {SkillCustomParameters.CritTreshold} times this Champion crits, the cooldown of this skill is reduced by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Attaque plusieurs fois avec sa lance rapidement pour infliger des dégâts aux ennemis situés dans le cône d'effet. Tous les {SkillCustomParameters.CritTreshold} coups critiques infligés, le rechargement de la compétence diminue de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Stößt rasch seinen Speer und fügt Feinden innerhalb eines Kegels mehrmals Schaden zu. Jedes {SkillCustomParameters.CritTreshold}. Mal, wenn dieser Champion einen kritischen Treffer landet, verringert sich die Abklingzeit dieser Fertigkeit um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden.",
+        "es": "Ataca con su lanza velozmente y daña varias veces a los enemigos en un cono. Cada {SkillCustomParameters.CritTreshold} veces que el campeón consigue un crítico, el tiempo de recuperación de la habilidad se reduce {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    },
+    "SecondSkill": {
+      "id": "chinesespearman_spinningSpear",
+      "name": {
+        "en": "Spinning Spear",
+        "fr": "Lance tournoyante",
+        "de": "Drehender Speer",
+        "es": "Lanza Giratoria"
+      },
+      "description": {
+        "en": "Charges forward while deflecting incoming attacks, then finishes with a sweeping strike. Reduces all incoming damage, raises movement speed, and deals damage to enemies struck. Heals for a portion of damage dealt.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time to strike immediately.</font>",
+        "fr": "Charge droit devant pour repousser les attaques, puis termine avec un balayage. Réduit tous les dégâts reçus, augmente la vitesse de déplacement et inflige des dégâts aux ennemis touchés. Restaure une partie des dégâts infligés.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai pour frapper immédiatement.</font>",
+        "de": "Greift nach vorn an, während herankommende Angriffe abgewehrt werden. Beendet es dann mit einem mächtigen Schlag. Reduziert allen eingehenden Schaden, erhöht Bewegungstempo und fügt getroffenen Feinden Schaden zu. Heilt einen Teil des zugefügten Schadens.<br><font color='{menu_highlight_white}'>Kann innerhalb einer kurzen Zeit erneut angewendet werden, um sofort zuzuschlagen.</font>",
+        "es": "Carga, desviando los ataques enemigos y realiza un barrido. Reduce el daño recibido, aumenta la velocidad de movimiento y daña a los enemigos. Cura una parte del daño infligido.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo para atacar inmediatamente.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "chinesespearman_martialDance",
+      "name": {
+        "en": "Martial Dance",
+        "fr": "Danse martiale",
+        "de": "Kampftanz",
+        "es": "Baile Marcial"
+      },
+      "description": {
+        "en": "Executes a well-practiced maneuver, striking enemies with five special attacks while moving. After finishing the maneuver, the next {AutoAttackSkill.name} will cause him to dash to his target.",
+        "fr": "Exécute une technique parfaitement maîtrisée pour frapper les ennemis avec cinq attaques spéciales tout en bougeant. À la fin de celles-ci, la prochaine attaque {AutoAttackSkill.name} le fera déferler sur sa cible.",
+        "de": "Führt ein oft geübtes Manöver aus und trifft Gegner mit fünf Spezialangriffen in der Bewegung. Nach Beendigung des Manövers führt der nächste Nutzung von \"{AutoAttackSkill.name}\" dazu, dass er zu seinem Ziel sprintet.",
+        "es": "Ejecuta una maniobra perfectamente ensayada y golpea a los enemigos con cinco ataques especiales mientras se mueve. Tras completar la maniobra, la próxima {AutoAttackSkill.name} hará que esprinte hacia su objetivo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "chinesespearman_lethalThrust",
+      "name": {
+        "en": "Indomitable Thrust",
+        "fr": "Coup indomptable",
+        "de": "Unbezwingbarer Schub",
+        "es": "Estocada Indomable"
+      },
+      "description": {
+        "en": "Strikes enemies with his spear, dealing damage. Every fourth attack heals based on the damage dealt.",
+        "fr": "Frappe les ennemis avec sa lance pour infliger des dégâts. Toutes les quatre attaques, il se soigne en fonction des dégâts infligés.",
+        "de": "Schlägt Feinde mit seinem Speer und verursacht Schaden. Jeder vierte Angriff heilt, basierend auf dem verursachten Schaden.",
+        "es": "Ataca a los enemigos con su lanza y les daña. Cada cuarto ataque cura dependiendo del daño causado."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

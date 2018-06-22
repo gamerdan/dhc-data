@@ -217,6 +217,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "grublinshaman_badLuck",
+      "name": {
+        "en": "Bad Luck",
+        "fr": "Malchance",
+        "de": "Unglück",
+        "es": "Mala Suerte"
+      },
+      "description": {
+        "en": "Throws an evil curse at target enemy that bounces between enemies, hitting up to {SkillCustomParameters.NumberOfBounce} targets. Damages enemies and has a chance to <font color='{debuff_red}'>{icon.blind}&nbsp;BLIND</font>.",
+        "fr": "Lance sur un ennemi visé une malédiction capable de ricocher au maximum sur {SkillCustomParameters.NumberOfBounce} ennemis. Inflige des dégâts pouvant causer <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font>.",
+        "de": "Wirft einen bösen Fluch auf ein feindliches Ziel, der zwischen den Feinden hin und her springt und bis zu {SkillCustomParameters.NumberOfBounce} Feinde trifft. Fügt Feinden Schaden zu mit einer Chance auf <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDEN</font>.",
+        "es": "Lanza una maldición maligna que rebota entre los enemigos, golpeando a un máximo de {SkillCustomParameters.NumberOfBounce} objetivos. Inflige daño con probabilidad de <font color='{debuff_red}'>{icon.blind}&nbsp;CEGAR</font> a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "grublinshaman_dazzle",
+      "name": {
+        "en": "Dazzle",
+        "fr": "Éclat",
+        "de": "Blendung",
+        "es": "Resplandor"
+      },
+      "description": {
+        "en": "Fires a glowing ball of magic to damage an enemy from a distance with a chance to <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENT</font>.",
+        "fr": "Tire une boule de magie brillante pour infliger des dégâts pouvant causer <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font> à un ennemi à distance.",
+        "de": "Feuert einen glühenden Zauberball, um einem Feind aus der Entfernung Schaden zuzufügen, mit einer Chance auf <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTIEREN</font>.",
+        "es": "Lanza una bola mágica resplandeciente que inflige daño a distancia a un enemigo y tiene probabilidad de <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTAR</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "faerie_pixieDust",
+      "name": {
+        "en": "Pixie Dust",
+        "fr": "Poussière de fée",
+        "de": "Feenstaub",
+        "es": "Polvo de Hadas"
+      },
+      "description": {
+        "en": "Creates an explosion of magic dust. Damages and <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font> nearby enemies.",
+        "fr": "Génère une explosion de poussière magique qui inflige des dégâts et <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font> aux ennemis à proximité.",
+        "de": "Erzeugt eine Explosion aus magischem Staub. Fügt Feinden in der Nähe Schaden zu und <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRRT</font> sie.",
+        "es": "Crea una explosión de polvo mágico. Daña y <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font> a los enemigos cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "faerie_poof",
+      "name": {
+        "en": "Poof!",
+        "fr": "Pouf&nbsp;!",
+        "de": "Puff!",
+        "es": "¡Puf!"
+      },
+      "description": {
+        "en": "Teleports to target location, leaving a magical marker behind. On arrival, damages and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font> nearby enemies. Can be recast within a short period of time to teleport back to the marker, causing the same effects as she arrives.",
+        "fr": "Se téléporte vers l'emplacement ciblé, en laissant un marqueur magique derrière elle, et inflige des dégâts ainsi que <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> aux ennemis à proximité. Cette compétence peut être relancée dans un court délai pour revenir au marqueur et infliger des effets identiques.",
+        "de": "Teleportiert an den Zielort und hinterlässt eine magische Markierung. Fügt Feinden in der Nähe bei Ankunft Schaden zu und <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> sie. Kann innerhalb einer kurzen Zeit erneut gezaubert werden, um zurück zur Markierung zu teleportieren, wodurch derselbe Effekt wie bei ihrer Ankunft erzeugt wird.",
+        "es": "Se teletransporta dejando una marca mágica donde se encontraba. Al llegar a la zona objetivo, daña y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font> a los enemigos cercanos. Durante un breve periodo después de usarse, puede activarse de nuevo para regresar a la ubicación original, causando los mismos efectos cuando llega."
+      }
+    },
+    "ThirdSkill": {
+      "id": "faerie_arcaneNova",
+      "name": {
+        "en": "Magic Nova",
+        "fr": "Nova magique",
+        "de": "Magick Nova",
+        "es": "Nova Mágica"
+      },
+      "description": {
+        "en": "Radiates magic orbs outwards, damaging enemies and <font color='{menu_highlight_white}'>ignoring {~%faerie_arcaneNova.C:C_IgnoreDefRatio} of their <font color='{def_yellow}'>DEF</font>.</font> The orbs return after a moment, dealing damage again.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time to cause the orbs to return early.</font>",
+        "fr": "Libère des orbes magiques qui infligent des dégâts aux ennemis en <font color='{menu_highlight_white}'>ignorant {~%faerie_arcaneNova.C:C_IgnoreDefRatio} de leur <font color='{def_yellow}'>DÉFENSE</font>.</font> Les orbes ont un effet boomerang pour causer davantage de dégâts.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai pour rappeler les orbes plus vite.</font>",
+        "de": "Versprüht magische Sphären nach außen, fügt Feinden und <font color='{menu_highlight_white}'> Schaden zu, wobei {~%faerie_arcaneNova.C:C_IgnoreDefRatio} ihrer <font color='{def_yellow}'>VTG.</font> ignoriert wird.</font> Die Sphären kehren nach einer Weile zurück und fügen erneut Schaden zu.<br><font color='{menu_highlight_white}'>Kann innerhalb eines kurzen Zeitraums erneut gezaubert werden, damit die Sphären früher zurückkehren.</font>",
+        "es": "Expulsa orbes mágicos que dañan a los enemigos <font color='{menu_highlight_white}'>ignorando el {~%faerie_arcaneNova.C:C_IgnoreDefRatio} de su <font color='{def_yellow}'>DEF</font>.</font> Al poco tiempo, los orbes regresan, infligiendo daño otra vez.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo para que los orbes regresen antes de tiempo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "faerie_sparkleSpray",
+      "name": {
+        "en": "Sparkle Spray",
+        "fr": "Projection scintillante",
+        "de": "Funkelspray",
+        "es": "Rocío de Destello"
+      },
+      "description": {
+        "en": "Hurls magic at an enemy, dealing ranged damage. Every {SkillTimer.StartValue} seconds, this skill becomes <font color='{menu_highlight_white}'>Empowered</font>, dealing increased damage and damaging enemies near the target. Each basic attack lowers the cooldown of this effect by {SkillCustomParameters.passiveTimerReduction} seconds.",
+        "fr": "Libère une force magique qui inflige des dégâts à un ennemi. Toutes les {SkillTimer.StartValue} secondes, cette compétence est <font color='{menu_highlight_white}'>renforcée</font>. Elle fait alors davantage de dégâts et cause des dégâts aux ennemis à proximité de la cible. Chaque attaque de base réduit le rechargement de cet effet de {SkillCustomParameters.passiveTimerReduction} secondes.",
+        "de": "Schleudert Magie auf einen Feind und fügt Schaden in der Nähe zu. Alle {SkillTimer.StartValue} Sekunden wird diese Fertigkeit <font color='{menu_highlight_white}'>verstärkt</font>, fügt dann erhöhten Schaden zu und beschädigt Feinde in der Nähe des Ziels. Jeder Standard-Angriff verringert die Abklingzeit dieses Effekts um {SkillCustomParameters.passiveTimerReduction} Sekunden.",
+        "es": "Lanza magia a un enemigo y le inflige daño a distancia. Cada {SkillTimer.StartValue} segundos, esta habilidad se <font color='{menu_highlight_white}'>potencia</font> causando daño adicional y dañando a los enemigos cercanos al objetivo. Cada ataque básico reduce el tiempo de recuperación de este efecto {SkillCustomParameters.passiveTimerReduction} segundos."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

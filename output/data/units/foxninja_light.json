@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "foxninja_fanThrow",
+      "name": {
+        "en": "Fan Throw",
+        "fr": "Lancer d'éventail",
+        "de": "Fächerwurf",
+        "es": "Abanico Volador"
+      },
+      "description": {
+        "en": "Throws her fan in a direction, striking enemies along its path and then spinning in place for several seconds. Deals damage to each enemy struck and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>. The fan can be picked up by touching it, which <font color='{menu_highlight_white}'>resets the cooldown of this skill</font> and ends the spinning effect.",
+        "fr": "Lance son éventail, frappant les ennemis sur son chemin puis tournoyant sur place pendant plusieurs secondes. Inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> à chaque ennemi touché. Ramasse l'éventail en le touchant pour <font color='{menu_highlight_white}'>recharger cette compétence</font> et abréger l'effet du tournoiement.",
+        "de": "Wirft ihren Fächer in eine Richtung, trifft damit Feinde auf ihrem Weg und dreht sich dann mehrere Sekunden lang auf der Stelle. Fügt jedem getroffenen Feind Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VGT.</font> Der Fächer kann aufgenommen werden, indem man ihn berührt, was <font color='{menu_highlight_white}'>die Abklingzeit dieser Fertigkeit zurücksetzt</font> und den Dreheffekt beendet.",
+        "es": "Lanza su abanico en una dirección golpeando a los enemigos en su trayectoria y después gira en su posición durante varios segundos. Daña a cada enemigo golpeado y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>. El abanico puede recogerse al tocarlo, lo que <font color='{menu_highlight_white}'>reinicia el tiempo de recuperación de la habilidad</font> y finaliza el efecto giratorio."
+      }
+    },
+    "SecondSkill": {
+      "id": "foxninja_squall",
+      "name": {
+        "en": "Squall",
+        "fr": "Rafale",
+        "de": "Sturmbö",
+        "es": "Borrasca"
+      },
+      "description": {
+        "en": "Summons a tornado beneath target enemy, damaging it and knocking it into the air for {SkillMovement_knockUp.LaunchUpwardDurationInSeconds} seconds. In addition, the tornado <font color='{menu_highlight_white}'>removes 1 buff</font> from the enemy and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Invoque une tornade sous l'ennemi pour lui infliger des dégâts et le projeter dans les airs pendant {SkillMovement_knockUp.LaunchUpwardDurationInSeconds} seconde(s). En outre, la tornade <font color='{menu_highlight_white}'>supprime 1 buff</font> à l'ennemi et inflige <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Ruft einen Tornado unter dem anvisierten Feind hervor, fügt ihm Schaden zu und schleudert ihn{SkillMovement_knockUp.LaunchUpwardDurationInSeconds} Sekunden lang in die Luft. Außerdem raubt der Tornado den Feinden <font color='{menu_highlight_white}'> 1 Bonus</font> und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Invoca un tornado tras el objetivo, dañándolo y lanzándolo por los aires durante {SkillMovement_knockUp.LaunchUpwardDurationInSeconds} segundos. Además el tornado <font color='{menu_highlight_white}'>elimina 1 efecto positivo</font> del enemigo y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "foxninja_typhoon",
+      "name": {
+        "en": "Eye of the Storm",
+        "fr": "Oeil du cyclone",
+        "de": "Auge des Sturms",
+        "es": "Ojo de Tormenta"
+      },
+      "description": {
+        "en": "Summons four bladed fans to circle around her, dealing damage to enemies struck by the fans. The first time each enemy is struck, this skill <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> that enemy.",
+        "fr": "Invoque quatre éventails à lames, qui forment en cercle autour d'elle et infligent des dégâts aux ennemis qu'ils touchent. La première fois qu'un éventail touche un ennemi, cette compétence lui inflige <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font>.",
+        "de": "Ruft ihre Vier-Klingen-Fächer herbei, die um sie herum kreisen und Feinden, die von ihnen getroffen wurden, Schaden zufügen. Das erste Mal, wenn ein Feind getroffen wird, lässt diese Fertigkeit diesen <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMEN</font>.",
+        "es": "Invoca cuatro abanicos con cuchillas alrededor de sí misma que causan daño a los enemigos que golpean. La primera vez que cada enemigo es golpeado, esta habilidad <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> al enemigo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "foxninja_gust",
+      "name": {
+        "en": "Slicing Wind",
+        "fr": "Vent tranchant",
+        "de": "Schneidender Wind",
+        "es": "Viento Cortante"
+      },
+      "description": {
+        "en": "Blows a gust of slicing wind to damage target enemy from a distance.",
+        "fr": "Souffle une rafale de vent tranchant qui inflige des dégâts à distance à un ennemi visé.",
+        "de": "Weht einen schneidenden Wind, um einen Feind aus der Ferne zu treffen.",
+        "es": "Crea una ráfaga de viento cortante que inflige daño a distancia al enemigo."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

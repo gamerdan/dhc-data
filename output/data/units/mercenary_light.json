@@ -218,6 +218,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "mercenary_hamstring",
+      "name": {
+        "en": "Boomerang Shield",
+        "fr": "Bouclier boomerang",
+        "de": "Bumerangschild",
+        "es": "Escudo Bumerán"
+      },
+      "description": {
+        "en": "Throws shield in an arc. Damages and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font> on enemies. If her HP% is low when she uses this skill, its cooldown is lowered.",
+        "fr": "Lance son bouclier en arc de cercle pour infliger des dégâts et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font> aux ennemis. La compétence voit son rechargement diminuer si elle est utilisée alors que les HP sont bas.",
+        "de": "Wirft einen Schild in einem Bogen. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT IHRE BONI</font>. Wenn ihre GP% niedrig sind, wenn sie diese Fertigkeit benutzt, wird die Abklingzeit reduziert.",
+        "es": "Lanza el escudo en un arco. Daña y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA LOS EFECTOS POSITIVOS</font> de los enemigos. Si su porcentaje de PV es bajo cuando use esta habilidad, su tiempo de recuperación se verá reducido."
+      }
+    },
+    "SecondSkill": {
+      "id": "mercenary_uppercutSmash",
+      "name": {
+        "en": "Uppercut Smash",
+        "fr": "Uppercut fracassant",
+        "de": "Kinnhakenschlag",
+        "es": "Golpe Gancho"
+      },
+      "description": {
+        "en": "Dashes in a direction until hitting an enemy and then uppercuts. Damages enemies, knocks them into the air, and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Se précipite violemment dans une direction jusqu'à percuter un ennemi, puis exécute un uppercut. Cause des dégâts aux ennemis, les projette dans les airs et leur inflige <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>.",
+        "de": "Sprintet in eine Richtung, bis sie einen Feind trifft und teilt dann einen Kinnhaken aus. Fügt Feinden Schaden zu, schlägt sie in die Luft und <font color='{debuff_red}'>{icon.lower_def}&nbsp;BETÄUBT</font> sie.",
+        "es": "Esprinta en una dirección hasta golpear a un enemigo y propinarle un gancho. Daña a los enemigos, los lanza por los aires y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "mercenary_cullingBlow",
+      "name": {
+        "en": "Culling Blow",
+        "fr": "Abattage",
+        "de": "Gesammelter Schlag",
+        "es": "Golpe de Sacrificio"
+      },
+      "description": {
+        "en": "Delivers an inescapable blow to target enemy and all enemies near it. Killing an enemy with any skill lowers the cooldown of this skill.<br><font color='{menu_highlight_white}'>Bonus damage based on each enemy's missing HP.</font>",
+        "fr": "Assène un coup imparable à l'ennemi et à tous ceux à proximité. Tuer un ennemi avec n'importe quelle compétence diminue son rechargement.<br><font color='{menu_highlight_white}'>Inflige des dégâts supplémentaires basés sur les HP manquants de l'ennemi.</font>",
+        "de": "Gibt dem feindlichen Ziel und allen Feinden in der Nähe einen unausweichlichen Schlag. Wenn ein Feind mit einer beliebigen Fertigkeit getötet wird, wird die Abklingzeit dieser Fertigkeit reduziert. <br><font color='{menu_highlight_white}'>Bonus-Schaden, basierend auf den fehlenden GP jedes Feindes.</font>",
+        "es": "Inflige un golpe inevitable al objetivo y a los enemigos cercanos a él. Matar a una enemigo con cualquier habilidad reduce el tiempo de recuperación de esta habilidad.<br><font color='{menu_highlight_white}'>El daño adicional depende de los PV restantes del enemigo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "mercenary_bounty",
+      "name": {
+        "en": "Bounty",
+        "fr": "Prime",
+        "de": "Kopfgeld",
+        "es": "Incentivo"
+      },
+      "description": {
+        "en": "Deals damage to an enemy target in melee range and to all nearby enemies within a wide arc. Each attack increases damage dealt by the next non-basic skill by {%SkillCustomParameters.damageIncreaseRatioPerAttack}, up to {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "fr": "Inflige des dégâts à un ennemi au corps-à-corps et à tous les ennemis à proximité sur un large arc de cercle. Chaque attaque augmente les dégâts de la prochaine compétence, hors compétences de base, de {%SkillCustomParameters.damageIncreaseRatioPerAttack} jusqu'à {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "de": "Fügt einem feindlichen Nahkampf-Ziel und Feinden in der Nähe in einem weiten Bogen Schaden zu. Jeder Angriff erhöht den Schaden, den die nächste Nicht-Basis-Fertigkeit zufügt, um {%SkillCustomParameters.damageIncreaseRatioPerAttack}, bis zu {%SkillCustomParameters.maxDamageIncreaseRatio}.",
+        "es": "Inflige daño a un enemigo cuerpo a cuerpo y a todos los enemigos en un amplio arco. Cada ataque aumenta el daño causado por la próxima habilidad no básica en {%SkillCustomParameters.damageIncreaseRatioPerAttack}, hasta un máximo de {%SkillCustomParameters.maxDamageIncreaseRatio}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

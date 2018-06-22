@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "footman_holdTheLine",
+      "name": {
+        "en": "Hold the Line!",
+        "fr": "Tenez vos positions&nbsp;!",
+        "de": "Haltet die Linie!",
+        "es": "¡Ni un paso atrás!"
+      },
+      "description": {
+        "en": "Takes a defensive stance. <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> himself and nearby allies.",
+        "fr": "Adopte une position défensive et octroie <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> pour protéger ses alliés à proximité et lui-même.",
+        "de": "Nimmt eine Abwehrhaltung ein. <font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> ihn selbst und Verbündete in der Nähe ab.",
+        "es": "Adopta una actitud defensiva. Se protege a sí mismo y a los aliados cercanos con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "footman_shieldBash",
+      "name": {
+        "en": "Shield Bash",
+        "fr": "Coup de bouclier",
+        "de": "Schildschlag",
+        "es": "Porrazo con Escudo"
+      },
+      "description": {
+        "en": "Hits target enemy with his shield. Deals damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Frappe l'ennemi visé avec son bouclier. Inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Schlägt feindliches Ziel mit seinem Schild. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Golpea al enemigo con su escudo. Inflige daño y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "footman_bellowingStrike",
+      "name": {
+        "en": "Bellowing Strike",
+        "fr": "Attaque mugissante",
+        "de": "Grölender Stoß",
+        "es": "Golpe Bramante"
+      },
+      "description": {
+        "en": "Swings his sword at an enemy. Every fifth attack <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> the primary target.",
+        "fr": "Brandit son épée en direction d'un ennemi. Toutes les cinq attaques, le dernier coup inflige <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> à la cible principale.",
+        "de": "Schwingt sein Schwert gegen einen Feind. Jeder fünfte Angriff <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> das Hauptziel.",
+        "es": "Ataca a un enemigo con su espada. Cada quinto ataque, <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> al objetivo principal."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

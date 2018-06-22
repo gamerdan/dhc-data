@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "imp_hoppingBlaze",
+      "name": {
+        "en": "Bouncing Blaze",
+        "fr": "Flambée bondissante",
+        "de": "Hüpfendes Feuer",
+        "es": "Fuego Saltarín"
+      },
+      "description": {
+        "en": "Throws a bouncing ball of fire. Each bounce damages enemies in a small area, with a chance to <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWER ATK</font>.",
+        "fr": "Lance une boule de feu rebondissante dont chaque rebond inflige des dégâts pouvant causer <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font> aux ennemis dans une petite zone.",
+        "de": "Wirft einen hüpfenden Feuerball. Jeder Aufprall fügt den Feinden in einem kleinen Bereich Schaden zu, mit einer Chance, dass er <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ANG. VERRINGERT</font>.",
+        "es": "Lanza una bola de fuego que cada vez que rebota daña a los enemigos en una pequeña zona. Tiene probabilidad de <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCIR ATQ</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "imp_devilishRam",
+      "name": {
+        "en": "Devilish Ram",
+        "fr": "Bélier diabolique",
+        "de": "Teuflischer Rammstoß",
+        "es": "Ariete Diabólico"
+      },
+      "description": {
+        "en": "Conjures a fiery ram that flies in a direction. Knocks back and damages enemies with a chance to inflict <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font>.",
+        "fr": "Fait apparaître un bélier ailé ardent qui repousse les ennemis et leur inflige des dégâts pouvant causer <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font>.",
+        "de": "Beschwört einen feurigen Rammstoß in eine Richtung. Wirft die Feinde zurück und fügt ihnen Schaden zu, mit der Chance auf <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font>.",
+        "es": "Invoca un ariete ardiente que derriba y daña a los enemigos. Tiene probabilidad de infligir <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "imp_mischievousFlame",
+      "name": {
+        "en": "Ember Hurl",
+        "fr": "Jet de braises",
+        "de": "Glutschleuder",
+        "es": "Brasas"
+      },
+      "description": {
+        "en": "Attacks an enemy from a medium distance. Every fourth attack <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font>.",
+        "fr": "Attaque un ennemi à moyenne distance. Toutes les quatre attaques, gagne <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font>.",
+        "de": "Greift einen Feind aus einer mittleren Distanz an. Jeder vierte Angriff <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font>",
+        "es": "Ataca a un enemigo a distancia. Cada cuarto ataque <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

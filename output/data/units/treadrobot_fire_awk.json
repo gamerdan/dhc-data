@@ -193,6 +193,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "treadrobot_bulldoze",
+      "name": {
+        "en": "Bulldoze",
+        "fr": "Bulldozer",
+        "de": "Bulldozer",
+        "es": "Demoledor"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> itself and then charges in a line, damaging and pushing back the first enemy it hits.",
+        "fr": "Un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> le protège pendant qu'il charge droit devant lui, infligeant des dégâts et repoussant le premier ennemi rencontré.",
+        "de": "<font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> sich selbst ab und greift dann in einer Linie an, fügt dem ersten getroffenen Feind Schaden zu und schiebt ihn weg.",
+        "es": "Se protege con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> y después embiste en línea recta, dañando y empujando al primer enemigo que golpee."
+      }
+    },
+    "SecondSkill": {
+      "id": "treadrobot_slicingBeam",
+      "name": {
+        "en": "Slicing Beam",
+        "fr": "Rayon découpeur",
+        "de": "Schneidender Strahl",
+        "es": "Rayo Cortante"
+      },
+      "description": {
+        "en": "Spins around, carving a circle in the ground with a laser. Damages enemies and <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKS BUFFS</font>.",
+        "fr": "Tourbillonne et creuse un cercle dans le sol avec un laser. Inflige des dégâts aux ennemis et <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Dreht sich um sich selbst und schneidet mit einem Laser einen Kreis in den Boden. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCKIERT BONI</font>.",
+        "es": "Gira creando un círculo en el suelo con un láser. Daña a los enemigos y <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEA EFECTOS POSITIVOS</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "treadrobot_crushingPincer",
+      "name": {
+        "en": "Crushing Pincer",
+        "fr": "Tenaille dévastatrice",
+        "de": "Zerquetschende Scheren",
+        "es": "Tenazas Devastadoras"
+      },
+      "description": {
+        "en": "Attacks enemies with its claws, with a chance that it <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Attaque les ennemis avec ses griffes, pouvant infliger <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font>.",
+        "de": "Greift Feinde mit seinen Klauen an, mit einer Chance auf <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ANG. VERRINGERT</font>.",
+        "es": "Ataca a sus enemigos con sus pinzas con probabilidad de <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCIR ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

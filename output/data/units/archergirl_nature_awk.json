@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "archergirl_suppressionVolley",
+      "name": {
+        "en": "Suppression Volley",
+        "fr": "Volée de suppression",
+        "de": "Unterdrückende Salve",
+        "es": "Salva de Supresión"
+      },
+      "description": {
+        "en": "Fires a volley of arrows in a cone. Damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies. Each enemy can only be affected once.",
+        "fr": "Décoche une volée de flèches pour infliger des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis situés dans le cône d'effet. Chaque ennemi ne peut être affecté qu'une fois.",
+        "de": "Schießt eine Salve von Pfeilen in Kegelform ab. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> sie. Kann bei jedem Feind nur ein Mal angewendet werden.",
+        "es": "Lanza una descarga de flechas en forma de cono. Daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos. Cada enemigo solo puede verse afectado una vez."
+      }
+    },
+    "SecondSkill": {
+      "id": "archergirl_tumble",
+      "name": {
+        "en": "Tumble",
+        "fr": "Culbute",
+        "de": "Taumeln",
+        "es": "Voltereta"
+      },
+      "description": {
+        "en": "Rolls in a direction and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> for herself and all nearby allies. ",
+        "fr": "Exécute une roulade et octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> aux alliés à proximité et à elle-même. ",
+        "de": "Rollt in eine Richtung und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> von sich selbst und Feinden in der Nähe.",
+        "es": "Rueda en una dirección y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> para sí misma y todos los aliados cercanos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "archergirl_piercingArrow",
+      "name": {
+        "en": "Piercing Arrow",
+        "fr": "Flèche perçante",
+        "de": "Durchbohrender Pfeil",
+        "es": "Flecha Perforadora"
+      },
+      "description": {
+        "en": "Fires a massive arrow in a direction, dealing damage to all enemies in a line. <font color='{menu_highlight_white}'>Ignores {~%archergirl_piercingArrow.C:C_IgnoreDefRatio} of enemy <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Décoche une énorme flèche pour infliger des dégâts aux ennemis situés sur la ligne d'effet. <font color='{menu_highlight_white}'>Ignore {~%archergirl_piercingArrow.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> ennemie.</font>",
+        "de": "Schießt einen riesigen Pfeil in eine Richtung und fügt allen Feinden in einer Reihe Schaden zu. <font color='{menu_highlight_white}'>Ignoriert {~%archergirl_piercingArrow.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.",
+        "es": "Lanza una enorme flecha que inflige daño a todos los enemigos en una línea recta. <font color='{menu_highlight_white}'>Ignora el {~%archergirl_piercingArrow.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> del enemigo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "archergirl_bullseye",
+      "name": {
+        "en": "Bullseye",
+        "fr": "Dans le mille",
+        "de": "Volltreffer",
+        "es": "Tiro al Blanco"
+      },
+      "description": {
+        "en": "Attacks an enemy from a distance. Every fourth attack is an automatic crit.",
+        "fr": "Attaque un ennemi à distance et inflige des dégâts critiques tous les quatre tirs.",
+        "de": "Greift einen Feind aus der Entfernung an. Jeder vierte Angriff ist automatisch kritisch.",
+        "es": "Inflige daño a distancia a un enemigo. Cada cuarto ataque será crítico."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

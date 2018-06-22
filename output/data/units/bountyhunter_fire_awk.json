@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "bountyhunter_energyBolt",
+      "name": {
+        "en": "Energy Bolt",
+        "fr": "Éclair d'énergie",
+        "de": "Energiepfeil",
+        "es": "Descarga de Energía"
+      },
+      "description": {
+        "en": "Throws a ball of energy from his hand, which detonates on the first enemy it hits. Deals damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> enemies in the area.",
+        "fr": "Lance une balle d'énergie qui explose à l'impact d'un ennemi, et qui inflige des dégâts ainsi que <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis dans la zone.",
+        "de": "Wirft einen Energieball aus seiner Hand, der auf dem ersten Feind detoniert, den er trifft. Fügt Feinden in der Nähe Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Lanza una bola de energía que explota cuando golpea a un enemigo. Daña y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos cercanos."
+      }
+    },
+    "SecondSkill": {
+      "id": "bountyhunter_epicLeap",
+      "name": {
+        "en": "Epic Leap",
+        "fr": "Saut épique",
+        "de": "Epischer Sprung",
+        "es": "Salto Épico"
+      },
+      "description": {
+        "en": "Leaps through the air, bringing his sword down on his enemies. <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font>, damages enemies, and knocks them back when he lands.",
+        "fr": "Bondit dans les airs pour abattre son épée sur les ennemis depuis les airs et les repousser. Gagne <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> et inflige des dégâts aux ennemis.",
+        "de": "Springt durch die Luft und schwingt sein Schwert auf Feinde nieder. <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT VTG.</font>, fügt Feinden Schaden zu und schlägt sie zurück, wenn er landet.",
+        "es": "Salta por los aires y ataca a sus enemigos con la espada. <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font>, daña a los enemigos y los empuja cuando aterriza."
+      }
+    },
+    "ThirdSkill": {
+      "id": "bountyhunter_mightyCleave",
+      "name": {
+        "en": "Mighty Cleave",
+        "fr": "Puissant hachoir",
+        "de": "Mächtiger Spalter",
+        "es": "Cuchilla Potente"
+      },
+      "description": {
+        "en": "Swings his sword in a circle around him, damaging nearby enemies and knocking them back. <font color='{menu_highlight_white}'>Ignores {~%bountyhunter_mightyCleave.C:C_IgnoreDefRatio} of enemy <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Fait tournoyer son épée autour de lui pour infliger des dégâts aux ennemis à proximité et les repousser. <font color='{menu_highlight_white}'>Ignore {~%bountyhunter_mightyCleave.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉFENSE</font> ennemie.</font>",
+        "de": "Schwingt sein Schwert im Kreis um sich herum, fügt Feinden in der Nähe Schaden zu und schlägt sie zurück. <font color='{menu_highlight_white}'>Ignoriert {~%bountyhunter_mightyCleave.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.</font>",
+        "es": "Gira con su espada, dañando a los enemigos cercanos y empujándolos. <font color='{menu_highlight_white}'>Ignora el {~%bountyhunter_mightyCleave.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DEF</font> del enemigo.</font>"
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "bountyhunter_hackSlash",
+      "name": {
+        "en": "Hack 'n' Slash",
+        "fr": "Découpage et lacération",
+        "de": "Hack 'n' Slash",
+        "es": "Tajos y Cuchillazos"
+      },
+      "description": {
+        "en": "Attacks enemies with his sword. Every fifth attack, he becomes <font color='{menu_highlight_white}'>Empowered</font>, causing him to leap to his target and healing him for a portion of the damage dealt. He also becomes <font color='{menu_highlight_white}'>Empowered</font> whenever he uses a skill.",
+        "fr": "Attaque les ennemis avec son épée. Il se <font color='{menu_highlight_white}'>renforce</font> toutes les cinq attaques pour bondir sur sa cible et se soigner en absorbant une partie des dégâts infligés. Il se <font color='{menu_highlight_white}'>renforce</font> également lorsqu'il utilise une compétence.",
+        "de": "Greift Feinde mit seinem Schwert an. Bei jedem fünften Angriff wird er <font color='{menu_highlight_white}'>verstärkt</font>, wodurch er auf sein Ziel zuspringt und sich von einem Teil des zugefügten Schadens heilt. Außerdem wird er immer <font color='{menu_highlight_white}'>verstärkt</font>, wenn er eine Fertigkeit benutzt.",
+        "es": "Ataca a los enemigos con su espada. Cada quinto ataque le <font color='{menu_highlight_white}'>potencia</font>, haciéndole saltar hacia su objetivo y curándole una parte del daño infligido. También se <font color='{menu_highlight_white}'>potencia</font> cuando usa una habilidad."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

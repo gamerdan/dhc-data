@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "ninjafrog_tongueSlap",
+      "name": {
+        "en": "Tongue Smack",
+        "fr": "Claque de langue",
+        "de": "Zungenklaps",
+        "es": "Golpe con Lengua"
+      },
+      "description": {
+        "en": "Commands the frog to lash out with its tongue, dealing damage and inflicting <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font> on all enemies in a line. If an enemy is <font color='{debuff_red}'>{icon.mark}&nbsp;MARKED</font>, this also <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Ordonne à la grenouille d'attaquer avec sa langue, infligeant des dégâts et <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font> à tous les ennemis sur la ligne d'effet. Si l'ennemi est affecté par <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font>, il subit aussi <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Befiehlt dem Frosch, seine Zunge vorspringen zu lassen und Schaden und <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> an allen Feinden in einer Linie zu verursachen. Wenn ein Feind <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> ist, wird dieser auch <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>.",
+        "es": "Ordena a la rana atacar con su lengua. Daña e inflige <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font> a todos los enemigos en línea recta. Si un enemigo está <font color='{debuff_red}'>{icon.mark}&nbsp;MARCADO</font>, también lo <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDIRÁ</font>."
+      }
+    },
+    "ThirdSkill": {
+      "id": "ninjafrog_shinigamiCalling",
+      "name": {
+        "en": "Ink Spirit Calling",
+        "fr": "Appel de l'esprit de l'encre",
+        "de": "Tintengeist rufen",
+        "es": "Espíritu de Tinta"
+      },
+      "description": {
+        "en": "Brings ink to life, summoning a massive frog spirit to devour enemies. Deals damage with an increased crit chance to enemies within an area and knocks them into the air. This is a <font color='{menu_highlight_white}'>guaranteed crit</font> against <font color='{debuff_red}'>{icon.mark}&nbsp;MARKED</font> enemies and deals <font color='{menu_highlight_white}'>bonus Crit Damage</font> to those enemies.",
+        "fr": "Donne vie à l'encre qui prend l'apparence d'une énorme grenouille. Celle-ci dévore les ennemis dans une zone pour leur infliger des dégâts avec des chances de coups critiques accrues, puis les projette dans les airs. Si des ennemis sont affectés par <font color='{menu_highlight_white}'></font><font color='{debuff_red}'>MARQUAGE{icon.mark}, ils reçoivent des &nbsp;coups critiques garantis</font> et des <font color='{menu_highlight_white}'>dégâts critiques supplémentaires</font>.",
+        "de": "Erweckt Tinte zum Leben und beschwört einen massiven Froschgeist, der Feinde verschlingt. Fügt in einem Bereich Schaden mit einer erhöhten krit. Chance zu und schlägt Feinde in die Luft. Gegen <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERTE</font> Feinde ist das ein <font color='{menu_highlight_white}'>garantierter krit. Treffer</font> und ihnen wird<font color='{menu_highlight_white}'>krit. Bonus-Schaden</font> zugefügt.",
+        "es": "Da vida a la tinta e invoca un espíritu de rana enorme para devorar a sus enemigos. Causa daño con mayor probabilidad de crítico y derriba a los enemigos en una zona. Si un enemigo está <font color='{debuff_red}'>{icon.mark}&nbsp;MARCADO</font>, el daño será <font color='{menu_highlight_white}'>crítico garantizado</font> e infligirá <font color='{menu_highlight_white}'>daño crítico adicional</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "ninjafrog_inkSlash",
+      "name": {
+        "en": "Ink Slash",
+        "fr": "Ligne d'encre",
+        "de": "Tintenstrich",
+        "es": "Trazo de Tinta"
+      },
+      "description": {
+        "en": "Draws a line of magical ink in the air that detonates after a brief period. Damages and <font color='{debuff_red}'>{icon.mark}&nbsp;MARKS</font> enemies on the initial stroke, and again when it explodes.",
+        "fr": "Dessine une ligne d'encre magique dans l'air, qui explose après un court délai. Inflige des dégâts et <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font> aux ennemis lors de la frappe initiale et à nouveau lors de l'explosion.",
+        "de": "Zeichnet eine Linie mit magischer Tinte in die Luft, die nach kurzer Zeit detoniert. Fügt Schaden zu und <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> die Feinde beim ersten Schlag und noch mal bei der Explosion.",
+        "es": "Dibuja una línea de tinta mágica en el aire que explota tras un breve periodo de tiempo. Inflige daño y <font color='{debuff_red}'>{icon.mark}&nbsp;MARCA</font> a los enemigos con el primer golpe y otra vez cuando explota."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "ninjafrog_brushStroke",
+      "name": {
+        "en": "Brush Stroke",
+        "fr": "Coup de pinceau",
+        "de": "Pinselstrich",
+        "es": "Pincelada"
+      },
+      "description": {
+        "en": "Hurls ink at an enemy, attacking it from a distance. If the enemy is <font color='{debuff_red}'>{icon.mark}&nbsp;MARKED</font>, the ink explodes in a powerful glyph which deals bonus damage and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font>.",
+        "fr": "Lance de l'encre sur un ennemi. Si celui-ci est affecté par <font color='{debuff_red}'>{icon.mark}&nbsp;MARQUAGE</font>, l'encre explose en un glyphe puissant qui inflige des dégâts supplémentaires ainsi que <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font>.",
+        "de": "Schleudert Tinte auf einen Feind und greift ihn aus der Ferne an. Wenn der Feind <font color='{debuff_red}'>{icon.mark}&nbsp;MARKIERT</font> ist, explodiert die Tinte in einer mächtigen Glyphe, die Bonus-Schaden zufügt und den Feind <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font>.",
+        "es": "Lanza tinta a un enemigo a distancia. Si el enemigo está <font color='{debuff_red}'>{icon.mark}&nbsp;MARCADO</font>, la tinta explota e inflige daño adicional que <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

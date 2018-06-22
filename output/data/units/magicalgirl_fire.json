@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "magicalgirl_ribbon",
+      "name": {
+        "en": "Ribbon Volley",
+        "fr": "Volée de rubans",
+        "de": "Band-Salve",
+        "es": "Descarga de Cintas"
+      },
+      "description": {
+        "en": "Whips a ribbon of energy forward three times. Each ribbon damages enemies in a line and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font>. If an enemy is struck by all three ribbons, the last one <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.<br><font color='{menu_highlight_white}'>Can move while channeling. Each ribbon will travel in the same direction.</font>",
+        "fr": "Fait claquer un ruban d'énergie tel un fouet trois fois. Chaque ruban inflige des dégâts aux ennemis et inflige <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font>. Si les trois rubans frappent un ennemi, la dernière attaque inflige <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.<br><font color='{menu_highlight_white}'>Peut se déplacer tout en concentrant son énergie. Chaque ruban se dirigera dans la même direction.</font>",
+        "de": "Peitscht drei Mal ein Energieband nach vorn. Jedes Band fügt Feinden in einer Reihe Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font>. Wenn ein Gegner von allen drei Bändern getroffen wird, <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> das letzte.<br><font color='{menu_highlight_white}'>Kann sich beim Kanalisieren bewegen. Jedes Band bewegt sich in die gleiche Richtung.</font>",
+        "es": "Golpea tres veces con una cinta de energía. Cada cinta causa daño a los enemigos colocados en fila y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font>. Si un enemigo es golpeado por las tres cintas, la última <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>.<br><font color='{menu_highlight_white}'>Se puede mover durante la canalización. Cada cinta se traslada en la misma dirección.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "magicalgirl_healingCircle",
+      "name": {
+        "en": "Healing Circle",
+        "fr": "Cercle guérisseur",
+        "de": "Heilungskreis",
+        "es": "Círculo Curativo"
+      },
+      "description": {
+        "en": "Summons a magic circle that heals and <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font> of all allies within its bounds.",
+        "fr": "Invoque un cercle magique qui soigne et octroie <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> à tous les ennemis situés dans son périmètre.",
+        "de": "Ruft einen magischen Kreis herbei, der heilt und für alle Verbündeten darin <font color='{buff_blue}'>{icon.raise_def}&nbsp;VTG. ERHÖHT</font>.",
+        "es": "Invoca un círculo mágico que cura y <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font> de todos los aliados que se encuentren en su interior."
+      }
+    },
+    "ThirdSkill": {
+      "id": "magicalgirl_queenOfHearts",
+      "name": {
+        "en": "Queen of Hearts",
+        "fr": "Reine de coeur",
+        "de": "Herzdame",
+        "es": "Reina de Corazones"
+      },
+      "description": {
+        "en": "Bless all allies with protective magic, absorbing incoming attacks. Reduces all damage dealt to affected allies. At the end of its duration, the spell unleashes this energy, dealing damage proportional to the damage absorbed to all enemies near affected allies.",
+        "fr": "Bénit tous les alliés d'une magie protectrice qui absorbe toutes les attaques. Réduit tous les dégâts infligés aux ennemis affectés. Le sort prend fin en libérant son énergie et en infligeant des dégâts proportionnels aux dégâts absorbés à tous les ennemis à proximité des alliés affectés.",
+        "de": "Segnet alle Verbündeten mit schützender Magie und absorbiert eingehende Angriffe. Verringert den gesamten zugefügten Schaden für betroffene Verbündete. Am Ende seiner Dauer entfesselt der Zauber diese Energie und fügt allen Feinden in der Nähe Schaden zu, der proportional zum Schaden ist, der von den betroffenen Verbündeten absorbiert wurde.",
+        "es": "Bendice a todos los aliados con magia protectora, absorbiendo los ataques recibidos. Reduce todo el daño causado a los aliados afectados. Cuando termina, el hechizo libera esa energía y causa un daño proporcional al daño absorbido a todos los enemigos cercanos a los aliados afectados."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "magicalgirl_forceOfWill",
+      "name": {
+        "en": "Magic Wand",
+        "fr": "Baguette magique",
+        "de": "Zauberstab",
+        "es": "Varita Mágica"
+      },
+      "description": {
+        "en": "Flings a ball of magic, damaging the target enemy from a distance. Every {SkillTimer.StartValue} seconds, the next attack is empowered, firing a beam of magic which damages and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING&nbsp;DAMAGE</font> on enemies in a line.",
+        "fr": "Lance un balle magique qui inflige des dégâts à l'ennemi visé. Toutes les {SkillTimer.StartValue} secondes, l'attaque suivante est renforcée et un rayon de magie inflige des dégâts et <font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Feuert einen glühenden Zauberball und fügt einem Feind aus der Entfernung Schaden zu. Alle {SkillTimer.StartValue} Sekunden wird der nächste Angriff verstärkt und feuert einen Zauberstrahl ab, der <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN&nbsp;SCHADEN</font> bei Feinden in einer Reihe verursacht.",
+        "es": "Lanza una bola de magia que daña al objetivo a distancia. Cada {SkillTimer.StartValue} segundos se potencia el siguiente ataque, lanzando un rayo de magia que causa daño y <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO&nbsp;CONTINUADO</font> a los enemigos en línea recta."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": true
 }

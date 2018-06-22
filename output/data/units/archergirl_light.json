@@ -217,6 +217,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "archergirl_splitArrow",
+      "name": {
+        "en": "Split Arrow",
+        "fr": "Volée de flèches",
+        "de": "Splitter-Pfeil",
+        "es": "Flecha Dividida"
+      },
+      "description": {
+        "en": "Enhances her basic skill for a short time. While enhanced, each attack will shoot arrows at multiple targets in front of her.",
+        "fr": "Sublime ses compétences de base pour une courte durée. Pendant qu'elle est sublimée, elle tire des flèches sur plusieurs cibles devant elle.",
+        "de": "Erhöht für kurze Zeit ihre Basis-Fertigkeit. Wenn die Verstärkung aktiv ist, schießt jeder Angriff Pfeile auf mehrfache Ziele ab.",
+        "es": "Potencia su habilidad básica durante un breve periodo de tiempo. Mientras está potenciada, cada ataque dispara flechas a varios objetivos frente a ella."
+      }
+    },
+    "SecondSkill": {
+      "id": "archergirl_tumble",
+      "name": {
+        "en": "Tumble",
+        "fr": "Culbute",
+        "de": "Taumeln",
+        "es": "Voltereta"
+      },
+      "description": {
+        "en": "Rolls in a direction and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> for herself and all nearby allies. ",
+        "fr": "Exécute une roulade et octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> aux alliés à proximité et à elle-même. ",
+        "de": "Rollt in eine Richtung und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font> von sich selbst und Feinden in der Nähe.",
+        "es": "Rueda en una dirección y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> para sí misma y todos los aliados cercanos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "archergirl_flashArrow",
+      "name": {
+        "en": "Flash Arrow",
+        "fr": "Flèche aveuglante",
+        "de": "Blitz-Pfeil",
+        "es": "Flecha de Destello"
+      },
+      "description": {
+        "en": "Fires an arrow at target location, which explodes in a huge flash. Deals damage and <font color='{debuff_red}'>{icon.blind}&nbsp;BLINDS</font> all enemies in the area.",
+        "fr": "Tire une flèche qui explose avec un grand flash et qui inflige des dégâts et <font color='{debuff_red}'>{icon.blind}&nbsp;CÉCITÉ</font> à tous les ennemis dans la zone.",
+        "de": "Zielt einen Ort an und schießt einen Pfeil, der in einem großen Blitz explodiert. Fügt Schaden zu und  <font color='{debuff_red}'>{icon.blind}&nbsp;BLENDET</font> alle Feinde des Gebiets.",
+        "es": "Dispara una flecha que explota con un gran destello. Causa daño y <font color='{debuff_red}'>{icon.blind}&nbsp;CIEGA</font> a todos los enemigos cercanos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "archergirl_aim",
+      "name": {
+        "en": "Aimed Shot",
+        "fr": "Tir cadré",
+        "de": "Gezielter Schuss",
+        "es": "Disparo Apuntando"
+      },
+      "description": {
+        "en": "Fires arrows at an enemy from a distance. Every attack has a chance to <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOCK BUFFS</font>.",
+        "fr": "Tire des flèches sur un ennemi. Chaque attaque peut infliger <font color='{debuff_red}'>{icon.blockbuff}&nbsp;ANTIBUFF</font>.",
+        "de": "Feuert aus der Ferne Pfeile auf einen Feind ab. Jeder Angriff hat eine Chance, <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BONI ZU BLOCKEN</font>.",
+        "es": "Dispara flechas a distancia a un enemigo. Cada ataque tiene la posibilidad de <font color='{debuff_red}'>{icon.blockbuff}&nbsp;BLOQUEAR EFECTOS POSITIVOS</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

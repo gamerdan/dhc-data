@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "speargrublin_javelinToss",
+      "name": {
+        "en": "Javelin Toss",
+        "fr": "Lancer de javelot",
+        "de": "Speerwurf",
+        "es": "Lanzamiento de Jabalina"
+      },
+      "description": {
+        "en": "Hurls his spear at a location, damaging enemies in a small area. Has a chance to <font color='{debuff_red}'>{icon.immobilize}&nbsp;IMMOBILIZE</font>.",
+        "fr": "Jette sa lance pour infliger des dégâts aux ennemis dans une petite zone. Peut causer <font color='{debuff_red}'>{icon.immobilize}&nbsp;ENTRAVE</font>.",
+        "de": "Schleudert seinen Speer auf eine Stelle und fügt Feinden in einem kleinen Gebiet Schaden zu. Hat eine Chance, <font color='{debuff_red}'>{icon.immobilize}&nbsp;BEWEGUNGSUNFÄHIG</font> zu machen.",
+        "es": "Lanza su jabalina a una ubicación y daña a los enemigos en una pequeña zona. Tiene probabilidad de <font color='{debuff_red}'>{icon.immobilize}&nbsp;PARALIZAR</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "speargrublin_bigBadCharge",
+      "name": {
+        "en": "Big Bad Charge",
+        "fr": "Gros grabuge grublin",
+        "de": "Großer böser Angriff",
+        "es": "Carga Feroz"
+      },
+      "description": {
+        "en": "Charges forward in a straight line until he hits an enemy. Deals damage and inflicts <font color='{debuff_red}'>{icon.ongoing}&nbsp;ONGOING DAMAGE</font> on that enemy.",
+        "fr": "Fonce tête baissée jusqu'à percuter un ennemi. Inflige des dégâts ainsi qu'<font color='{debuff_red}'>{icon.ongoing}&nbsp;USURE</font> à cet ennemi.",
+        "de": "Greift in einer geraden Linie nach vorn an, bis er einen Feind trifft. Fügt Schaden zu und wirkt <font color='{debuff_red}'>{icon.ongoing}&nbsp;ANDAUERNDEN SCHADEN</font>.",
+        "es": "Carga hacia adelante en línea recta hasta que golpea a un enemigo. Daña e inflige <font color='{debuff_red}'>{icon.ongoing}&nbsp;DAÑO CONTINUADO</font> al enemigo."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "speargrublin_pokePoke",
+      "name": {
+        "en": "Poke Poke!",
+        "fr": "Pichenette",
+        "de": "Pieks pieks!",
+        "es": "Pincho Moruno"
+      },
+      "description": {
+        "en": "Attacks enemies with his spear with a chance to <font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISE CRIT</font>.",
+        "fr": "Utilise sa lance pour infliger des dégâts aux ennemis et peut obtenir <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font>.",
+        "de": "Greift Feinde mit seinem Speer an mit einer Chance auf <font color='{buff_blue}'>{icon.raise_crit}&nbsp;KRIT. CHANCE ERHÖHEN</font>.",
+        "es": "Ataca a los enemigos con su lanza con probabilidad de <font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTAR CRÍT</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

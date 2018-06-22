@@ -204,6 +204,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "rollerderby_breakaway",
+      "name": {
+        "en": "Breakaway",
+        "fr": "Échappée",
+        "de": "Ausreißer",
+        "es": "Liberación"
+      },
+      "description": {
+        "en": "Gains the <font color='{buff_blue}'>{icon.haste}&nbsp;HASTE</font> buff and <font color='{menu_highlight_white}'>Empowers</font> her baseball bat. When Empowered, her next BONK! skill deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Gagne <font color='{buff_blue}'>{icon.haste}&nbsp;HÂTE</font> et <font color='{menu_highlight_white}'>renforce</font> sa batte de base-ball. Une fois renforcée, la prochaine utilisation de la compétence VLAN&nbsp;! inflige des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Erhält den <font color='{buff_blue}'>{icon.haste}&nbsp;EILE</font>-Bonus und <font color='{menu_highlight_white}'>verstärkt</font> ihren Baseballschläger. Wenn die Verstärkung aktiv ist, fügt ihre nächste DONK!-Fertigkeit zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font>.",
+        "es": "Obtiene el efecto positivo <font color='{buff_blue}'>{icon.haste}&nbsp;RAPIDEZ</font> y <font color='{menu_highlight_white}'>potencia</font> su bate de béisbol para infligir daño adicional y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDIR</font> al objetivo con la próxima activación de ¡PUM!"
+      }
+    },
+    "SecondSkill": {
+      "id": "rollerderby_powerJam",
+      "name": {
+        "en": "Power Jam",
+        "fr": "Surcharge de puissance",
+        "de": "Stärkeblockade",
+        "es": "Choque de Poder"
+      },
+      "description": {
+        "en": "Dashes in a line, damaging enemies. In addition, she <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES DEF</font> and <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font>.<br>Can be recast up to {Skill.MultiCastCount} times in a row.",
+        "fr": "Fonce droit devant elle pour infliger des dégâts aux ennemis situés sur la ligne d'effet. Gagne <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font> et <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font>.<br>Cette compétence peut être relancée {Skill.MultiCastCount} fois de suite.",
+        "de": "Sprintet auf einer Linie entlang und fügt Feinden Schaden zu. Sie <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT VTG.</font> und <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ERHÖHT ANG.</font><br>Kann bis zu {Skill.MultiCastCount} Mal hintereinander gezaubert werden.",
+        "es": "Esprinta en línea recta dañando a los enemigos. Además, <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA DEF</font> y <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATQ</font>.<br>Se puede activar de nuevo un máximo de {Skill.MultiCastCount} veces seguidas."
+      }
+    },
+    "ThirdSkill": {
+      "id": "rollerderby_grandSlam",
+      "name": {
+        "en": "Grand Slam",
+        "fr": "Grand chelem",
+        "de": "Grand Slam",
+        "es": "Gran Golpe"
+      },
+      "description": {
+        "en": "Swings her baseball bat, damaging enemies and knocking them away. When each enemy lands, deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Agite sa batte de baseball pour frapper les ennemis à proximité, ce qui leur inflige des dégâts et les repousse. La chute leur cause des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Sie schwingt ihren Baseballschläger, fügt Feinden Schaden zu und schlägt sie weg. Fügt ihnen bei der Landung zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Ataca a los enemigos con su bate de béisbol y los lanza por los aires. Cuando caen, inflige daño adicional y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "rollerderby_bonk",
+      "name": {
+        "en": "BONK!",
+        "fr": "VLAN&nbsp;!",
+        "de": "Donk!",
+        "es": "¡PUM!"
+      },
+      "description": {
+        "en": "Swings her baseball bat, attacking nearby enemies. Each attack lowers the cooldown of {FirstSkill.name}.",
+        "fr": "Agite sa batte de baseball pour frapper les ennemis à proximité. Chaque attaque réduit le rechargement de {FirstSkill.name}.",
+        "de": "Schwingt ihren Baseballschläger und greift Feinde in der Nähe an. Jeder Angriff verringert die Abklingzeit von {FirstSkill.name}.",
+        "es": "Ataca a los enemigos cercanos con su bate de béisbol. Cada ataque reduce el tiempo de recuperación de {FirstSkill.name}."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

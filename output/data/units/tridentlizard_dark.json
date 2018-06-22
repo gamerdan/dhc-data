@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "tridentlizard_galeThrust",
+      "name": {
+        "en": "Gale Thrust",
+        "fr": "Transpercement tempêtueux",
+        "de": "Sturmschub",
+        "es": "Estocada Huracanada"
+      },
+      "description": {
+        "en": "Thrusts his spear with incredible speed, dealing damage to enemies in a cone.<br><font color='{menu_highlight_white}'>Deals additional damage if it hits only one enemy.</font>",
+        "fr": "Plonge sa lance à une vitesse incroyable, infligeant des dégâts aux ennemis situés dans le cône d'effet.<br><font color='{menu_highlight_white}'>Inflige des dégâts supplémentaires si un seul ennemi est touché.</font>",
+        "de": "Stößt seinen Speer mit unglaublicher Geschwindigkeit und fügt Feinden innerhalb eines Kegels Schaden zu.<br><font color='{menu_highlight_white}'>Fügt zusätzlichen Schaden zu, wenn er nur einen Feind trifft.</font>",
+        "es": "Embiste con su lanza a gran velocidad, dañando a los enemigos en un cono.<br><font color='{menu_highlight_white}'>Inflige daño adicional si golpea solo a un enemigo.</font>"
+      }
+    },
+    "SecondSkill": {
+      "id": "tridentlizard_scrappy",
+      "name": {
+        "en": "Scrappy",
+        "fr": "Morcelé",
+        "de": "Raufbold",
+        "es": "Remanente"
+      },
+      "description": {
+        "en": "If current HP is below {%SkillCustomParameters.healthThreshold}, passively reduces damage taken by {~%SkillCustomParameters.reducedDamageRatio}.",
+        "fr": "Si les HP sont inférieurs à {%SkillCustomParameters.healthThreshold}, les dégâts subis sont réduits passivement de {~%SkillCustomParameters.reducedDamageRatio}.",
+        "de": "Wenn die derzeitigen GP unter {%SkillCustomParameters.healthThreshold} sind, reduziert er passiv den erlittenen Schaden um {~%SkillCustomParameters.reducedDamageRatio}.",
+        "es": "Si quedan menos de {%SkillCustomParameters.healthThreshold} PV, reduce de forma pasiva el daño recibido un {~%SkillCustomParameters.reducedDamageRatio}."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "tridentlizard_frenziedJab",
+      "name": {
+        "en": "Frenzied Jab",
+        "fr": "Assaut frénétique",
+        "de": "Wilder Stoß",
+        "es": "Golpe Furibundo"
+      },
+      "description": {
+        "en": "Attacks enemies with his trident.<br><font color='{menu_highlight_white}'>Deals more damage as current HP% decreases</font>.",
+        "fr": "Attaque les ennemis avec son trident.<br><font color='{menu_highlight_white}'>Inflige plus de dégâts à mesure que le % de HP actuel diminue.</font>",
+        "de": "Greift Feinde mit seinem Dreizack an.<br><font color='{menu_highlight_white}'>Fügt mehr Schaden zu, als die derzeitigen GP-% sinken.</font>",
+        "es": "Ataca a los enemigos con su tridente.<br><font color='{menu_highlight_white}'>Inflige más daño a medida que baja el porcentaje de PV restantes</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

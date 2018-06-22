@@ -218,6 +218,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "boonsister_scourge",
+      "name": {
+        "en": "Scourge",
+        "fr": "Fléau",
+        "de": "Geißel",
+        "es": "Flagelo"
+      },
+      "description": {
+        "en": "Cracks a whip of water. Damages enemies and <font color='{menu_highlight_white}'>removes {SkillBuff_purge.NumberOfBuffsToRemove} buffs</font> from each of them.",
+        "fr": "Claque un fouet d'eau qui inflige des dégâts aux ennemis et <font color='{menu_highlight_white}'>supprime {SkillBuff_purge.NumberOfBuffsToRemove} buff(s)</font> pour chacun d'eux.",
+        "de": "Schlägt eine Wasserpeitsche. Fügt Feinden Schaden zu und <font color='{menu_highlight_white}'>entfernt {SkillBuff_purge.NumberOfBuffsToRemove} Boni</font> von ihnen.",
+        "es": "Ataca con un látigo de agua. Daña a los enemigos y <font color='{menu_highlight_white}'>elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos</font> de cada uno de ellos."
+      }
+    },
+    "SecondSkill": {
+      "id": "boonsister_waveOfCelerity",
+      "name": {
+        "en": "Wave of Celerity",
+        "fr": "Vague preste",
+        "de": "Geschwindigkeits-Welle",
+        "es": "Ola de Celeridad"
+      },
+      "description": {
+        "en": "Sends out an expanding ring of water that heals each ally it touches and lowers their skill cooldowns. When the ring reaches maximum range, it returns, healing and lowering the skill cooldowns of each ally a second time.",
+        "fr": "Libère un anneau d'eau en expansion qui soigne chaque allié qu'il touche et réduit le rechargement de leur compétence. Lorsque l'anneau atteint sa taille maximale, il revient, soignant chaque allié et réduisant le rechargement une seconde fois.",
+        "de": "Sendet einen sich ausdehnenden Wasserring. Er heilt jeden Verbündeten, den er berührt, und die Abklingzeit seiner Fertigkeiten wird verringert. Sobald der Ring seine maximale Ausdehnung erreicht, kehrt er zurück, verringert die Abklingzeit der Fertigkeiten erneut und heilt dabei jeden Verbündeten ein zweites Mal.",
+        "es": "Lanza un anillo de agua en expansión que cura a todos los aliados que toca y reduce los tiempos de recuperación de sus habilidades. Cuando el anillo llega a su máximo alcance, vuelve, curando y reduciendo los tiempos de recuperación de las habilidades de los aliados por segunda vez."
+      }
+    },
+    "ThirdSkill": {
+      "id": "boonsister_torrentialStrike",
+      "name": {
+        "en": "Torrential Strike",
+        "fr": "Frappe torrentielle",
+        "de": "Sintflutschlag",
+        "es": "Golpe Torrencial"
+      },
+      "description": {
+        "en": "Summons geysers of water in a line, damaging enemies and knocking them into the air. When they land, deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Invoque des geysers pour infliger des dégâts aux ennemis situés sur la ligne d'effet avant de les projeter dans les airs. Lorsqu'ils retombent, ils subissent des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Ruft eine Reihe von Wassergeysiren herbei, fügt Feinden Schaden zu und schlägt sie in die Luft. Fügt ihnen bei der Landung zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Invoca géiseres de agua en línea recta, dañando a los enemigos y lanzándolos por los aires. Cuando caen al suelo, inflige daño adicional y los <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "boonsister_erosion",
+      "name": {
+        "en": "Erosion",
+        "fr": "Érosion",
+        "de": "Erosion",
+        "es": "Erosión"
+      },
+      "description": {
+        "en": "Hurls a stream of water, dealing damage to an enemy from a distance. Every fourth attack has a chance to <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWER DEF</font>.",
+        "fr": "Lance un jet d'eau qui inflige des dégâts à un ennemi. Toutes les quatre attaques, elle peut infliger <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font>.",
+        "de": "Schleudert einen Wasserstrom und fügt einem Feind aus der Ferne Schaden zu. Jeder vierte Angriff hat eine Chance <font color='{debuff_red}'>{icon.lower_def}&nbsp;VTG. ZU VERRINGERN</font>.",
+        "es": "Lanza un chorro de agua que causa daño a distancia a un enemigo. Cada cuarto ataque tiene la posibilidad de <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCIR DEF</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

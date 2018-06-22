@@ -222,6 +222,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "basilisk_impenetrableShield",
+      "name": {
+        "en": "Impenetrable Shield",
+        "fr": "Bouclier impénétrable",
+        "de": "Undurchdringlicher Schild",
+        "es": "Escudo Impenetrable"
+      },
+      "description": {
+        "en": "<font color='{buff_blue}'>{icon.shield}&nbsp;SHIELDS</font> himself and nearby allies.",
+        "fr": "Un <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> le protège, lui et ses alliés à proximité.",
+        "de": "<font color='{buff_blue}'>{icon.shield}&nbsp;SCHIRMT</font> ihn selbst und Verbündete in der Nähe ab.",
+        "es": "Se protege a sí mismo y a los aliados cercanos con un <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font>."
+      }
+    },
+    "SecondSkill": {
+      "id": "basilisk_fireBreath",
+      "name": {
+        "en": "Fire Breath",
+        "fr": "Souffle de feu",
+        "de": "Feueratem",
+        "es": "Aliento de Fuego"
+      },
+      "description": {
+        "en": "Breathes fire, damaging enemies in a cone.",
+        "fr": "Souffle du feu pour infliger des dégâts aux ennemis situés dans le cône d'effet.",
+        "de": "Atmet Feuer und schädigt Feinde innerhalb eines Kegels.",
+        "es": "Escupe fuego en forma de cono y daña a los enemigos."
+      }
+    },
+    "ThirdSkill": {
+      "id": "basilisk_balefulGlare",
+      "name": {
+        "en": "Baleful Glare",
+        "fr": "Regard maléfique",
+        "de": "Unheilvoller Blick",
+        "es": "Mirada Maligna"
+      },
+      "description": {
+        "en": "Opens the mysterious eye on his shield, exposing enemies to its power. Deals damage to enemies and <font color='{debuff_red}'>{icon.lower_atk}&nbsp;LOWERS ATK</font>.",
+        "fr": "Ouvre l'oeil mystérieux sur son bouclier pour exposer les ennemis à son pouvoir, et leur infliger des dégâts ainsi que <font color='{debuff_red}'>{icon.lower_atk}&nbsp;ATT-</font>.",
+        "de": "Öffnet das mysteriöse Auge an seinem Schild und setzt Feinde seiner Macht aus. Fügt Schaden zu, <font color='{debuff_red}'>{icon.lower_atk}&nbsp;VERRINGERT ANG.</font>",
+        "es": "Abre el misterioso ojo de su escudo, exponiendo a los enemigos a su poder. Daña a los enemigos y <font color='{debuff_red}'>{icon.lower_atk}&nbsp;REDUCE ATQ</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "basilisk_rend",
+      "name": {
+        "en": "Rend",
+        "fr": "Déchirure",
+        "de": "Zerfleischen",
+        "es": "Desgarrar"
+      },
+      "description": {
+        "en": "Attacks nearby enemies. Every fourth attack deals bonus damage based on <font color='{def_yellow}'>DEF</font>.",
+        "fr": "Attaque les ennemis à proximité et inflige des dégâts supplémentaires basés sur la <font color='{def_yellow}'>DÉFENSE</font> toutes les quatre attaques.",
+        "de": "Greift Feinde in der Nähe an. Jeder vierte Angriff fügt Bonusschaden basierend auf <font color='{def_yellow}'>VTG.</font> zu.",
+        "es": "Ataca a los enemigos cercanos. Cada cuarto ataque inflige daño adicional según <font color='{def_yellow}'>DEF</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

@@ -209,6 +209,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "harpy_seekingFeather",
+      "name": {
+        "en": "Seeking Feather",
+        "fr": "Plume chercheuse",
+        "de": "Suchende Feder",
+        "es": "Pluma de Caza"
+      },
+      "description": {
+        "en": "Hurls a homing feather at target enemy. On impact, deals damage and bounces to another enemy in range. Hits up to {SkillCustomParameters.maxHitCount} total enemies. Deals bonus damage if it hits a target more than once.",
+        "fr": "Lance une plume autoguidée sur un ennemi visé. À l'impact, elle inflige des dégâts et rebondit vers un autre ennemi à portée. Touche jusqu'à {SkillCustomParameters.maxHitCount} ennemis au total. Inflige des dégâts supplémentaires si elle touche une cible plus d'une fois.",
+        "de": "Schleudert eine zielgerichtete Feder auf ein feindliches Ziel. Fügt beim Aufprall Schaden zu und springt auf einen neuen Feind in Reichweite. Trifft insgesamt bis zu {SkillCustomParameters.maxHitCount} Feinde. Fügt Bonus-Schaden zu, wenn das gleiche Ziel mehrfach getroffen wurde.",
+        "es": "Lanza una pluma teledirigida a un enemigo. Al impactar, inflige daño y rebota hacia otro objetivo a su alcance. Golpea a un máximo de {SkillCustomParameters.maxHitCount} enemigos en total. Inflige daño adicional si golpea a un objetivo más de una vez."
+      }
+    },
+    "SecondSkill": {
+      "id": "harpy_shriek",
+      "name": {
+        "en": "Shriek",
+        "fr": "Cri perçant",
+        "de": "Schrei",
+        "es": "Chillido"
+      },
+      "description": {
+        "en": "Unleashes a powerful scream at her foes, channeling over a brief period. Damages and <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> enemies.",
+        "fr": "Déchaîne un cri puissant contre ses ennemis, et concentre son énergie pendant un court moment. Inflige des dégâts ainsi que <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> aux ennemis.",
+        "de": "Entfesselt einen mächtigen Schrei auf ihre Feinde und kanalisiert für kurze Zeit. Fügt Feinden Schaden zu und lässt sie <font color='{debuff_red}'>{icon.silence}&nbsp;VERSTUMMEN</font>.",
+        "es": "Profiere un poderoso grito a sus enemigos durante un breve periodo de tiempo. Daña y <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> a los enemigos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "harpy_razorQuill",
+      "name": {
+        "en": "Razor Quill",
+        "fr": "Rémige tranchante",
+        "de": "Messerkiel",
+        "es": "Pluma Afilada"
+      },
+      "description": {
+        "en": "Flings a feather at an enemy, damaging it from a distance. This has a chance to inflict <font color='{debuff_red}'>{icon.mortal}&nbsp;MORTAL WOUNDS</font>.",
+        "fr": "Lance une plume sur un ennemi pour le blesser. Peut infliger <font color='{debuff_red}'>{icon.mortal}&nbsp;TRAUMATISME</font>.",
+        "de": "Feuert eine Feder auf einen Feind und fügt aus der Ferne Schaden zu. Hat eine Chance, <font color='{debuff_red}'>{icon.mortal}&nbsp;TÖDLICHE WUNDEN</font> zu wirken.",
+        "es": "Lanza una pluma a un enemigo y le daña a distancia. Además tiene probabilidad de causar <font color='{debuff_red}'>{icon.mortal}&nbsp;HERIDAS MORTALES</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

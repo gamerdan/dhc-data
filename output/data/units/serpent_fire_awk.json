@@ -192,6 +192,38 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "serpent_empoweringAura",
+      "name": {
+        "en": "Empowering Aura",
+        "fr": "Aura de renforcement",
+        "de": "Verstärkende Aura",
+        "es": "Aura Potenciadora"
+      },
+      "description": {
+        "en": "Radiates a mystical energy that <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font> of nearby allies.",
+        "fr": "Rayonne d'une énergie mystique qui octroie <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font> aux alliés proches.",
+        "de": "Strahlt eine mystische Energie aus, die von Verbündeten in der Nähe den <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ANG. ERHÖHT</font>.",
+        "es": "Emite energía mística que <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font> de los aliados cercanos."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "serpent_energyBall",
+      "name": {
+        "en": "Serpent's Breath",
+        "fr": "Souffle du serpent",
+        "de": "Atem der Schlange",
+        "es": "Aliento de Serpiente"
+      },
+      "description": {
+        "en": "Fires a ball of mystic energy, damaging an enemy at a distance.",
+        "fr": "Tire une boule d'énergie mystique qui inflige des dégâts à un ennemi.",
+        "de": "Feuert einen Ball mystischer Energie ab, der einem Feind auf Distanz Schaden zufügt.",
+        "es": "Lanza una bola de energía mística, dañando a distancia a un enemigo."
+      }
+    }
+  },
   "DebugHero": true,
   "CanBeAcquired": false
 }

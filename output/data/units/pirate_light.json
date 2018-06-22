@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "pirate_flintlockPistol",
+      "name": {
+        "en": "Concussive Shot",
+        "fr": "Tir contondant",
+        "de": "Erschütternder Schuss",
+        "es": "Disparo Aturdidor"
+      },
+      "description": {
+        "en": "Fires his flintlock pistol. Damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> the first enemy hit.",
+        "fr": "Tire avec son pistolet à silex. Inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> au premier ennemi touché.",
+        "de": "Feuert seine Steinschlosspistole ab, fügt dem ersten getroffenen Gegner Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> ihn.",
+        "es": "Dispara su fusil y causa daño y <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> al primer enemigo que alcanza."
+      }
+    },
+    "SecondSkill": {
+      "id": "pirate_bounce",
+      "name": {
+        "en": "Roguish Vault",
+        "fr": "Saut espiègle",
+        "de": "Schelmischer Sprung",
+        "es": "Salto Rebelde"
+      },
+      "description": {
+        "en": "Leaps to target location with the grace of an acrobat, damaging enemies. If this hits one or more enemies, the pirate springs off of them for a second jump and shatters any <font color='{buff_blue}'>{icon.shield}&nbsp;SHIELD</font> buffs they have, removing each and dealing damage proportional to the shield's remaining HP. <br><font color='{menu_highlight_white}'>Can be recast up to {Skill.MultiCastCount} times in a row.</font>",
+        "fr": "Bondit vers un endroit visé avec la grâce d'un acrobate et inflige des dégâts aux ennemis. Si ce coup atteint un ou plusieurs ennemis, le pirate rebondit pour un second saut et brise tout buff <font color='{buff_blue}'>{icon.shield}&nbsp;BOUCLIER</font> qu'ils auraient, les supprimant et infligeant des dégâts proportionnels aux HP restants du bouclier.<br><font color='{menu_highlight_white}'>Peut être relancée jusqu'à {Skill.MultiCastCount} fois de suite.</font>",
+        "de": "Springt zum Zielort mit der Anmut eines Akrobaten. Wenn ein Feind auf diese Weise getroffen wurde, springt der Pirat für einen zweiten Sprung von ihnen ab und zerstört ihre <font color='{buff_blue}'>{icon.shield}&nbsp;ABSCHIRMUNGS</font>-Boni, entfernt jeden einzelnen und fügt Schaden entsprechend der verbleibenden GP der Abschirmung hinzu. <br><font color='{menu_highlight_white}'>Kann bis zu {Skill.MultiCastCount}-mal hintereinander angewandt werden.</font>",
+        "es": "Salta a la zona del objetivo con la gracilidad de un acróbata, dañando a sus enemigos. Si golpea a uno o más enemigos, el pirata salta de nuevo apoyándose en ellos y elimina los efectos de <font color='{buff_blue}'>{icon.shield}&nbsp;ESCUDO</font> que tengan, además de causar daño proporcional a los PV restantes del escudo. <br><font color='{menu_highlight_white}'>Se puede activar {Skill.MultiCastCount} veces seguidas.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "pirate_devotedCrew",
+      "name": {
+        "en": "Bombardment",
+        "fr": "Bombardement",
+        "de": "Bombardierung",
+        "es": "Bombardeo"
+      },
+      "description": {
+        "en": "Signals his loyal crew to fire a barrage of cannonballs at a location. Each volley damages enemies in the area.",
+        "fr": "Ordonne à son fidèle équipage de tirer un barrage de boulets de canon sur un endroit précis. Chaque volée inflige des dégâts aux ennemis dans la zone.",
+        "de": "Signalisiert seiner treuen Crew, eine Flut von Kanonenkugeln auf einen Ort abzufeuern. Jede Salve fügt Feinden in dem Gebiet Schaden zu.",
+        "es": "Ordena a su leal tripulación lanzar una descarga de balas de cañón que causa daño a los enemigos que haya en la zona."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "pirate_sharpenedBlade",
+      "name": {
+        "en": "Sharpened Blade",
+        "fr": "Lame aiguisée",
+        "de": "Geschärfte Klinge",
+        "es": "Hoja afilada"
+      },
+      "description": {
+        "en": "Slashes enemies with his cutlass.<br><font color='{menu_highlight_white}'>PASSIVE: Increases the CRIT DAMAGE of all nearby allies by +{+%SkillBuff_allycritdamage.Buff.ValueFlat0}. Does not stack with other instances of this effect.</font>",
+        "fr": "Taillade les ennemis avec son coutelas.<br><font color='{menu_highlight_white}'>PASSIVE&nbsp;: augmente les DÉGÂTS CRITIQUES de tous les alliés à proximité de +{+%SkillBuff_allycritdamage.Buff.ValueFlat0}. Les applications de cet effet ne s'additionnent pas.</font>",
+        "de": "Attackiert Feinde mit seinem Entermesser.<br><font color='{menu_highlight_white}'>PASSIV: Erhöht KRIT. SCHADEN aller Verbündeten in der Nähe um +{+%SkillBuff_allycritdamage.Buff.ValueFlat0}. Kann nicht mit anderen Instanzen dieser Wirkung angesammelt werden.</font>",
+        "es": "Corta a los enemigos con su sable.<br><font color='{menu_highlight_white}'>EFECTO PASIVO: aumenta el DAÑO CRÍTICO de todos los aliados cercanos en un {+%SkillBuff_allycritdamage.Buff.ValueFlat0}. No se puede acumular varias veces.</font>"
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

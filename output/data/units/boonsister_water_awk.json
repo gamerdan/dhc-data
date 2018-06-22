@@ -205,6 +205,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "boonsister_waterWhip",
+      "name": {
+        "en": "Water Whip",
+        "fr": "Fouet aqueux",
+        "de": "Wasserpeitsche",
+        "es": "Látigo de Agua"
+      },
+      "description": {
+        "en": "Cracks a whip of water. Damages and <font color='{debuff_red}'>{icon.slow}&nbsp;SLOWS</font> enemies.",
+        "fr": "Fait claquer un fouet d'eau pour infliger des dégâts et <font color='{debuff_red}'>{icon.slow}&nbsp;LENTEUR</font> aux ennemis.",
+        "de": "Schlägt eine Wasserpeitsche. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.slow}&nbsp;VERLANGSAMT</font> sie.",
+        "es": "Ataca con un látigo de agua que daña y <font color='{debuff_red}'>{icon.slow}&nbsp;RALENTIZA</font> a los enemigos."
+      }
+    },
+    "SecondSkill": {
+      "id": "boonsister_healingRing",
+      "name": {
+        "en": "Healing Ring",
+        "fr": "Anneau guérisseur",
+        "de": "Heilender Ring",
+        "es": "Anillo de Curación"
+      },
+      "description": {
+        "en": "Sends out an expanding ring of water that heals herself and each ally it touches. When the ring reaches maximum range, it returns, healing each ally a second time.",
+        "fr": "Libère un anneau d'eau en expansion qui la soigne ainsi que chaque allié qu'il touche. Lorsque l'anneau atteint sa taille maximale, il revient, soignant chaque allié une seconde fois.",
+        "de": "Sendet einen sich ausdehnenden Wasserring, der sie selbst und jeden Verbündeten heilt, den er berührt. Sobald der Ring seine maximale Ausdehnung erreicht, kehrt er zurück und heilt dabei jeden Verbündeten ein zweites Mal.",
+        "es": "Lanza un anillo de agua en expansión que le cura a sí misma y a los aliados que toque. Cuando llega a su máximo alcance, regresa y cura a los aliados de nuevo."
+      }
+    },
+    "ThirdSkill": {
+      "id": "boonsister_torrentialStrike",
+      "name": {
+        "en": "Torrential Strike",
+        "fr": "Frappe torrentielle",
+        "de": "Sintflutschlag",
+        "es": "Golpe Torrencial"
+      },
+      "description": {
+        "en": "Summons geysers of water in a line, damaging enemies and knocking them into the air. When they land, deals additional damage and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font>.",
+        "fr": "Invoque des geysers pour infliger des dégâts aux ennemis situés sur la ligne d'effet avant de les projeter dans les airs. Lorsqu'ils retombent, ils subissent des dégâts supplémentaires et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font>.",
+        "de": "Ruft eine Reihe von Wassergeysiren herbei, fügt Feinden Schaden zu und schlägt sie in die Luft. Fügt ihnen bei der Landung zusätzlichen Schaden zu und <font color='{debuff_red}'>{icon.stun}&nbsp;BETÄUBT</font> sie.",
+        "es": "Invoca géiseres de agua en línea recta, dañando a los enemigos y lanzándolos por los aires. Cuando caen al suelo, inflige daño adicional y los <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "boonsister_dampen",
+      "name": {
+        "en": "Dampening Splash",
+        "fr": "Éclaboussure sapante",
+        "de": "Feuchter Platsch",
+        "es": "Salpicadura Húmeda"
+      },
+      "description": {
+        "en": "Throws a splash of water, dealing damage to an enemy from a distance. Each time she uses another skill, the next bolt deals additional damage.",
+        "fr": "Éclabousse un ennemi à distance pour lui infliger des dégâts. Chaque fois qu'elle utilise une autre compétence, le prochain jet inflige des dégâts supplémentaires.",
+        "de": "Wirft einen Spritzer Wasser und fügt einem Feind Schaden aus der Ferne zu. Jedes Mal, wenn sie eine andere Fertigkeit benutzt, fügt der nächste Pfeil zusätzlichen Schaden zu.",
+        "es": "Salpica a un enemigo y le inflige daño a distancia. Cada vez que usa otra habilidad, la siguiente descarga inflige daño adicional."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

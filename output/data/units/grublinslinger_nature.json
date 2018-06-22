@@ -217,6 +217,53 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "grublinslinger_encourage",
+      "name": {
+        "en": "Encourage",
+        "fr": "Encouragement",
+        "de": "Ermutigung",
+        "es": "Motivar"
+      },
+      "description": {
+        "en": "Shouts at his allies to motivate them. <font color='{buff_blue}'>{icon.raise_crit}&nbsp;RAISES CRIT</font> of all allies in range.",
+        "fr": "Lance un cri d'encouragement à ses alliés. Octroie <font color='{buff_blue}'>{icon.raise_crit}&nbsp;CRIT+</font> à tous les alliés à portée.",
+        "de": "Ruft seinen Verbündeten zu, um sie zu motivieren. <font color='{buff_blue}'>{icon.raise_crit}&nbsp;ERHÖHT KRIT. CHANCE</font> aller Verbündeten in der Nähe.",
+        "es": "Grita a sus aliados para motivarlos. <font color='{buff_blue}'>{icon.raise_crit}&nbsp;AUMENTA CRÍT</font> de los aliados a su alcance."
+      }
+    },
+    "SecondSkill": {
+      "id": "grublinslinger_keenShot",
+      "name": {
+        "en": "Keen Shot",
+        "fr": "Tir précis",
+        "de": "Kühner Schuß",
+        "es": "Disparo Cortante"
+      },
+      "description": {
+        "en": "Takes aim and fires a powerful pellet in a line. Damages enemies and <font color='{debuff_red}'>{icon.lower_def}&nbsp;LOWERS DEF</font>.",
+        "fr": "Vise avec précision pour tirer une seule bille dévastatrice. Inflige des dégâts et <font color='{debuff_red}'>{icon.lower_def}&nbsp;DÉF-</font> aux ennemis situés sur la ligne d'effet.",
+        "de": "Zielt und feuert starke Schrotkugeln in einer Reihe ab. Fügt Feinden Schaden zu und <font color='{debuff_red}'>{icon.lower_def}&nbsp;VERRINGERT VTG.</font>",
+        "es": "Apunta y dispara un poderoso perdigón en línea recta. Daña a los enemigos y <font color='{debuff_red}'>{icon.lower_def}&nbsp;REDUCE DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "grublinslinger_slingShot",
+      "name": {
+        "en": "Slingshot",
+        "fr": "Lance-pierre",
+        "de": "Steinschleuder",
+        "es": "Tirachinas"
+      },
+      "description": {
+        "en": "Slings a small rock at an enemy, dealing damage from a distance. On crit, <font color='{buff_blue}'>{icon.raise_atk}&nbsp;RAISES ATK</font>.",
+        "fr": "Tire une petite pierre sur un ennemi, infligeant des dégâts à distance. En cas de coup critique, gagne <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ATT+</font>.",
+        "de": "Schleudert einen kleinen Stein auf einen Feind und fügt Schaden auf Distanz zu. Bei krit. Treffer wird <font color='{buff_blue}'>{icon.raise_atk}&nbsp;ANG. ERHÖHT</font>.",
+        "es": "Lanza una pequeña piedra a un enemigo que inflige daño a distancia. Si el daño es crítico, <font color='{buff_blue}'>{icon.raise_atk}&nbsp;AUMENTA ATQ</font>."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }

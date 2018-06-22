@@ -221,6 +221,68 @@
       "SkillCooldownSpeed": 1
     }
   ],
+  "Skills": {
+    "FirstSkill": {
+      "id": "chinesespearman_flurry",
+      "name": {
+        "en": "Blows of Fury",
+        "fr": "Furie de coups",
+        "de": "Schläge der Wut",
+        "es": "Golpes Furiosos"
+      },
+      "description": {
+        "en": "Thrusts his spear rapidly, dealing damage to enemies in a cone several times. Every time this Champion is attacked, the cooldown of this skill is reduced by {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconds.",
+        "fr": "Attaque plusieurs fois avec sa lance rapidement pour infliger des dégâts aux ennemis situés dans le cône d'effet. Chaque fois que ce champion est attaqué, le rechargement de la compétence diminue de {+SkillCooldownModifier.CooldownTimeToAddInSeconds} seconde(s).",
+        "de": "Stößt rasch seinen Speer und fügt Feinden innerhalb eines Kegels mehrmals Schaden zu. Jedes Mal, wenn dieser Champion angegriffen wird, verringert sich die Abklingzeit dieser Fertigkeit um {+SkillCooldownModifier.CooldownTimeToAddInSeconds} Sekunden.",
+        "es": "Ataca con su lanza velozmente y daña varias veces a los enemigos en un cono. Cada vez que recibe un ataque, el tiempo de recuperación de la habilidad se reduce {+SkillCooldownModifier.CooldownTimeToAddInSeconds} segundos."
+      }
+    },
+    "SecondSkill": {
+      "id": "chinesespearman_spinningSpear",
+      "name": {
+        "en": "Spinning Spear",
+        "fr": "Lance tournoyante",
+        "de": "Drehender Speer",
+        "es": "Lanza Giratoria"
+      },
+      "description": {
+        "en": "Charges forward while deflecting incoming attacks, then finishes with a sweeping strike. Reduces all incoming damage, raises movement speed, and deals damage to enemies struck. Heals for a portion of damage dealt.<br><font color='{menu_highlight_white}'>Can be recast within a short period of time to strike immediately.</font>",
+        "fr": "Charge droit devant pour repousser les attaques, puis termine avec un balayage. Réduit tous les dégâts reçus, augmente la vitesse de déplacement et inflige des dégâts aux ennemis touchés. Restaure une partie des dégâts infligés.<br><font color='{menu_highlight_white}'>Cette compétence peut être relancée dans un court délai pour frapper immédiatement.</font>",
+        "de": "Greift nach vorn an, während herankommende Angriffe abgewehrt werden. Beendet es dann mit einem mächtigen Schlag. Reduziert allen eingehenden Schaden, erhöht Bewegungstempo und fügt getroffenen Feinden Schaden zu. Heilt einen Teil des zugefügten Schadens.<br><font color='{menu_highlight_white}'>Kann innerhalb einer kurzen Zeit erneut angewendet werden, um sofort zuzuschlagen.</font>",
+        "es": "Carga, desviando los ataques enemigos y realiza un barrido. Reduce el daño recibido, aumenta la velocidad de movimiento y daña a los enemigos. Cura una parte del daño infligido.<br><font color='{menu_highlight_white}'>Durante un breve periodo después de usarse, puede activarse de nuevo para atacar inmediatamente.</font>"
+      }
+    },
+    "ThirdSkill": {
+      "id": "chinesespearman_airSlash",
+      "name": {
+        "en": "Air Slash",
+        "fr": "Entaille aérienne",
+        "de": "Luftschnitt",
+        "es": "Tajo Aéreo"
+      },
+      "description": {
+        "en": "Swings his spear so fast that it creates a shockwave that flies through the air towards his enemies. The shockwave deals damage and <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOKES</font> enemies it hits. This skill also <font color='{buff_blue}'>{icon.raise_def}&nbsp;RAISES&nbsp;DEF</font>.",
+        "fr": "Fait tournoyer sa lance si vite qu'elle crée une onde de choc qui se propage dans les airs vers les ennemis. L'onde de choc inflige des dégâts et <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCATION</font> aux ennemis touchés. Cette compétence octroie également <font color='{buff_blue}'>{icon.raise_def}&nbsp;DÉF+</font>.",
+        "de": "Schwingt seinen Speer so schnell, dass er eine Schockwelle erzeugt, die durch die Luft zu seinen Feinden fliegt. Die Schockwelle fügt Schaden zu und <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOZIERT</font> Feinde, die sie trifft. Diese Fertigkeit <font color='{buff_blue}'>{icon.raise_def}&nbsp;ERHÖHT&nbsp;VTG.</font>",
+        "es": "Mueve su lanza a toda velocidad y crea una onda sónica que se desplaza en el aire hacia sus enemigos. La onda daña y <font color='{debuff_red}'>{icon.provoke}&nbsp;PROVOCA</font> a los enemigos impactados. Esta habilidad también <font color='{buff_blue}'>{icon.raise_def}&nbsp;AUMENTA&nbsp;DEF</font>."
+      }
+    },
+    "AutoAttackSkill": {
+      "id": "chinesespearman_lethalThrust",
+      "name": {
+        "en": "Indomitable Thrust",
+        "fr": "Coup indomptable",
+        "de": "Unbezwingbarer Schub",
+        "es": "Estocada Indomable"
+      },
+      "description": {
+        "en": "Strikes enemies with his spear, dealing damage. Every fourth attack heals based on the damage dealt.",
+        "fr": "Frappe les ennemis avec sa lance pour infliger des dégâts. Toutes les quatre attaques, il se soigne en fonction des dégâts infligés.",
+        "de": "Schlägt Feinde mit seinem Speer und verursacht Schaden. Jeder vierte Angriff heilt, basierend auf dem verursachten Schaden.",
+        "es": "Ataca a los enemigos con su lanza y les daña. Cada cuarto ataque cura dependiendo del daño causado."
+      }
+    }
+  },
   "DebugHero": false,
   "CanBeAcquired": true
 }
