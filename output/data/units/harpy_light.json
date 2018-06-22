@@ -1,0 +1,165 @@
+{
+  "UnitID": 357,
+  "HeroID": "harpy_light",
+  "Family": "Harpy",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "Desert",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowLightEssence",
+    "MidLightEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Harpy",
+    "fr": "Harpie",
+    "de": "Harpyie",
+    "es": "Arpía"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 168,
+      "MoveSpeed": 5,
+      "MaxHealth": 5046,
+      "MinAttack": 112,
+      "MinHealth": 3364,
+      "MaxDefense": 90,
+      "CritDamage": 0.5,
+      "MinDefense": 60,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 202,
+      "MoveSpeed": 5,
+      "MaxHealth": 6055,
+      "MinAttack": 122,
+      "MinHealth": 3670,
+      "MaxDefense": 108,
+      "CritDamage": 0.5,
+      "MinDefense": 65,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 242,
+      "MoveSpeed": 5,
+      "MaxHealth": 7266,
+      "MinAttack": 134,
+      "MinHealth": 4037,
+      "MaxDefense": 129,
+      "CritDamage": 0.5,
+      "MinDefense": 72,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 329,
+      "MoveSpeed": 5,
+      "MaxHealth": 9882,
+      "MinAttack": 194,
+      "MinHealth": 5813,
+      "MaxDefense": 176,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 447,
+      "MoveSpeed": 5,
+      "MaxHealth": 13440,
+      "MinAttack": 263,
+      "MinHealth": 7906,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 141,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 608,
+      "MoveSpeed": 5,
+      "MaxHealth": 18278,
+      "MinAttack": 358,
+      "MinHealth": 10752,
+      "MaxDefense": 326,
+      "CritDamage": 0.5,
+      "MinDefense": 192,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

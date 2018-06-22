@@ -1,0 +1,165 @@
+{
+  "UnitID": 427,
+  "HeroID": "naga_nature",
+  "Family": "Naga",
+  "Element": "Nature",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Nature",
+  "AwakeningEssenceIDs": [
+    "MidNatureEssence",
+    "HighNatureEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": 0.5,
+  "Name": {
+    "en": "Naga",
+    "fr": "Naga",
+    "de": "Naga",
+    "es": "Naga"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 160,
+      "MoveSpeed": 5,
+      "MaxHealth": 5669,
+      "MinAttack": 107,
+      "MinHealth": 3779,
+      "MaxDefense": 170,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 192,
+      "MoveSpeed": 5,
+      "MaxHealth": 6803,
+      "MinAttack": 116,
+      "MinHealth": 4123,
+      "MaxDefense": 204,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 230,
+      "MoveSpeed": 5,
+      "MaxHealth": 8164,
+      "MinAttack": 128,
+      "MinHealth": 4536,
+      "MaxDefense": 245,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 313,
+      "MoveSpeed": 5,
+      "MaxHealth": 11103,
+      "MinAttack": 184,
+      "MinHealth": 6531,
+      "MaxDefense": 333,
+      "CritDamage": 0.5,
+      "MinDefense": 196,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 426,
+      "MoveSpeed": 5,
+      "MaxHealth": 15100,
+      "MinAttack": 251,
+      "MinHealth": 8882,
+      "MaxDefense": 453,
+      "CritDamage": 0.5,
+      "MinDefense": 266,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 580,
+      "MoveSpeed": 5,
+      "MaxHealth": 20536,
+      "MinAttack": 341,
+      "MinHealth": 12080,
+      "MaxDefense": 616,
+      "CritDamage": 0.5,
+      "MinDefense": 362,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

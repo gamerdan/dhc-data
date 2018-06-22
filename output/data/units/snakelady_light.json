@@ -1,0 +1,165 @@
+{
+  "UnitID": 609,
+  "HeroID": "snakelady_light",
+  "Family": "Snake Lady",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "MidLightEssence",
+    "HighLightEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Snake Lady",
+    "fr": "Vipérine",
+    "de": "Schlangenfrau",
+    "es": "Dama serpiente"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 211,
+      "MoveSpeed": 5,
+      "MaxHealth": 5003,
+      "MinAttack": 141,
+      "MinHealth": 3335,
+      "MaxDefense": 140,
+      "CritDamage": 0.5,
+      "MinDefense": 93,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 253,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 153,
+      "MinHealth": 3638,
+      "MaxDefense": 168,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 303,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 168,
+      "MinHealth": 4002,
+      "MaxDefense": 201,
+      "CritDamage": 0.5,
+      "MinDefense": 112,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 412,
+      "MoveSpeed": 5,
+      "MaxHealth": 9797,
+      "MinAttack": 242,
+      "MinHealth": 5763,
+      "MaxDefense": 274,
+      "CritDamage": 0.5,
+      "MinDefense": 161,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 560,
+      "MoveSpeed": 5,
+      "MaxHealth": 13324,
+      "MinAttack": 329,
+      "MinHealth": 7838,
+      "MaxDefense": 373,
+      "CritDamage": 0.5,
+      "MinDefense": 219,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 761,
+      "MoveSpeed": 5,
+      "MaxHealth": 18120,
+      "MinAttack": 448,
+      "MinHealth": 10659,
+      "MaxDefense": 507,
+      "CritDamage": 0.5,
+      "MinDefense": 298,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

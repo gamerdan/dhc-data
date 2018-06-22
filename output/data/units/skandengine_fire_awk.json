@@ -1,0 +1,165 @@
+{
+  "UnitID": 560,
+  "HeroID": "skandengine_fire_awk",
+  "Family": "Skand Engine",
+  "Element": "Fire",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Health",
+  "LeaderTraitCondition": "Fire",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Krieg",
+    "fr": "Ra'vaj",
+    "de": "Krieg",
+    "es": "Krieg"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 153,
+      "MoveSpeed": 5,
+      "MaxHealth": 6913,
+      "MinAttack": 102,
+      "MinHealth": 4609,
+      "MaxDefense": 186,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 183,
+      "MoveSpeed": 5,
+      "MaxHealth": 8296,
+      "MinAttack": 111,
+      "MinHealth": 5028,
+      "MaxDefense": 223,
+      "CritDamage": 0.5,
+      "MinDefense": 135,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 220,
+      "MoveSpeed": 5,
+      "MaxHealth": 9955,
+      "MinAttack": 122,
+      "MinHealth": 5531,
+      "MaxDefense": 267,
+      "CritDamage": 0.5,
+      "MinDefense": 148,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 299,
+      "MoveSpeed": 5,
+      "MaxHealth": 13539,
+      "MinAttack": 176,
+      "MinHealth": 7964,
+      "MaxDefense": 363,
+      "CritDamage": 0.5,
+      "MinDefense": 214,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 407,
+      "MoveSpeed": 5,
+      "MaxHealth": 18413,
+      "MinAttack": 239,
+      "MinHealth": 10831,
+      "MaxDefense": 494,
+      "CritDamage": 0.5,
+      "MinDefense": 291,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 554,
+      "MoveSpeed": 5,
+      "MaxHealth": 25042,
+      "MinAttack": 326,
+      "MinHealth": 14731,
+      "MaxDefense": 672,
+      "CritDamage": 0.5,
+      "MinDefense": 395,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

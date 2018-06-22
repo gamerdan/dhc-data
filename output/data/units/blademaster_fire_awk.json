@@ -1,0 +1,165 @@
+{
+  "UnitID": 119,
+  "HeroID": "blademaster_fire_awk",
+  "Family": "Blademaster",
+  "Element": "Fire",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "Desert",
+  "RecGear": [
+    "Swift",
+    "Blade",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "AttackSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Alya",
+    "fr": "Alya",
+    "de": "Alya",
+    "es": "Alya"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 201,
+      "MoveSpeed": 5,
+      "MaxHealth": 6308,
+      "MinAttack": 134,
+      "MinHealth": 4205,
+      "MaxDefense": 201,
+      "CritDamage": 0.5,
+      "MinDefense": 134,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 241,
+      "MoveSpeed": 5,
+      "MaxHealth": 7569,
+      "MinAttack": 146,
+      "MinHealth": 4587,
+      "MaxDefense": 241,
+      "CritDamage": 0.5,
+      "MinDefense": 146,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 289,
+      "MoveSpeed": 5,
+      "MaxHealth": 9083,
+      "MinAttack": 161,
+      "MinHealth": 5046,
+      "MaxDefense": 289,
+      "CritDamage": 0.5,
+      "MinDefense": 161,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 393,
+      "MoveSpeed": 5,
+      "MaxHealth": 12353,
+      "MinAttack": 231,
+      "MinHealth": 7266,
+      "MaxDefense": 393,
+      "CritDamage": 0.5,
+      "MinDefense": 231,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 535,
+      "MoveSpeed": 5,
+      "MaxHealth": 16800,
+      "MinAttack": 315,
+      "MinHealth": 9882,
+      "MaxDefense": 535,
+      "CritDamage": 0.5,
+      "MinDefense": 315,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 728,
+      "MoveSpeed": 5,
+      "MaxHealth": 22848,
+      "MinAttack": 428,
+      "MinHealth": 13440,
+      "MaxDefense": 728,
+      "CritDamage": 0.5,
+      "MinDefense": 428,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 277,
+  "HeroID": "flyingdemon_light",
+  "Family": "Flying Demon",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Fatal",
+    "Blade",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "Adventure",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowLightEssence",
+    "MidLightEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Devil",
+    "fr": "Diable",
+    "de": "Teufel",
+    "es": "Diablillo"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 128,
+      "MoveSpeed": 5,
+      "MaxHealth": 5319,
+      "MinAttack": 85,
+      "MinHealth": 3546,
+      "MaxDefense": 123,
+      "CritDamage": 0.5,
+      "MinDefense": 82,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 153,
+      "MoveSpeed": 5,
+      "MaxHealth": 6383,
+      "MinAttack": 93,
+      "MinHealth": 3868,
+      "MaxDefense": 147,
+      "CritDamage": 0.5,
+      "MinDefense": 89,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 183,
+      "MoveSpeed": 5,
+      "MaxHealth": 7659,
+      "MinAttack": 102,
+      "MinHealth": 4255,
+      "MaxDefense": 176,
+      "CritDamage": 0.5,
+      "MinDefense": 98,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 249,
+      "MoveSpeed": 5,
+      "MaxHealth": 10416,
+      "MinAttack": 146,
+      "MinHealth": 6127,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 141,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 338,
+      "MoveSpeed": 5,
+      "MaxHealth": 14166,
+      "MinAttack": 199,
+      "MinHealth": 8333,
+      "MaxDefense": 327,
+      "CritDamage": 0.5,
+      "MinDefense": 192,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 459,
+      "MoveSpeed": 5,
+      "MaxHealth": 19266,
+      "MinAttack": 270,
+      "MinHealth": 11333,
+      "MaxDefense": 445,
+      "CritDamage": 0.5,
+      "MinDefense": 262,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

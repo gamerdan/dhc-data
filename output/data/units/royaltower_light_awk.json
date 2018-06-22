@@ -1,0 +1,165 @@
+{
+  "UnitID": 523,
+  "HeroID": "royaltower_light_awk",
+  "Family": "Royal Tower",
+  "Element": "Light",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Castellia",
+    "fr": "Castellia",
+    "de": "Castellia",
+    "es": "Castellia"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 160,
+      "MoveSpeed": 5,
+      "MaxHealth": 6308,
+      "MinAttack": 107,
+      "MinHealth": 4205,
+      "MaxDefense": 243,
+      "CritDamage": 0.5,
+      "MinDefense": 162,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 192,
+      "MoveSpeed": 5,
+      "MaxHealth": 7569,
+      "MinAttack": 116,
+      "MinHealth": 4587,
+      "MaxDefense": 291,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 230,
+      "MoveSpeed": 5,
+      "MaxHealth": 9083,
+      "MinAttack": 128,
+      "MinHealth": 5046,
+      "MaxDefense": 349,
+      "CritDamage": 0.5,
+      "MinDefense": 194,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 313,
+      "MoveSpeed": 5,
+      "MaxHealth": 12353,
+      "MinAttack": 184,
+      "MinHealth": 7266,
+      "MaxDefense": 475,
+      "CritDamage": 0.5,
+      "MinDefense": 279,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 425,
+      "MoveSpeed": 5,
+      "MaxHealth": 16800,
+      "MinAttack": 250,
+      "MinHealth": 9882,
+      "MaxDefense": 646,
+      "CritDamage": 0.5,
+      "MinDefense": 380,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 578,
+      "MoveSpeed": 5,
+      "MaxHealth": 22848,
+      "MinAttack": 340,
+      "MinHealth": 13440,
+      "MaxDefense": 878,
+      "CritDamage": 0.5,
+      "MinDefense": 516,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

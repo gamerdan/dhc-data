@@ -1,0 +1,165 @@
+{
+  "UnitID": 466,
+  "HeroID": "psykomancer_water",
+  "Family": "Psykomancer",
+  "Element": "Water",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "MidWaterEssence",
+    "HighWaterEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Psion",
+    "fr": "Psion",
+    "de": "Psion",
+    "es": "Psion"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 200,
+      "MoveSpeed": 5,
+      "MaxHealth": 5003,
+      "MinAttack": 133,
+      "MinHealth": 3335,
+      "MaxDefense": 150,
+      "CritDamage": 0.5,
+      "MinDefense": 100,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 240,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 145,
+      "MinHealth": 3638,
+      "MaxDefense": 180,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 288,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 160,
+      "MinHealth": 4002,
+      "MaxDefense": 216,
+      "CritDamage": 0.5,
+      "MinDefense": 120,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 392,
+      "MoveSpeed": 5,
+      "MaxHealth": 9797,
+      "MinAttack": 231,
+      "MinHealth": 5763,
+      "MaxDefense": 294,
+      "CritDamage": 0.5,
+      "MinDefense": 173,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 533,
+      "MoveSpeed": 5,
+      "MaxHealth": 13324,
+      "MinAttack": 314,
+      "MinHealth": 7838,
+      "MaxDefense": 400,
+      "CritDamage": 0.5,
+      "MinDefense": 235,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 725,
+      "MoveSpeed": 5,
+      "MaxHealth": 18120,
+      "MinAttack": 426,
+      "MinHealth": 10659,
+      "MaxDefense": 544,
+      "CritDamage": 0.5,
+      "MinDefense": 320,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

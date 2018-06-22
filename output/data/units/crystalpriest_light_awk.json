@@ -1,0 +1,165 @@
+{
+  "UnitID": 192,
+  "HeroID": "crystalpriest_light_awk",
+  "Family": "Crystal Priest",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Spider",
+      "quality": 2
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Quartz",
+    "fr": "Quartz",
+    "de": "Quarz",
+    "es": "Quartz"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 141,
+      "MoveSpeed": 5,
+      "MaxHealth": 5305,
+      "MinAttack": 94,
+      "MinHealth": 3537,
+      "MaxDefense": 155,
+      "CritDamage": 0.5,
+      "MinDefense": 103,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 169,
+      "MoveSpeed": 5,
+      "MaxHealth": 6366,
+      "MinAttack": 102,
+      "MinHealth": 3858,
+      "MaxDefense": 186,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 203,
+      "MoveSpeed": 5,
+      "MaxHealth": 7639,
+      "MinAttack": 113,
+      "MinHealth": 4244,
+      "MaxDefense": 223,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 276,
+      "MoveSpeed": 5,
+      "MaxHealth": 10389,
+      "MinAttack": 162,
+      "MinHealth": 6111,
+      "MaxDefense": 303,
+      "CritDamage": 0.5,
+      "MinDefense": 178,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 376,
+      "MoveSpeed": 5,
+      "MaxHealth": 14129,
+      "MinAttack": 221,
+      "MinHealth": 8311,
+      "MaxDefense": 412,
+      "CritDamage": 0.5,
+      "MinDefense": 242,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 511,
+      "MoveSpeed": 5,
+      "MaxHealth": 19215,
+      "MinAttack": 301,
+      "MinHealth": 11303,
+      "MaxDefense": 560,
+      "CritDamage": 0.5,
+      "MinDefense": 329,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

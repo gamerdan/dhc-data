@@ -1,0 +1,165 @@
+{
+  "UnitID": 162,
+  "HeroID": "chinesespearman_light_awk",
+  "Family": "Chinese Spearman",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Vampire",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Farmer",
+      "quality": 3
+    },
+    {
+      "tag": "Adventure",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Lu Wenhou",
+    "fr": "Lu Wenhou",
+    "de": "Lu Wenhou",
+    "es": "Lu Wenhou"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 174,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 116,
+      "MinHealth": 4002,
+      "MaxDefense": 191,
+      "CritDamage": 0.5,
+      "MinDefense": 127,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 209,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 127,
+      "MinHealth": 4366,
+      "MaxDefense": 229,
+      "CritDamage": 0.5,
+      "MinDefense": 139,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 251,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 139,
+      "MinHealth": 4803,
+      "MaxDefense": 275,
+      "CritDamage": 0.5,
+      "MinDefense": 153,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 342,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 201,
+      "MinHealth": 6916,
+      "MaxDefense": 374,
+      "CritDamage": 0.5,
+      "MinDefense": 220,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 465,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 274,
+      "MinHealth": 9406,
+      "MaxDefense": 509,
+      "CritDamage": 0.5,
+      "MinDefense": 299,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 633,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 372,
+      "MinHealth": 12792,
+      "MaxDefense": 692,
+      "CritDamage": 0.5,
+      "MinDefense": 407,
+      "Resistance": 0.3,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

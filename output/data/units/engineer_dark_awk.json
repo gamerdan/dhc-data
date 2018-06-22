@@ -1,0 +1,165 @@
+{
+  "UnitID": 263,
+  "HeroID": "engineer_dark_awk",
+  "Family": "Engineer",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.26,
+  "Name": {
+    "en": "Dynamite",
+    "fr": "Dynamite",
+    "de": "Dynamit",
+    "es": "Dynamite"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 235,
+      "MoveSpeed": 5,
+      "MaxHealth": 5003,
+      "MinAttack": 157,
+      "MinHealth": 3335,
+      "MaxDefense": 115,
+      "CritDamage": 0.5,
+      "MinDefense": 77,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 282,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 171,
+      "MinHealth": 3638,
+      "MaxDefense": 138,
+      "CritDamage": 0.5,
+      "MinDefense": 84,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 338,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 188,
+      "MinHealth": 4002,
+      "MaxDefense": 166,
+      "CritDamage": 0.5,
+      "MinDefense": 92,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 460,
+      "MoveSpeed": 5,
+      "MaxHealth": 9797,
+      "MinAttack": 271,
+      "MinHealth": 5763,
+      "MaxDefense": 226,
+      "CritDamage": 0.5,
+      "MinDefense": 133,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 626,
+      "MoveSpeed": 5,
+      "MaxHealth": 13324,
+      "MinAttack": 368,
+      "MinHealth": 7838,
+      "MaxDefense": 307,
+      "CritDamage": 0.5,
+      "MinDefense": 181,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 852,
+      "MoveSpeed": 5,
+      "MaxHealth": 18120,
+      "MinAttack": 501,
+      "MinHealth": 10659,
+      "MaxDefense": 417,
+      "CritDamage": 0.5,
+      "MinDefense": 245,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

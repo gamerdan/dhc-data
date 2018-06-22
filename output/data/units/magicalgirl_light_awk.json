@@ -1,0 +1,165 @@
+{
+  "UnitID": 392,
+  "HeroID": "magicalgirl_light_awk",
+  "Family": "Magical Girl",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Boss",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Haruko",
+    "fr": "Haruko",
+    "de": "Haruko",
+    "es": "Haruko"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 208,
+      "MoveSpeed": 5,
+      "MaxHealth": 6186,
+      "MinAttack": 139,
+      "MinHealth": 4124,
+      "MaxDefense": 153,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 249,
+      "MoveSpeed": 5,
+      "MaxHealth": 7423,
+      "MinAttack": 151,
+      "MinHealth": 4499,
+      "MaxDefense": 183,
+      "CritDamage": 0.5,
+      "MinDefense": 111,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 299,
+      "MoveSpeed": 5,
+      "MaxHealth": 8907,
+      "MinAttack": 166,
+      "MinHealth": 4948,
+      "MaxDefense": 220,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 406,
+      "MoveSpeed": 5,
+      "MaxHealth": 12114,
+      "MinAttack": 239,
+      "MinHealth": 7126,
+      "MaxDefense": 299,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 552,
+      "MoveSpeed": 5,
+      "MaxHealth": 16475,
+      "MinAttack": 325,
+      "MinHealth": 9691,
+      "MaxDefense": 407,
+      "CritDamage": 0.5,
+      "MinDefense": 239,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0.15,
+      "CritRate": 0.15,
+      "MaxAttack": 751,
+      "MoveSpeed": 5,
+      "MaxHealth": 22406,
+      "MinAttack": 442,
+      "MinHealth": 13180,
+      "MaxDefense": 554,
+      "CritDamage": 0.5,
+      "MinDefense": 326,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

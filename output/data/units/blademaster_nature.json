@@ -1,0 +1,165 @@
+{
+  "UnitID": 116,
+  "HeroID": "blademaster_nature",
+  "Family": "Blademaster",
+  "Element": "Nature",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "Desert",
+  "RecGear": [
+    "Swift",
+    "Blade",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "AttackSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "MidNatureEssence",
+    "HighNatureEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    20,
+    5,
+    15
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Blademaster",
+    "fr": "Fine lame",
+    "de": "Klingenmeisterin",
+    "es": "Maestra de la espada"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 180,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 120,
+      "MinHealth": 4002,
+      "MaxDefense": 186,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 216,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 131,
+      "MinHealth": 4366,
+      "MaxDefense": 223,
+      "CritDamage": 0.5,
+      "MinDefense": 135,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 259,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 144,
+      "MinHealth": 4803,
+      "MaxDefense": 267,
+      "CritDamage": 0.5,
+      "MinDefense": 148,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 352,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 207,
+      "MinHealth": 6916,
+      "MaxDefense": 363,
+      "CritDamage": 0.5,
+      "MinDefense": 214,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 479,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 282,
+      "MinHealth": 9406,
+      "MaxDefense": 494,
+      "CritDamage": 0.5,
+      "MinDefense": 291,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 652,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 384,
+      "MinHealth": 12792,
+      "MaxDefense": 672,
+      "CritDamage": 0.5,
+      "MinDefense": 395,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

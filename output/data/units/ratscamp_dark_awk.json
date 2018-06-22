@@ -1,0 +1,165 @@
+{
+  "UnitID": 494,
+  "HeroID": "ratscamp_dark_awk",
+  "Family": "Rat Scamp",
+  "Element": "Dark",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 1
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Grime",
+    "fr": "Crasse",
+    "de": "Grime",
+    "es": "Grime"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 150,
+      "MoveSpeed": 5,
+      "MaxHealth": 6063,
+      "MinAttack": 100,
+      "MinHealth": 4042,
+      "MaxDefense": 123,
+      "CritDamage": 0.5,
+      "MinDefense": 82,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 180,
+      "MoveSpeed": 5,
+      "MaxHealth": 7275,
+      "MinAttack": 109,
+      "MinHealth": 4409,
+      "MaxDefense": 147,
+      "CritDamage": 0.5,
+      "MinDefense": 89,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 216,
+      "MoveSpeed": 5,
+      "MaxHealth": 8730,
+      "MinAttack": 120,
+      "MinHealth": 4850,
+      "MaxDefense": 176,
+      "CritDamage": 0.5,
+      "MinDefense": 98,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 294,
+      "MoveSpeed": 5,
+      "MaxHealth": 11873,
+      "MinAttack": 173,
+      "MinHealth": 6984,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 141,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 400,
+      "MoveSpeed": 5,
+      "MaxHealth": 16147,
+      "MinAttack": 235,
+      "MinHealth": 9498,
+      "MaxDefense": 327,
+      "CritDamage": 0.5,
+      "MinDefense": 192,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 544,
+      "MoveSpeed": 5,
+      "MaxHealth": 21960,
+      "MinAttack": 320,
+      "MinHealth": 12918,
+      "MaxDefense": 445,
+      "CritDamage": 0.5,
+      "MinDefense": 262,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

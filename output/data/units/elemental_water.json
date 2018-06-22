@@ -1,0 +1,161 @@
+{
+  "UnitID": 245,
+  "HeroID": "elemental_water",
+  "Family": "Elemental",
+  "Element": "Water",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Vampire",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowWaterEssence",
+    "MidWaterEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Elemental",
+    "fr": "Élémentaire",
+    "de": "Elementar",
+    "es": "Elemental"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 164,
+      "MoveSpeed": 5,
+      "MaxHealth": 5183,
+      "MinAttack": 109,
+      "MinHealth": 3455,
+      "MaxDefense": 90,
+      "CritDamage": 0.5,
+      "MinDefense": 60,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 197,
+      "MoveSpeed": 5,
+      "MaxHealth": 6219,
+      "MinAttack": 119,
+      "MinHealth": 3769,
+      "MaxDefense": 108,
+      "CritDamage": 0.5,
+      "MinDefense": 65,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 236,
+      "MoveSpeed": 5,
+      "MaxHealth": 7463,
+      "MinAttack": 131,
+      "MinHealth": 4146,
+      "MaxDefense": 129,
+      "CritDamage": 0.5,
+      "MinDefense": 72,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 321,
+      "MoveSpeed": 5,
+      "MaxHealth": 10149,
+      "MinAttack": 189,
+      "MinHealth": 5970,
+      "MaxDefense": 176,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 436,
+      "MoveSpeed": 5,
+      "MaxHealth": 13803,
+      "MinAttack": 256,
+      "MinHealth": 8119,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 141,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 593,
+      "MoveSpeed": 5,
+      "MaxHealth": 18772,
+      "MinAttack": 349,
+      "MinHealth": 11042,
+      "MaxDefense": 326,
+      "CritDamage": 0.5,
+      "MinDefense": 192,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

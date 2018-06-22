@@ -1,0 +1,165 @@
+{
+  "UnitID": 614,
+  "HeroID": "snakelady_light_awk",
+  "Family": "Snake Lady",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Zhaoxue",
+    "fr": "Zhaoxue",
+    "de": "Zhaoxue",
+    "es": "Zhaoxue"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 229,
+      "MoveSpeed": 5,
+      "MaxHealth": 5458,
+      "MinAttack": 153,
+      "MinHealth": 3639,
+      "MaxDefense": 153,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 275,
+      "MoveSpeed": 5,
+      "MaxHealth": 6550,
+      "MinAttack": 167,
+      "MinHealth": 3970,
+      "MaxDefense": 183,
+      "CritDamage": 0.5,
+      "MinDefense": 111,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 330,
+      "MoveSpeed": 5,
+      "MaxHealth": 7860,
+      "MinAttack": 183,
+      "MinHealth": 4367,
+      "MaxDefense": 220,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 449,
+      "MoveSpeed": 5,
+      "MaxHealth": 10689,
+      "MinAttack": 264,
+      "MinHealth": 6288,
+      "MaxDefense": 299,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 610,
+      "MoveSpeed": 5,
+      "MaxHealth": 14537,
+      "MinAttack": 359,
+      "MinHealth": 8551,
+      "MaxDefense": 407,
+      "CritDamage": 0.5,
+      "MinDefense": 239,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 830,
+      "MoveSpeed": 5,
+      "MaxHealth": 19770,
+      "MinAttack": 488,
+      "MinHealth": 11629,
+      "MaxDefense": 554,
+      "CritDamage": 0.5,
+      "MinDefense": 326,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

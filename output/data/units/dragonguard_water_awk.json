@@ -1,0 +1,161 @@
+{
+  "UnitID": 230,
+  "HeroID": "dragonguard_water_awk",
+  "Family": "Dragon Guard",
+  "Element": "Water",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    },
+    {
+      "tag": "Early",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Water",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Stele",
+    "fr": "Stèle",
+    "de": "Stele",
+    "es": "Stele"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 109,
+      "MoveSpeed": 5,
+      "MaxHealth": 4851,
+      "MinAttack": 73,
+      "MinHealth": 3234,
+      "MaxDefense": 200,
+      "CritDamage": 0.5,
+      "MinDefense": 133,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 131,
+      "MoveSpeed": 5,
+      "MaxHealth": 5821,
+      "MinAttack": 79,
+      "MinHealth": 3528,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 145,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 157,
+      "MoveSpeed": 5,
+      "MaxHealth": 6985,
+      "MinAttack": 87,
+      "MinHealth": 3881,
+      "MaxDefense": 288,
+      "CritDamage": 0.5,
+      "MinDefense": 160,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 9499,
+      "MinAttack": 125,
+      "MinHealth": 5588,
+      "MaxDefense": 392,
+      "CritDamage": 0.5,
+      "MinDefense": 231,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 290,
+      "MoveSpeed": 5,
+      "MaxHealth": 12918,
+      "MinAttack": 171,
+      "MinHealth": 7599,
+      "MaxDefense": 533,
+      "CritDamage": 0.5,
+      "MinDefense": 314,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 395,
+      "MoveSpeed": 5,
+      "MaxHealth": 17568,
+      "MinAttack": 232,
+      "MinHealth": 10334,
+      "MaxDefense": 725,
+      "CritDamage": 0.5,
+      "MinDefense": 426,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

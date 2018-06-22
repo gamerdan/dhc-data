@@ -1,0 +1,165 @@
+{
+  "UnitID": 300,
+  "HeroID": "foxninja_water_awk",
+  "Family": "Fox Ninja",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Fatal",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 0
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Yanran",
+    "fr": "Yanran",
+    "de": "Yanran",
+    "es": "Yanran"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 170,
+      "MoveSpeed": 5,
+      "MaxHealth": 5669,
+      "MinAttack": 113,
+      "MinHealth": 3779,
+      "MaxDefense": 160,
+      "CritDamage": 0.5,
+      "MinDefense": 107,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 204,
+      "MoveSpeed": 5,
+      "MaxHealth": 6803,
+      "MinAttack": 124,
+      "MinHealth": 4123,
+      "MaxDefense": 192,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 245,
+      "MoveSpeed": 5,
+      "MaxHealth": 8164,
+      "MinAttack": 136,
+      "MinHealth": 4536,
+      "MaxDefense": 230,
+      "CritDamage": 0.5,
+      "MinDefense": 128,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 333,
+      "MoveSpeed": 5,
+      "MaxHealth": 11103,
+      "MinAttack": 196,
+      "MinHealth": 6531,
+      "MaxDefense": 313,
+      "CritDamage": 0.5,
+      "MinDefense": 184,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 453,
+      "MoveSpeed": 5,
+      "MaxHealth": 15100,
+      "MinAttack": 266,
+      "MinHealth": 8882,
+      "MaxDefense": 426,
+      "CritDamage": 0.5,
+      "MinDefense": 251,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 616,
+      "MoveSpeed": 5,
+      "MaxHealth": 20536,
+      "MinAttack": 362,
+      "MinHealth": 12080,
+      "MaxDefense": 580,
+      "CritDamage": 0.5,
+      "MinDefense": 341,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

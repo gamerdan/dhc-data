@@ -1,0 +1,165 @@
+{
+  "UnitID": 174,
+  "HeroID": "crowhag_fire",
+  "Family": "Crow Hag",
+  "Element": "Fire",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Skill",
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "LowFireEssence",
+    "MidFireEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": 0.22,
+  "Name": {
+    "en": "Crow Hag",
+    "fr": "Corvieille",
+    "de": "Krähenhexe",
+    "es": "Bruja de cuervos"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 173,
+      "MoveSpeed": 5,
+      "MaxHealth": 4547,
+      "MinAttack": 115,
+      "MinHealth": 3031,
+      "MaxDefense": 146,
+      "CritDamage": 0.5,
+      "MinDefense": 97,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 208,
+      "MoveSpeed": 5,
+      "MaxHealth": 5456,
+      "MinAttack": 126,
+      "MinHealth": 3307,
+      "MaxDefense": 175,
+      "CritDamage": 0.5,
+      "MinDefense": 106,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 249,
+      "MoveSpeed": 5,
+      "MaxHealth": 6547,
+      "MinAttack": 138,
+      "MinHealth": 3637,
+      "MaxDefense": 210,
+      "CritDamage": 0.5,
+      "MinDefense": 117,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 338,
+      "MoveSpeed": 5,
+      "MaxHealth": 8904,
+      "MinAttack": 199,
+      "MinHealth": 5238,
+      "MaxDefense": 285,
+      "CritDamage": 0.5,
+      "MinDefense": 168,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 460,
+      "MoveSpeed": 5,
+      "MaxHealth": 12110,
+      "MinAttack": 271,
+      "MinHealth": 7124,
+      "MaxDefense": 388,
+      "CritDamage": 0.5,
+      "MinDefense": 228,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 626,
+      "MoveSpeed": 5,
+      "MaxHealth": 16470,
+      "MinAttack": 368,
+      "MinHealth": 9688,
+      "MaxDefense": 527,
+      "CritDamage": 0.5,
+      "MinDefense": 310,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

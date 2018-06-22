@@ -1,0 +1,165 @@
+{
+  "UnitID": 668,
+  "HeroID": "timekeeper_nature",
+  "Family": "Time Keeper",
+  "Element": "Nature",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "Desert",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "SkillCooldownSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "LowNatureEssence",
+    "MidNatureEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": -0.15,
+  "Name": {
+    "en": "Time Keeper",
+    "fr": "Gardien du temps",
+    "de": "Zeithüter",
+    "es": "Guardián del tiempo"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 183,
+      "MoveSpeed": 5,
+      "MaxHealth": 4395,
+      "MinAttack": 122,
+      "MinHealth": 2930,
+      "MaxDefense": 141,
+      "CritDamage": 0.5,
+      "MinDefense": 94,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 219,
+      "MoveSpeed": 5,
+      "MaxHealth": 5274,
+      "MinAttack": 133,
+      "MinHealth": 3196,
+      "MaxDefense": 169,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 263,
+      "MoveSpeed": 5,
+      "MaxHealth": 6329,
+      "MinAttack": 146,
+      "MinHealth": 3516,
+      "MaxDefense": 203,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 357,
+      "MoveSpeed": 5,
+      "MaxHealth": 8608,
+      "MinAttack": 210,
+      "MinHealth": 5064,
+      "MaxDefense": 276,
+      "CritDamage": 0.5,
+      "MinDefense": 162,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 485,
+      "MoveSpeed": 5,
+      "MaxHealth": 11707,
+      "MinAttack": 285,
+      "MinHealth": 6886,
+      "MaxDefense": 376,
+      "CritDamage": 0.5,
+      "MinDefense": 221,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 659,
+      "MoveSpeed": 5,
+      "MaxHealth": 15921,
+      "MinAttack": 388,
+      "MinHealth": 9365,
+      "MaxDefense": 511,
+      "CritDamage": 0.5,
+      "MinDefense": 301,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

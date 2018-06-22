@@ -1,0 +1,165 @@
+{
+  "UnitID": 396,
+  "HeroID": "mercenary_nature",
+  "Family": "Mercenary",
+  "Element": "Nature",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowNatureEssence",
+    "MidNatureEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Mercenary",
+    "fr": "Mercenaire",
+    "de": "Söldnerin",
+    "es": "Mercenaria"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 136,
+      "MoveSpeed": 5,
+      "MaxHealth": 5002,
+      "MinAttack": 91,
+      "MinHealth": 3335,
+      "MaxDefense": 168,
+      "CritDamage": 0.5,
+      "MinDefense": 112,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 163,
+      "MoveSpeed": 5,
+      "MaxHealth": 6002,
+      "MinAttack": 99,
+      "MinHealth": 3638,
+      "MaxDefense": 202,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 196,
+      "MoveSpeed": 5,
+      "MaxHealth": 7202,
+      "MinAttack": 109,
+      "MinHealth": 4001,
+      "MaxDefense": 242,
+      "CritDamage": 0.5,
+      "MinDefense": 134,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 267,
+      "MoveSpeed": 5,
+      "MaxHealth": 9795,
+      "MinAttack": 157,
+      "MinHealth": 5762,
+      "MaxDefense": 329,
+      "CritDamage": 0.5,
+      "MinDefense": 194,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 363,
+      "MoveSpeed": 5,
+      "MaxHealth": 13321,
+      "MinAttack": 214,
+      "MinHealth": 7836,
+      "MaxDefense": 448,
+      "CritDamage": 0.5,
+      "MinDefense": 264,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 494,
+      "MoveSpeed": 5,
+      "MaxHealth": 18117,
+      "MinAttack": 291,
+      "MinHealth": 10657,
+      "MaxDefense": 609,
+      "CritDamage": 0.5,
+      "MinDefense": 358,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

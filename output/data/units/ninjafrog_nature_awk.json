@@ -1,0 +1,165 @@
+{
+  "UnitID": 442,
+  "HeroID": "ninjafrog_nature_awk",
+  "Family": "Ninja Frog",
+  "Element": "Nature",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 3
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Suzuri",
+    "fr": "Suzuri",
+    "de": "Suzuri",
+    "es": "Suzuri"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 266,
+      "MoveSpeed": 5,
+      "MaxHealth": 6308,
+      "MinAttack": 177,
+      "MinHealth": 4205,
+      "MaxDefense": 136,
+      "CritDamage": 0.5,
+      "MinDefense": 91,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 319,
+      "MoveSpeed": 5,
+      "MaxHealth": 7569,
+      "MinAttack": 193,
+      "MinHealth": 4587,
+      "MaxDefense": 163,
+      "CritDamage": 0.5,
+      "MinDefense": 99,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 383,
+      "MoveSpeed": 5,
+      "MaxHealth": 9083,
+      "MinAttack": 213,
+      "MinHealth": 5046,
+      "MaxDefense": 196,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 521,
+      "MoveSpeed": 5,
+      "MaxHealth": 12353,
+      "MinAttack": 306,
+      "MinHealth": 7266,
+      "MaxDefense": 267,
+      "CritDamage": 0.5,
+      "MinDefense": 157,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 709,
+      "MoveSpeed": 5,
+      "MaxHealth": 16800,
+      "MinAttack": 417,
+      "MinHealth": 9882,
+      "MaxDefense": 363,
+      "CritDamage": 0.5,
+      "MinDefense": 214,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 964,
+      "MoveSpeed": 5,
+      "MaxHealth": 22848,
+      "MinAttack": 567,
+      "MinHealth": 13440,
+      "MaxDefense": 493,
+      "CritDamage": 0.5,
+      "MinDefense": 290,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 219,
+  "HeroID": "dinorider_fire_awk",
+  "Family": "Dino Rider",
+  "Element": "Fire",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "CritRate",
+  "LeaderTraitCondition": "Fire",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Viro & Kraakk",
+    "fr": "Viro & Kraakk",
+    "de": "Viro und Kraakk",
+    "es": "Viro y Kraakk"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 5458,
+      "MinAttack": 142,
+      "MinHealth": 3639,
+      "MaxDefense": 169,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 256,
+      "MoveSpeed": 5,
+      "MaxHealth": 6550,
+      "MinAttack": 155,
+      "MinHealth": 3970,
+      "MaxDefense": 203,
+      "CritDamage": 0.5,
+      "MinDefense": 123,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 307,
+      "MoveSpeed": 5,
+      "MaxHealth": 7860,
+      "MinAttack": 171,
+      "MinHealth": 4367,
+      "MaxDefense": 244,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 417,
+      "MoveSpeed": 5,
+      "MaxHealth": 10689,
+      "MinAttack": 245,
+      "MinHealth": 6288,
+      "MaxDefense": 332,
+      "CritDamage": 0.5,
+      "MinDefense": 195,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 567,
+      "MoveSpeed": 5,
+      "MaxHealth": 14537,
+      "MinAttack": 334,
+      "MinHealth": 8551,
+      "MaxDefense": 451,
+      "CritDamage": 0.5,
+      "MinDefense": 265,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 771,
+      "MoveSpeed": 5,
+      "MaxHealth": 19770,
+      "MinAttack": 454,
+      "MinHealth": 11629,
+      "MaxDefense": 613,
+      "CritDamage": 0.5,
+      "MinDefense": 361,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

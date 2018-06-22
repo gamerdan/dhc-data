@@ -1,0 +1,165 @@
+{
+  "UnitID": 69,
+  "HeroID": "archangel_nature_awk",
+  "Family": "Archangel",
+  "Element": "Nature",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 4
+    },
+    {
+      "tag": "Always",
+      "quality": 3
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Health",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Toreleon",
+    "fr": "Toreleon",
+    "de": "Toreleon",
+    "es": "Toreleon"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 190,
+      "MoveSpeed": 5,
+      "MaxHealth": 6899,
+      "MinAttack": 127,
+      "MinHealth": 4599,
+      "MaxDefense": 195,
+      "CritDamage": 0.5,
+      "MinDefense": 130,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 228,
+      "MoveSpeed": 5,
+      "MaxHealth": 8279,
+      "MinAttack": 138,
+      "MinHealth": 5018,
+      "MaxDefense": 234,
+      "CritDamage": 0.5,
+      "MinDefense": 142,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 273,
+      "MoveSpeed": 5,
+      "MaxHealth": 9935,
+      "MinAttack": 152,
+      "MinHealth": 5519,
+      "MaxDefense": 281,
+      "CritDamage": 0.5,
+      "MinDefense": 156,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 371,
+      "MoveSpeed": 5,
+      "MaxHealth": 13511,
+      "MinAttack": 218,
+      "MinHealth": 7948,
+      "MaxDefense": 382,
+      "CritDamage": 0.5,
+      "MinDefense": 225,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 504,
+      "MoveSpeed": 5,
+      "MaxHealth": 18375,
+      "MinAttack": 296,
+      "MinHealth": 10809,
+      "MaxDefense": 520,
+      "CritDamage": 0.5,
+      "MinDefense": 306,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 4,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 685,
+      "MoveSpeed": 5,
+      "MaxHealth": 24990,
+      "MinAttack": 403,
+      "MinHealth": 14700,
+      "MaxDefense": 707,
+      "CritDamage": 0.5,
+      "MinDefense": 416,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

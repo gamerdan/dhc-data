@@ -1,0 +1,165 @@
+{
+  "UnitID": 514,
+  "HeroID": "rollerderby_dark_awk",
+  "Family": "Roller Derby",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.18,
+  "Name": {
+    "en": "Voxia",
+    "fr": "Voxia",
+    "de": "Voxia",
+    "es": "Voxia"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 175,
+      "MoveSpeed": 5,
+      "MaxHealth": 5669,
+      "MinAttack": 117,
+      "MinHealth": 3779,
+      "MaxDefense": 156,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 210,
+      "MoveSpeed": 5,
+      "MaxHealth": 6803,
+      "MinAttack": 127,
+      "MinHealth": 4123,
+      "MaxDefense": 187,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 252,
+      "MoveSpeed": 5,
+      "MaxHealth": 8164,
+      "MinAttack": 140,
+      "MinHealth": 4536,
+      "MaxDefense": 224,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 343,
+      "MoveSpeed": 5,
+      "MaxHealth": 11103,
+      "MinAttack": 202,
+      "MinHealth": 6531,
+      "MaxDefense": 304,
+      "CritDamage": 0.5,
+      "MinDefense": 179,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 466,
+      "MoveSpeed": 5,
+      "MaxHealth": 15100,
+      "MinAttack": 274,
+      "MinHealth": 8882,
+      "MaxDefense": 413,
+      "CritDamage": 0.5,
+      "MinDefense": 243,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 634,
+      "MoveSpeed": 5,
+      "MaxHealth": 20536,
+      "MinAttack": 373,
+      "MinHealth": 12080,
+      "MaxDefense": 562,
+      "CritDamage": 0.5,
+      "MinDefense": 331,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

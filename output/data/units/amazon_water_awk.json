@@ -1,0 +1,165 @@
+{
+  "UnitID": 58,
+  "HeroID": "amazon_water_awk",
+  "Family": "Amazon",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Haunani",
+    "fr": "Haunani",
+    "de": "Haunani",
+    "es": "Haunani"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 160,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 107,
+      "MinHealth": 4002,
+      "MaxDefense": 160,
+      "CritDamage": 0.5,
+      "MinDefense": 107,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 192,
+      "MoveSpeed": 5,
+      "MaxHealth": 7203,
+      "MinAttack": 116,
+      "MinHealth": 4365,
+      "MaxDefense": 192,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 230,
+      "MoveSpeed": 5,
+      "MaxHealth": 8644,
+      "MinAttack": 128,
+      "MinHealth": 4802,
+      "MaxDefense": 230,
+      "CritDamage": 0.5,
+      "MinDefense": 128,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 313,
+      "MoveSpeed": 5,
+      "MaxHealth": 11756,
+      "MinAttack": 184,
+      "MinHealth": 6915,
+      "MaxDefense": 313,
+      "CritDamage": 0.5,
+      "MinDefense": 184,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 426,
+      "MoveSpeed": 5,
+      "MaxHealth": 15988,
+      "MinAttack": 251,
+      "MinHealth": 9405,
+      "MaxDefense": 426,
+      "CritDamage": 0.5,
+      "MinDefense": 251,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 580,
+      "MoveSpeed": 5,
+      "MaxHealth": 21744,
+      "MinAttack": 341,
+      "MinHealth": 12791,
+      "MaxDefense": 580,
+      "CritDamage": 0.5,
+      "MinDefense": 341,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

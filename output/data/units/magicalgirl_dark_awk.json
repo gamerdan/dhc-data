@@ -1,0 +1,165 @@
+{
+  "UnitID": 393,
+  "HeroID": "magicalgirl_dark_awk",
+  "Family": "Magical Girl",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Health",
+  "LeaderTraitCondition": "Boss",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Yua",
+    "fr": "Yua",
+    "de": "Yua",
+    "es": "Yua"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 145,
+      "MoveSpeed": 5,
+      "MaxHealth": 6169,
+      "MinAttack": 97,
+      "MinHealth": 4113,
+      "MaxDefense": 170,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 174,
+      "MoveSpeed": 5,
+      "MaxHealth": 7403,
+      "MinAttack": 105,
+      "MinHealth": 4487,
+      "MaxDefense": 204,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 209,
+      "MoveSpeed": 5,
+      "MaxHealth": 8884,
+      "MinAttack": 116,
+      "MinHealth": 4936,
+      "MaxDefense": 245,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 284,
+      "MoveSpeed": 5,
+      "MaxHealth": 12082,
+      "MinAttack": 167,
+      "MinHealth": 7107,
+      "MaxDefense": 333,
+      "CritDamage": 0.5,
+      "MinDefense": 196,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 386,
+      "MoveSpeed": 5,
+      "MaxHealth": 16432,
+      "MinAttack": 227,
+      "MinHealth": 9666,
+      "MaxDefense": 453,
+      "CritDamage": 0.5,
+      "MinDefense": 266,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 525,
+      "MoveSpeed": 5,
+      "MaxHealth": 22348,
+      "MinAttack": 309,
+      "MinHealth": 13146,
+      "MaxDefense": 616,
+      "CritDamage": 0.5,
+      "MinDefense": 362,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 583,
+  "HeroID": "skandgrunt_light_awk",
+  "Family": "Skand Grunt",
+  "Element": "Light",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Despair",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Brusque",
+    "fr": "Brusque",
+    "de": "Brüsk",
+    "es": "Brusque"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 156,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 104,
+      "MinHealth": 4002,
+      "MaxDefense": 165,
+      "CritDamage": 0.5,
+      "MinDefense": 110,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 187,
+      "MoveSpeed": 5,
+      "MaxHealth": 7203,
+      "MinAttack": 113,
+      "MinHealth": 4365,
+      "MaxDefense": 198,
+      "CritDamage": 0.5,
+      "MinDefense": 120,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 224,
+      "MoveSpeed": 5,
+      "MaxHealth": 8644,
+      "MinAttack": 124,
+      "MinHealth": 4802,
+      "MaxDefense": 238,
+      "CritDamage": 0.5,
+      "MinDefense": 132,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 304,
+      "MoveSpeed": 5,
+      "MaxHealth": 11756,
+      "MinAttack": 179,
+      "MinHealth": 6915,
+      "MaxDefense": 324,
+      "CritDamage": 0.5,
+      "MinDefense": 191,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 413,
+      "MoveSpeed": 5,
+      "MaxHealth": 15988,
+      "MinAttack": 243,
+      "MinHealth": 9405,
+      "MaxDefense": 440,
+      "CritDamage": 0.5,
+      "MinDefense": 259,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 562,
+      "MoveSpeed": 5,
+      "MaxHealth": 21744,
+      "MinAttack": 331,
+      "MinHealth": 12791,
+      "MaxDefense": 598,
+      "CritDamage": 0.5,
+      "MinDefense": 352,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

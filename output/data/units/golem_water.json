@@ -1,0 +1,165 @@
+{
+  "UnitID": 315,
+  "HeroID": "golem_water",
+  "Family": "Golem",
+  "Element": "Water",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "Desert",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 0
+    },
+    {
+      "tag": "Spider",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowWaterEssence",
+    "MidWaterEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Golem",
+    "fr": "Golem",
+    "de": "Golem",
+    "es": "Gólem"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 103,
+      "MoveSpeed": 5,
+      "MaxHealth": 5183,
+      "MinAttack": 69,
+      "MinHealth": 3455,
+      "MaxDefense": 152,
+      "CritDamage": 0.5,
+      "MinDefense": 101,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 123,
+      "MoveSpeed": 5,
+      "MaxHealth": 6219,
+      "MinAttack": 75,
+      "MinHealth": 3769,
+      "MaxDefense": 182,
+      "CritDamage": 0.5,
+      "MinDefense": 110,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 148,
+      "MoveSpeed": 5,
+      "MaxHealth": 7463,
+      "MinAttack": 82,
+      "MinHealth": 4146,
+      "MaxDefense": 218,
+      "CritDamage": 0.5,
+      "MinDefense": 121,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 201,
+      "MoveSpeed": 5,
+      "MaxHealth": 10149,
+      "MinAttack": 118,
+      "MinHealth": 5970,
+      "MaxDefense": 296,
+      "CritDamage": 0.5,
+      "MinDefense": 174,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 273,
+      "MoveSpeed": 5,
+      "MaxHealth": 13803,
+      "MinAttack": 161,
+      "MinHealth": 8119,
+      "MaxDefense": 403,
+      "CritDamage": 0.5,
+      "MinDefense": 237,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 371,
+      "MoveSpeed": 5,
+      "MaxHealth": 18772,
+      "MinAttack": 218,
+      "MinHealth": 11042,
+      "MaxDefense": 548,
+      "CritDamage": 0.5,
+      "MinDefense": 322,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

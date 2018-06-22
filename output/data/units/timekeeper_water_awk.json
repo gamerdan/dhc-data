@@ -1,0 +1,165 @@
+{
+  "UnitID": 672,
+  "HeroID": "timekeeper_water_awk",
+  "Family": "Time Keeper",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "Desert",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "SkillCooldownSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": -0.15,
+  "Name": {
+    "en": "Manas",
+    "fr": "Manas",
+    "de": "Manas",
+    "es": "Manas"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 195,
+      "MoveSpeed": 5,
+      "MaxHealth": 5003,
+      "MinAttack": 130,
+      "MinHealth": 3335,
+      "MaxDefense": 156,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 234,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 142,
+      "MinHealth": 3638,
+      "MaxDefense": 187,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 281,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 156,
+      "MinHealth": 4002,
+      "MaxDefense": 224,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 382,
+      "MoveSpeed": 5,
+      "MaxHealth": 9797,
+      "MinAttack": 225,
+      "MinHealth": 5763,
+      "MaxDefense": 304,
+      "CritDamage": 0.5,
+      "MinDefense": 179,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 520,
+      "MoveSpeed": 5,
+      "MaxHealth": 13324,
+      "MinAttack": 306,
+      "MinHealth": 7838,
+      "MaxDefense": 413,
+      "CritDamage": 0.5,
+      "MinDefense": 243,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 707,
+      "MoveSpeed": 5,
+      "MaxHealth": 18120,
+      "MinAttack": 416,
+      "MinHealth": 10659,
+      "MaxDefense": 562,
+      "CritDamage": 0.5,
+      "MinDefense": 331,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.61,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

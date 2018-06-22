@@ -1,0 +1,165 @@
+{
+  "UnitID": 191,
+  "HeroID": "crystalpriest_nature_awk",
+  "Family": "Crystal Priest",
+  "Element": "Nature",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    },
+    {
+      "tag": "Dragon",
+      "quality": 0
+    },
+    {
+      "tag": "Late",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Peridot",
+    "fr": "Péridot",
+    "de": "Peridot",
+    "es": "Peridot"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 155,
+      "MoveSpeed": 5,
+      "MaxHealth": 5153,
+      "MinAttack": 103,
+      "MinHealth": 3435,
+      "MaxDefense": 146,
+      "CritDamage": 0.5,
+      "MinDefense": 97,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 186,
+      "MoveSpeed": 5,
+      "MaxHealth": 6184,
+      "MinAttack": 113,
+      "MinHealth": 3748,
+      "MaxDefense": 175,
+      "CritDamage": 0.5,
+      "MinDefense": 106,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 223,
+      "MoveSpeed": 5,
+      "MaxHealth": 7421,
+      "MinAttack": 124,
+      "MinHealth": 4123,
+      "MaxDefense": 210,
+      "CritDamage": 0.5,
+      "MinDefense": 117,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 303,
+      "MoveSpeed": 5,
+      "MaxHealth": 10092,
+      "MinAttack": 178,
+      "MinHealth": 5936,
+      "MaxDefense": 285,
+      "CritDamage": 0.5,
+      "MinDefense": 168,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 412,
+      "MoveSpeed": 5,
+      "MaxHealth": 13725,
+      "MinAttack": 242,
+      "MinHealth": 8074,
+      "MaxDefense": 388,
+      "CritDamage": 0.5,
+      "MinDefense": 228,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 560,
+      "MoveSpeed": 5,
+      "MaxHealth": 18666,
+      "MinAttack": 329,
+      "MinHealth": 10980,
+      "MaxDefense": 527,
+      "CritDamage": 0.5,
+      "MinDefense": 310,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 216,
+  "HeroID": "dinorider_nature",
+  "Family": "Dino Rider",
+  "Element": "Nature",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "CritRate",
+  "LeaderTraitCondition": "Nature",
+  "AwakeningEssenceIDs": [
+    "MidNatureEssence",
+    "HighNatureEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Dino Kid",
+    "fr": "Dinomôme",
+    "de": "Dinokind",
+    "es": "Niño dinosaurio"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 200,
+      "MoveSpeed": 5,
+      "MaxHealth": 5169,
+      "MinAttack": 133,
+      "MinHealth": 3446,
+      "MaxDefense": 145,
+      "CritDamage": 0.5,
+      "MinDefense": 97,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 240,
+      "MoveSpeed": 5,
+      "MaxHealth": 6203,
+      "MinAttack": 145,
+      "MinHealth": 3759,
+      "MaxDefense": 174,
+      "CritDamage": 0.5,
+      "MinDefense": 105,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 288,
+      "MoveSpeed": 5,
+      "MaxHealth": 7444,
+      "MinAttack": 160,
+      "MinHealth": 4136,
+      "MaxDefense": 209,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 392,
+      "MoveSpeed": 5,
+      "MaxHealth": 10124,
+      "MinAttack": 231,
+      "MinHealth": 5955,
+      "MaxDefense": 284,
+      "CritDamage": 0.5,
+      "MinDefense": 167,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 533,
+      "MoveSpeed": 5,
+      "MaxHealth": 13768,
+      "MinAttack": 314,
+      "MinHealth": 8099,
+      "MaxDefense": 386,
+      "CritDamage": 0.5,
+      "MinDefense": 227,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 725,
+      "MoveSpeed": 5,
+      "MaxHealth": 18724,
+      "MinAttack": 426,
+      "MinHealth": 11014,
+      "MaxDefense": 525,
+      "CritDamage": 0.5,
+      "MinDefense": 309,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

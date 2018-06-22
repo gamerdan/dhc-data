@@ -1,0 +1,161 @@
+{
+  "UnitID": 252,
+  "HeroID": "elemental_light_awk",
+  "Family": "Elemental",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Vampire",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Gleam",
+    "fr": "Lueur",
+    "de": "Schimmer",
+    "es": "Gleam"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 173,
+      "MoveSpeed": 5,
+      "MaxHealth": 5759,
+      "MinAttack": 115,
+      "MinHealth": 3839,
+      "MaxDefense": 109,
+      "CritDamage": 0.5,
+      "MinDefense": 73,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 208,
+      "MoveSpeed": 5,
+      "MaxHealth": 6911,
+      "MinAttack": 126,
+      "MinHealth": 4188,
+      "MaxDefense": 131,
+      "CritDamage": 0.5,
+      "MinDefense": 79,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 249,
+      "MoveSpeed": 5,
+      "MaxHealth": 8293,
+      "MinAttack": 138,
+      "MinHealth": 4607,
+      "MaxDefense": 157,
+      "CritDamage": 0.5,
+      "MinDefense": 87,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 338,
+      "MoveSpeed": 5,
+      "MaxHealth": 11279,
+      "MinAttack": 199,
+      "MinHealth": 6635,
+      "MaxDefense": 213,
+      "CritDamage": 0.5,
+      "MinDefense": 125,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 460,
+      "MoveSpeed": 5,
+      "MaxHealth": 15340,
+      "MinAttack": 271,
+      "MinHealth": 9024,
+      "MaxDefense": 290,
+      "CritDamage": 0.5,
+      "MinDefense": 171,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 626,
+      "MoveSpeed": 5,
+      "MaxHealth": 20862,
+      "MinAttack": 368,
+      "MinHealth": 12272,
+      "MaxDefense": 395,
+      "CritDamage": 0.5,
+      "MinDefense": 232,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 473,
+  "HeroID": "psykomancer_light_awk",
+  "Family": "Psykomancer",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 2
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Dr. Myelin",
+    "fr": "Dr Myéline",
+    "de": "Dr. Myelin",
+    "es": "Dr. Myelin"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 5276,
+      "MinAttack": 142,
+      "MinHealth": 3517,
+      "MaxDefense": 174,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 256,
+      "MoveSpeed": 5,
+      "MaxHealth": 6331,
+      "MinAttack": 155,
+      "MinHealth": 3837,
+      "MaxDefense": 209,
+      "CritDamage": 0.5,
+      "MinDefense": 127,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 307,
+      "MoveSpeed": 5,
+      "MaxHealth": 7597,
+      "MinAttack": 171,
+      "MinHealth": 4221,
+      "MaxDefense": 251,
+      "CritDamage": 0.5,
+      "MinDefense": 139,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 417,
+      "MoveSpeed": 5,
+      "MaxHealth": 10332,
+      "MinAttack": 245,
+      "MinHealth": 6078,
+      "MaxDefense": 342,
+      "CritDamage": 0.5,
+      "MinDefense": 201,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 567,
+      "MoveSpeed": 5,
+      "MaxHealth": 14052,
+      "MinAttack": 334,
+      "MinHealth": 8266,
+      "MaxDefense": 465,
+      "CritDamage": 0.5,
+      "MinDefense": 274,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 771,
+      "MoveSpeed": 5,
+      "MaxHealth": 19111,
+      "MinAttack": 454,
+      "MinHealth": 11242,
+      "MaxDefense": 633,
+      "CritDamage": 0.5,
+      "MinDefense": 372,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

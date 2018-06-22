@@ -1,0 +1,165 @@
+{
+  "UnitID": 324,
+  "HeroID": "greaterdemon_fire",
+  "Family": "Greater Demon",
+  "Element": "Fire",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 4
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "SkillCooldownSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "MidFireEssence",
+    "HighFireEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    20,
+    5,
+    15
+  ],
+  "LeaderTraitPercentageBoost": -0.2,
+  "Name": {
+    "en": "Greater Demon",
+    "fr": "Archidiable",
+    "de": "Großdämon",
+    "es": "Demonio mayor"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 148,
+      "MoveSpeed": 5,
+      "MaxHealth": 7459,
+      "MinAttack": 99,
+      "MinHealth": 4973,
+      "MaxDefense": 174,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 178,
+      "MoveSpeed": 5,
+      "MaxHealth": 8951,
+      "MinAttack": 108,
+      "MinHealth": 5425,
+      "MaxDefense": 209,
+      "CritDamage": 0.5,
+      "MinDefense": 127,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 10741,
+      "MinAttack": 118,
+      "MinHealth": 5967,
+      "MaxDefense": 251,
+      "CritDamage": 0.5,
+      "MinDefense": 139,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 289,
+      "MoveSpeed": 5,
+      "MaxHealth": 14608,
+      "MinAttack": 170,
+      "MinHealth": 8593,
+      "MaxDefense": 342,
+      "CritDamage": 0.5,
+      "MinDefense": 201,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 393,
+      "MoveSpeed": 5,
+      "MaxHealth": 19867,
+      "MinAttack": 231,
+      "MinHealth": 11686,
+      "MaxDefense": 465,
+      "CritDamage": 0.5,
+      "MinDefense": 274,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 534,
+      "MoveSpeed": 5,
+      "MaxHealth": 27019,
+      "MinAttack": 314,
+      "MinHealth": 15894,
+      "MaxDefense": 633,
+      "CritDamage": 0.5,
+      "MinDefense": 372,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

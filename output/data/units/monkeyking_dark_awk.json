@@ -1,0 +1,165 @@
+{
+  "UnitID": 413,
+  "HeroID": "monkeyking_dark_awk",
+  "Family": "Monkey King",
+  "Element": "Dark",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.41,
+  "Name": {
+    "en": "Pohou",
+    "fr": "Pohou",
+    "de": "Pohou",
+    "es": "Pohou"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 207,
+      "MoveSpeed": 5,
+      "MaxHealth": 6308,
+      "MinAttack": 138,
+      "MinHealth": 4205,
+      "MaxDefense": 195,
+      "CritDamage": 0.75,
+      "MinDefense": 130,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 248,
+      "MoveSpeed": 5,
+      "MaxHealth": 7569,
+      "MinAttack": 150,
+      "MinHealth": 4587,
+      "MaxDefense": 234,
+      "CritDamage": 0.75,
+      "MinDefense": 142,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 298,
+      "MoveSpeed": 5,
+      "MaxHealth": 9083,
+      "MinAttack": 166,
+      "MinHealth": 5046,
+      "MaxDefense": 281,
+      "CritDamage": 0.75,
+      "MinDefense": 156,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 405,
+      "MoveSpeed": 5,
+      "MaxHealth": 12353,
+      "MinAttack": 238,
+      "MinHealth": 7266,
+      "MaxDefense": 382,
+      "CritDamage": 0.75,
+      "MinDefense": 225,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 551,
+      "MoveSpeed": 5,
+      "MaxHealth": 16800,
+      "MinAttack": 324,
+      "MinHealth": 9882,
+      "MaxDefense": 520,
+      "CritDamage": 0.75,
+      "MinDefense": 306,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 750,
+      "MoveSpeed": 5,
+      "MaxHealth": 22848,
+      "MinAttack": 441,
+      "MinHealth": 13440,
+      "MaxDefense": 707,
+      "CritDamage": 0.75,
+      "MinDefense": 416,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

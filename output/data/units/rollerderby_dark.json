@@ -1,0 +1,165 @@
+{
+  "UnitID": 509,
+  "HeroID": "rollerderby_dark",
+  "Family": "Roller Derby",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowDarkEssence",
+    "MidDarkEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Derby Girl",
+    "fr": "Derby Girl",
+    "de": "Derby Girl",
+    "es": "Patinadora"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 159,
+      "MoveSpeed": 5,
+      "MaxHealth": 5153,
+      "MinAttack": 106,
+      "MinHealth": 3435,
+      "MaxDefense": 141,
+      "CritDamage": 0.5,
+      "MinDefense": 94,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 191,
+      "MoveSpeed": 5,
+      "MaxHealth": 6184,
+      "MinAttack": 116,
+      "MinHealth": 3748,
+      "MaxDefense": 169,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 229,
+      "MoveSpeed": 5,
+      "MaxHealth": 7421,
+      "MinAttack": 127,
+      "MinHealth": 4123,
+      "MaxDefense": 203,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 312,
+      "MoveSpeed": 5,
+      "MaxHealth": 10092,
+      "MinAttack": 184,
+      "MinHealth": 5936,
+      "MaxDefense": 276,
+      "CritDamage": 0.5,
+      "MinDefense": 162,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 424,
+      "MoveSpeed": 5,
+      "MaxHealth": 13725,
+      "MinAttack": 249,
+      "MinHealth": 8074,
+      "MaxDefense": 376,
+      "CritDamage": 0.5,
+      "MinDefense": 221,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 576,
+      "MoveSpeed": 5,
+      "MaxHealth": 18666,
+      "MinAttack": 339,
+      "MinHealth": 10980,
+      "MaxDefense": 511,
+      "CritDamage": 0.5,
+      "MinDefense": 301,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

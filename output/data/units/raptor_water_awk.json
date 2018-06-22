@@ -1,0 +1,165 @@
+{
+  "UnitID": 481,
+  "HeroID": "raptor_water_awk",
+  "Family": "Raptor",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Violent",
+    "Energy",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "Adventure",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "SkillCooldownSpeed",
+  "LeaderTraitCondition": "Water",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": -0.19,
+  "Name": {
+    "en": "Kalda",
+    "fr": "Kalda",
+    "de": "Kalda",
+    "es": "Kalda"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 186,
+      "MoveSpeed": 5,
+      "MaxHealth": 5336,
+      "MinAttack": 124,
+      "MinHealth": 3557,
+      "MaxDefense": 156,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 223,
+      "MoveSpeed": 5,
+      "MaxHealth": 6403,
+      "MinAttack": 135,
+      "MinHealth": 3881,
+      "MaxDefense": 187,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 267,
+      "MoveSpeed": 5,
+      "MaxHealth": 7684,
+      "MinAttack": 148,
+      "MinHealth": 4269,
+      "MaxDefense": 224,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 363,
+      "MoveSpeed": 5,
+      "MaxHealth": 10450,
+      "MinAttack": 214,
+      "MinHealth": 6147,
+      "MaxDefense": 304,
+      "CritDamage": 0.5,
+      "MinDefense": 179,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 493,
+      "MoveSpeed": 5,
+      "MaxHealth": 14212,
+      "MinAttack": 290,
+      "MinHealth": 8360,
+      "MaxDefense": 413,
+      "CritDamage": 0.5,
+      "MinDefense": 243,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 670,
+      "MoveSpeed": 5,
+      "MaxHealth": 19328,
+      "MinAttack": 394,
+      "MinHealth": 11369,
+      "MaxDefense": 562,
+      "CritDamage": 0.5,
+      "MinDefense": 331,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

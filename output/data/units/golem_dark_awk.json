@@ -1,0 +1,165 @@
+{
+  "UnitID": 323,
+  "HeroID": "golem_dark_awk",
+  "Family": "Golem",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "Desert",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 0
+    },
+    {
+      "tag": "Blitz",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Health",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Slate",
+    "fr": "Ardoise",
+    "de": "Schiefer",
+    "es": "Slate"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 140,
+      "MoveSpeed": 5,
+      "MaxHealth": 6837,
+      "MinAttack": 93,
+      "MinHealth": 4558,
+      "MaxDefense": 156,
+      "CritDamage": 0.5,
+      "MinDefense": 104,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 168,
+      "MoveSpeed": 5,
+      "MaxHealth": 8204,
+      "MinAttack": 102,
+      "MinHealth": 4972,
+      "MaxDefense": 187,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 201,
+      "MoveSpeed": 5,
+      "MaxHealth": 9845,
+      "MinAttack": 112,
+      "MinHealth": 5469,
+      "MaxDefense": 224,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 274,
+      "MoveSpeed": 5,
+      "MaxHealth": 13389,
+      "MinAttack": 161,
+      "MinHealth": 7876,
+      "MaxDefense": 304,
+      "CritDamage": 0.5,
+      "MinDefense": 179,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 373,
+      "MoveSpeed": 5,
+      "MaxHealth": 18209,
+      "MinAttack": 219,
+      "MinHealth": 10711,
+      "MaxDefense": 413,
+      "CritDamage": 0.5,
+      "MinDefense": 243,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 507,
+      "MoveSpeed": 5,
+      "MaxHealth": 24764,
+      "MinAttack": 298,
+      "MinHealth": 14567,
+      "MaxDefense": 562,
+      "CritDamage": 0.5,
+      "MinDefense": 331,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

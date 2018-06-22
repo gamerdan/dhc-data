@@ -10,7 +10,6 @@ const DESIGN_PATH = path.join("Data", "Design");
 
 module.exports = (installBasePath, filename) => {
     // Process file with quickbms
-    console.log(path.join(installBasePath, DESIGN_PATH, `${filename}.xlsx`));
     spawnSync("bin/quickbms.exe", [
         "bin/gcbf_versus.bms",
         path.join(installBasePath, DESIGN_PATH, `${filename}.xlsx`),

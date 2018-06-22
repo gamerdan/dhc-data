@@ -1,0 +1,165 @@
+{
+  "UnitID": 472,
+  "HeroID": "psykomancer_nature_awk",
+  "Family": "Psykomancer",
+  "Element": "Nature",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Violent",
+    "Focus",
+    null
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Dr. Synapse",
+    "fr": "Dr Synapse",
+    "de": "Dr. Synapse",
+    "es": "Dr. Synapse"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 5640,
+      "MinAttack": 142,
+      "MinHealth": 3760,
+      "MaxDefense": 164,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 256,
+      "MoveSpeed": 5,
+      "MaxHealth": 6768,
+      "MinAttack": 155,
+      "MinHealth": 4102,
+      "MaxDefense": 197,
+      "CritDamage": 0.5,
+      "MinDefense": 119,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 307,
+      "MoveSpeed": 5,
+      "MaxHealth": 8121,
+      "MinAttack": 171,
+      "MinHealth": 4512,
+      "MaxDefense": 236,
+      "CritDamage": 0.5,
+      "MinDefense": 131,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 417,
+      "MoveSpeed": 5,
+      "MaxHealth": 11045,
+      "MinAttack": 245,
+      "MinHealth": 6497,
+      "MaxDefense": 321,
+      "CritDamage": 0.5,
+      "MinDefense": 189,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 567,
+      "MoveSpeed": 5,
+      "MaxHealth": 15021,
+      "MinAttack": 334,
+      "MinHealth": 8836,
+      "MaxDefense": 436,
+      "CritDamage": 0.5,
+      "MinDefense": 256,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 771,
+      "MoveSpeed": 5,
+      "MaxHealth": 20429,
+      "MinAttack": 454,
+      "MinHealth": 12017,
+      "MaxDefense": 593,
+      "CritDamage": 0.5,
+      "MinDefense": 349,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}
