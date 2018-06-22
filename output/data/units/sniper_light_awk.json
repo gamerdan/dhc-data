@@ -7,11 +7,7 @@
   "MaxStar": 6,
   "Awakened": "true",
   "Universe": "CyberPunk",
-  "RecGear": [
-    null,
-    null,
-    null
-  ],
+  "RecGear": [],
   "DefaultLevel": 1,
   "CanBeAwakened": false,
   "CharacterClass": "Assassin",

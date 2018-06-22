@@ -9,8 +9,7 @@
   "Universe": "WesternFantasyCastle",
   "RecGear": [
     "Vampire",
-    "Energy",
-    null
+    "Energy"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": true,

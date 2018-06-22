@@ -9,8 +9,7 @@
   "Universe": "CyberPunk",
   "RecGear": [
     "Vampire",
-    "Blade",
-    null
+    "Blade"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": true,

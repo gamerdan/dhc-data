@@ -29,6 +29,7 @@ module.exports = (installPathBase, outputPath) => {
         delete unit.CanBeWonInGacha;
 
         unit.Strength = unit.Strength.filter(x => x.tag !== null);
+        unit.RecGear = unit.RecGear.filter(x => x !== null);
         unit.AwakeningEssenceAmounts = unit.AwakeningEssenceAmounts.map(x => x ? parseInt(x) : x);
 
         // Output

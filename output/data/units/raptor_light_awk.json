@@ -9,8 +9,7 @@
   "Universe": "CyberPunk",
   "RecGear": [
     "Swift",
-    "Energy",
-    null
+    "Energy"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": false,

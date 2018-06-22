@@ -9,8 +9,7 @@
   "Universe": "CyberPunk",
   "RecGear": [
     "Fatal",
-    "Blade",
-    null
+    "Blade"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": true,

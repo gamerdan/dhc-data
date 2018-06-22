@@ -9,8 +9,7 @@
   "Universe": "WesternFantasyForest",
   "RecGear": [
     "Fatal",
-    "Energy",
-    null
+    "Energy"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": false,

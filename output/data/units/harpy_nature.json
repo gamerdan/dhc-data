@@ -9,8 +9,7 @@
   "Universe": "Desert",
   "RecGear": [
     "Fatal",
-    "Focus",
-    null
+    "Focus"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": true,

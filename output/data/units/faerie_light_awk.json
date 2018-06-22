@@ -9,8 +9,7 @@
   "Universe": "WesternFantasyForest",
   "RecGear": [
     "Swift",
-    "Blade",
-    null
+    "Blade"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": false,

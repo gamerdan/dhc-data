@@ -9,8 +9,7 @@
   "Universe": "CyberPunk",
   "RecGear": [
     "Despair",
-    "Energy",
-    null
+    "Energy"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": false,

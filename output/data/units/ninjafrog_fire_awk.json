@@ -9,8 +9,7 @@
   "Universe": "EasternFantasy",
   "RecGear": [
     "Violent",
-    "Focus",
-    null
+    "Focus"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": false,

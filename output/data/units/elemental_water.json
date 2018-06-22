@@ -9,8 +9,7 @@
   "Universe": "WesternFantasyForest",
   "RecGear": [
     "Vampire",
-    "Energy",
-    null
+    "Energy"
   ],
   "DefaultLevel": 1,
   "CanBeAwakened": true,
