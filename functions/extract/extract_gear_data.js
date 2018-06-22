@@ -28,17 +28,17 @@ module.exports = ({ rawGearData, localization }) => {
 
         const subStatInitial = rawGearData.SubStats.Rows
             .filter(([_, statId]) => statId === key)
-            .map(([star, __, min, max]) => ({ star, min, max }));
+            .map(([Star, _, Min, Max]) => ({ Star, Min, Max }));
 
         const subStatRolls = rawGearData.SubStats2.Rows
             .filter(([stat]) => stat === key)
             .map(([_, ...ranges]) => ([
-                { star: 1, min: ranges[0], max: ranges[1] },
-                { star: 2, min: ranges[2], max: ranges[3] },
-                { star: 3, min: ranges[4], max: ranges[5] },
-                { star: 4, min: ranges[6], max: ranges[7] },
-                { star: 5, min: ranges[8], max: ranges[9] },
-                { star: 6, min: ranges[10], max: ranges[11] },
+                { Star: 1, Min: ranges[0], Max: ranges[1] },
+                { Star: 2, Min: ranges[2], Max: ranges[3] },
+                { Star: 3, Min: ranges[4], Max: ranges[5] },
+                { Star: 4, Min: ranges[6], Max: ranges[7] },
+                { Star: 5, Min: ranges[8], Max: ranges[9] },
+                { Star: 6, Min: ranges[10], Max: ranges[11] },
             ]));
 
         return {

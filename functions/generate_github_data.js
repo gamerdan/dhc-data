@@ -5,6 +5,7 @@ const loadRawData = require("./load/load_data_files");
 const ensureDir = require("./helpers/ensure_directory");
 const extractUnitData = require("./extract/extract_unit_data");
 const extractGuildData = require("./extract/extract_guild_data");
+const extractGearData = require("./extract/extract_gear_data");
 const copyUnitImages = require("./images/copy_unit_images");
 
 module.exports = (installPathBase, outputPath) => {
@@ -24,6 +25,10 @@ module.exports = (installPathBase, outputPath) => {
     // Output guild data
     const guildData = extractGuildData(rawData);
     fs.writeFileSync(path.join(dataPath, "guild.json"), JSON.stringify(guildData, null, 2));
+
+    // Output gear data
+    const gearData = extractGearData(rawData);
+    fs.writeFileSync(path.join(dataPath, "gear.json"), JSON.stringify(gearData, null, 2));
 
     // Copy images
     copyUnitImages(installPathBase, outputPath);
