@@ -1,19 +1,39 @@
 {
-  "UnitID": 117,
-  "HeroID": "blademaster_light",
+  "UnitId": 117,
+  "HeroId": "blademaster_light",
+  "Name": {
+    "en": "Blademaster",
+    "fr": "Fine lame",
+    "de": "Klingenmeisterin",
+    "es": "Maestra de la espada"
+  },
   "Family": "Blademaster",
   "Element": "Light",
+  "Class": "Assassin",
   "MinStar": 5,
   "MaxStar": 6,
-  "Awakened": "false",
-  "Universe": "Desert",
-  "RecGear": [
-    "Swift",
-    "Blade"
-  ],
   "DefaultLevel": 1,
+  "Universe": "Desert",
+  "Awakened": false,
   "CanBeAwakened": true,
-  "CharacterClass": "Assassin",
+  "AwakeningEssence": [
+    {
+      "id": "MidLightEssence",
+      "quantity": 10
+    },
+    {
+      "id": "HighLightEssence",
+      "quantity": 20
+    },
+    {
+      "id": "MidGenericEssence",
+      "quantity": 5
+    },
+    {
+      "id": "HighGenericEssence",
+      "quantity": 15
+    }
+  ],
   "Strength": [
     {
       "tag": "BestInGame",
@@ -28,43 +48,38 @@
       "quality": 2
     }
   ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": "Stat",
-  "LeaderTraitStat": "AttackSpeed",
-  "LeaderTraitCondition": "Any",
-  "AwakeningEssenceIDs": [
-    "MidLightEssence",
-    "HighLightEssence",
-    "MidGenericEssence",
-    "HighGenericEssence"
+  "RecommendedGear": [
+    "Swift",
+    "Blade"
   ],
-  "AwakeningEssenceAmounts": [
-    10,
-    20,
-    5,
-    15
-  ],
-  "LeaderTraitPercentageBoost": 0.24,
-  "Name": {
-    "en": "Blademaster",
-    "fr": "Fine lame",
-    "de": "Klingenmeisterin",
-    "es": "Maestra de la espada"
+  "Leader": {
+    "Stat": "AttackSpeed",
+    "Condition": "Any",
+    "PercentageBoost": 0.24
   },
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 4124,
+        "Max": 6186,
+        "Step": 229.11111111111111
+      },
+      "Attack": {
+        "Min": 116,
+        "Max": 174,
+        "Step": 6.444444444444445
+      },
+      "Defense": {
+        "Min": 124,
+        "Max": 186,
+        "Step": 6.888888888888889
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 174,
       "MoveSpeed": 5,
-      "MaxHealth": 6186,
-      "MinAttack": 116,
-      "MinHealth": 4124,
-      "MaxDefense": 186,
       "CritDamage": 0.5,
-      "MinDefense": 124,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
@@ -72,17 +87,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 4499,
+        "Max": 7423,
+        "Step": 153.89473684210526
+      },
+      "Attack": {
+        "Min": 127,
+        "Max": 209,
+        "Step": 4.315789473684211
+      },
+      "Defense": {
+        "Min": 135,
+        "Max": 223,
+        "Step": 4.631578947368421
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 209,
       "MoveSpeed": 5,
-      "MaxHealth": 7423,
-      "MinAttack": 127,
-      "MinHealth": 4499,
-      "MaxDefense": 223,
       "CritDamage": 0.5,
-      "MinDefense": 135,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
@@ -90,17 +114,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 4948,
+        "Max": 8907,
+        "Step": 136.51724137931035
+      },
+      "Attack": {
+        "Min": 139,
+        "Max": 251,
+        "Step": 3.8620689655172415
+      },
+      "Defense": {
+        "Min": 148,
+        "Max": 267,
+        "Step": 4.103448275862069
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 251,
       "MoveSpeed": 5,
-      "MaxHealth": 8907,
-      "MinAttack": 139,
-      "MinHealth": 4948,
-      "MaxDefense": 267,
       "CritDamage": 0.5,
-      "MinDefense": 148,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
@@ -108,17 +141,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 7126,
+        "Max": 12114,
+        "Step": 127.8974358974359
+      },
+      "Attack": {
+        "Min": 201,
+        "Max": 342,
+        "Step": 3.6153846153846154
+      },
+      "Defense": {
+        "Min": 214,
+        "Max": 363,
+        "Step": 3.8205128205128207
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 342,
       "MoveSpeed": 5,
-      "MaxHealth": 12114,
-      "MinAttack": 201,
-      "MinHealth": 7126,
-      "MaxDefense": 363,
       "CritDamage": 0.5,
-      "MinDefense": 214,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
@@ -126,17 +168,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 9691,
+        "Max": 16475,
+        "Step": 138.44897959183675
+      },
+      "Attack": {
+        "Min": 274,
+        "Max": 465,
+        "Step": 3.8979591836734695
+      },
+      "Defense": {
+        "Min": 291,
+        "Max": 494,
+        "Step": 4.142857142857143
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 465,
       "MoveSpeed": 5,
-      "MaxHealth": 16475,
-      "MinAttack": 274,
-      "MinHealth": 9691,
-      "MaxDefense": 494,
       "CritDamage": 0.5,
-      "MinDefense": 291,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
@@ -144,21 +195,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 13180,
+        "Max": 22406,
+        "Step": 156.3728813559322
+      },
+      "Attack": {
+        "Min": 372,
+        "Max": 633,
+        "Step": 4.423728813559322
+      },
+      "Defense": {
+        "Min": 395,
+        "Max": 672,
+        "Step": 4.694915254237288
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 633,
       "MoveSpeed": 5,
-      "MaxHealth": 22406,
-      "MinAttack": 372,
-      "MinHealth": 13180,
-      "MaxDefense": 672,
       "CritDamage": 0.5,
-      "MinDefense": 395,
       "Resistance": 0.15,
       "AttackSpeed": 1.7,
       "MOBAVisionRange": 13,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": false,
+  "CanBeAcquired": true
 }

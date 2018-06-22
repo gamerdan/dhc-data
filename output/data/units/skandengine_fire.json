@@ -1,19 +1,39 @@
 {
-  "UnitID": 555,
-  "HeroID": "skandengine_fire",
+  "UnitId": 555,
+  "HeroId": "skandengine_fire",
+  "Name": {
+    "en": "Skand Warlord",
+    "fr": "Tyran skand",
+    "de": "Skand-Kriegsherr",
+    "es": "Señor de la guerra skand"
+  },
   "Family": "Skand Engine",
   "Element": "Fire",
+  "Class": "Tank",
   "MinStar": 4,
   "MaxStar": 6,
-  "Awakened": "false",
-  "Universe": "CyberPunk",
-  "RecGear": [
-    "Violent",
-    "Energy"
-  ],
   "DefaultLevel": 1,
+  "Universe": "CyberPunk",
+  "Awakened": false,
   "CanBeAwakened": true,
-  "CharacterClass": "Tank",
+  "AwakeningEssence": [
+    {
+      "id": "MidFireEssence",
+      "quantity": 20
+    },
+    {
+      "id": "HighFireEssence",
+      "quantity": 10
+    },
+    {
+      "id": "MidGenericEssence",
+      "quantity": 15
+    },
+    {
+      "id": "HighGenericEssence",
+      "quantity": 5
+    }
+  ],
   "Strength": [
     {
       "tag": "Great",
@@ -28,43 +48,38 @@
       "quality": 2
     }
   ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": "Stat",
-  "LeaderTraitStat": "Health",
-  "LeaderTraitCondition": "Fire",
-  "AwakeningEssenceIDs": [
-    "MidFireEssence",
-    "HighFireEssence",
-    "MidGenericEssence",
-    "HighGenericEssence"
+  "RecommendedGear": [
+    "Violent",
+    "Energy"
   ],
-  "AwakeningEssenceAmounts": [
-    20,
-    10,
-    15,
-    5
-  ],
-  "LeaderTraitPercentageBoost": 0.33,
-  "Name": {
-    "en": "Skand Warlord",
-    "fr": "Tyran skand",
-    "de": "Skand-Kriegsherr",
-    "es": "Señor de la guerra skand"
+  "Leader": {
+    "Stat": "Health",
+    "Condition": "Fire",
+    "PercentageBoost": 0.33
   },
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 4224,
+        "Max": 6336,
+        "Step": 234.66666666666666
+      },
+      "Attack": {
+        "Min": 93,
+        "Max": 140,
+        "Step": 5.222222222222222
+      },
+      "Defense": {
+        "Min": 113,
+        "Max": 170,
+        "Step": 6.333333333333333
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 140,
       "MoveSpeed": 5,
-      "MaxHealth": 6336,
-      "MinAttack": 93,
-      "MinHealth": 4224,
-      "MaxDefense": 170,
       "CritDamage": 0.5,
-      "MinDefense": 113,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -72,17 +87,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 4608,
+        "Max": 7603,
+        "Step": 157.6315789473684
+      },
+      "Attack": {
+        "Min": 102,
+        "Max": 168,
+        "Step": 3.473684210526316
+      },
+      "Defense": {
+        "Min": 124,
+        "Max": 204,
+        "Step": 4.2105263157894735
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 168,
       "MoveSpeed": 5,
-      "MaxHealth": 7603,
-      "MinAttack": 102,
-      "MinHealth": 4608,
-      "MaxDefense": 204,
       "CritDamage": 0.5,
-      "MinDefense": 124,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -90,17 +114,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 5069,
+        "Max": 9124,
+        "Step": 139.82758620689654
+      },
+      "Attack": {
+        "Min": 112,
+        "Max": 201,
+        "Step": 3.0689655172413794
+      },
+      "Defense": {
+        "Min": 136,
+        "Max": 245,
+        "Step": 3.7586206896551726
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 201,
       "MoveSpeed": 5,
-      "MaxHealth": 9124,
-      "MinAttack": 112,
-      "MinHealth": 5069,
-      "MaxDefense": 245,
       "CritDamage": 0.5,
-      "MinDefense": 136,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -108,17 +141,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 7299,
+        "Max": 12409,
+        "Step": 131.02564102564102
+      },
+      "Attack": {
+        "Min": 161,
+        "Max": 274,
+        "Step": 2.8974358974358974
+      },
+      "Defense": {
+        "Min": 196,
+        "Max": 333,
+        "Step": 3.5128205128205128
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 274,
       "MoveSpeed": 5,
-      "MaxHealth": 12409,
-      "MinAttack": 161,
-      "MinHealth": 7299,
-      "MaxDefense": 333,
       "CritDamage": 0.5,
-      "MinDefense": 196,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -126,17 +168,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 9927,
+        "Max": 16876,
+        "Step": 141.81632653061226
+      },
+      "Attack": {
+        "Min": 219,
+        "Max": 373,
+        "Step": 3.142857142857143
+      },
+      "Defense": {
+        "Min": 266,
+        "Max": 453,
+        "Step": 3.816326530612245
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 373,
       "MoveSpeed": 5,
-      "MaxHealth": 16876,
-      "MinAttack": 219,
-      "MinHealth": 9927,
-      "MaxDefense": 453,
       "CritDamage": 0.5,
-      "MinDefense": 266,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -144,21 +195,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 13501,
+        "Max": 22952,
+        "Step": 160.1864406779661
+      },
+      "Attack": {
+        "Min": 298,
+        "Max": 507,
+        "Step": 3.542372881355932
+      },
+      "Defense": {
+        "Min": 362,
+        "Max": 616,
+        "Step": 4.305084745762712
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 507,
       "MoveSpeed": 5,
-      "MaxHealth": 22952,
-      "MinAttack": 298,
-      "MinHealth": 13501,
-      "MaxDefense": 616,
       "CritDamage": 0.5,
-      "MinDefense": 362,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": false,
+  "CanBeAcquired": true
 }

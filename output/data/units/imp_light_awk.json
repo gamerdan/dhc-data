@@ -1,62 +1,56 @@
 {
-  "UnitID": 372,
-  "HeroID": "imp_light_awk",
-  "Family": "Imp",
-  "Element": "Light",
-  "MinStar": 2,
-  "MaxStar": 6,
-  "Awakened": "true",
-  "Universe": "WesternFantasyCastle",
-  "RecGear": [
-    "Fatal",
-    "Blade"
-  ],
-  "DefaultLevel": 1,
-  "CanBeAwakened": false,
-  "CharacterClass": "Marksman",
-  "Strength": [
-    {
-      "tag": "Food",
-      "quality": 1
-    }
-  ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": null,
-  "LeaderTraitStat": null,
-  "LeaderTraitCondition": null,
-  "AwakeningEssenceIDs": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "AwakeningEssenceAmounts": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "LeaderTraitPercentageBoost": null,
+  "UnitId": 372,
+  "HeroId": "imp_light_awk",
   "Name": {
     "en": "Tygru",
     "fr": "Tygru",
     "de": "Tygru",
     "es": "Tygru"
   },
+  "Family": "Imp",
+  "Element": "Light",
+  "Class": "Marksman",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "DefaultLevel": 1,
+  "Universe": "WesternFantasyCastle",
+  "Awakened": true,
+  "CanBeAwakened": false,
+  "AwakeningEssence": [],
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    }
+  ],
+  "RecommendedGear": [
+    "Fatal",
+    "Blade"
+  ],
+  "Leader": null,
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 3839,
+        "Max": 5759,
+        "Step": 213.33333333333334
+      },
+      "Attack": {
+        "Min": 109,
+        "Max": 164,
+        "Step": 6.111111111111111
+      },
+      "Defense": {
+        "Min": 79,
+        "Max": 119,
+        "Step": 4.444444444444445
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 164,
       "MoveSpeed": 5,
-      "MaxHealth": 5759,
-      "MinAttack": 109,
-      "MinHealth": 3839,
-      "MaxDefense": 119,
       "CritDamage": 0.5,
-      "MinDefense": 79,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
@@ -64,17 +58,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 4188,
+        "Max": 6911,
+        "Step": 143.31578947368422
+      },
+      "Attack": {
+        "Min": 119,
+        "Max": 197,
+        "Step": 4.105263157894737
+      },
+      "Defense": {
+        "Min": 87,
+        "Max": 143,
+        "Step": 2.9473684210526314
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 197,
       "MoveSpeed": 5,
-      "MaxHealth": 6911,
-      "MinAttack": 119,
-      "MinHealth": 4188,
-      "MaxDefense": 143,
       "CritDamage": 0.5,
-      "MinDefense": 87,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
@@ -82,17 +85,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 4607,
+        "Max": 8293,
+        "Step": 127.10344827586206
+      },
+      "Attack": {
+        "Min": 131,
+        "Max": 236,
+        "Step": 3.6206896551724137
+      },
+      "Defense": {
+        "Min": 95,
+        "Max": 171,
+        "Step": 2.6206896551724137
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 236,
       "MoveSpeed": 5,
-      "MaxHealth": 8293,
-      "MinAttack": 131,
-      "MinHealth": 4607,
-      "MaxDefense": 171,
       "CritDamage": 0.5,
-      "MinDefense": 95,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
@@ -100,17 +112,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 6635,
+        "Max": 11279,
+        "Step": 119.07692307692308
+      },
+      "Attack": {
+        "Min": 189,
+        "Max": 321,
+        "Step": 3.3846153846153846
+      },
+      "Defense": {
+        "Min": 136,
+        "Max": 232,
+        "Step": 2.4615384615384617
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 321,
       "MoveSpeed": 5,
-      "MaxHealth": 11279,
-      "MinAttack": 189,
-      "MinHealth": 6635,
-      "MaxDefense": 232,
       "CritDamage": 0.5,
-      "MinDefense": 136,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
@@ -118,17 +139,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 9024,
+        "Max": 15340,
+        "Step": 128.89795918367346
+      },
+      "Attack": {
+        "Min": 256,
+        "Max": 436,
+        "Step": 3.673469387755102
+      },
+      "Defense": {
+        "Min": 185,
+        "Max": 315,
+        "Step": 2.6530612244897958
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 436,
       "MoveSpeed": 5,
-      "MaxHealth": 15340,
-      "MinAttack": 256,
-      "MinHealth": 9024,
-      "MaxDefense": 315,
       "CritDamage": 0.5,
-      "MinDefense": 185,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
@@ -136,21 +166,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 12272,
+        "Max": 20862,
+        "Step": 145.59322033898306
+      },
+      "Attack": {
+        "Min": 349,
+        "Max": 593,
+        "Step": 4.135593220338983
+      },
+      "Defense": {
+        "Min": 252,
+        "Max": 428,
+        "Step": 2.983050847457627
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 593,
       "MoveSpeed": 5,
-      "MaxHealth": 20862,
-      "MinAttack": 349,
-      "MinHealth": 12272,
-      "MaxDefense": 428,
       "CritDamage": 0.5,
-      "MinDefense": 252,
       "Resistance": 0.15,
       "AttackSpeed": 1.61,
       "MOBAVisionRange": 13,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": false,
+  "CanBeAcquired": true
 }

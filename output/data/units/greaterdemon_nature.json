@@ -1,19 +1,39 @@
 {
-  "UnitID": 326,
-  "HeroID": "greaterdemon_nature",
+  "UnitId": 326,
+  "HeroId": "greaterdemon_nature",
+  "Name": {
+    "en": "Greater Demon",
+    "fr": "Archidiable",
+    "de": "Großdämon",
+    "es": "Demonio mayor"
+  },
   "Family": "Greater Demon",
   "Element": "Nature",
+  "Class": "Tank",
   "MinStar": 5,
   "MaxStar": 6,
-  "Awakened": "false",
-  "Universe": "WesternFantasyCastle",
-  "RecGear": [
-    "Violent",
-    "Energy"
-  ],
   "DefaultLevel": 1,
+  "Universe": "WesternFantasyCastle",
+  "Awakened": false,
   "CanBeAwakened": true,
-  "CharacterClass": "Tank",
+  "AwakeningEssence": [
+    {
+      "id": "MidNatureEssence",
+      "quantity": 10
+    },
+    {
+      "id": "HighNatureEssence",
+      "quantity": 20
+    },
+    {
+      "id": "MidGenericEssence",
+      "quantity": 5
+    },
+    {
+      "id": "HighGenericEssence",
+      "quantity": 15
+    }
+  ],
   "Strength": [
     {
       "tag": "BestInGame",
@@ -28,43 +48,38 @@
       "quality": 3
     }
   ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": "Stat",
-  "LeaderTraitStat": "SkillCooldownSpeed",
-  "LeaderTraitCondition": "Any",
-  "AwakeningEssenceIDs": [
-    "MidNatureEssence",
-    "HighNatureEssence",
-    "MidGenericEssence",
-    "HighGenericEssence"
+  "RecommendedGear": [
+    "Violent",
+    "Energy"
   ],
-  "AwakeningEssenceAmounts": [
-    10,
-    20,
-    5,
-    15
-  ],
-  "LeaderTraitPercentageBoost": -0.2,
-  "Name": {
-    "en": "Greater Demon",
-    "fr": "Archidiable",
-    "de": "Großdämon",
-    "es": "Demonio mayor"
+  "Leader": {
+    "Stat": "SkillCooldownSpeed",
+    "Condition": "Any",
+    "PercentageBoost": -0.2
   },
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 4609,
+        "Max": 6913,
+        "Step": 256
+      },
+      "Attack": {
+        "Min": 99,
+        "Max": 148,
+        "Step": 5.444444444444445
+      },
+      "Defense": {
+        "Min": 127,
+        "Max": 191,
+        "Step": 7.111111111111111
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 148,
       "MoveSpeed": 5,
-      "MaxHealth": 6913,
-      "MinAttack": 99,
-      "MinHealth": 4609,
-      "MaxDefense": 191,
       "CritDamage": 0.5,
-      "MinDefense": 127,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -72,17 +87,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 5028,
+        "Max": 8296,
+        "Step": 172
+      },
+      "Attack": {
+        "Min": 108,
+        "Max": 178,
+        "Step": 3.6842105263157894
+      },
+      "Defense": {
+        "Min": 139,
+        "Max": 229,
+        "Step": 4.7368421052631575
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 178,
       "MoveSpeed": 5,
-      "MaxHealth": 8296,
-      "MinAttack": 108,
-      "MinHealth": 5028,
-      "MaxDefense": 229,
       "CritDamage": 0.5,
-      "MinDefense": 139,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -90,17 +114,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 5531,
+        "Max": 9955,
+        "Step": 152.55172413793105
+      },
+      "Attack": {
+        "Min": 118,
+        "Max": 213,
+        "Step": 3.2758620689655173
+      },
+      "Defense": {
+        "Min": 153,
+        "Max": 275,
+        "Step": 4.206896551724138
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 213,
       "MoveSpeed": 5,
-      "MaxHealth": 9955,
-      "MinAttack": 118,
-      "MinHealth": 5531,
-      "MaxDefense": 275,
       "CritDamage": 0.5,
-      "MinDefense": 153,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -108,17 +141,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 7964,
+        "Max": 13539,
+        "Step": 142.94871794871796
+      },
+      "Attack": {
+        "Min": 170,
+        "Max": 289,
+        "Step": 3.051282051282051
+      },
+      "Defense": {
+        "Min": 220,
+        "Max": 374,
+        "Step": 3.948717948717949
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 289,
       "MoveSpeed": 5,
-      "MaxHealth": 13539,
-      "MinAttack": 170,
-      "MinHealth": 7964,
-      "MaxDefense": 374,
       "CritDamage": 0.5,
-      "MinDefense": 220,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -126,17 +168,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 10831,
+        "Max": 18413,
+        "Step": 154.73469387755102
+      },
+      "Attack": {
+        "Min": 231,
+        "Max": 393,
+        "Step": 3.306122448979592
+      },
+      "Defense": {
+        "Min": 299,
+        "Max": 509,
+        "Step": 4.285714285714286
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 393,
       "MoveSpeed": 5,
-      "MaxHealth": 18413,
-      "MinAttack": 231,
-      "MinHealth": 10831,
-      "MaxDefense": 509,
       "CritDamage": 0.5,
-      "MinDefense": 299,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
@@ -144,21 +195,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 14731,
+        "Max": 25042,
+        "Step": 174.76271186440678
+      },
+      "Attack": {
+        "Min": 314,
+        "Max": 534,
+        "Step": 3.7288135593220337
+      },
+      "Defense": {
+        "Min": 407,
+        "Max": 692,
+        "Step": 4.830508474576271
+      },
       "Range": 5,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 534,
       "MoveSpeed": 5,
-      "MaxHealth": 25042,
-      "MinAttack": 314,
-      "MinHealth": 14731,
-      "MaxDefense": 692,
       "CritDamage": 0.5,
-      "MinDefense": 407,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 13,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": false,
+  "CanBeAcquired": true
 }

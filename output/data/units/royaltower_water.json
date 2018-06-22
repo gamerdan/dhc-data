@@ -1,20 +1,39 @@
 {
-  "UnitID": 516,
-  "HeroID": "royaltower_water",
+  "UnitId": 516,
+  "HeroId": "royaltower_water",
+  "Name": {
+    "en": "Siege Tower",
+    "fr": "Tour de siège",
+    "de": "Belagerungsturm",
+    "es": "Torre de asedio"
+  },
   "Family": "Royal Tower",
   "Element": "Water",
+  "Class": "Tank",
   "MinStar": 5,
   "MaxStar": 6,
-  "Awakened": "false",
-  "Universe": "WesternFantasyCastle",
-  "RecGear": [
-    "Energy",
-    "Energy",
-    "Energy"
-  ],
   "DefaultLevel": 1,
+  "Universe": "WesternFantasyCastle",
+  "Awakened": false,
   "CanBeAwakened": true,
-  "CharacterClass": "Tank",
+  "AwakeningEssence": [
+    {
+      "id": "MidWaterEssence",
+      "quantity": 10
+    },
+    {
+      "id": "HighWaterEssence",
+      "quantity": 20
+    },
+    {
+      "id": "MidGenericEssence",
+      "quantity": 5
+    },
+    {
+      "id": "HighGenericEssence",
+      "quantity": 15
+    }
+  ],
   "Strength": [
     {
       "tag": "BestInGame",
@@ -29,43 +48,39 @@
       "quality": 2
     }
   ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": "Stat",
-  "LeaderTraitStat": "Defense",
-  "LeaderTraitCondition": "Water",
-  "AwakeningEssenceIDs": [
-    "MidWaterEssence",
-    "HighWaterEssence",
-    "MidGenericEssence",
-    "HighGenericEssence"
+  "RecommendedGear": [
+    "Energy",
+    "Energy",
+    "Energy"
   ],
-  "AwakeningEssenceAmounts": [
-    10,
-    20,
-    5,
-    15
-  ],
-  "LeaderTraitPercentageBoost": 0.33,
-  "Name": {
-    "en": "Siege Tower",
-    "fr": "Tour de siège",
-    "de": "Belagerungsturm",
-    "es": "Torre de asedio"
+  "Leader": {
+    "Stat": "Defense",
+    "Condition": "Water",
+    "PercentageBoost": 0.33
   },
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 3760,
+        "Max": 5640,
+        "Step": 208.88888888888889
+      },
+      "Attack": {
+        "Min": 105,
+        "Max": 158,
+        "Step": 5.888888888888889
+      },
+      "Defense": {
+        "Min": 146,
+        "Max": 219,
+        "Step": 8.11111111111111
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 158,
       "MoveSpeed": 5,
-      "MaxHealth": 5640,
-      "MinAttack": 105,
-      "MinHealth": 3760,
-      "MaxDefense": 219,
       "CritDamage": 0.5,
-      "MinDefense": 146,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
@@ -73,17 +88,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 4102,
+        "Max": 6768,
+        "Step": 140.31578947368422
+      },
+      "Attack": {
+        "Min": 115,
+        "Max": 190,
+        "Step": 3.9473684210526314
+      },
+      "Defense": {
+        "Min": 159,
+        "Max": 263,
+        "Step": 5.473684210526316
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 190,
       "MoveSpeed": 5,
-      "MaxHealth": 6768,
-      "MinAttack": 115,
-      "MinHealth": 4102,
-      "MaxDefense": 263,
       "CritDamage": 0.5,
-      "MinDefense": 159,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
@@ -91,17 +115,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 4512,
+        "Max": 8121,
+        "Step": 124.44827586206897
+      },
+      "Attack": {
+        "Min": 127,
+        "Max": 228,
+        "Step": 3.4827586206896552
+      },
+      "Defense": {
+        "Min": 175,
+        "Max": 315,
+        "Step": 4.827586206896552
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 228,
       "MoveSpeed": 5,
-      "MaxHealth": 8121,
-      "MinAttack": 127,
-      "MinHealth": 4512,
-      "MaxDefense": 315,
       "CritDamage": 0.5,
-      "MinDefense": 175,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
@@ -109,17 +142,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 6497,
+        "Max": 11045,
+        "Step": 116.61538461538461
+      },
+      "Attack": {
+        "Min": 182,
+        "Max": 310,
+        "Step": 3.282051282051282
+      },
+      "Defense": {
+        "Min": 252,
+        "Max": 428,
+        "Step": 4.512820512820513
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 310,
       "MoveSpeed": 5,
-      "MaxHealth": 11045,
-      "MinAttack": 182,
-      "MinHealth": 6497,
-      "MaxDefense": 428,
       "CritDamage": 0.5,
-      "MinDefense": 252,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
@@ -127,17 +169,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 8836,
+        "Max": 15021,
+        "Step": 126.22448979591837
+      },
+      "Attack": {
+        "Min": 248,
+        "Max": 421,
+        "Step": 3.5306122448979593
+      },
+      "Defense": {
+        "Min": 342,
+        "Max": 582,
+        "Step": 4.8979591836734695
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 421,
       "MoveSpeed": 5,
-      "MaxHealth": 15021,
-      "MinAttack": 248,
-      "MinHealth": 8836,
-      "MaxDefense": 582,
       "CritDamage": 0.5,
-      "MinDefense": 342,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
@@ -145,21 +196,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 12017,
+        "Max": 20429,
+        "Step": 142.57627118644066
+      },
+      "Attack": {
+        "Min": 337,
+        "Max": 573,
+        "Step": 4
+      },
+      "Defense": {
+        "Min": 465,
+        "Max": 791,
+        "Step": 5.52542372881356
+      },
       "Range": 3,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 573,
       "MoveSpeed": 5,
-      "MaxHealth": 20429,
-      "MinAttack": 337,
-      "MinHealth": 12017,
-      "MaxDefense": 791,
       "CritDamage": 0.5,
-      "MinDefense": 465,
       "Resistance": 0.15,
       "AttackSpeed": 1.55,
       "MOBAVisionRange": 8,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": false,
+  "CanBeAcquired": true
 }

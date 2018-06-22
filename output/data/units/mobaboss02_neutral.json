@@ -1,39 +1,26 @@
 {
-  "UnitID": 848,
-  "HeroID": "mobaboss02_neutral",
-  "Family": "Moba Boss 02",
-  "Element": "Neutral",
-  "MinStar": 1,
-  "MaxStar": 6,
-  "Awakened": "false",
-  "Universe": "None",
-  "RecGear": [],
-  "DefaultLevel": 1,
-  "CanBeAwakened": false,
-  "CharacterClass": "Boss",
-  "Strength": [],
-  "PowerUpXPTable": null,
-  "AwakeningBonus": null,
-  "LeaderTraitStat": null,
-  "LeaderTraitCondition": null,
-  "AwakeningEssenceIDs": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "AwakeningEssenceAmounts": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "LeaderTraitPercentageBoost": null,
+  "UnitId": 848,
+  "HeroId": "mobaboss02_neutral",
   "Name": {
     "en": null,
     "fr": null,
     "de": null,
     "es": null
   },
-  "Stats": []
+  "Family": "Moba Boss 02",
+  "Element": "Neutral",
+  "Class": "Boss",
+  "MinStar": 1,
+  "MaxStar": 6,
+  "DefaultLevel": 1,
+  "Universe": "None",
+  "Awakened": false,
+  "CanBeAwakened": false,
+  "AwakeningEssence": [],
+  "Strength": [],
+  "RecommendedGear": [],
+  "Leader": null,
+  "Stats": [],
+  "DebugHero": true,
+  "CanBeAcquired": false
 }

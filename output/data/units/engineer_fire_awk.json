@@ -1,19 +1,22 @@
 {
-  "UnitID": 259,
-  "HeroID": "engineer_fire_awk",
+  "UnitId": 259,
+  "HeroId": "engineer_fire_awk",
+  "Name": {
+    "en": "Nitro",
+    "fr": "Nitro",
+    "de": "Nitro",
+    "es": "Nitro"
+  },
   "Family": "Engineer",
   "Element": "Fire",
+  "Class": "Assassin",
   "MinStar": 3,
   "MaxStar": 6,
-  "Awakened": "true",
-  "Universe": "CyberPunk",
-  "RecGear": [
-    "Fatal",
-    "Energy"
-  ],
   "DefaultLevel": 1,
+  "Universe": "CyberPunk",
+  "Awakened": true,
   "CanBeAwakened": false,
-  "CharacterClass": "Assassin",
+  "AwakeningEssence": [],
   "Strength": [
     {
       "tag": "Moba",
@@ -28,43 +31,38 @@
       "quality": 2
     }
   ],
-  "PowerUpXPTable": "NormalPowerUpXP",
-  "AwakeningBonus": null,
-  "LeaderTraitStat": "Accuracy",
-  "LeaderTraitCondition": "Any",
-  "AwakeningEssenceIDs": [
-    null,
-    null,
-    null,
-    null
+  "RecommendedGear": [
+    "Fatal",
+    "Energy"
   ],
-  "AwakeningEssenceAmounts": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "LeaderTraitPercentageBoost": 0.26,
-  "Name": {
-    "en": "Nitro",
-    "fr": "Nitro",
-    "de": "Nitro",
-    "es": "Nitro"
+  "Leader": {
+    "Stat": "Accuracy",
+    "Condition": "Any",
+    "PercentageBoost": 0.26
   },
   "Stats": [
     {
       "Star": 1,
+      "Health": {
+        "Min": 3557,
+        "Max": 5336,
+        "Step": 197.66666666666666
+      },
+      "Attack": {
+        "Min": 147,
+        "Max": 220,
+        "Step": 8.11111111111111
+      },
+      "Defense": {
+        "Min": 80,
+        "Max": 120,
+        "Step": 4.444444444444445
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 220,
       "MoveSpeed": 5,
-      "MaxHealth": 5336,
-      "MinAttack": 147,
-      "MinHealth": 3557,
-      "MaxDefense": 120,
       "CritDamage": 0.5,
-      "MinDefense": 80,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
@@ -72,17 +70,26 @@
     },
     {
       "Star": 2,
+      "Health": {
+        "Min": 3881,
+        "Max": 6403,
+        "Step": 132.73684210526315
+      },
+      "Attack": {
+        "Min": 160,
+        "Max": 264,
+        "Step": 5.473684210526316
+      },
+      "Defense": {
+        "Min": 87,
+        "Max": 144,
+        "Step": 3
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 264,
       "MoveSpeed": 5,
-      "MaxHealth": 6403,
-      "MinAttack": 160,
-      "MinHealth": 3881,
-      "MaxDefense": 144,
       "CritDamage": 0.5,
-      "MinDefense": 87,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
@@ -90,17 +97,26 @@
     },
     {
       "Star": 3,
+      "Health": {
+        "Min": 4269,
+        "Max": 7684,
+        "Step": 117.75862068965517
+      },
+      "Attack": {
+        "Min": 176,
+        "Max": 317,
+        "Step": 4.862068965517241
+      },
+      "Defense": {
+        "Min": 96,
+        "Max": 173,
+        "Step": 2.6551724137931036
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 317,
       "MoveSpeed": 5,
-      "MaxHealth": 7684,
-      "MinAttack": 176,
-      "MinHealth": 4269,
-      "MaxDefense": 173,
       "CritDamage": 0.5,
-      "MinDefense": 96,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
@@ -108,17 +124,26 @@
     },
     {
       "Star": 4,
+      "Health": {
+        "Min": 6147,
+        "Max": 10450,
+        "Step": 110.33333333333333
+      },
+      "Attack": {
+        "Min": 254,
+        "Max": 431,
+        "Step": 4.538461538461538
+      },
+      "Defense": {
+        "Min": 138,
+        "Max": 235,
+        "Step": 2.4871794871794872
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 431,
       "MoveSpeed": 5,
-      "MaxHealth": 10450,
-      "MinAttack": 254,
-      "MinHealth": 6147,
-      "MaxDefense": 235,
       "CritDamage": 0.5,
-      "MinDefense": 138,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
@@ -126,17 +151,26 @@
     },
     {
       "Star": 5,
+      "Health": {
+        "Min": 8360,
+        "Max": 14212,
+        "Step": 119.42857142857143
+      },
+      "Attack": {
+        "Min": 345,
+        "Max": 586,
+        "Step": 4.918367346938775
+      },
+      "Defense": {
+        "Min": 188,
+        "Max": 320,
+        "Step": 2.693877551020408
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 586,
       "MoveSpeed": 5,
-      "MaxHealth": 14212,
-      "MinAttack": 345,
-      "MinHealth": 8360,
-      "MaxDefense": 320,
       "CritDamage": 0.5,
-      "MinDefense": 188,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
@@ -144,21 +178,32 @@
     },
     {
       "Star": 6,
+      "Health": {
+        "Min": 11369,
+        "Max": 19328,
+        "Step": 134.89830508474577
+      },
+      "Attack": {
+        "Min": 469,
+        "Max": 797,
+        "Step": 5.559322033898305
+      },
+      "Defense": {
+        "Min": 256,
+        "Max": 435,
+        "Step": 3.0338983050847457
+      },
       "Range": 8,
       "Accuracy": 0,
       "CritRate": 0.15,
-      "MaxAttack": 797,
       "MoveSpeed": 5,
-      "MaxHealth": 19328,
-      "MinAttack": 469,
-      "MinHealth": 11369,
-      "MaxDefense": 435,
       "CritDamage": 0.5,
-      "MinDefense": 256,
       "Resistance": 0.15,
       "AttackSpeed": 1.4,
       "MOBAVisionRange": 13,
       "SkillCooldownSpeed": 1
     }
-  ]
+  ],
+  "DebugHero": true,
+  "CanBeAcquired": true
 }
