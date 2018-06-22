@@ -4,7 +4,7 @@ const inputPath = process.env.INPUT_PATH;
 // Imports
 const fs = require("fs");
 const parse = require("./parse/parse_raw");
-const loadUnitData = require("./load/load_unit_data");
+const loadUnitData = require("./load/load_data_files");
 
 const rawData = loadUnitData(inputPath);
 

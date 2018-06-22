@@ -1,9 +1,9 @@
 const fs = require("fs");
 const path = require("path");
-const copyUnitImages = require("./output/copy_unit_images");
+const copyUnitImages = require("./images/copy_unit_images");
 const ensureDir = require("./helpers/ensure_directory");
 const getLocalizationText = require("./helpers/get_localization_text");
-const loadUnitData = require("./load/load_unit_data");
+const loadUnitData = require("./load/load_data_files");
 const parse = require("./parse/parse_raw");
 
 module.exports = (installPathBase, outputPath) => {

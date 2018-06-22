@@ -29,12 +29,16 @@ module.exports = (installPathBase) => {
 
     // Read main data files
     const rawUnitData = readGcbf(installPathBase, "Champions");
+    const rawGearData = readGcbf(installPathBase, "Gear");
+    const rawGuildData = readGcbf(installPathBase, "Clan");
     const rawSkillData = readGcbf(installPathBase, "Skills_Data");
     const rawCombatData = readGcbf(installPathBase, "Combat_Data");
     const rawSkillMapData = readJson(path.join(installPathBase, "Data", "Baked", "Skills", "CharacterSkillList.json"));
 
     return {
         rawUnitData,
+        rawGearData,
+        rawGuildData,
         rawSkillData,
         rawCombatData,
         rawSkillMapData,
