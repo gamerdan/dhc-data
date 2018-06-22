@@ -1,0 +1,165 @@
+{
+  "UnitID": 522,
+  "HeroID": "royaltower_nature_awk",
+  "Family": "Royal Tower",
+  "Element": "Nature",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Nature",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Caroline",
+    "fr": "Caroline",
+    "de": "Caroline",
+    "es": "Caroline"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 160,
+      "MoveSpeed": 5,
+      "MaxHealth": 6703,
+      "MinAttack": 107,
+      "MinHealth": 4469,
+      "MaxDefense": 231,
+      "CritDamage": 0.5,
+      "MinDefense": 154,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 192,
+      "MoveSpeed": 5,
+      "MaxHealth": 8043,
+      "MinAttack": 116,
+      "MinHealth": 4875,
+      "MaxDefense": 277,
+      "CritDamage": 0.5,
+      "MinDefense": 168,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 230,
+      "MoveSpeed": 5,
+      "MaxHealth": 9651,
+      "MinAttack": 128,
+      "MinHealth": 5362,
+      "MaxDefense": 332,
+      "CritDamage": 0.5,
+      "MinDefense": 184,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 313,
+      "MoveSpeed": 5,
+      "MaxHealth": 13125,
+      "MinAttack": 184,
+      "MinHealth": 7721,
+      "MaxDefense": 451,
+      "CritDamage": 0.5,
+      "MinDefense": 265,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 425,
+      "MoveSpeed": 5,
+      "MaxHealth": 17850,
+      "MinAttack": 250,
+      "MinHealth": 10500,
+      "MaxDefense": 614,
+      "CritDamage": 0.5,
+      "MinDefense": 361,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0.3,
+      "CritRate": 0.15,
+      "MaxAttack": 578,
+      "MoveSpeed": 5,
+      "MaxHealth": 24276,
+      "MinAttack": 340,
+      "MinHealth": 14280,
+      "MaxDefense": 835,
+      "CritDamage": 0.5,
+      "MinDefense": 491,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

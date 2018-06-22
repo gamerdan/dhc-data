@@ -1,0 +1,165 @@
+{
+  "UnitID": 228,
+  "HeroID": "dragonguard_dark",
+  "Family": "Dragon Guard",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowDarkEssence",
+    "MidDarkEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Dragon Guard",
+    "fr": "Dracogarde",
+    "de": "Drachenwache",
+    "es": "Guardia dragón"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 123,
+      "MoveSpeed": 5,
+      "MaxHealth": 5153,
+      "MinAttack": 82,
+      "MinHealth": 3435,
+      "MaxDefense": 178,
+      "CritDamage": 0.5,
+      "MinDefense": 119,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 147,
+      "MoveSpeed": 5,
+      "MaxHealth": 6184,
+      "MinAttack": 89,
+      "MinHealth": 3748,
+      "MaxDefense": 213,
+      "CritDamage": 0.5,
+      "MinDefense": 129,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 176,
+      "MoveSpeed": 5,
+      "MaxHealth": 7421,
+      "MinAttack": 98,
+      "MinHealth": 4123,
+      "MaxDefense": 255,
+      "CritDamage": 0.5,
+      "MinDefense": 142,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 240,
+      "MoveSpeed": 5,
+      "MaxHealth": 10092,
+      "MinAttack": 141,
+      "MinHealth": 5936,
+      "MaxDefense": 347,
+      "CritDamage": 0.5,
+      "MinDefense": 204,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 327,
+      "MoveSpeed": 5,
+      "MaxHealth": 13725,
+      "MinAttack": 192,
+      "MinHealth": 8074,
+      "MaxDefense": 472,
+      "CritDamage": 0.5,
+      "MinDefense": 278,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 445,
+      "MoveSpeed": 5,
+      "MaxHealth": 18666,
+      "MinAttack": 262,
+      "MinHealth": 10980,
+      "MaxDefense": 642,
+      "CritDamage": 0.5,
+      "MinDefense": 378,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

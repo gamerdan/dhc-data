@@ -1,0 +1,164 @@
+{
+  "UnitID": 255,
+  "HeroID": "engineer_water",
+  "Family": "Engineer",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowWaterEssence",
+    "MidWaterEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Bomber",
+    "fr": "Plastiqueur",
+    "de": "Bomber",
+    "es": "Artificiero"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 205,
+      "MoveSpeed": 5,
+      "MaxHealth": 4698,
+      "MinAttack": 137,
+      "MinHealth": 3132,
+      "MaxDefense": 109,
+      "CritDamage": 0.5,
+      "MinDefense": 73,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 246,
+      "MoveSpeed": 5,
+      "MaxHealth": 5638,
+      "MinAttack": 149,
+      "MinHealth": 3417,
+      "MaxDefense": 131,
+      "CritDamage": 0.5,
+      "MinDefense": 79,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 295,
+      "MoveSpeed": 5,
+      "MaxHealth": 6765,
+      "MinAttack": 164,
+      "MinHealth": 3758,
+      "MaxDefense": 157,
+      "CritDamage": 0.5,
+      "MinDefense": 87,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 401,
+      "MoveSpeed": 5,
+      "MaxHealth": 9201,
+      "MinAttack": 236,
+      "MinHealth": 5412,
+      "MaxDefense": 213,
+      "CritDamage": 0.5,
+      "MinDefense": 125,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 545,
+      "MoveSpeed": 5,
+      "MaxHealth": 12514,
+      "MinAttack": 321,
+      "MinHealth": 7361,
+      "MaxDefense": 290,
+      "CritDamage": 0.5,
+      "MinDefense": 171,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 741,
+      "MoveSpeed": 5,
+      "MaxHealth": 17019,
+      "MinAttack": 436,
+      "MinHealth": 10011,
+      "MaxDefense": 395,
+      "CritDamage": 0.5,
+      "MinDefense": 232,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

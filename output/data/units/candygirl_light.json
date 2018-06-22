@@ -1,0 +1,164 @@
+{
+  "UnitID": 147,
+  "HeroID": "candygirl_light",
+  "Family": "Candy Girl",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Blade"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Boss",
+  "AwakeningEssenceIDs": [
+    "MidLightEssence",
+    "HighLightEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Candy Munchkin",
+    "fr": "Munchkin au sucre",
+    "de": "Zuckerzwergin",
+    "es": "Niña golosina"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 231,
+      "MoveSpeed": 5,
+      "MaxHealth": 5003,
+      "MinAttack": 154,
+      "MinHealth": 3335,
+      "MaxDefense": 120,
+      "CritDamage": 0.5,
+      "MinDefense": 80,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 277,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 168,
+      "MinHealth": 3638,
+      "MaxDefense": 144,
+      "CritDamage": 0.5,
+      "MinDefense": 87,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 332,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 184,
+      "MinHealth": 4002,
+      "MaxDefense": 173,
+      "CritDamage": 0.5,
+      "MinDefense": 96,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 451,
+      "MoveSpeed": 5,
+      "MaxHealth": 9797,
+      "MinAttack": 265,
+      "MinHealth": 5763,
+      "MaxDefense": 235,
+      "CritDamage": 0.5,
+      "MinDefense": 138,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 613,
+      "MoveSpeed": 5,
+      "MaxHealth": 13324,
+      "MinAttack": 361,
+      "MinHealth": 7838,
+      "MaxDefense": 320,
+      "CritDamage": 0.5,
+      "MinDefense": 188,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 834,
+      "MoveSpeed": 5,
+      "MaxHealth": 18120,
+      "MinAttack": 491,
+      "MinHealth": 10659,
+      "MaxDefense": 435,
+      "CritDamage": 0.5,
+      "MinDefense": 256,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "UnitID": 519,
+  "HeroID": "royaltower_dark",
+  "Family": "Royal Tower",
+  "Element": "Dark",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Dark",
+  "AwakeningEssenceIDs": [
+    "MidDarkEssence",
+    "HighDarkEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    20,
+    5,
+    15
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Siege Tower",
+    "fr": "Tour de siège",
+    "de": "Belagerungsturm",
+    "es": "Torre de asedio"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 158,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 105,
+      "MinHealth": 4002,
+      "MaxDefense": 208,
+      "CritDamage": 0.5,
+      "MinDefense": 139,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 190,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 115,
+      "MinHealth": 4366,
+      "MaxDefense": 249,
+      "CritDamage": 0.5,
+      "MinDefense": 151,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 228,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 127,
+      "MinHealth": 4803,
+      "MaxDefense": 299,
+      "CritDamage": 0.5,
+      "MinDefense": 166,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 310,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 182,
+      "MinHealth": 6916,
+      "MaxDefense": 406,
+      "CritDamage": 0.5,
+      "MinDefense": 239,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 421,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 248,
+      "MinHealth": 9406,
+      "MaxDefense": 552,
+      "CritDamage": 0.5,
+      "MinDefense": 325,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 573,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 337,
+      "MinHealth": 12792,
+      "MaxDefense": 751,
+      "CritDamage": 0.5,
+      "MinDefense": 442,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 8,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

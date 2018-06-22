@@ -35,9 +35,9 @@ module.exports = (installPathBase, outputPath) => {
 
         // Output
         fs.writeFileSync(path.join(unitOutputPath, `${unit.HeroID}.json`), JSON.stringify(unit, null, 2));
-
-        // Copy images
-        copyUnitImages(installPathBase, outputPath);
     });
+
+    // Copy images
+    copyUnitImages(installPathBase, outputPath);
 };
 

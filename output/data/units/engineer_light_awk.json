@@ -1,0 +1,164 @@
+{
+  "UnitID": 262,
+  "HeroID": "engineer_light_awk",
+  "Family": "Engineer",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Fatal",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Boomer",
+    "fr": "X-plosif",
+    "de": "Spekulant",
+    "es": "Boomer"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 235,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 157,
+      "MinHealth": 4002,
+      "MaxDefense": 132,
+      "CritDamage": 0.5,
+      "MinDefense": 88,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 282,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 171,
+      "MinHealth": 4366,
+      "MaxDefense": 158,
+      "CritDamage": 0.5,
+      "MinDefense": 96,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 338,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 188,
+      "MinHealth": 4803,
+      "MaxDefense": 189,
+      "CritDamage": 0.5,
+      "MinDefense": 105,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 460,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 271,
+      "MinHealth": 6916,
+      "MaxDefense": 257,
+      "CritDamage": 0.5,
+      "MinDefense": 151,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 625,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 368,
+      "MinHealth": 9406,
+      "MaxDefense": 349,
+      "CritDamage": 0.5,
+      "MinDefense": 205,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 850,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 500,
+      "MinHealth": 12792,
+      "MaxDefense": 474,
+      "CritDamage": 0.5,
+      "MinDefense": 279,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

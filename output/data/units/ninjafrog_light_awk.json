@@ -1,0 +1,164 @@
+{
+  "UnitID": 443,
+  "HeroID": "ninjafrog_light_awk",
+  "Family": "Ninja Frog",
+  "Element": "Light",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.33,
+  "Name": {
+    "en": "Fude",
+    "fr": "Fude",
+    "de": "Fude",
+    "es": "Fude"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 254,
+      "MoveSpeed": 5,
+      "MaxHealth": 6703,
+      "MinAttack": 169,
+      "MinHealth": 4469,
+      "MaxDefense": 136,
+      "CritDamage": 0.5,
+      "MinDefense": 91,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 305,
+      "MoveSpeed": 5,
+      "MaxHealth": 8043,
+      "MinAttack": 185,
+      "MinHealth": 4875,
+      "MaxDefense": 163,
+      "CritDamage": 0.5,
+      "MinDefense": 99,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 366,
+      "MoveSpeed": 5,
+      "MaxHealth": 9651,
+      "MinAttack": 203,
+      "MinHealth": 5362,
+      "MaxDefense": 196,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 498,
+      "MoveSpeed": 5,
+      "MaxHealth": 13125,
+      "MinAttack": 293,
+      "MinHealth": 7721,
+      "MaxDefense": 267,
+      "CritDamage": 0.5,
+      "MinDefense": 157,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 677,
+      "MoveSpeed": 5,
+      "MaxHealth": 17850,
+      "MinAttack": 398,
+      "MinHealth": 10500,
+      "MaxDefense": 363,
+      "CritDamage": 0.5,
+      "MinDefense": 214,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 921,
+      "MoveSpeed": 5,
+      "MaxHealth": 24276,
+      "MinAttack": 542,
+      "MinHealth": 14280,
+      "MaxDefense": 493,
+      "CritDamage": 0.5,
+      "MinDefense": 290,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

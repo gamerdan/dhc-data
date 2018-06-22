@@ -1,0 +1,160 @@
+{
+  "UnitID": 250,
+  "HeroID": "elemental_water_awk",
+  "Family": "Elemental",
+  "Element": "Water",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Vampire",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Geyser",
+    "fr": "Geyser",
+    "de": "Geysir",
+    "es": "Geyser"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 183,
+      "MoveSpeed": 5,
+      "MaxHealth": 5759,
+      "MinAttack": 122,
+      "MinHealth": 3839,
+      "MaxDefense": 100,
+      "CritDamage": 0.5,
+      "MinDefense": 67,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 219,
+      "MoveSpeed": 5,
+      "MaxHealth": 6911,
+      "MinAttack": 133,
+      "MinHealth": 4188,
+      "MaxDefense": 120,
+      "CritDamage": 0.5,
+      "MinDefense": 73,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 263,
+      "MoveSpeed": 5,
+      "MaxHealth": 8293,
+      "MinAttack": 146,
+      "MinHealth": 4607,
+      "MaxDefense": 144,
+      "CritDamage": 0.5,
+      "MinDefense": 80,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 357,
+      "MoveSpeed": 5,
+      "MaxHealth": 11279,
+      "MinAttack": 210,
+      "MinHealth": 6635,
+      "MaxDefense": 196,
+      "CritDamage": 0.5,
+      "MinDefense": 115,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 485,
+      "MoveSpeed": 5,
+      "MaxHealth": 15340,
+      "MinAttack": 285,
+      "MinHealth": 9024,
+      "MaxDefense": 266,
+      "CritDamage": 0.5,
+      "MinDefense": 156,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 659,
+      "MoveSpeed": 5,
+      "MaxHealth": 20862,
+      "MinAttack": 388,
+      "MinHealth": 12272,
+      "MaxDefense": 362,
+      "CritDamage": 0.5,
+      "MinDefense": 213,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

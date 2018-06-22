@@ -1,0 +1,165 @@
+{
+  "UnitID": 650,
+  "HeroID": "symbiot_dark",
+  "Family": "Symbiot",
+  "Element": "Dark",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Energy",
+    "Energy",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "CritRate",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "MidDarkEssence",
+    "HighDarkEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": 0.19,
+  "Name": {
+    "en": "Esper",
+    "fr": "Esper",
+    "de": "Esper",
+    "es": "Esper"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 156,
+      "MoveSpeed": 5,
+      "MaxHealth": 5836,
+      "MinAttack": 104,
+      "MinHealth": 3891,
+      "MaxDefense": 170,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 187,
+      "MoveSpeed": 5,
+      "MaxHealth": 7003,
+      "MinAttack": 113,
+      "MinHealth": 4244,
+      "MaxDefense": 204,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 224,
+      "MoveSpeed": 5,
+      "MaxHealth": 8404,
+      "MinAttack": 124,
+      "MinHealth": 4669,
+      "MaxDefense": 245,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 304,
+      "MoveSpeed": 5,
+      "MaxHealth": 11429,
+      "MinAttack": 179,
+      "MinHealth": 6723,
+      "MaxDefense": 333,
+      "CritDamage": 0.5,
+      "MinDefense": 196,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 413,
+      "MoveSpeed": 5,
+      "MaxHealth": 15544,
+      "MinAttack": 243,
+      "MinHealth": 9144,
+      "MaxDefense": 453,
+      "CritDamage": 0.5,
+      "MinDefense": 266,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 562,
+      "MoveSpeed": 5,
+      "MaxHealth": 21140,
+      "MinAttack": 331,
+      "MinHealth": 12435,
+      "MaxDefense": 616,
+      "CritDamage": 0.5,
+      "MinDefense": 362,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

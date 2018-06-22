@@ -1,0 +1,164 @@
+{
+  "UnitID": 283,
+  "HeroID": "flyingdemon_dark_awk",
+  "Family": "Flying Demon",
+  "Element": "Dark",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Fatal",
+    "Blade"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Assassin",
+  "Strength": [
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "Adventure",
+      "quality": 1
+    },
+    {
+      "tag": "Mid",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Skuu",
+    "fr": "Skuu",
+    "de": "Skuu",
+    "es": "Skuu"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 150,
+      "MoveSpeed": 5,
+      "MaxHealth": 5759,
+      "MinAttack": 100,
+      "MinHealth": 3839,
+      "MaxDefense": 132,
+      "CritDamage": 0.5,
+      "MinDefense": 88,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 180,
+      "MoveSpeed": 5,
+      "MaxHealth": 6911,
+      "MinAttack": 109,
+      "MinHealth": 4188,
+      "MaxDefense": 158,
+      "CritDamage": 0.5,
+      "MinDefense": 96,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 216,
+      "MoveSpeed": 5,
+      "MaxHealth": 8293,
+      "MinAttack": 120,
+      "MinHealth": 4607,
+      "MaxDefense": 190,
+      "CritDamage": 0.5,
+      "MinDefense": 106,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 294,
+      "MoveSpeed": 5,
+      "MaxHealth": 11279,
+      "MinAttack": 173,
+      "MinHealth": 6635,
+      "MaxDefense": 258,
+      "CritDamage": 0.5,
+      "MinDefense": 152,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 400,
+      "MoveSpeed": 5,
+      "MaxHealth": 15340,
+      "MinAttack": 235,
+      "MinHealth": 9024,
+      "MaxDefense": 351,
+      "CritDamage": 0.5,
+      "MinDefense": 206,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 544,
+      "MoveSpeed": 5,
+      "MaxHealth": 20862,
+      "MinAttack": 320,
+      "MinHealth": 12272,
+      "MaxDefense": 478,
+      "CritDamage": 0.5,
+      "MinDefense": 281,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

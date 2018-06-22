@@ -1,0 +1,164 @@
+{
+  "UnitID": 223,
+  "HeroID": "dinorider_dark_awk",
+  "Family": "Dino Rider",
+  "Element": "Dark",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "CritRate",
+  "LeaderTraitCondition": "Dark",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Groz & Thunk",
+    "fr": "Groz & Thunk",
+    "de": "Groz und Thunk",
+    "es": "Groz y Thunk"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 203,
+      "MoveSpeed": 5,
+      "MaxHealth": 5822,
+      "MinAttack": 135,
+      "MinHealth": 3881,
+      "MaxDefense": 169,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 243,
+      "MoveSpeed": 5,
+      "MaxHealth": 6986,
+      "MinAttack": 147,
+      "MinHealth": 4234,
+      "MaxDefense": 203,
+      "CritDamage": 0.5,
+      "MinDefense": 123,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 291,
+      "MoveSpeed": 5,
+      "MaxHealth": 8383,
+      "MinAttack": 162,
+      "MinHealth": 4657,
+      "MaxDefense": 244,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 396,
+      "MoveSpeed": 5,
+      "MaxHealth": 11401,
+      "MinAttack": 233,
+      "MinHealth": 6706,
+      "MaxDefense": 332,
+      "CritDamage": 0.5,
+      "MinDefense": 195,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 538,
+      "MoveSpeed": 5,
+      "MaxHealth": 15506,
+      "MinAttack": 316,
+      "MinHealth": 9121,
+      "MaxDefense": 451,
+      "CritDamage": 0.5,
+      "MinDefense": 265,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 731,
+      "MoveSpeed": 5,
+      "MaxHealth": 21088,
+      "MinAttack": 430,
+      "MinHealth": 12405,
+      "MaxDefense": 613,
+      "CritDamage": 0.5,
+      "MinDefense": 361,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

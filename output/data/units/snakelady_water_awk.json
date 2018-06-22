@@ -1,0 +1,164 @@
+{
+  "UnitID": 612,
+  "HeroID": "snakelady_water_awk",
+  "Family": "Snake Lady",
+  "Element": "Water",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Spider",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Sheyao",
+    "fr": "Sheyao",
+    "de": "Sheyao",
+    "es": "Sheyao"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 213,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 142,
+      "MinHealth": 4002,
+      "MaxDefense": 153,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 256,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 155,
+      "MinHealth": 4366,
+      "MaxDefense": 183,
+      "CritDamage": 0.5,
+      "MinDefense": 111,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 307,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 171,
+      "MinHealth": 4803,
+      "MaxDefense": 220,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 417,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 245,
+      "MinHealth": 6916,
+      "MaxDefense": 299,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 567,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 334,
+      "MinHealth": 9406,
+      "MaxDefense": 407,
+      "CritDamage": 0.5,
+      "MinDefense": 239,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 771,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 454,
+      "MinHealth": 12792,
+      "MaxDefense": 554,
+      "CritDamage": 0.5,
+      "MinDefense": 326,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

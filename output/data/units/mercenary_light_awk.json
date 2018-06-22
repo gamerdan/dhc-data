@@ -1,0 +1,165 @@
+{
+  "UnitID": 402,
+  "HeroID": "mercenary_light_awk",
+  "Family": "Mercenary",
+  "Element": "Light",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Iona",
+    "fr": "Iona",
+    "de": "Iona",
+    "es": "Iona"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 165,
+      "MoveSpeed": 5,
+      "MaxHealth": 5169,
+      "MinAttack": 110,
+      "MinHealth": 3446,
+      "MaxDefense": 180,
+      "CritDamage": 0.5,
+      "MinDefense": 120,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 198,
+      "MoveSpeed": 5,
+      "MaxHealth": 6203,
+      "MinAttack": 120,
+      "MinHealth": 3759,
+      "MaxDefense": 216,
+      "CritDamage": 0.5,
+      "MinDefense": 131,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 238,
+      "MoveSpeed": 5,
+      "MaxHealth": 7444,
+      "MinAttack": 132,
+      "MinHealth": 4136,
+      "MaxDefense": 259,
+      "CritDamage": 0.5,
+      "MinDefense": 144,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 324,
+      "MoveSpeed": 5,
+      "MaxHealth": 10124,
+      "MinAttack": 191,
+      "MinHealth": 5955,
+      "MaxDefense": 352,
+      "CritDamage": 0.5,
+      "MinDefense": 207,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 440,
+      "MoveSpeed": 5,
+      "MaxHealth": 13768,
+      "MinAttack": 259,
+      "MinHealth": 8099,
+      "MaxDefense": 479,
+      "CritDamage": 0.5,
+      "MinDefense": 282,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 598,
+      "MoveSpeed": 5,
+      "MaxHealth": 18724,
+      "MinAttack": 352,
+      "MinHealth": 11014,
+      "MaxDefense": 652,
+      "CritDamage": 0.5,
+      "MinDefense": 384,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

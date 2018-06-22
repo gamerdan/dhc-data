@@ -1,0 +1,164 @@
+{
+  "UnitID": 431,
+  "HeroID": "naga_water_awk",
+  "Family": "Naga",
+  "Element": "Water",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Water",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.5,
+  "Name": {
+    "en": "Fathom",
+    "fr": "Dunkleos",
+    "de": "Fathom",
+    "es": "Fathom"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 191,
+      "MoveSpeed": 5,
+      "MaxHealth": 6003,
+      "MinAttack": 127,
+      "MinHealth": 4002,
+      "MaxDefense": 174,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 229,
+      "MoveSpeed": 5,
+      "MaxHealth": 7204,
+      "MinAttack": 139,
+      "MinHealth": 4366,
+      "MaxDefense": 209,
+      "CritDamage": 0.5,
+      "MinDefense": 127,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 275,
+      "MoveSpeed": 5,
+      "MaxHealth": 8645,
+      "MinAttack": 153,
+      "MinHealth": 4803,
+      "MaxDefense": 251,
+      "CritDamage": 0.5,
+      "MinDefense": 139,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 374,
+      "MoveSpeed": 5,
+      "MaxHealth": 11757,
+      "MinAttack": 220,
+      "MinHealth": 6916,
+      "MaxDefense": 342,
+      "CritDamage": 0.5,
+      "MinDefense": 201,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 509,
+      "MoveSpeed": 5,
+      "MaxHealth": 15990,
+      "MinAttack": 299,
+      "MinHealth": 9406,
+      "MaxDefense": 465,
+      "CritDamage": 0.5,
+      "MinDefense": 274,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 692,
+      "MoveSpeed": 5,
+      "MaxHealth": 21747,
+      "MinAttack": 407,
+      "MinHealth": 12792,
+      "MaxDefense": 633,
+      "CritDamage": 0.5,
+      "MinDefense": 372,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

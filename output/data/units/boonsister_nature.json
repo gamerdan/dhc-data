@@ -1,0 +1,164 @@
+{
+  "UnitID": 126,
+  "HeroID": "boonsister_nature",
+  "Family": "Boon Sister",
+  "Element": "Nature",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 2
+    },
+    {
+      "tag": "Blitz",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Skill",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowNatureEssence",
+    "MidNatureEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    10,
+    15,
+    5,
+    10
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Boon Sister",
+    "fr": "Vestale",
+    "de": "Segensschwester",
+    "es": "Hermana de la bendición"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 141,
+      "MoveSpeed": 5,
+      "MaxHealth": 4851,
+      "MinAttack": 94,
+      "MinHealth": 3234,
+      "MaxDefense": 168,
+      "CritDamage": 0.5,
+      "MinDefense": 112,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 169,
+      "MoveSpeed": 5,
+      "MaxHealth": 5821,
+      "MinAttack": 102,
+      "MinHealth": 3528,
+      "MaxDefense": 202,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 203,
+      "MoveSpeed": 5,
+      "MaxHealth": 6985,
+      "MinAttack": 113,
+      "MinHealth": 3881,
+      "MaxDefense": 242,
+      "CritDamage": 0.5,
+      "MinDefense": 134,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 276,
+      "MoveSpeed": 5,
+      "MaxHealth": 9499,
+      "MinAttack": 162,
+      "MinHealth": 5588,
+      "MaxDefense": 329,
+      "CritDamage": 0.5,
+      "MinDefense": 194,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 376,
+      "MoveSpeed": 5,
+      "MaxHealth": 12918,
+      "MinAttack": 221,
+      "MinHealth": 7599,
+      "MaxDefense": 448,
+      "CritDamage": 0.5,
+      "MinDefense": 264,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 511,
+      "MoveSpeed": 5,
+      "MaxHealth": 17568,
+      "MinAttack": 301,
+      "MinHealth": 10334,
+      "MaxDefense": 609,
+      "CritDamage": 0.5,
+      "MinDefense": 358,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "UnitID": 222,
+  "HeroID": "dinorider_light_awk",
+  "Family": "Dino Rider",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaDefense",
+      "quality": 2
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "CritRate",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.24,
+  "Name": {
+    "en": "Dako & Jarg",
+    "fr": "Dako & Jarg",
+    "de": "Dako und Jarg",
+    "es": "Dako y Jarg"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 203,
+      "MoveSpeed": 5,
+      "MaxHealth": 6368,
+      "MinAttack": 135,
+      "MinHealth": 4245,
+      "MaxDefense": 153,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 243,
+      "MoveSpeed": 5,
+      "MaxHealth": 7642,
+      "MinAttack": 147,
+      "MinHealth": 4632,
+      "MaxDefense": 183,
+      "CritDamage": 0.5,
+      "MinDefense": 111,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 291,
+      "MoveSpeed": 5,
+      "MaxHealth": 9170,
+      "MinAttack": 162,
+      "MinHealth": 5094,
+      "MaxDefense": 220,
+      "CritDamage": 0.5,
+      "MinDefense": 122,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 396,
+      "MoveSpeed": 5,
+      "MaxHealth": 12471,
+      "MinAttack": 233,
+      "MinHealth": 7336,
+      "MaxDefense": 299,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 538,
+      "MoveSpeed": 5,
+      "MaxHealth": 16960,
+      "MinAttack": 316,
+      "MinHealth": 9976,
+      "MaxDefense": 407,
+      "CritDamage": 0.5,
+      "MinDefense": 239,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0.25,
+      "CritRate": 0.15,
+      "MaxAttack": 731,
+      "MoveSpeed": 5,
+      "MaxHealth": 23065,
+      "MinAttack": 430,
+      "MinHealth": 13568,
+      "MaxDefense": 554,
+      "CritDamage": 0.5,
+      "MinDefense": 326,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

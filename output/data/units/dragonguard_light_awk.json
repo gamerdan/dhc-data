@@ -1,0 +1,161 @@
+{
+  "UnitID": 232,
+  "HeroID": "dragonguard_light_awk",
+  "Family": "Dragon Guard",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    },
+    {
+      "tag": "Early",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Cairn",
+    "fr": "Cairn",
+    "de": "Steinhaufen",
+    "es": "Cairn"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 114,
+      "MoveSpeed": 5,
+      "MaxHealth": 4698,
+      "MinAttack": 76,
+      "MinHealth": 3132,
+      "MaxDefense": 200,
+      "CritDamage": 0.5,
+      "MinDefense": 133,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 137,
+      "MoveSpeed": 5,
+      "MaxHealth": 5638,
+      "MinAttack": 83,
+      "MinHealth": 3417,
+      "MaxDefense": 240,
+      "CritDamage": 0.5,
+      "MinDefense": 145,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 164,
+      "MoveSpeed": 5,
+      "MaxHealth": 6765,
+      "MinAttack": 91,
+      "MinHealth": 3758,
+      "MaxDefense": 288,
+      "CritDamage": 0.5,
+      "MinDefense": 160,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 223,
+      "MoveSpeed": 5,
+      "MaxHealth": 9201,
+      "MinAttack": 131,
+      "MinHealth": 5412,
+      "MaxDefense": 392,
+      "CritDamage": 0.5,
+      "MinDefense": 231,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 303,
+      "MoveSpeed": 5,
+      "MaxHealth": 12514,
+      "MinAttack": 178,
+      "MinHealth": 7361,
+      "MaxDefense": 533,
+      "CritDamage": 0.5,
+      "MinDefense": 314,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 412,
+      "MoveSpeed": 5,
+      "MaxHealth": 17019,
+      "MinAttack": 242,
+      "MinHealth": 10011,
+      "MaxDefense": 725,
+      "CritDamage": 0.5,
+      "MinDefense": 426,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.4,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

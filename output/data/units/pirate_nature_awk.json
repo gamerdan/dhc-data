@@ -1,0 +1,165 @@
+{
+  "UnitID": 462,
+  "HeroID": "pirate_nature_awk",
+  "Family": "Pirate",
+  "Element": "Nature",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Blade",
+    "Blade",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.25,
+  "Name": {
+    "en": "Kendrick",
+    "fr": "Kendrick",
+    "de": "Kendrick",
+    "es": "Kendrick"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 197,
+      "MoveSpeed": 5,
+      "MaxHealth": 6186,
+      "MinAttack": 131,
+      "MinHealth": 4124,
+      "MaxDefense": 164,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 236,
+      "MoveSpeed": 5,
+      "MaxHealth": 7423,
+      "MinAttack": 143,
+      "MinHealth": 4499,
+      "MaxDefense": 197,
+      "CritDamage": 0.5,
+      "MinDefense": 119,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 283,
+      "MoveSpeed": 5,
+      "MaxHealth": 8907,
+      "MinAttack": 157,
+      "MinHealth": 4948,
+      "MaxDefense": 236,
+      "CritDamage": 0.5,
+      "MinDefense": 131,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 385,
+      "MoveSpeed": 5,
+      "MaxHealth": 12114,
+      "MinAttack": 226,
+      "MinHealth": 7126,
+      "MaxDefense": 321,
+      "CritDamage": 0.5,
+      "MinDefense": 189,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 524,
+      "MoveSpeed": 5,
+      "MaxHealth": 16475,
+      "MinAttack": 308,
+      "MinHealth": 9691,
+      "MaxDefense": 436,
+      "CritDamage": 0.5,
+      "MinDefense": 256,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.3,
+      "MaxAttack": 712,
+      "MoveSpeed": 5,
+      "MaxHealth": 22406,
+      "MinAttack": 419,
+      "MinHealth": 13180,
+      "MaxDefense": 593,
+      "CritDamage": 0.5,
+      "MinDefense": 349,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

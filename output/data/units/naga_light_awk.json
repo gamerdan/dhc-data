@@ -1,0 +1,164 @@
+{
+  "UnitID": 433,
+  "HeroID": "naga_light_awk",
+  "Family": "Naga",
+  "Element": "Light",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Light",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.5,
+  "Name": {
+    "en": "Perigeon",
+    "fr": "Périgeon",
+    "de": "Perigeon",
+    "es": "Perigeon"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 174,
+      "MoveSpeed": 5,
+      "MaxHealth": 6186,
+      "MinAttack": 116,
+      "MinHealth": 4124,
+      "MaxDefense": 186,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 209,
+      "MoveSpeed": 5,
+      "MaxHealth": 7423,
+      "MinAttack": 127,
+      "MinHealth": 4499,
+      "MaxDefense": 223,
+      "CritDamage": 0.5,
+      "MinDefense": 135,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 251,
+      "MoveSpeed": 5,
+      "MaxHealth": 8907,
+      "MinAttack": 139,
+      "MinHealth": 4948,
+      "MaxDefense": 267,
+      "CritDamage": 0.5,
+      "MinDefense": 148,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 342,
+      "MoveSpeed": 5,
+      "MaxHealth": 12114,
+      "MinAttack": 201,
+      "MinHealth": 7126,
+      "MaxDefense": 363,
+      "CritDamage": 0.5,
+      "MinDefense": 214,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 465,
+      "MoveSpeed": 5,
+      "MaxHealth": 16475,
+      "MinAttack": 274,
+      "MinHealth": 9691,
+      "MaxDefense": 494,
+      "CritDamage": 0.5,
+      "MinDefense": 291,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 633,
+      "MoveSpeed": 5,
+      "MaxHealth": 22406,
+      "MinAttack": 372,
+      "MinHealth": 13180,
+      "MaxDefense": 672,
+      "CritDamage": 0.5,
+      "MinDefense": 395,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

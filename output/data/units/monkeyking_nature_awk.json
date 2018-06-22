@@ -1,0 +1,164 @@
+{
+  "UnitID": 411,
+  "HeroID": "monkeyking_nature_awk",
+  "Family": "Monkey King",
+  "Element": "Nature",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Fatal",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.41,
+  "Name": {
+    "en": "Lao Sun",
+    "fr": "Lao Sun",
+    "de": "Lao Sun",
+    "es": "Lao Sun"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 201,
+      "MoveSpeed": 5,
+      "MaxHealth": 6505,
+      "MinAttack": 134,
+      "MinHealth": 4337,
+      "MaxDefense": 195,
+      "CritDamage": 0.75,
+      "MinDefense": 130,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 241,
+      "MoveSpeed": 5,
+      "MaxHealth": 7806,
+      "MinAttack": 146,
+      "MinHealth": 4731,
+      "MaxDefense": 234,
+      "CritDamage": 0.75,
+      "MinDefense": 142,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 289,
+      "MoveSpeed": 5,
+      "MaxHealth": 9367,
+      "MinAttack": 161,
+      "MinHealth": 5204,
+      "MaxDefense": 281,
+      "CritDamage": 0.75,
+      "MinDefense": 156,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 393,
+      "MoveSpeed": 5,
+      "MaxHealth": 12739,
+      "MinAttack": 231,
+      "MinHealth": 7494,
+      "MaxDefense": 382,
+      "CritDamage": 0.75,
+      "MinDefense": 225,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 535,
+      "MoveSpeed": 5,
+      "MaxHealth": 17325,
+      "MinAttack": 315,
+      "MinHealth": 10191,
+      "MaxDefense": 520,
+      "CritDamage": 0.75,
+      "MinDefense": 306,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 728,
+      "MoveSpeed": 5,
+      "MaxHealth": 23562,
+      "MinAttack": 428,
+      "MinHealth": 13860,
+      "MaxDefense": 707,
+      "CritDamage": 0.75,
+      "MinDefense": 416,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

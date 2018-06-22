@@ -1,0 +1,164 @@
+{
+  "UnitID": 330,
+  "HeroID": "greaterdemon_water_awk",
+  "Family": "Greater Demon",
+  "Element": "Water",
+  "MinStar": 5,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "BestInGame",
+      "quality": 4
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 4
+    },
+    {
+      "tag": "Always",
+      "quality": 3
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "SkillCooldownSpeed",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": -0.2,
+  "Name": {
+    "en": "Bala'rot",
+    "fr": "Bala'rot",
+    "de": "Bala'rot",
+    "es": "Bala'rot"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 165,
+      "MoveSpeed": 5,
+      "MaxHealth": 7688,
+      "MinAttack": 110,
+      "MinHealth": 5125,
+      "MaxDefense": 195,
+      "CritDamage": 0.5,
+      "MinDefense": 130,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 198,
+      "MoveSpeed": 5,
+      "MaxHealth": 9225,
+      "MinAttack": 120,
+      "MinHealth": 5591,
+      "MaxDefense": 234,
+      "CritDamage": 0.5,
+      "MinDefense": 142,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 238,
+      "MoveSpeed": 5,
+      "MaxHealth": 11070,
+      "MinAttack": 132,
+      "MinHealth": 6150,
+      "MaxDefense": 281,
+      "CritDamage": 0.5,
+      "MinDefense": 156,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 324,
+      "MoveSpeed": 5,
+      "MaxHealth": 15055,
+      "MinAttack": 191,
+      "MinHealth": 8856,
+      "MaxDefense": 382,
+      "CritDamage": 0.5,
+      "MinDefense": 225,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 441,
+      "MoveSpeed": 5,
+      "MaxHealth": 20475,
+      "MinAttack": 259,
+      "MinHealth": 12044,
+      "MaxDefense": 520,
+      "CritDamage": 0.5,
+      "MinDefense": 306,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 5,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 600,
+      "MoveSpeed": 5,
+      "MaxHealth": 27846,
+      "MinAttack": 353,
+      "MinHealth": 16380,
+      "MaxDefense": 707,
+      "CritDamage": 0.5,
+      "MinDefense": 416,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

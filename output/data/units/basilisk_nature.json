@@ -1,0 +1,165 @@
+{
+  "UnitID": 84,
+  "HeroID": "basilisk_nature",
+  "Family": "Basilisk",
+  "Element": "Nature",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "Desert",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    "MidNatureEssence",
+    "HighNatureEssence",
+    "MidGenericEssence",
+    "HighGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    10,
+    15,
+    5
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Basilisk",
+    "fr": "Basilic",
+    "de": "Basilisk",
+    "es": "Basilisco"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 120,
+      "MoveSpeed": 5,
+      "MaxHealth": 5503,
+      "MinAttack": 80,
+      "MinHealth": 3669,
+      "MaxDefense": 215,
+      "CritDamage": 0.5,
+      "MinDefense": 143,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 144,
+      "MoveSpeed": 5,
+      "MaxHealth": 6603,
+      "MinAttack": 87,
+      "MinHealth": 4002,
+      "MaxDefense": 258,
+      "CritDamage": 0.5,
+      "MinDefense": 156,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 173,
+      "MoveSpeed": 5,
+      "MaxHealth": 7924,
+      "MinAttack": 96,
+      "MinHealth": 4402,
+      "MaxDefense": 310,
+      "CritDamage": 0.5,
+      "MinDefense": 172,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 235,
+      "MoveSpeed": 5,
+      "MaxHealth": 10776,
+      "MinAttack": 138,
+      "MinHealth": 6339,
+      "MaxDefense": 421,
+      "CritDamage": 0.5,
+      "MinDefense": 248,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 320,
+      "MoveSpeed": 5,
+      "MaxHealth": 14656,
+      "MinAttack": 188,
+      "MinHealth": 8621,
+      "MaxDefense": 573,
+      "CritDamage": 0.5,
+      "MinDefense": 337,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 435,
+      "MoveSpeed": 5,
+      "MaxHealth": 19932,
+      "MinAttack": 256,
+      "MinHealth": 11725,
+      "MaxDefense": 779,
+      "CritDamage": 0.5,
+      "MinDefense": 458,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

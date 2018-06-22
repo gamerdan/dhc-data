@@ -1,0 +1,164 @@
+{
+  "UnitID": 527,
+  "HeroID": "sentinel_nature",
+  "Family": "Sentinel",
+  "Element": "Nature",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "CyberPunk",
+  "RecGear": [
+    "Despair",
+    "Blade"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 1
+    },
+    {
+      "tag": "Blitz",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "LeaderTrait",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowNatureEssence",
+    "MidNatureEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Sentinel",
+    "fr": "Sentinelle",
+    "de": "Schildwache",
+    "es": "Centinela"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 119,
+      "MoveSpeed": 5,
+      "MaxHealth": 5046,
+      "MinAttack": 79,
+      "MinHealth": 3364,
+      "MaxDefense": 140,
+      "CritDamage": 0.5,
+      "MinDefense": 93,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 143,
+      "MoveSpeed": 5,
+      "MaxHealth": 6055,
+      "MinAttack": 87,
+      "MinHealth": 3670,
+      "MaxDefense": 168,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 171,
+      "MoveSpeed": 5,
+      "MaxHealth": 7266,
+      "MinAttack": 95,
+      "MinHealth": 4037,
+      "MaxDefense": 201,
+      "CritDamage": 0.5,
+      "MinDefense": 112,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 232,
+      "MoveSpeed": 5,
+      "MaxHealth": 9882,
+      "MinAttack": 136,
+      "MinHealth": 5813,
+      "MaxDefense": 273,
+      "CritDamage": 0.5,
+      "MinDefense": 161,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 316,
+      "MoveSpeed": 5,
+      "MaxHealth": 13440,
+      "MinAttack": 186,
+      "MinHealth": 7906,
+      "MaxDefense": 371,
+      "CritDamage": 0.5,
+      "MinDefense": 218,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 430,
+      "MoveSpeed": 5,
+      "MaxHealth": 18278,
+      "MinAttack": 253,
+      "MinHealth": 10752,
+      "MaxDefense": 504,
+      "CritDamage": 0.5,
+      "MinDefense": 296,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

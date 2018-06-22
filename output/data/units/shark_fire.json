@@ -1,0 +1,164 @@
+{
+  "UnitID": 545,
+  "HeroID": "shark_fire",
+  "Family": "Shark",
+  "Element": "Fire",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "false",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Fatal",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": true,
+  "CharacterClass": "Fighter",
+  "Strength": [
+    {
+      "tag": "Early",
+      "quality": 1
+    },
+    {
+      "tag": "Farmer",
+      "quality": 1
+    },
+    {
+      "tag": "ArenaOffense",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": "Stat",
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    "LowFireEssence",
+    "MidFireEssence",
+    "LowGenericEssence",
+    "MidGenericEssence"
+  ],
+  "AwakeningEssenceAmounts": [
+    20,
+    1,
+    15,
+    1
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Shark",
+    "fr": "Squale",
+    "de": "Hai",
+    "es": "Tiburón"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 140,
+      "MoveSpeed": 5,
+      "MaxHealth": 4365,
+      "MinAttack": 93,
+      "MinHealth": 2910,
+      "MaxDefense": 140,
+      "CritDamage": 0.5,
+      "MinDefense": 93,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 168,
+      "MoveSpeed": 5,
+      "MaxHealth": 5238,
+      "MinAttack": 102,
+      "MinHealth": 3175,
+      "MaxDefense": 168,
+      "CritDamage": 0.5,
+      "MinDefense": 102,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 201,
+      "MoveSpeed": 5,
+      "MaxHealth": 6285,
+      "MinAttack": 112,
+      "MinHealth": 3492,
+      "MaxDefense": 201,
+      "CritDamage": 0.5,
+      "MinDefense": 112,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 273,
+      "MoveSpeed": 5,
+      "MaxHealth": 8547,
+      "MinAttack": 161,
+      "MinHealth": 5028,
+      "MaxDefense": 273,
+      "CritDamage": 0.5,
+      "MinDefense": 161,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 371,
+      "MoveSpeed": 5,
+      "MaxHealth": 11624,
+      "MinAttack": 218,
+      "MinHealth": 6838,
+      "MaxDefense": 371,
+      "CritDamage": 0.5,
+      "MinDefense": 218,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 504,
+      "MoveSpeed": 5,
+      "MaxHealth": 15808,
+      "MinAttack": 296,
+      "MinHealth": 9299,
+      "MaxDefense": 504,
+      "CritDamage": 0.5,
+      "MinDefense": 296,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.62,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

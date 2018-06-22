@@ -1,0 +1,164 @@
+{
+  "UnitID": 183,
+  "HeroID": "crowhag_dark_awk",
+  "Family": "Crow Hag",
+  "Element": "Dark",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Moba",
+      "quality": 2
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.22,
+  "Name": {
+    "en": "Baba Kruk",
+    "fr": "Baba Kruk",
+    "de": "Baba Kruk",
+    "es": "Baba Kruk"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 180,
+      "MoveSpeed": 5,
+      "MaxHealth": 5336,
+      "MinAttack": 120,
+      "MinHealth": 3557,
+      "MaxDefense": 160,
+      "CritDamage": 0.5,
+      "MinDefense": 107,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 216,
+      "MoveSpeed": 5,
+      "MaxHealth": 6403,
+      "MinAttack": 131,
+      "MinHealth": 3881,
+      "MaxDefense": 192,
+      "CritDamage": 0.5,
+      "MinDefense": 116,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 259,
+      "MoveSpeed": 5,
+      "MaxHealth": 7684,
+      "MinAttack": 144,
+      "MinHealth": 4269,
+      "MaxDefense": 230,
+      "CritDamage": 0.5,
+      "MinDefense": 128,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 352,
+      "MoveSpeed": 5,
+      "MaxHealth": 10450,
+      "MinAttack": 207,
+      "MinHealth": 6147,
+      "MaxDefense": 313,
+      "CritDamage": 0.5,
+      "MinDefense": 184,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 479,
+      "MoveSpeed": 5,
+      "MaxHealth": 14212,
+      "MinAttack": 282,
+      "MinHealth": 8360,
+      "MaxDefense": 426,
+      "CritDamage": 0.5,
+      "MinDefense": 251,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 652,
+      "MoveSpeed": 5,
+      "MaxHealth": 19328,
+      "MinAttack": 384,
+      "MinHealth": 11369,
+      "MaxDefense": 580,
+      "CritDamage": 0.5,
+      "MinDefense": 341,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

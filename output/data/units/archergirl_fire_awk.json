@@ -1,0 +1,164 @@
+{
+  "UnitID": 77,
+  "HeroID": "archergirl_fire_awk",
+  "Family": "Archer Girl",
+  "Element": "Fire",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Fatal",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "Anywhere",
+      "quality": 2
+    },
+    {
+      "tag": "Early",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Attack",
+  "LeaderTraitCondition": "Fire",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Deidra",
+    "fr": "Deidra",
+    "de": "Deidra",
+    "es": "Deidra"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 245,
+      "MoveSpeed": 5,
+      "MaxHealth": 4836,
+      "MinAttack": 163,
+      "MinHealth": 3224,
+      "MaxDefense": 110,
+      "CritDamage": 0.5,
+      "MinDefense": 73,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 294,
+      "MoveSpeed": 5,
+      "MaxHealth": 5803,
+      "MinAttack": 178,
+      "MinHealth": 3517,
+      "MaxDefense": 132,
+      "CritDamage": 0.5,
+      "MinDefense": 80,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 353,
+      "MoveSpeed": 5,
+      "MaxHealth": 6963,
+      "MinAttack": 196,
+      "MinHealth": 3868,
+      "MaxDefense": 158,
+      "CritDamage": 0.5,
+      "MinDefense": 88,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 480,
+      "MoveSpeed": 5,
+      "MaxHealth": 9470,
+      "MinAttack": 282,
+      "MinHealth": 5571,
+      "MaxDefense": 215,
+      "CritDamage": 0.5,
+      "MinDefense": 126,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 653,
+      "MoveSpeed": 5,
+      "MaxHealth": 12879,
+      "MinAttack": 384,
+      "MinHealth": 7576,
+      "MaxDefense": 293,
+      "CritDamage": 0.5,
+      "MinDefense": 172,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 888,
+      "MoveSpeed": 5,
+      "MaxHealth": 17516,
+      "MinAttack": 522,
+      "MinHealth": 10304,
+      "MaxDefense": 399,
+      "CritDamage": 0.5,
+      "MinDefense": 235,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

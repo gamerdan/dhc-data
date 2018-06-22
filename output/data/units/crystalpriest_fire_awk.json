@@ -1,0 +1,164 @@
+{
+  "UnitID": 189,
+  "HeroID": "crystalpriest_fire_awk",
+  "Family": "Crystal Priest",
+  "Element": "Fire",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyCastle",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "Food",
+      "quality": 1
+    },
+    {
+      "tag": "Spider",
+      "quality": 0
+    },
+    {
+      "tag": "Late",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Garnet",
+    "fr": "Grenat",
+    "de": "Granat",
+    "es": "Garnet"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 155,
+      "MoveSpeed": 5,
+      "MaxHealth": 5002,
+      "MinAttack": 103,
+      "MinHealth": 3335,
+      "MaxDefense": 150,
+      "CritDamage": 0.5,
+      "MinDefense": 100,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 186,
+      "MoveSpeed": 5,
+      "MaxHealth": 6002,
+      "MinAttack": 113,
+      "MinHealth": 3638,
+      "MaxDefense": 180,
+      "CritDamage": 0.5,
+      "MinDefense": 109,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 223,
+      "MoveSpeed": 5,
+      "MaxHealth": 7202,
+      "MinAttack": 124,
+      "MinHealth": 4001,
+      "MaxDefense": 216,
+      "CritDamage": 0.5,
+      "MinDefense": 120,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 303,
+      "MoveSpeed": 5,
+      "MaxHealth": 9795,
+      "MinAttack": 178,
+      "MinHealth": 5762,
+      "MaxDefense": 294,
+      "CritDamage": 0.5,
+      "MinDefense": 173,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 412,
+      "MoveSpeed": 5,
+      "MaxHealth": 13321,
+      "MinAttack": 242,
+      "MinHealth": 7836,
+      "MaxDefense": 400,
+      "CritDamage": 0.5,
+      "MinDefense": 235,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 560,
+      "MoveSpeed": 5,
+      "MaxHealth": 18117,
+      "MinAttack": 329,
+      "MinHealth": 10657,
+      "MaxDefense": 544,
+      "CritDamage": 0.5,
+      "MinDefense": 320,
+      "Resistance": 0.4,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

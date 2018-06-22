@@ -1,0 +1,164 @@
+{
+  "UnitID": 352,
+  "HeroID": "grublinslinger_light_awk",
+  "Family": "Grublin Slinger",
+  "Element": "Light",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Fatal",
+    "Blade"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Marksman",
+  "Strength": [
+    {
+      "tag": "Great",
+      "quality": 2
+    },
+    {
+      "tag": "BullAll",
+      "quality": 1
+    },
+    {
+      "tag": "Early",
+      "quality": 0
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Jabuboo",
+    "fr": "Jabuboo",
+    "de": "Jabuboo",
+    "es": "Jabuboo"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 186,
+      "MoveSpeed": 5,
+      "MaxHealth": 5002,
+      "MinAttack": 124,
+      "MinHealth": 3335,
+      "MaxDefense": 119,
+      "CritDamage": 0.5,
+      "MinDefense": 79,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 223,
+      "MoveSpeed": 5,
+      "MaxHealth": 6002,
+      "MinAttack": 135,
+      "MinHealth": 3638,
+      "MaxDefense": 143,
+      "CritDamage": 0.5,
+      "MinDefense": 87,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 268,
+      "MoveSpeed": 5,
+      "MaxHealth": 7202,
+      "MinAttack": 149,
+      "MinHealth": 4001,
+      "MaxDefense": 171,
+      "CritDamage": 0.5,
+      "MinDefense": 95,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 365,
+      "MoveSpeed": 5,
+      "MaxHealth": 9795,
+      "MinAttack": 215,
+      "MinHealth": 5762,
+      "MaxDefense": 232,
+      "CritDamage": 0.5,
+      "MinDefense": 136,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 496,
+      "MoveSpeed": 5,
+      "MaxHealth": 13321,
+      "MinAttack": 292,
+      "MinHealth": 7836,
+      "MaxDefense": 315,
+      "CritDamage": 0.5,
+      "MinDefense": 185,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 675,
+      "MoveSpeed": 5,
+      "MaxHealth": 18117,
+      "MinAttack": 397,
+      "MinHealth": 10657,
+      "MaxDefense": 428,
+      "CritDamage": 0.5,
+      "MinDefense": 252,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7825,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

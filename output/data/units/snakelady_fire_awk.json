@@ -1,0 +1,164 @@
+{
+  "UnitID": 611,
+  "HeroID": "snakelady_fire_awk",
+  "Family": "Snake Lady",
+  "Element": "Fire",
+  "MinStar": 4,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "EasternFantasy",
+  "RecGear": [
+    "Violent",
+    "Focus"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Mage",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Blitz",
+      "quality": 3
+    },
+    {
+      "tag": "Always",
+      "quality": 2
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Accuracy",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Yunruo",
+    "fr": "Yunruo",
+    "de": "Yunruo",
+    "es": "Yunruo"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 219,
+      "MoveSpeed": 5,
+      "MaxHealth": 5640,
+      "MinAttack": 146,
+      "MinHealth": 3760,
+      "MaxDefense": 158,
+      "CritDamage": 0.5,
+      "MinDefense": 105,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 263,
+      "MoveSpeed": 5,
+      "MaxHealth": 6768,
+      "MinAttack": 159,
+      "MinHealth": 4102,
+      "MaxDefense": 190,
+      "CritDamage": 0.5,
+      "MinDefense": 115,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 315,
+      "MoveSpeed": 5,
+      "MaxHealth": 8121,
+      "MinAttack": 175,
+      "MinHealth": 4512,
+      "MaxDefense": 228,
+      "CritDamage": 0.5,
+      "MinDefense": 127,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 428,
+      "MoveSpeed": 5,
+      "MaxHealth": 11045,
+      "MinAttack": 252,
+      "MinHealth": 6497,
+      "MaxDefense": 310,
+      "CritDamage": 0.5,
+      "MinDefense": 182,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 582,
+      "MoveSpeed": 5,
+      "MaxHealth": 15021,
+      "MinAttack": 342,
+      "MinHealth": 8836,
+      "MaxDefense": 421,
+      "CritDamage": 0.5,
+      "MinDefense": 248,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 8,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 791,
+      "MoveSpeed": 5,
+      "MaxHealth": 20429,
+      "MinAttack": 465,
+      "MinHealth": 12017,
+      "MaxDefense": 573,
+      "CritDamage": 0.5,
+      "MinDefense": 337,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

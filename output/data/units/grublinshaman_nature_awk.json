@@ -1,0 +1,164 @@
+{
+  "UnitID": 341,
+  "HeroID": "grublinshaman_nature_awk",
+  "Family": "Grublin Shaman",
+  "Element": "Nature",
+  "MinStar": 2,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "WesternFantasyForest",
+  "RecGear": [
+    "Violent",
+    "Energy"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Support",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Dragon",
+      "quality": 3
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": null,
+  "LeaderTraitCondition": null,
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": null,
+  "Name": {
+    "en": "Mojo",
+    "fr": "Mojo",
+    "de": "Mojo",
+    "es": "Mojo"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 136,
+      "MoveSpeed": 5,
+      "MaxHealth": 5457,
+      "MinAttack": 91,
+      "MinHealth": 3638,
+      "MaxDefense": 155,
+      "CritDamage": 0.5,
+      "MinDefense": 103,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 163,
+      "MoveSpeed": 5,
+      "MaxHealth": 6548,
+      "MinAttack": 99,
+      "MinHealth": 3968,
+      "MaxDefense": 186,
+      "CritDamage": 0.5,
+      "MinDefense": 113,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 196,
+      "MoveSpeed": 5,
+      "MaxHealth": 7857,
+      "MinAttack": 109,
+      "MinHealth": 4365,
+      "MaxDefense": 223,
+      "CritDamage": 0.5,
+      "MinDefense": 124,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 267,
+      "MoveSpeed": 5,
+      "MaxHealth": 10685,
+      "MinAttack": 157,
+      "MinHealth": 6285,
+      "MaxDefense": 303,
+      "CritDamage": 0.5,
+      "MinDefense": 178,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 363,
+      "MoveSpeed": 5,
+      "MaxHealth": 14532,
+      "MinAttack": 214,
+      "MinHealth": 8548,
+      "MaxDefense": 412,
+      "CritDamage": 0.5,
+      "MinDefense": 242,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 7,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 494,
+      "MoveSpeed": 5,
+      "MaxHealth": 19764,
+      "MinAttack": 291,
+      "MinHealth": 11626,
+      "MaxDefense": 560,
+      "CritDamage": 0.5,
+      "MinDefense": 329,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.55,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}

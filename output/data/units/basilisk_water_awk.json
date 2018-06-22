@@ -1,0 +1,165 @@
+{
+  "UnitID": 88,
+  "HeroID": "basilisk_water_awk",
+  "Family": "Basilisk",
+  "Element": "Water",
+  "MinStar": 3,
+  "MaxStar": 6,
+  "Awakened": "true",
+  "Universe": "Desert",
+  "RecGear": [
+    "Guard",
+    "Guard",
+    "Guard"
+  ],
+  "DefaultLevel": 1,
+  "CanBeAwakened": false,
+  "CharacterClass": "Tank",
+  "Strength": [
+    {
+      "tag": "MustHave",
+      "quality": 3
+    },
+    {
+      "tag": "Spider",
+      "quality": 3
+    },
+    {
+      "tag": "Late",
+      "quality": 1
+    }
+  ],
+  "PowerUpXPTable": "NormalPowerUpXP",
+  "AwakeningBonus": null,
+  "LeaderTraitStat": "Defense",
+  "LeaderTraitCondition": "Any",
+  "AwakeningEssenceIDs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "AwakeningEssenceAmounts": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "LeaderTraitPercentageBoost": 0.3,
+  "Name": {
+    "en": "Garai",
+    "fr": "Garai",
+    "de": "Garai",
+    "es": "Garai"
+  },
+  "Stats": [
+    {
+      "Star": 1,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 115,
+      "MoveSpeed": 5,
+      "MaxHealth": 5503,
+      "MinAttack": 77,
+      "MinHealth": 3669,
+      "MaxDefense": 220,
+      "CritDamage": 0.5,
+      "MinDefense": 147,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 2,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 138,
+      "MoveSpeed": 5,
+      "MaxHealth": 6603,
+      "MinAttack": 84,
+      "MinHealth": 4002,
+      "MaxDefense": 264,
+      "CritDamage": 0.5,
+      "MinDefense": 160,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 3,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 166,
+      "MoveSpeed": 5,
+      "MaxHealth": 7924,
+      "MinAttack": 92,
+      "MinHealth": 4402,
+      "MaxDefense": 317,
+      "CritDamage": 0.5,
+      "MinDefense": 176,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 4,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 226,
+      "MoveSpeed": 5,
+      "MaxHealth": 10776,
+      "MinAttack": 133,
+      "MinHealth": 6339,
+      "MaxDefense": 431,
+      "CritDamage": 0.5,
+      "MinDefense": 254,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 5,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 307,
+      "MoveSpeed": 5,
+      "MaxHealth": 14656,
+      "MinAttack": 181,
+      "MinHealth": 8621,
+      "MaxDefense": 586,
+      "CritDamage": 0.5,
+      "MinDefense": 345,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    },
+    {
+      "Star": 6,
+      "Range": 3,
+      "Accuracy": 0,
+      "CritRate": 0.15,
+      "MaxAttack": 417,
+      "MoveSpeed": 5,
+      "MaxHealth": 19932,
+      "MinAttack": 245,
+      "MinHealth": 11725,
+      "MaxDefense": 797,
+      "CritDamage": 0.5,
+      "MinDefense": 469,
+      "Resistance": 0.15,
+      "AttackSpeed": 1.7,
+      "MOBAVisionRange": 13,
+      "SkillCooldownSpeed": 1
+    }
+  ]
+}
