@@ -1,3 +1,13 @@
+# IDE
+.idea
+.vscode
+
+# Uninteresting files
+/tmp/
+
+# Specific format outputs
+/gamerdan_output/
+
 # Logs
 logs
 *.log
