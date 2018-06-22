@@ -1,7 +1,6 @@
 const getLocalisationText = require("../helpers/get_localization_text");
 
 module.exports = ({ rawGearData, localization }) => {
-
     const gearSlots = rawGearData.GearSlots.Rows;
     const gearSets = rawGearData.GearSets.Rows;
     const gearStats = rawGearData.GearStats.Rows;
@@ -13,11 +12,11 @@ module.exports = ({ rawGearData, localization }) => {
 
     const quality = rawGearData.Rarities.Rows
         .map(([id, colour, initialSubStats]) => ({
-            id,
+            Id: id,
             // colour: `#${colour.substr(2)}`, // data is flat out wrong
-            initialSubStats,
-            addSubStats: additionalSubStatLevels.slice(initialSubStats),
-            rollSubStats: additionalSubStatLevels.slice(0, initialSubStats),
+            InitialSubStats: initialSubStats,
+            AddSubStats: additionalSubStatLevels.slice(initialSubStats),
+            RollSubStats: additionalSubStatLevels.slice(0, initialSubStats),
         }));
 
     const stats = gearStats.reduce((st, [key, stat, type]) => {
@@ -45,12 +44,12 @@ module.exports = ({ rawGearData, localization }) => {
         return {
             ...st,
             [key]: {
-                stat,
-                type,
-                mainStat,
-                subStat: {
-                    initial: subStatInitial,
-                    roll: subStatRolls,
+                Stat: stat,
+                Type: type,
+                MainStat: mainStat,
+                SubStat: {
+                    Initial: subStatInitial,
+                    Roll: subStatRolls,
                 },
             },
         };
@@ -62,9 +61,9 @@ module.exports = ({ rawGearData, localization }) => {
             .map(([_, stat]) => stat);
 
         return {
-            id,
-            name: getLocalisationText(localization.gear, `gear_slot${id}`),
-            mainStats,
+            Id: id,
+            Name: getLocalisationText(localization.gear, `gear_slot${id}`),
+            MainStats: mainStats,
         };
     });
 
@@ -72,33 +71,33 @@ module.exports = ({ rawGearData, localization }) => {
         const [_, pieces, stat, value] = setEffects.find(([setId]) => setId === id);
 
         return {
-            id,
-            numberId: i + 1,
-            name: getLocalisationText(localization.gear, `gear_set_${id}`),
-            effect: {
-                pieces,
-                value,
-                stat,
+            Id: id,
+            NumberId: i + 1,
+            Name: getLocalisationText(localization.gear, `gear_set_${id}`),
+            Effect: {
+                Pieces: pieces,
+                Value: value,
+                Stat: stat,
             },
         };
     });
 
     const power = rawGearData.PowerUpChance.Rows
-        .map(([level, success], i) => ({
-            level,
-            success,
-            cost: rawGearData.GearPowerUpCost.Rows[i].slice(2),
+        .map(([Level, Success], i) => ({
+            Level,
+            Success,
+            Cost: rawGearData.GearPowerUpCost.Rows[i].slice(2),
         }));
 
     const removal = rawGearData.GearRemovalCost.Rows
-        .map(([star, _, cost]) => ({ star, cost }));
+        .map(([Star, _, Cost]) => ({ Star, Cost }));
 
     return {
-        quality,
-        stats,
-        slots,
-        sets,
-        power,
-        removal,
+        Quality: quality,
+        Stats: stats,
+        Slots: slots,
+        Sets: sets,
+        Power: power,
+        Removal: removal,
     };
 };
