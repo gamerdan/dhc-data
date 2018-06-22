@@ -37,8 +37,8 @@ module.exports = (installPathBase) => {
     unitList.forEach(x => delete x.Skills);
 
     // Output full unit lists
-    fs.writeFileSync(path.join(dataPath, "units.json"), JSON.stringify(unitList.filter(x => !x.DebugHero)));
-    fs.writeFileSync(path.join(dataPath, "units-debug.json"), JSON.stringify(unitList));
+    fs.writeFileSync(path.join(dataPath, "units.json"), JSON.stringify(unitList.filter(x => !x.DebugHero && x.CanBeAcquired)));
+    fs.writeFileSync(path.join(dataPath, "units-debug.json"), JSON.stringify(unitList.filter(x => x.CanBeAcquired)));
 
     // Output guild stats
     fs.writeFileSync(path.join(dataPath, "guild.json"), JSON.stringify(guildStats));
