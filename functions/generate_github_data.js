@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const copyUnitImages = require("./output/copy_unit_images");
 const ensureDir = require("./helpers/ensure_directory");
 const getLocalizationText = require("./helpers/get_localization_text");
 const loadUnitData = require("./load/load_unit_data");
@@ -34,6 +35,9 @@ module.exports = (installPathBase, outputPath) => {
 
         // Output
         fs.writeFileSync(path.join(unitOutputPath, `${unit.HeroID}.json`), JSON.stringify(unit, null, 2));
+
+        // Copy images
+        copyUnitImages(installPathBase, outputPath);
     });
 };
 
