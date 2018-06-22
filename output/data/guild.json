@@ -1,0 +1,1822 @@
+[
+  {
+    "Level": 1,
+    "UpgradeCost": 0,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 2,
+    "UpgradeCost": 5100,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 3,
+    "UpgradeCost": 6700,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 4,
+    "UpgradeCost": 8300,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 5,
+    "UpgradeCost": 10000,
+    "UpdatedStats": {
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 6,
+    "UpgradeCost": 11600,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 7,
+    "UpgradeCost": 13200,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 8,
+    "UpgradeCost": 14800,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 9,
+    "UpgradeCost": 16500,
+    "UpdatedStats": {
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 10,
+    "UpgradeCost": 18100,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 11,
+    "UpgradeCost": 19700,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 12,
+    "UpgradeCost": 21400,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    }
+  },
+  {
+    "Level": 13,
+    "UpgradeCost": 23000,
+    "UpdatedStats": {
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 14,
+    "UpgradeCost": 24600,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 15,
+    "UpgradeCost": 26200,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 16,
+    "UpgradeCost": 27900,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 17,
+    "UpgradeCost": 29500,
+    "UpdatedStats": {
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 18,
+    "UpgradeCost": 31100,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 19,
+    "UpgradeCost": 32700,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 20,
+    "UpgradeCost": 34400,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.02
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 21,
+    "UpgradeCost": 36000,
+    "UpdatedStats": {
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 22,
+    "UpgradeCost": 37600,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 23,
+    "UpgradeCost": 39300,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.06
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 24,
+    "UpgradeCost": 40900,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.02
+      }
+    }
+  },
+  {
+    "Level": 25,
+    "UpgradeCost": 42500,
+    "UpdatedStats": {
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 26,
+    "UpgradeCost": 44100,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 27,
+    "UpgradeCost": 45800,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.07
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 28,
+    "UpgradeCost": 47400,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 29,
+    "UpgradeCost": 49000,
+    "UpdatedStats": {
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 30,
+    "UpgradeCost": 50600,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 31,
+    "UpgradeCost": 52300,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.08
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 32,
+    "UpgradeCost": 53900,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.03
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 33,
+    "UpgradeCost": 55500,
+    "UpdatedStats": {
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 34,
+    "UpgradeCost": 57200,
+    "UpdatedStats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 35,
+    "UpgradeCost": 58800,
+    "UpdatedStats": {
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.09
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 36,
+    "UpgradeCost": 60400,
+    "UpdatedStats": {
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.03
+      }
+    }
+  },
+  {
+    "Level": 37,
+    "UpgradeCost": 62000,
+    "UpdatedStats": {
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.04
+      }
+    }
+  },
+  {
+    "Level": 38,
+    "UpgradeCost": 63700,
+    "UpdatedStats": {
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.04
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.04
+      }
+    }
+  },
+  {
+    "Level": 39,
+    "UpgradeCost": 65300,
+    "UpdatedStats": {
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.01
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.04
+      }
+    }
+  },
+  {
+    "Level": 40,
+    "UpgradeCost": 66900,
+    "UpdatedStats": {
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.01
+      }
+    },
+    "Stats": {
+      "Attack": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Defense": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "Health": {
+        "Flat": 0,
+        "Percent": 0.1
+      },
+      "CritRate": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "CritDamage": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Accuracy": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "Resistance": {
+        "Flat": 0,
+        "Percent": 0.05
+      },
+      "SkillCooldownSpeed": {
+        "Flat": 0,
+        "Percent": -0.05
+      }
+    }
+  }
+]
