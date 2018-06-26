@@ -49,7 +49,7 @@ module.exports = ({ rawGearData, localization }) => {
                 MainStat: mainStat,
                 SubStat: {
                     Initial: subStatInitial,
-                    Roll: subStatRolls,
+                    Roll: subStatRolls[0],
                 },
             },
         };
