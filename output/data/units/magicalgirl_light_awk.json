@@ -259,10 +259,10 @@
         "es": "Pasión"
       },
       "description": {
-        "en": "Flings a ball of magic, damaging the target enemy from a distance. Every {SkillCombo.MaxCombo} attacks fire a beam of magic, which deals damage that <font color='{menu_highlight_white}'>ignores target's DEF.",
-        "fr": "Lance une boule magique, infligeant des dégâts à l'ennemi. Toutes les {SkillCombo.MaxCombo} attaques, tire un rayon magique, qui inflige des dégâts <font color='{menu_highlight_white}'>ignorant la défense de la cible.",
+        "en": "Flings a ball of magic, damaging the target enemy from a distance. Every {SkillCombo.MaxCombo} attacks, this skill fires a beam of magic, which deals damage that <font color='{menu_highlight_white}'>ignores target's DEF</font>.",
+        "fr": "Lance une boule magique, infligeant des dégâts à l'ennemi. Toutes les {SkillCombo.MaxCombo} attaques, cette compétence tire un rayon magique qui inflige des dégâts <font color='{menu_highlight_white}'>ignorant la défense de la cible</font>.",
         "de": "Schleudert einen Ball voller Magie, der dem feindlichen Ziel aus der Entfernung Schaden zufügt. Jeder {SkillCombo.MaxCombo}-Angriff feuert einen Zauberstrahl ab, der Schaden verursacht und <font color='{menu_highlight_white}'> die VTG. des Ziels ignoriert.",
-        "es": "Lanza una bola de magia que daña al objetivo desde la distancia. Cada {SkillCombo.MaxCombo} ataques, se desata un rayo de magia que causa daño que <font color='{menu_highlight_white}'>ignora la DEF del objetivo."
+        "es": "Lanza una bola de magia que daña al objetivo desde la distancia. Cada {SkillCombo.MaxCombo} ataques, se desata un rayo de magia que causa daño que <font color='{menu_highlight_white}'>ignora la DEF del objetivo</font>."
       }
     }
   },
