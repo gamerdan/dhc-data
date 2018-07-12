@@ -201,38 +201,7 @@
       "SkillCooldownSpeed": 1
     }
   ],
-  "Skills": {
-    "FirstSkill": {
-      "id": "lichdragonally01_cataclysm",
-      "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      },
-      "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      }
-    },
-    "AutoAttackSkill": {
-      "id": "lichdragonally01_strike",
-      "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      },
-      "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      }
-    }
-  },
+  "Skills": {},
   "DebugHero": true,
   "CanBeAcquired": false
 }

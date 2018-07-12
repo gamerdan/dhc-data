@@ -184,38 +184,7 @@
       "SkillCooldownSpeed": 1
     }
   ],
-  "Skills": {
-    "FirstSkill": {
-      "id": "cooptower01_summon",
-      "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      },
-      "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      }
-    },
-    "AutoAttackSkill": {
-      "id": "generic_melee",
-      "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      },
-      "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
-      }
-    }
-  },
+  "Skills": {},
   "DebugHero": true,
   "CanBeAcquired": false
 }

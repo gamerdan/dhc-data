@@ -214,61 +214,61 @@
     "FirstSkill": {
       "id": "futurepopstar_sonar",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Catchy Tune",
+        "fr": "Air entraînant",
+        "de": "Ohrwurm",
+        "es": "Melodía pegadiza"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Fires a sonic projectile that generates a wave of sound when it reaches maximum range or hits an enemy. Damages, reveals, and inflicts <font color='{debuff_red}'>STARSTRUCK</font> on affected enemies.",
+        "fr": "Tire un projectile sonique générant une vague sonore lorsqu'il atteint sa portée maximale ou touche un ennemi. Cette vague révèle les ennemis touchés et leur inflige des dégâts et <font color='{debuff_red}'>ADMIRATION</font>.",
+        "de": "Feuert ein Projektil ab, dass eine Schallwelle verursacht, wenn es die maximale Reichweite erreicht oder einen Feind trifft. Fügt Schaden zu, offenbart und wirkt <font color='{debuff_red}'>FASZINIEREND</font> auf betroffene Feinde.",
+        "es": "Dispara un proyectil sónico que genera una onda sonora cuando alcanza su distancia máxima o golpea a un enemigo. Daña, revela e inflige <font color='{debuff_red}'>DESLUMBRAMIENTO</font> a los enemigos afectados."
       }
     },
     "SecondSkill": {
       "id": "futurepopstar_inspiringLyrics",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Inspiring Lyrics",
+        "fr": "Paroles inspirantes",
+        "de": "Inspirierender Gesang",
+        "es": "Letras inspiradoras"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Dance to the beat! While dancing, each beat heals nearby allies. Every four beats heals by a greater amount.",
+        "fr": "Danse en rythme&nbsp;! Pendant qu'elle danse, chaque pulsation soigne les alliés à proximité. Toutes les quatre pulsations, soigne d'une plus grande quantité.",
+        "de": "Tanze im Takt! Während du tanzt, werden mit jedem Takt Verbündete in der Nähe geheilt. Bei jedem vierten Takt, wirkt die Heilung stärker.",
+        "es": "¡La pista de baile está vibrando! Cuando baila, cada paso cura a los aliados cercanos. Cada cuarto paso cura una mayor cantidad de PV."
       }
     },
     "ThirdSkill": {
       "id": "futurepopstar_sonicPulse",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Stunning Moves",
+        "fr": "Pas de danse paralysants",
+        "de": "Umwerfender Tanz",
+        "es": "Movimientos imponentes"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Blast a cone-shaped area with waves of music three times. Each blast damages and <font color='{debuff_red}'>{icon.stun}&nbsp;STUNS</font> affected enemies.",
+        "fr": "Souffle une zone en forme de cône trois fois avec des vagues de musique. Chaque souffle inflige des dégâts et <font color='{debuff_red}'>{icon.stun}&nbsp;PARALYSIE</font> aux ennemis touchés.",
+        "de": "Entfesselt drei kegelförmige Musikwellen auf ein Gebiet. Jeder Schuss fügt betroffenen Feinden Schaden zu und <font color='{debuff_red}'>{icon.stun}BETÄUBT</font> sie.",
+        "es": "Dispara un área de forma cónica con ondas musicales tres veces. Cada una <font color='{debuff_red}'>{icon.stun}&nbsp;ATURDE</font> a los enemigos afectados."
       }
     },
     "AutoAttackSkill": {
       "id": "futurepopstar_harmony",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Harmony",
+        "fr": "Harmonie",
+        "de": "Harmonie",
+        "es": "Armonía"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Fires a musical chord from her harp, damaging target enemy from a distance.<br><font color='{menu_highlight_white}'>PASSIVE:</font> Heals nearby allies for a small amount each time she uses another skill.",
+        "fr": "Tire un accord musical avec sa harpe, infligeant des dégâts à distance à l'ennemi.<br><font color='{menu_highlight_white}'>PASSIF&nbsp;: </font>soigne les alliés à proximité d'une petite quantité lorsqu'elle utilise une autre compétence.",
+        "de": "Feuert eine Musiknote mit ihrer Harfe und fügt einem feindlichen Ziel aus der Entfernung Schaden zu.<br><font color='{menu_highlight_white}'>PASSIV:</font> Jedes Mal, wenn sie eine andere Fertigkeit benutzt, werden Verbündete, die sich in der Nähe befinden, ein wenig geheilt.",
+        "es": "Dispara un acorde musical con su arpa que inflige daño a distancia a un enemigo.<br><font color='{menu_highlight_white}'>EFECTO PASIVO:</font> Cura a los aliados cercanos en una pequeña cantidad cada vez que usa otra habilidad."
       }
     }
   },

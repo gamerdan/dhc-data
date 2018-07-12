@@ -212,63 +212,63 @@
   ],
   "Skills": {
     "FirstSkill": {
-      "id": "futurepopstar_chord",
+      "id": "futurepopstar_hitTheStrings",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Reverb",
+        "fr": "Réverbération",
+        "de": "Raumklang",
+        "es": "Reverberación"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Plays a chord that launches a sonic projectile that generates a wave of sound when it reaches maximum range or hits an enemy. This wave damages and reveals affected enemies. <font color='{menu_highlight_white}'>Ignores {~%futurepopstar_hitTheStrings.C:C_IgnoreDefRatio} of enemy <font color='{def_yellow}'>DEF</font>.</font>",
+        "fr": "Joue un accord qui déclenche un projectile sonique générant une vague sonore lorsqu'il atteint sa portée maximale ou touche un ennemi. Cette vague inflige des dégâts et révèle les ennemis touchés. <font color='{menu_highlight_white}'>Ignore {~%futurepopstar_hitTheStrings.C:C_IgnoreDefRatio} de la <font color='{def_yellow}'>DÉF</font> de l'ennemi.",
+        "de": "Spielt eine Note, die ein Schall-Projektil abschießt, das eine Schallwelle verursacht, wenn es die maximale Reichweite erreicht oder einen Feind trifft. Die Welle fügt Schaden zu und offenbart betroffene Feinde. <font color='{menu_highlight_white}'>Ignoriert {~%futurepopstar_hitTheStrings.C:C_IgnoreDefRatio} der <font color='{def_yellow}'>VTG.</font> des Feindes.</font>",
+        "es": "Toca un acorde que lanza un proyectil sónico que genera una onda sonora cuando alcanza su distancia máxima o golpea a un enemigo. Esta onda inflige daño y revela a los enemigos afectados. <font color='{menu_highlight_white}'>Ignora {~%futurepopstar_hitTheStrings.C:C_IgnoreDefRatio} de <font color='{def_yellow}'>DEF</font> del enemigo.</font>"
       }
     },
     "SecondSkill": {
-      "id": "futurepopstar_inspiringLyrics",
+      "id": "futurepopstar_beatDown",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Beat Down",
+        "fr": "Tempo",
+        "de": "Taktprügel",
+        "es": "Bailando a tope"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Dance to the beat! While dancing, each beat fires a sonic projectile at an enemy, dealing damage to it. Every four beats, this effect fires sonic projectiles at all nearby enemies.",
+        "fr": "Danse en rythme&nbsp;! Pendant qu'elle danse, chaque pulsation tire un projectile sonique sur l'ennemi lui infligeant des dégâts. Toutes les quatre pulsations, cet effet tire des projectiles soniques sur tous les ennemis proches.",
+        "de": "Tanze im Takt! Während du tanzt, wird mit jedem Takt ein Schall-Projektil auf einen Gegner abgefeuert und fügt ihm Schaden zu. Bei jedem vierten Takt feuert dieser Effekt Schall-Projektile auf alle Feinde in der Nähe.",
+        "es": "¡La pista de baile está vibrando! Cuando baile, cada paso dispara un proyectil sónico a un enemigo, infligiéndole daño. Cada cuarto paso, dispara proyectiles sónicos a todos los enemigos cercanos."
       }
     },
     "ThirdSkill": {
-      "id": "futurepopstar_sonicPulse",
+      "id": "futurepopstar_grandFinale",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Grand Finale",
+        "fr": "Grand final",
+        "de": "Großes Finale",
+        "es": "Final apoteósico"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Blast a cone-shaped area with waves of music three times. Each blast damages all enemies in the area. Subsequent damage on a same enemy will raise the damage and the chances of a critical hit.",
+        "fr": "Souffle une zone en forme de cône trois fois avec des vagues de musique. Chaque souffle inflige des dégâts eaux ennemis dans la zone. Les dégâts infligés par la suite sur un même ennemi augmentent les dégâts et les chances de coup critique.",
+        "de": "Entfesselt drei kegelförmige Musikwellen auf ein Gebiet. Jeder Schuss fügt allen Feinden im Gebiet Schaden zu. Der nächste Schaden, der auf den gleichen Feind gewirkt wird, wird den zugefügten Schaden und die Chancen auf kritische Treffer erhöhen.",
+        "es": "Dispara un área de forma cónica con ondas musicales tres veces. Cada una daña a todos los enemigos en el área. El daño posterior infligido al mismo enemigo aumentará el daño y las probabilidades de ataque crítico."
       }
     },
     "AutoAttackSkill": {
-      "id": "futurepopstar_harmony",
+      "id": "futurepopstar_chant",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Upbeat Tune",
+        "fr": "Mélodie joyeuse",
+        "de": "Fröhliche Melodie",
+        "es": "Melodía animada"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Fires a musical chord from her harp, damaging target enemy from a distance.<br><font color='{menu_highlight_white}'>PASSIVE:</font> <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;RAISES ATK SPD</font> of nearby allies each time she uses another skill.",
+        "fr": "Tire un accord musical avec sa harpe, infligeant des dégâts à distance à l'ennemi.<br><font color='{menu_highlight_white}'>PASSIF&nbsp;: octroie</font> <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;VIT ATT+</font> aux alliés à proximité chaque fois qu'elle utilise une autre compétence.",
+        "de": "Feuert eine Musiknote mit ihrer Harfe und fügt einem feindlichen Ziel aus der Entfernung Schaden zu.<br><font color='{menu_highlight_white}'>PASSIV:</font> <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;ERHÖHT ANG.-TMP.</font> von Verbündeten in der Nähe mit jeder benutzten Fertigkeit.",
+        "es": "Dispara un acorde musical con su arpa que inflige daño a distancia a un enemigo.<br><font color='{menu_highlight_white}'>EFECTO PASIVO:</font> <font color='{buff_blue}'>{icon.raise_atk_spd}&nbsp;AUMENTA VEL ATQ</font> a los aliados cercanos cada vez que usa otra habilidad."
       }
     }
   },

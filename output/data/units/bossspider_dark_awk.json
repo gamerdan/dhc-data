@@ -2,10 +2,10 @@
   "UnitId": 797,
   "HeroId": "bossspider_dark_awk",
   "Name": {
-    "en": null,
-    "fr": null,
-    "de": null,
-    "es": null
+    "en": "Steel Widow",
+    "fr": "Veuve d'acier",
+    "de": "Stahlwitwe",
+    "es": "Viuda Metálica"
   },
   "Family": "Boss Spider",
   "Element": "Dark",

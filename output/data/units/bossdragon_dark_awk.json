@@ -2,10 +2,10 @@
   "UnitId": 737,
   "HeroId": "bossdragon_dark_awk",
   "Name": {
-    "en": null,
-    "fr": null,
-    "de": null,
-    "es": null
+    "en": "Elder Drake",
+    "fr": "Dragon ancien",
+    "de": "Drachenältester",
+    "es": "Dragón Anciano"
   },
   "Family": "Boss Dragon",
   "Element": "Dark",

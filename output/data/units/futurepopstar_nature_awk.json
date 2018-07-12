@@ -195,63 +195,63 @@
   ],
   "Skills": {
     "FirstSkill": {
-      "id": "futurepopstar_chord",
+      "id": "futurepopstar_tune",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Echo",
+        "fr": "Écho",
+        "de": "Echo",
+        "es": "Eco"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Empowers herself with music. While empowered, each basic attack projectile will bounce, affecting multiple enemies.",
+        "fr": "Se renforce avec de la musique. Quand elle est renforcée, chaque attaque basique de projectile rebondit et touche plusieurs ennemis.",
+        "de": "Verleiht sich selbst Macht durch Musik. Während sie verstärkt ist, wird jedes gewöhnliche Angriffsprojektil von ihr abprallen und auf mehrere Feinde Auswirkungen haben.",
+        "es": "Se potencia a sí misma con música. Mientras esté potenciada, cada proyectil de ataque básico rebotará, afectando a varios objetivos."
       }
     },
     "SecondSkill": {
       "id": "futurepopstar_inspiringLyrics",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Inspiring Lyrics",
+        "fr": "Paroles inspirantes",
+        "de": "Inspirierender Gesang",
+        "es": "Letras inspiradoras"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Dance to the beat! While dancing, each beat heals nearby allies. Every four beats heals by a greater amount.",
+        "fr": "Danse en rythme&nbsp;! Pendant qu'elle danse, chaque pulsation soigne les alliés à proximité. Toutes les quatre pulsations, soigne d'une plus grande quantité.",
+        "de": "Tanze im Takt! Während du tanzt, werden mit jedem Takt Verbündete in der Nähe geheilt. Bei jedem vierten Takt, wirkt die Heilung stärker.",
+        "es": "¡La pista de baile está vibrando! Cuando baila, cada paso cura a los aliados cercanos. Cada cuarto paso cura una mayor cantidad de PV."
       }
     },
     "ThirdSkill": {
       "id": "futurepopstar_movingMoment",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Bass Drop",
+        "fr": "Chute de basse",
+        "de": "Bass-Sound",
+        "es": "Bajada de graves"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Blast a cone-shaped area with waves of music three times. Each blast damages and <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCES</font> affected enemies.",
+        "fr": "Souffle une zone en forme de cône trois fois avec des vagues de musique. Chaque souffle inflige des dégâts et <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCE</font> aux ennemis touchés.",
+        "de": "Entfesselt drei kegelförmige Musikwellen auf ein Gebiet. Jeder Schuss fügt betroffenen Feinden Schaden zu und wirkt <font color='{debuff_red}'>{icon.silence}VERSTUMMEN</font> auf sie.",
+        "es": "Dispara un área de forma cónica con ondas musicales tres veces. Cada una daña y <font color='{debuff_red}'>{icon.silence}&nbsp;SILENCIA</font> a los enemigos afectados."
       }
     },
     "AutoAttackSkill": {
-      "id": "futurepopstar_harmony",
+      "id": "futurepopstar_decibel",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Deafening Chord",
+        "fr": "Accord assourdissant",
+        "de": "Ohrenbetäubende Note",
+        "es": "Acorde atronador"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Fires a musical chord from her harp, damaging target enemy from a distance. Every {SkillCombo.MaxCombo} attacks <font color='{debuff_red}'>{icon.disorient}&nbsp;DISORIENTS</font> any enemy hit.",
+        "fr": "Tire un accord musical avec sa harpe, infligeant des dégâts à distance à l'ennemi. Toutes les {SkillCombo.MaxCombo} attaques, inflige <font color='{debuff_red}'>{icon.disorient}&nbsp;CONFUSION</font> aux ennemis touchés.",
+        "de": "Feuert eine Musiknote mit ihrer Harfe und fügt einem feindlichen Ziel aus der Entfernung Schaden zu. Wirkt nach jedem {SkillCombo.MaxCombo}. Angriff <font color='{debuff_red}'>{icon.disorient}&nbsp;VERWIRREND</font> auf alle getroffenen Feinde.",
+        "es": "Su arpa dispara un acorde musical que inflige daño a distancia a un enemigo. Cada {SkillCombo.MaxCombo} ataques <font color='{debuff_red}'>{icon.disorient}&nbsp;DESORIENTA</font> a un enemigo golpeado."
       }
     }
   },

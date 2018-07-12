@@ -212,63 +212,63 @@
   ],
   "Skills": {
     "FirstSkill": {
-      "id": "futurepopstar_tune",
+      "id": "futurepopstar_chord",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Sound Wave",
+        "fr": "Vague sonore",
+        "de": "Schallwelle",
+        "es": "Onda sonora"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Plays a chord that launches a sonic projectile which generates a wave of sound when it reaches maximum range or hits an enemy. This wave damages and reveals affected enemies. In addition, <font color='{menu_highlight_white}'>removes {SkillBuff_purge.NumberOfBuffsToRemove} buff</font> from each affected enemy.",
+        "fr": "Joue un accord qui déclenche un projectile sonique générant une vague sonore lorsqu'il atteint sa portée maximale ou touche un ennemi. Cette vague inflige des dégâts, révèle les ennemis touchés et supprime aussi des <font color='{menu_highlight_white}'>buffs{SkillBuff_purge.NumberOfBuffsToRemove} à chaque ennemi touché.",
+        "de": "Spielt eine Note, die ein Schall-Projektil abschießt, das eine Schallwelle verursacht, wenn es die maximale Reichweite erreicht oder einen Feind trifft. Die Welle fügt Schaden zu und offenbart betroffene Feinde. <font color='{menu_highlight_white}'>Entfernt außerdem {SkillBuff_purge.NumberOfBuffsToRemove} Boni</font> von jedem betroffenen Feind.",
+        "es": "Toca un acorde que lanza un proyectil sónico que genera una onda sonora cuando alcanza su distancia máxima o golpea a un enemigo. Esta onda inflige daño y revela a los enemigos afectados. Además, <font color='{menu_highlight_white}'>elimina {SkillBuff_purge.NumberOfBuffsToRemove} efectos positivos</font> de cada enemigo afectado."
       }
     },
     "SecondSkill": {
-      "id": "futurepopstar_beatDown",
+      "id": "futurepopstar_excitingLyrics",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Energizing Dance",
+        "fr": "Danse énergisante",
+        "de": "Heilungstanz",
+        "es": "Baile energizante"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Dance to the beat! While dancing, each beat will heal nearby allies. Every four beats, <font color='{menu_highlight_white}'>removes {SkillBuff_cleanse.NumberOfBuffsToRemove} debuff</font> from each of them.",
+        "fr": "Danse en rythme&nbsp;! Pendant qu'elle danse, chaque pulsation soigne les alliés à proximité. Toutes les quatre pulsations, supprime un <font color='{menu_highlight_white}'>debuff{SkillBuff_cleanse.NumberOfBuffsToRemove} de chacun d'eux.",
+        "de": "Tanze im Takt! Während du tanzt, werden mit jedem Takt Verbündete in der Nähe geheilt. Bei jedem vierten Takt: Entfernt <font color='{menu_highlight_white}'> {SkillBuff_cleanse.NumberOfBuffsToRemove} Schwächungszauber</font>.",
+        "es": "¡La pista de baile está vibrando! Cuando baila, cada paso cura a los aliados cercanos. Cada cuarto paso, <font color='{menu_highlight_white}'>elimina {SkillBuff_cleanse.NumberOfBuffsToRemove} efectos negativos</font> a cada uno."
       }
     },
     "ThirdSkill": {
-      "id": "futurepopstar_movingMoment",
+      "id": "futurepopstar_fascinatingPerformance",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Star Power Go!",
+        "fr": "Pouvoir de la star !",
+        "de": "Star-Power, los!",
+        "es": "¡Poder de estrella!"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Blast a cone-shaped area with waves of music three times. Each blast damages all enemies in the area and inflicts <font color='{debuff_red}'>STARSTRUCK</font> on each of them.",
+        "fr": "Souffle une zone en forme de cône trois fois avec des vagues de musique. Chaque souffle inflige des dégâts et <font color='{debuff_red}'>ADMIRATION</font> aux ennemis dans la zone.",
+        "de": "Entfesselt drei kegelförmige Musikwellen auf ein Gebiet. Jeder Schuss fügt allen Feinden im Gebiet Schaden zu und wirkt <font color='{debuff_red}'>FASZINIEREND</font> auf jeden von ihnen.",
+        "es": "Dispara un área de forma cónica con ondas musicales tres veces. Cada una daña a todos los enemigos en el área e inflige <font color='{debuff_red}'>DESLUMBRAMIENTO</font> a cada uno."
       }
     },
     "AutoAttackSkill": {
-      "id": "futurepopstar_melody",
+      "id": "futurepopstar_harmony",
       "name": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Harmony",
+        "fr": "Harmonie",
+        "de": "Harmonie",
+        "es": "Armonía"
       },
       "description": {
-        "en": null,
-        "fr": null,
-        "de": null,
-        "es": null
+        "en": "Fires a musical chord from her harp, damaging target enemy from a distance.<br><font color='{menu_highlight_white}'>PASSIVE:</font> Heals nearby allies for a small amount each time she uses another skill.",
+        "fr": "Tire un accord musical avec sa harpe, infligeant des dégâts à distance à l'ennemi.<br><font color='{menu_highlight_white}'>PASSIF&nbsp;: </font>soigne les alliés à proximité d'une petite quantité lorsqu'elle utilise une autre compétence.",
+        "de": "Feuert eine Musiknote mit ihrer Harfe und fügt einem feindlichen Ziel aus der Entfernung Schaden zu.<br><font color='{menu_highlight_white}'>PASSIV:</font> Jedes Mal, wenn sie eine andere Fertigkeit benutzt, werden Verbündete, die sich in der Nähe befinden, ein wenig geheilt.",
+        "es": "Dispara un acorde musical con su arpa que inflige daño a distancia a un enemigo.<br><font color='{menu_highlight_white}'>EFECTO PASIVO:</font> Cura a los aliados cercanos en una pequeña cantidad cada vez que usa otra habilidad."
       }
     }
   },
